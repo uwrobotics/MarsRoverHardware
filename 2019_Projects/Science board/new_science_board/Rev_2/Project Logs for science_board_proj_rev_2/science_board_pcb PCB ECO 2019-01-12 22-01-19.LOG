@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+5V Pin=+5V-1
+Removed Pin From Net: NetName=+3V3 Pin=3V3-1
+Removed Member From Class: ClassName=support Member=+5V
+Removed Member From Class: ClassName=support Member=3V3
+Change Component Designator: OldDesignator=TP1 NewDesignator=3V3
+Change Component Designator: OldDesignator=TP2 NewDesignator=GND

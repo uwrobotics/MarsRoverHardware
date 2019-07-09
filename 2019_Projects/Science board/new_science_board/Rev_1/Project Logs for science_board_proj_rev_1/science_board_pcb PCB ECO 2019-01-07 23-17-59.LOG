@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=CAN1 Old DesignItemId=CON_3M_PH_SIDE_SMT New DesignItemId=CON_3M_PH_TOP_SMT
+Change Component Footprint: Designator=CAN1 Old Footprint=JST-S3B-SM4-TB New Footprint=JST-B3B-SM4-TB
+Change Component Comment : Designator=CAN1 Old Comment=PH SIDE SMD New Comment=PH TOP SMD
+Change Component Description : Designator=CAN1 Old Description=CONN HEADER PH SIDE 3POS 2MM SMD New Description=CONN HEADER PH TOP 3POS 2MM SMD

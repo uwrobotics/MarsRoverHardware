@@ -1,0 +1,17 @@
+Added Component: Designator=5V(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=5V-1
+Added Member To Class: ClassName=power Member=Component 5V TESTPOINT_SMD
+Added Member To Class: ClassName=power Member=Component C13 CAP_0.33uF_16V_0603
+Added Member To Class: ClassName=power Member=Component C14 10uF
+Added Member To Class: ClassName=power Member=Component R9 RES_100R_0603
+Added Member To Class: ClassName=support Member=Component R10 RES_10K_0603
+Added Member To Class: ClassName=support Member=Component R11 RES_10K_0603
+Added Member To Class: ClassName=support Member=Component R12 RES_10K_0603
+Added Member To Class: ClassName=support Member=Component R13 RES_10K_0603
+Added Member To Class: ClassName=support Member=Component R14 RES_10K_0603
+Added Member To Class: ClassName=support Member=Component R15 RES_10K_0603
+Added Member To Class: ClassName=support Member=Component R17 RES_10K_0603
+Added Member To Class: ClassName=support Member=Component R18 RES_100R_0603

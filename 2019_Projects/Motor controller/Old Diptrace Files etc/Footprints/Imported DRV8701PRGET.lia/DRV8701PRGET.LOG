@@ -1,0 +1,30 @@
+PCAD Importer Log
+Project : DRV8701PRGET.LibPkg
+
+Section : C:\Users\shiva\Desktop\MarsRover2019-PCB\Projects\Motor controller\Footprints\DRV8701PRGET.lia
+    Section : PCB Library - DRV8701PRGET.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token DRV8701PRGET On Line 186
+            Warning - 1 : Skipping Token attachedSymbol On Line 473
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - DRV8701PRGET.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 123
+            Warning - 1 : Skipping Token layerContents On Line 129
+            Warning - 1 : Skipping Token layerContents On Line 138
+            Warning - 1 : Skipping Token layerContents On Line 147
+            Warning - 1 : Skipping Token layerContents On Line 158
+        EndSection
+
+        Section : Generating SCH Library - DRV8701PRGET.SchLib
+        EndSection
+    EndSection
+EndSection

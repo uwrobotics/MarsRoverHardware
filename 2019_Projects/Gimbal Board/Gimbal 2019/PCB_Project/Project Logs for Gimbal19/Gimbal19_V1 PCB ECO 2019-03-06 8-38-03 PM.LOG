@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=+3V3 Pin=C14-2
+Removed Member From Class: ClassName=support Member=CR
+Removed Member From Class: ClassName=connectors Member=TH
+Change Component Footprint: Designator=LS1 Old Footprint=JST-B2B-PHSK New Footprint=JST-B2B-SM4-TB
+Change Component Comment : Designator=C14 Old Comment=10uF New Comment=CAP_10uF_1411_POL
+Change Component Designator: OldDesignator=CR NewDesignator=SV1
+Change Component Designator: OldDesignator=CR NewDesignator=SV1
+Change Component Designator: OldDesignator=JMP NewDesignator=1
+Change Component Designator: OldDesignator=TH NewDesignator=SV2
+Change Component Designator: OldDesignator=TH NewDesignator=SV2
+Change Component Designator: OldDesignator=TP_5V NewDesignator=TESTPOINT_5V
+Change component parameters: Designator = "C14"; Footprint = "AVX-CAPC3528_V"; UniqueID = "\YBBCVKAO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "478-12047-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "AVX Corporation"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "F971A106MBAHT3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "1411 (3528 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "10V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Change Net Name : Old Net Name=NetCR_3 New Net Name=NetR4_2
+Change Net Name : Old Net Name=NetF_5A_1 New Net Name=NetF5A_1
+Change Net Name : Old Net Name=NetLS-C1_1 New Net Name=NetLS1_1
+Change Net Name : Old Net Name=NetLS-C2_1 New Net Name=NetLS2_1
+Change Net Name : Old Net Name=NetPWMTH_1 New Net Name=NetR5_2
+Added Member To Class: ClassName=support Member=Component SV1 TESTPOINT_LOOP
+Added Member To Class: ClassName=connectors Member=Component SV2 CON_3M

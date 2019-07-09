@@ -1,0 +1,31 @@
+Change Component Designator: OldDesignator=E-C1 NewDesignator=E-C
+Change Component Designator: OldDesignator=E-E1 NewDesignator=E-E
+Change Component Designator: OldDesignator=LS-C1 NewDesignator=LS-C
+Change Component Designator: OldDesignator=LS-E-B1 NewDesignator=LS-E-B
+Change Component Designator: OldDesignator=LS-E-T1 NewDesignator=LS-E-T
+Change Component Designator: OldDesignator=M-A1 NewDesignator=M-A
+Change Component Designator: OldDesignator=M-C1 NewDesignator=M-C
+Change Component Designator: OldDesignator=M-E1 NewDesignator=M-E
+Change Component Designator: OldDesignator=M-S1 NewDesignator=M-S
+Change Component Designator: OldDesignator=MOIST1 NewDesignator=MOIST
+Change Component Designator: OldDesignator=RGB1 NewDesignator=RGB
+Change Component Designator: OldDesignator=TEMP1 NewDesignator=TEMP
+Change Component Designator: OldDesignator=ULTRA1 NewDesignator=ULTRA
+Change Net Name : Old Net Name=NetE-C1_1 New Net Name=NetE-C_1
+Change Net Name : Old Net Name=NetE-C1_2 New Net Name=NetE-C_2
+Change Net Name : Old Net Name=NetE-C1_3 New Net Name=NetE-C_3
+Change Net Name : Old Net Name=NetE-E1_1 New Net Name=NetE-E_1
+Change Net Name : Old Net Name=NetE-E1_2 New Net Name=NetE-E_2
+Change Net Name : Old Net Name=NetE-E1_3 New Net Name=NetE-E_3
+Change Net Name : Old Net Name=NetLS-C1_1 New Net Name=NetLS-C_1
+Change Net Name : Old Net Name=NetLS-E-B1_1 New Net Name=NetLS-E-B_1
+Change Net Name : Old Net Name=NetLS-E-T1_1 New Net Name=NetLS-E-T_1
+Change Net Name : Old Net Name=NetM-A1_1 New Net Name=NetM-A_1
+Change Net Name : Old Net Name=NetM-A1_2 New Net Name=NetM-A_2
+Change Net Name : Old Net Name=NetM-C1_1 New Net Name=NetM-C_1
+Change Net Name : Old Net Name=NetM-C1_2 New Net Name=NetM-C_2
+Change Net Name : Old Net Name=NetM-E1_1 New Net Name=NetM-E_1
+Change Net Name : Old Net Name=NetM-E1_2 New Net Name=NetM-E_2
+Change Net Name : Old Net Name=NetM-S1_3 New Net Name=NetM-S_3
+Change Net Name : Old Net Name=NetMOIST1_1 New Net Name=NetMOIST_1
+Change Net Name : Old Net Name=NetMOIST1_2 New Net Name=NetMOIST_2

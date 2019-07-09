@@ -1,0 +1,36 @@
+PCAD Importer Log
+Project : TL081.LibPkg
+
+Section : C:\Users\Adrianna\Documents\MarsRover2019-PCB\Projects\Science board\new_science_board\lib\TL081.lia
+    Section : PCB Library - TL081.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 2NUL On Line 259
+            Warning - 1 : Skipping Token attachedSymbol On Line 378
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - TL081.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 106
+            Warning - 1 : Skipping Token layerContents On Line 114
+            Warning - 1 : Skipping Token layerContents On Line 118
+            Warning - 1 : Skipping Token multiLayer On Line 129
+            Warning - 1 : Skipping Token layerContents On Line 139
+            Warning - 1 : Skipping Token layerContents On Line 198
+            Warning - 1 : Skipping Token isVisible On Line 346
+            Warning - 1 : Skipping Token isVisible On Line 347
+            Warning - 1 : Skipping Token isVisible On Line 348
+            Warning - 1 : Skipping Token isVisible On Line 349
+            Warning - 1 : Skipping Token isVisible On Line 350
+        EndSection
+
+        Section : Generating SCH Library - TL081.SchLib
+        EndSection
+    EndSection
+EndSection

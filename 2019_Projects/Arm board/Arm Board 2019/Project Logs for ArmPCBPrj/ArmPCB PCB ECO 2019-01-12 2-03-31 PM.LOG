@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+3V3 Pin=VR1-4
+Change component parameters: Designator = "TP1"; Footprint = "TESTPOINT"; UniqueID = "\UTIMRUNQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP2"; Footprint = "TESTPOINT"; UniqueID = "\CCSSIDET"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

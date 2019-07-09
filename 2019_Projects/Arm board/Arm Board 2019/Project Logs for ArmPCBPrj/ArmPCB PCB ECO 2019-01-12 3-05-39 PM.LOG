@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=5V0 Pin=C13-2
+Added Pin To Net: NetName=5V0 Pin=PWR-1
+Added Pin To Net: NetName=5V0 Pin=VR1-3
+Change Net Name : Old Net Name=5V0 New Net Name=+5V0
+Added Member To Class: ClassName=MCU Member=Component U2 STM32F091RC

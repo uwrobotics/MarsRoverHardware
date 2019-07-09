@@ -1,0 +1,89 @@
+Change Component Designator: OldDesignator=CAN1 NewDesignator=CAN
+Change Component Designator: OldDesignator=E-C1 NewDesignator=E-C
+Change Component Designator: OldDesignator=E-E1 NewDesignator=E-E
+Change Component Designator: OldDesignator=LS-C1 NewDesignator=LS-C
+Change Component Designator: OldDesignator=LS-E-B1 NewDesignator=LS-E-B
+Change Component Designator: OldDesignator=LS-ET1 NewDesignator=LS-ET
+Change Component Designator: OldDesignator=M-A1 NewDesignator=M-A
+Change Component Designator: OldDesignator=M-C1 NewDesignator=M-C
+Change Component Designator: OldDesignator=M-E1 NewDesignator=M-E
+Change Component Designator: OldDesignator=M-S1 NewDesignator=M-P
+Change Component Designator: OldDesignator=MOIST1 NewDesignator=MOIST
+Change Component Designator: OldDesignator=R23 NewDesignator=R24
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Change Component Designator: OldDesignator=R25 NewDesignator=R26
+Change Component Designator: OldDesignator=R26 NewDesignator=R27
+Change Component Designator: OldDesignator=R27 NewDesignator=R28
+Change Component Designator: OldDesignator=R28 NewDesignator=R29
+Change Component Designator: OldDesignator=R29 NewDesignator=R30
+Change Component Designator: OldDesignator=R30 NewDesignator=R32
+Change Component Designator: OldDesignator=R32 NewDesignator=R33
+Change Component Designator: OldDesignator=RGB1 NewDesignator=RGB
+Change Component Designator: OldDesignator=TEMP1 NewDesignator=TEMP
+Change Component Designator: OldDesignator=TP1 NewDesignator=CANH
+Change Component Designator: OldDesignator=TP2 NewDesignator=CANL
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP1
+Change Component Designator: OldDesignator=TP4 NewDesignator=TP2
+Change Component Designator: OldDesignator=TP5 NewDesignator=EC1
+Change Component Designator: OldDesignator=TP6 NewDesignator=EC2
+Change Component Designator: OldDesignator=TP7 NewDesignator=SCL
+Change Component Designator: OldDesignator=TP8 NewDesignator=SDA
+Change Component Designator: OldDesignator=TP9 NewDesignator=ECI
+Change Component Designator: OldDesignator=TP10 NewDesignator=UART_RTS
+Change Component Designator: OldDesignator=TP11 NewDesignator=UART_U
+Change Component Designator: OldDesignator=TP12 NewDesignator=UART_R
+Change Component Designator: OldDesignator=TP13 NewDesignator=EE1
+Change Component Designator: OldDesignator=TP14 NewDesignator=EE2
+Change Component Designator: OldDesignator=TP15 NewDesignator=EEI
+Change Component Designator: OldDesignator=TP16 NewDesignator=TEMP
+Change Component Designator: OldDesignator=TP17 NewDesignator=MOIST-P
+Change Component Designator: OldDesignator=TP18 NewDesignator=MOIST-D
+Change Component Designator: OldDesignator=TP19 NewDesignator=PH
+Change Component Designator: OldDesignator=TP20 NewDesignator=UT
+Change Component Designator: OldDesignator=TP21 NewDesignator=UE
+Change Component Designator: OldDesignator=TP22 NewDesignator=3V3
+Change Component Designator: OldDesignator=TP23 NewDesignator=+5V
+Change Component Designator: OldDesignator=ULTRA1 NewDesignator=ULTRA
+Added Component: Designator=-5V(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R23(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603JR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=-5V Pin=-5V-1
+Added Pin To Net: NetName=GND Pin=R23-1
+Added Pin To Net: NetName=NetM-F_3 Pin=R23-2
+Change Net Name : Old Net Name=NetE-C1_1 New Net Name=NetE-C_1
+Change Net Name : Old Net Name=NetE-C1_2 New Net Name=NetE-C_2
+Change Net Name : Old Net Name=NetE-C1_3 New Net Name=NetE-C_3
+Change Net Name : Old Net Name=NetE-E1_1 New Net Name=NetE-E_1
+Change Net Name : Old Net Name=NetE-E1_2 New Net Name=NetE-E_2
+Change Net Name : Old Net Name=NetE-E1_3 New Net Name=NetE-E_3
+Change Net Name : Old Net Name=NetLS-C1_1 New Net Name=NetLS-C_1
+Change Net Name : Old Net Name=NetLS-E-B1_1 New Net Name=NetLS-E-B_1
+Change Net Name : Old Net Name=NetLS-ET1_1 New Net Name=NetLS-ET_1
+Change Net Name : Old Net Name=NetM-A1_1 New Net Name=NetM-A_1
+Change Net Name : Old Net Name=NetM-A1_2 New Net Name=NetM-A_2
+Change Net Name : Old Net Name=NetM-C1_1 New Net Name=NetM-C_1
+Change Net Name : Old Net Name=NetM-C1_2 New Net Name=NetM-C_2
+Change Net Name : Old Net Name=NetM-E1_1 New Net Name=NetM-E_1
+Change Net Name : Old Net Name=NetM-E1_2 New Net Name=NetM-E_2
+Change Net Name : Old Net Name=NetM-S1_3 New Net Name=NetM-P_3
+Change Net Name : Old Net Name=NetMOIST1_1 New Net Name=NetMOIST_1
+Change Net Name : Old Net Name=NetMOIST1_2 New Net Name=NetMOIST_2
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetPH_1
+Change Net Name : Old Net Name=NetR27_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR29_1
+Change Net Name : Old Net Name=NetR29_1 New Net Name=NetR30_1
+Change Net Name : Old Net Name=NetR30_1 New Net Name=NetR32_1
+Change Net Name : Old Net Name=NetR32_2 New Net Name=NetR33_2
+Change Net Name : Old Net Name=NetTP20_1 New Net Name=NetU2_29
+Change Net Name : Old Net Name=NetTP21_1 New Net Name=NetU2_30
+Added Member To Class: ClassName=support Member=Component -5V TESTPOINT_SMD
+Added Member To Class: ClassName=support Member=Component R33 RES_10K_0603

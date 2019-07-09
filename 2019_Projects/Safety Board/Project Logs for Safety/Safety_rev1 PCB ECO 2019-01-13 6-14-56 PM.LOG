@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetJ8_1 Pin=NEED TO CHANGE TO 750-1
+Removed Pin From Net: NetName=NetJ9_2 Pin=NEED TO CHANGE TO 750-2
+Removed Member From Class: ClassName=Connectors Member=NEED TO CHANGE TO 750
+Added Component: Designator=R?(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-750GRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-07750RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "750R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ8_1 Pin=R?-1
+Added Pin To Net: NetName=NetJ9_2 Pin=R?-2
+Added Member To Class: ClassName=Connectors Member=Component R? RES_750R_0603

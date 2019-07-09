@@ -1,0 +1,88 @@
+Removed Pin From Net: NetName=NetJ7_1 Pin=J7-1
+Removed Pin From Net: NetName=NetJ7_2 Pin=J7-2
+Removed Member From Class: ClassName=MCU Member=C15
+Removed Member From Class: ClassName=MCU Member=C16
+Removed Member From Class: ClassName=MCU Member=TP6
+Change Component Footprint: Designator=J7 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-B4B-SM4-TB
+Change Component Comment : Designator=J7 Old Comment=PH TOP SMD New Comment=CON_4M_PH_TOP_SMT
+Change component parameters: Designator = "J7"; Footprint = "JST-B4B-SM4-TB"; UniqueID = "\AALHEUVH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "455-1736-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "B4B-PH-SM4-TB(LF)(SN)"; VariantName = "[No Variations]"
+Added Component: Designator=J5(JST-B4B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-1736-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "B4B-PH-SM4-TB(LF)(SN)"; VariantName = "[No Variations]"
+Added Component: Designator=J6(JST-B4B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "455-1736-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "B4B-PH-SM4-TB(LF)(SN)"; VariantName = "[No Variations]"
+Added Component: Designator=J8(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=J9(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=NEED TO CHANGE TO 750(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603JR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "750"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=+3V3 Pin=J5-2
+Added Pin To Net: NetName=NetJ7_2 Pin=J5-3
+Added Pin To Net: NetName=NetJ7_1 Pin=J5-4
+Added Pin To Net: NetName=GND Pin=J7-1
+Added Pin To Net: NetName=+5V0 Pin=J7-2
+Added Pin To Net: NetName=NetJ7_2 Pin=J7-3
+Added Pin To Net: NetName=NetJ7_1 Pin=J7-4
+Change Net Name : Old Net Name=NetJ7_1 New Net Name=NetJ5_4
+Change Net Name : Old Net Name=NetJ7_2 New Net Name=NetJ5_3
+Added Pin To Net: NetName=NetJ8_1 Pin=J8-1
+Added Pin To Net: NetName=NetJ8_1 Pin=NEED TO CHANGE TO 750-1
+Added Net: Name=NetJ8_1
+Added Pin To Net: NetName=NetJ8_2 Pin=J8-2
+Added Pin To Net: NetName=NetJ8_2 Pin=J9-1
+Added Net: Name=NetJ8_2
+Added Pin To Net: NetName=NetJ9_2 Pin=J9-2
+Added Pin To Net: NetName=NetJ9_2 Pin=NEED TO CHANGE TO 750-2
+Added Net: Name=NetJ9_2
+Added Member To Class: ClassName=MCU Member=Component C5 CAP_1uF_16V_0603
+Added Member To Class: ClassName=MCU Member=Component C6 CAP_10nF_0603
+Added Member To Class: ClassName=MCU Member=Component C8 CAP_0.1uF_16V_0603
+Added Member To Class: ClassName=MCU Member=Component C11 CAP_0.1uF_16V_0603
+Added Member To Class: ClassName=Connectors Member=Component J1 PH TOP SMD
+Added Member To Class: ClassName=Connectors Member=Component J2 PH TOP SMD
+Added Member To Class: ClassName=Connectors Member=Component J3 PH TOP SMD
+Added Member To Class: ClassName=Connectors Member=Component J4 PH TOP SMD
+Added Member To Class: ClassName=Connectors Member=Component J5 CON_4M_PH_TOP_SMT
+Added Member To Class: ClassName=Connectors Member=Component J6 CON_4M_PH_TOP_SMT
+Added Member To Class: ClassName=Connectors Member=Component J7 CON_4M_PH_TOP_SMT
+Added Member To Class: ClassName=Connectors Member=Component J8 PH TOP SMD
+Added Member To Class: ClassName=Connectors Member=Component J9 PH TOP SMD
+Added Member To Class: ClassName=Connectors Member=Component NEED TO CHANGE TO 750 RES_10K_0603
+Added Member To Class: ClassName=MCU Member=Component R4 RES_78K7_0603
+Added Member To Class: ClassName=MCU Member=Component R5 RES_84K5_0603
+Added Member To Class: ClassName=Power Member=Component R6 RES_634K_0603
+Added Member To Class: ClassName=Power Member=Component R7 RES_100R_0603
+Added Member To Class: ClassName=Support Member=Component R9 RES_4K7_0603
+Added Member To Class: ClassName=Support Member=Component R10 RES_4K7_0603
+Added Member To Class: ClassName=MCU Member=Component TP3 THERM_TP

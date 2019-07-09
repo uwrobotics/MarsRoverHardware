@@ -1,0 +1,202 @@
+Removed Pin From Net: NetName=GND Pin=J1-3
+Removed Pin From Net: NetName=GND Pin=J2-3
+Removed Pin From Net: NetName=+3V3 Pin=J4-1
+Removed Pin From Net: NetName=GND Pin=J4-2
+Removed Pin From Net: NetName=+5V0 Pin=J5-1
+Removed Pin From Net: NetName=GND Pin=J7-3
+Removed Pin From Net: NetName=+3V3 Pin=R7-2
+Removed Pin From Net: NetName=+3V3 Pin=R8-2
+Removed Pin From Net: NetName=GND Pin=R9-1
+Removed Pin From Net: NetName=GND Pin=R10-1
+Removed Pin From Net: NetName=GND Pin=TP4-1
+Removed Pin From Net: NetName=+5V0 Pin=VR1-1
+Removed Pin From Net: NetName=+3V3 Pin=VR1-3
+Removed Member From Class: ClassName=Connectors Member=J5
+Removed Member From Class: ClassName=Connectors Member=J6
+Removed Member From Class: ClassName=Connectors Member=J8
+Removed Member From Class: ClassName=Connectors Member=J9
+Removed Member From Class: ClassName=Support Member=R7
+Removed Member From Class: ClassName=Support Member=R8
+Removed Member From Class: ClassName=Support Member=R9
+Removed Member From Class: ClassName=Support Member=R10
+Removed Member From Class: ClassName=Power Member=TP4
+Change Component Footprint: Designator=D2 Old Footprint=LED_0805 New Footprint=LED_0805_LINE
+Change Component Comment : Designator=R8 Old Comment=RES_10K_0603 New Comment=RES_100K_0603
+Change Component Comment : Designator=TP3 Old Comment=TESTPOINT_SMD New Comment=3V_TP
+Change Component Comment : Designator=TP4 Old Comment=TESTPOINT_SMD New Comment=V_MONITOR_TP
+Change Component Designator: OldDesignator=C5 NewDesignator=C7
+Change Component Designator: OldDesignator=C6 NewDesignator=C8
+Change Component Designator: OldDesignator=C7 NewDesignator=C9
+Change Component Designator: OldDesignator=C8 NewDesignator=C10
+Change Component Designator: OldDesignator=C9 NewDesignator=C11
+Change Component Designator: OldDesignator=C10 NewDesignator=C12
+Change Component Designator: OldDesignator=C11 NewDesignator=C13
+Change Component Designator: OldDesignator=C12 NewDesignator=C14
+Change Component Designator: OldDesignator=C13 NewDesignator=C15
+Change Component Designator: OldDesignator=C14 NewDesignator=C16
+Change Component Designator: OldDesignator=J3 NewDesignator=J1
+Change Component Designator: OldDesignator=J5 NewDesignator=J4
+Change Component Designator: OldDesignator=J6 NewDesignator=J2
+Change Component Designator: OldDesignator=J9 NewDesignator=J7
+Change Component Designator: OldDesignator=R4 NewDesignator=R7
+Change Component Designator: OldDesignator=R5 NewDesignator=R9
+Change Component Designator: OldDesignator=R6 NewDesignator=R10
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP6
+Change component parameters: Designator = "TP1"; Footprint = "TESTPOINT"; UniqueID = "\UTIMRUNQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP2"; Footprint = "TESTPOINT"; UniqueID = "\CCSSIDET"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP6"; Footprint = "TESTPOINT"; UniqueID = "\PFPODRGK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP4"; Footprint = "TESTPOINT"; UniqueID = "\TCFNMQKB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8"; Footprint = "RESC0603(1608)_N"; UniqueID = "\STNYVYJF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-261KHRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603FR-07261KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Added Component: Designator=2(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPC0603(1608)55_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CC0603ZRY5V7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "Y5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAPC0603(1608)55_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R7BB103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=J3(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-78.7KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603FR-0778K7L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "78K7"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-84.5KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603FR-0784K5L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "84K5"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "311-634KHRCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603FR-07634KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "634K"; VariantName = "[No Variations]"
+Added Component: Designator=RT1(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "P10555CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "ERT-J1VV104J"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP10(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP11(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V0 Pin=2-1
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=+3V3 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=+5V0 Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=+3V3 Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=+3V3 Pin=RT1-1
+Added Pin To Net: NetName=GND Pin=TP5-1
+Added Pin To Net: NetName=NetJ9_1 Pin=TP7-1
+Added Pin To Net: NetName=NetJ9_2 Pin=TP8-1
+Added Pin To Net: NetName=NetP1_4 Pin=TP9-1
+Added Pin To Net: NetName=NetP1_3 Pin=TP10-1
+Added Pin To Net: NetName=NetP1_2 Pin=TP11-1
+Added Pin To Net: NetName=GND Pin=VR1-1
+Added Pin To Net: NetName=+5V0 Pin=VR1-3
+Change Net Name : Old Net Name=NetJ9_1 New Net Name=NetJ7_1
+Change Net Name : Old Net Name=NetJ9_2 New Net Name=NetJ7_2
+Added Pin To Net: NetName=+24V0 Pin=J4-1
+Added Pin To Net: NetName=+24V0 Pin=R6-2
+Added Net: Name=+24V0
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=R4-1
+Added Pin To Net: NetName=NetC6_2 Pin=R5-2
+Added Pin To Net: NetName=NetC6_2 Pin=RT1-2
+Added Pin To Net: NetName=NetC6_2 Pin=TP3-1
+Added Pin To Net: NetName=NetC6_2 Pin=U2-20
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=R8-2
+Added Pin To Net: NetName=NetR6_1 Pin=TP4-1
+Added Pin To Net: NetName=NetR6_1 Pin=U2-21
+Added Net: Name=NetR6_1
+Added Member To Class: ClassName=Power Member=Component 2 5V_TP
+Added Member To Class: ClassName=MCU Member=Component C13 CAP_10nF_0603
+Added Member To Class: ClassName=MCU Member=Component C14 CAP_1uF_16V_0603
+Added Member To Class: ClassName=MCU Member=Component R4 RES_78K7_0603
+Added Member To Class: ClassName=MCU Member=Component R5 RES_84K5_0603
+Added Member To Class: ClassName=Power Member=Component R6 RES_634K_0603
+Added Member To Class: ClassName=Power Member=Component R8 RES_100K_0603
+Added Member To Class: ClassName=MCU Member=Component RT1 NTC_THERM_100K
+Added Member To Class: ClassName=MCU Member=Component TP3 THERM_TP
+Added Member To Class: ClassName=MCU Member=Component TP4 V_MONITOR_TP
+Added Member To Class: ClassName=MCU Member=Component TP5 GND_TP
+Added Member To Class: ClassName=Support Member=Component TP7 I2C_SDA_TP
+Added Member To Class: ClassName=Support Member=Component TP8 I2C_SCL_TP
+Added Member To Class: ClassName=Support Member=Component TP9 UART_RTS
+Added Member To Class: ClassName=Support Member=Component TP10 UART_RX
+Added Member To Class: ClassName=Support Member=Component TP11 UART_TX

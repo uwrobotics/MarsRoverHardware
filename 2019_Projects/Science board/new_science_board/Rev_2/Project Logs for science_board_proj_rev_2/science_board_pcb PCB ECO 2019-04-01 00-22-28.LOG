@@ -1,0 +1,15 @@
+Change Component DesignItemId : Designator=R24 Old DesignItemId=RES_0R_0603 New DesignItemId=RES_0R_1206
+Change Component DesignItemId : Designator=R25 Old DesignItemId=RES_0R_0603 New DesignItemId=RES_0R_1206
+Change Component Footprint: Designator=R24 Old Footprint=RESC0603(1608)_N New Footprint=RESC1206(3216)_N
+Change Component Footprint: Designator=R25 Old Footprint=RESC0603(1608)_N New Footprint=RESC1206(3216)_N
+Change Component Comment : Designator=R24 Old Comment=RES_0R_0603 New Comment=RES_0R_1206
+Change Component Comment : Designator=R25 Old Comment=RES_0R_0603 New Comment=RES_0R_1206
+Change Component Designator: OldDesignator=C13 NewDesignator=C14
+Change Component Designator: OldDesignator=C14 NewDesignator=C13
+Change Component Designator: OldDesignator=JMP NewDesignator=1
+Change Component Designator: OldDesignator=LED1 NewDesignator=LED2
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED1
+Change Component Description : Designator=R24 Old Description=RES SMD 0 OHM JUMPER 1/10W 0603 New Description=RES SMD 0 OHM JUMPER 1/10W 1206
+Change Component Description : Designator=R25 Old Description=RES SMD 0 OHM JUMPER 1/10W 0603 New Description=RES SMD 0 OHM JUMPER 1/10W 1206
+Change Net Name : Old Net Name=NetLED1_2 New Net Name=NetLED2_2
+Change Net Name : Old Net Name=NetLED2_2 New Net Name=NetLED1_2

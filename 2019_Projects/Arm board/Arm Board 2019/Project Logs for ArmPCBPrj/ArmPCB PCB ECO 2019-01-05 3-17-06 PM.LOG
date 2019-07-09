@@ -1,0 +1,20 @@
+Change Component Comment : Designator=UART_SWD1 Old Comment=HEADER 4X2 New Comment=UART_SWD
+Change Component Comment : Designator=CAN1 Old Comment=PH TOP SMD New Comment=CAN1
+Change Component Comment : Designator=CAN2 Old Comment=PH TOP SMD New Comment=CAN2
+Change Component Comment : Designator=E1 Old Comment=PH TOP SMD New Comment=ENC1
+Change Component Comment : Designator=E2 Old Comment=PH TOP SMD New Comment=ENC2
+Change Component Comment : Designator=E3 Old Comment=PH TOP SMD New Comment=ENC3
+Change Component Comment : Designator=ER1 Old Comment=PH TOP SMD New Comment=ENCREL1
+Change Component Comment : Designator=ER2 Old Comment=PH TOP SMD New Comment=ENCREL2
+Change Component Comment : Designator=I1 Old Comment=PH TOP SMD New Comment=I2C
+Change Component Comment : Designator=L2 Old Comment=PH TOP SMD New Comment=LIM1A
+Change Component Comment : Designator=L4 Old Comment=PH TOP SMD New Comment=LIM1B
+Change Component Comment : Designator=L1 Old Comment=PH TOP SMD New Comment=LIM2A
+Change Component Comment : Designator=L3 Old Comment=PH TOP SMD New Comment=LIM2B
+Change Component Comment : Designator=L5 Old Comment=PH TOP SMD New Comment=LIM3A
+Change Component Comment : Designator=L6 Old Comment=PH TOP SMD New Comment=LIM3B
+Change Component Comment : Designator=M1 Old Comment=PH TOP SMD New Comment=MOTOR1
+Change Component Comment : Designator=M2 Old Comment=PH TOP SMD New Comment=MOTOR2
+Change Component Comment : Designator=M3 Old Comment=PH TOP SMD New Comment=MOTOR3
+Change Component Comment : Designator=PWR1 Old Comment=PH TOP SMD New Comment=POWER1
+Change Component Comment : Designator=PWR2 Old Comment=PH TOP SMD New Comment=POWER2

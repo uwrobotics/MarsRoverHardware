@@ -1,0 +1,72 @@
+Change Component DesignItemId : Designator=LS1 Old DesignItemId=CON_2M_PH_TOP_SMT New DesignItemId=CON_2M
+Change Component DesignItemId : Designator=LS2 Old DesignItemId=CON_2M_PH_TOP_SMT New DesignItemId=CON_2M
+Change Component DesignItemId : Designator=POWER Old DesignItemId=CON_2M_PH_TOP_TH New DesignItemId=CON_2M
+Change Component DesignItemId : Designator=CAN1 Old DesignItemId=CON_3M_PH_TOP_SMT New DesignItemId=CON_3M
+Change Component DesignItemId : Designator=CAN2 Old DesignItemId=CON_3M_PH_TOP_SMT New DesignItemId=CON_3M
+Change Component DesignItemId : Designator=CR Old DesignItemId=CON_3M_PH_TOP_SMT New DesignItemId=CON_3M
+Change Component DesignItemId : Designator=ENC1 Old DesignItemId=CON_3M_PH_TOP_SMT New DesignItemId=CON_3M
+Change Component DesignItemId : Designator=TH Old DesignItemId=CON_3M_PH_TOP_SMT New DesignItemId=CON_3M
+Change Component DesignItemId : Designator=3V3 Old DesignItemId=TESTPOINT_SMD New DesignItemId=*
+Change Component DesignItemId : Designator=TP_5V Old DesignItemId=TESTPOINT_SMD New DesignItemId=*
+Change Component Footprint: Designator=LS1 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-B2B-PHSK
+Change Component Footprint: Designator=LS2 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-B2B-PHSK
+Change Component Footprint: Designator=TH Old Footprint=JST-B3B-PHSK New Footprint=JST B03B-PASK
+Change Component Footprint: Designator=D1 Old Footprint=TVS_DIODE_CAN New Footprint=NXP-SOT323-3
+Change Component Comment : Designator=LS1 Old Comment=PH TOP SMD New Comment=CON_2M
+Change Component Comment : Designator=LS2 Old Comment=PH TOP SMD New Comment=CON_2M
+Change Component Comment : Designator=CAN1 Old Comment=PH TOP SMD New Comment=CON_3M
+Change Component Comment : Designator=CAN2 Old Comment=PH TOP SMD New Comment=CON_3M
+Change Component Comment : Designator=CR Old Comment=PH TOP SMD New Comment=CON_3M
+Change Component Comment : Designator=ENC1 Old Comment=PH TOP SMD New Comment=CON_3M
+Change Component Comment : Designator=TH Old Comment=PH TOP SMD New Comment=CON_3M
+Change Component Comment : Designator=POWER Old Comment=PH TOP TH New Comment=CON_2M
+Change Component Comment : Designator=3V3 Old Comment=TESTPOINT_3V3 New Comment=*
+Change Component Comment : Designator=TP_5V Old Comment=TESTPOINT_5V New Comment=*
+Change Component Designator: OldDesignator= NewDesignator=UART_RTS
+Change Component Designator: OldDesignator= NewDesignator=UART_RX
+Change Component Designator: OldDesignator= NewDesignator=UART_TX
+Change Component Designator: OldDesignator=CANH NewDesignator=CANH1
+Change Component Designator: OldDesignator=CANL NewDesignator=CANL1
+Change Component Designator: OldDesignator=CR NewDesignator=PWMCR
+Change Component Designator: OldDesignator=LS1 NewDesignator=LS-C1
+Change Component Designator: OldDesignator=LS2 NewDesignator=LS-C2
+Change Component Designator: OldDesignator=TH NewDesignator=PWMTH
+Change Component Designator: OldDesignator=TP_5V NewDesignator=TESTPOINT_5V
+Change Component Description : Designator=3V3 Old Description= New Description=TESTPOINT_SMD
+Change Component Description : Designator=TESTPOINT_5V Old Description= New Description=TESTPOINT_SMD
+Change Component Description : Designator=POWER Old Description=CONN HEADER PH TOP 2POS 2MM New Description=
+Change Component Description : Designator=LS-C1 Old Description=CONN HEADER PH TOP 2POS 2MM SMD New Description=
+Change Component Description : Designator=LS-C2 Old Description=CONN HEADER PH TOP 2POS 2MM SMD New Description=
+Change Component Description : Designator=CAN1 Old Description=CONN HEADER PH TOP 3POS 2MM SMD New Description=
+Change Component Description : Designator=CAN2 Old Description=CONN HEADER PH TOP 3POS 2MM SMD New Description=
+Change Component Description : Designator=CR Old Description=CONN HEADER PH TOP 3POS 2MM SMD New Description=
+Change Component Description : Designator=ENC1 Old Description=CONN HEADER PH TOP 3POS 2MM SMD New Description=
+Change Component Description : Designator=TH Old Description=CONN HEADER PH TOP 3POS 2MM SMD New Description=
+Change component parameters: Designator = "CAN1"; Footprint = "JST-B3B-SM4-TB"; UniqueID = "\MIBGYTYY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "CAN2"; Footprint = "JST-B3B-SM4-TB"; UniqueID = "\VKDHACMK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "CR"; Footprint = "JST-B3B-SM4-TB"; UniqueID = "\EFGRDYPP"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "ENC1"; Footprint = "JST-B3B-SM4-TB"; UniqueID = "\ZWGBEHZZ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "LS-C1"; Footprint = "JST-B2B-PHSK"; UniqueID = "\HHWHIHUR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "LS-C2"; Footprint = "JST-B2B-PHSK"; UniqueID = "\FMRWKMTK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "POWER"; Footprint = "JST-B2B-PHSK"; UniqueID = "\ANGWXNVG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "TH"; Footprint = "JST B03B-PASK"; UniqueID = "\ILJMRXXI"
+Change component parameters. Clean all parameters for all variants
+Added Member To Class: ClassName=can Member=Component CANH1 TESTPOINT_LOOP
+Added Member To Class: ClassName=can Member=Component CANL1 TESTPOINT_LOOP
+Added Member To Class: ClassName=connectors Member=Component CR CON_3M
+Added Member To Class: ClassName=connectors Member=Component LS-C1 CON_2M
+Added Member To Class: ClassName=connectors Member=Component LS-C2 CON_2M
+Added Member To Class: ClassName=support Member=Component PWMCR TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component PWMTH TESTPOINT_LOOP
+Added Member To Class: ClassName=power Member=Component TESTPOINT_5V *
+Added Member To Class: ClassName=connectors Member=Component TH CON_3M
+Added Member To Class: ClassName=support Member=Component UART_RTS TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component UART_RX TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component UART_TX TESTPOINT_LOOP

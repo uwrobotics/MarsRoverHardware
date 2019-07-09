@@ -1,0 +1,19 @@
+Importer Log Report
+Project : OTHERTEST.PrjPcb
+
+Section : Analyze Document - C:\Users\shiva\Desktop\OTHERTEST.sch
+    Analyzing data of C:\Users\shiva\Desktop\OTHERTEST.sch
+    Load settings
+    Load layers 60
+    Load schematic
+    Load Attributes 0
+    Load Libraries 1
+    Load Library "common"
+    Load Packages 14
+    Load Symbols 28
+    Load DeviceSets 28
+    Load Classes 1
+    Load Parts 59
+    Load Modules 0
+    Load Sheets 2
+EndSection

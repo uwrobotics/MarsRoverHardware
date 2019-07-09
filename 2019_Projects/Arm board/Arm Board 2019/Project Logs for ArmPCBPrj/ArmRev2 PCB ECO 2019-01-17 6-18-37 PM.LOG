@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J20
+Change Net Name : Old Net Name=NetJ?_2 New Net Name=NetJ20_2
+Added Member To Class: ClassName=Connectors Member=Component J1 +5V0

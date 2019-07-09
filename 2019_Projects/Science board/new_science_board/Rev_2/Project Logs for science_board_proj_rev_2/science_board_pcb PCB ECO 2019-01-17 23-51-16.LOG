@@ -1,0 +1,48 @@
+Change Component DesignItemId : Designator=R27 Old DesignItemId=RES_150K_0603 New DesignItemId=RES_100R_0603
+Change Component DesignItemId : Designator=R28 Old DesignItemId=RES_150K_0603 New DesignItemId=RES_100R_0603
+Change Component DesignItemId : Designator=R30 Old DesignItemId=RES_150K_0603 New DesignItemId=RES_100R_0603
+Change Component DesignItemId : Designator=R33 Old DesignItemId=RES_150K_0603 New DesignItemId=RES_100R_0603
+Change Component Comment : Designator=R27 Old Comment=RES_150K_0603 New Comment=RES_100R_0603
+Change Component Comment : Designator=R28 Old Comment=RES_150K_0603 New Comment=RES_100R_0603
+Change Component Comment : Designator=R30 Old Comment=RES_150K_0603 New Comment=RES_100R_0603
+Change Component Comment : Designator=R33 Old Comment=RES_150K_0603 New Comment=RES_100R_0603
+Change Component Description : Designator=R27 Old Description=RES SMD 150K OHM 5% 1/10W 0603 New Description=RES SMD 100 OHM 1% 1/10W 0603
+Change Component Description : Designator=R28 Old Description=RES SMD 150K OHM 5% 1/10W 0603 New Description=RES SMD 100 OHM 1% 1/10W 0603
+Change Component Description : Designator=R30 Old Description=RES SMD 150K OHM 5% 1/10W 0603 New Description=RES SMD 100 OHM 1% 1/10W 0603
+Change Component Description : Designator=R33 Old Description=RES SMD 150K OHM 5% 1/10W 0603 New Description=RES SMD 100 OHM 1% 1/10W 0603
+Change component parameters: Designator = "R27"; Footprint = "RESC0603(1608)_N"; UniqueID = "\SEHLSJNM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-100HRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28"; Footprint = "RESC0603(1608)_N"; UniqueID = "\TPLRHCSC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-100HRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30"; Footprint = "RESC0603(1608)_N"; UniqueID = "\TSLDDDSK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-100HRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33"; Footprint = "RESC0603(1608)_N"; UniqueID = "\CHHUPTNV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-100HRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"

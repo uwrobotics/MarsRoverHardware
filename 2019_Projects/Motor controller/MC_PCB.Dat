@@ -1,0 +1,29 @@
+﻿Field=#~Integer~#~50|Field=Description~String~Description~215|Field=Comment~String~Comment~215|Field=Designator~String~Designator~215|Field=Digikey Part Number~String~Digikey Part Number~215|Field=Quantity~Integer~Quantity~213|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Motor Controller V2.PrjPCB|ReportField=ProjectFullPath~C:\Users\Luana\Documents\GitHub\MarsRover2019-PCB\Projects\Motor controller\Motor Controller V2.PrjPCB|ReportField=Title~Bill of Materials For PCB Document [MC_PCB.PcbDoc]|ReportField=ReportTime~10:32:54 PM|ReportField=ReportDate~2019-04-28|ReportField=ReportDateTime~2019-04-28 10:32:54 PM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=TotalQuantity~48|ReportField=TotalActualPrice~0|ReportField=TotalTargetPrice~0|ReportField=VersionControl_RevNumber~|ReportField=VersionControl_ProjFolderRevNumber~cd3990a207cc6e93ba3f66012cb5be8efe0a80e0|ReportField=DataSourceFileName~MC_PCB.PcbDoc|ReportField=DataSourceFullPath~C:\Users\Luana\Documents\GitHub\MarsRover2019-PCB\Projects\Motor controller\MC_PCB.PcbDoc|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|74LVC1G3157GW,125|74LVC1G3157GW,125|1, 2||2
+2|CAP ALUM 22UF 20% 50V RADIAL|CAP_22uF_POL|C1|732-8857-1-ND|1
+3|CAP CER 0.1UF 16V X7R 0603|CAP_0.1uF_16V_0603|C2, C3, C4|311-1088-1-ND|3
+4|CAP CER 1UF 16V Y5V 0603|CAP_1uF_16V_0603|C5, C6|311-1372-1-ND|2
+5|CAP CER 10000PF 16V X7R 0603|CAP_10nF_0603|C7|311-3369-1-ND|1
+6|ESD PROTECTION DIODE|0|D1|1727-7320-1-ND|1
+7|LED GREEN DIFFUSED 0805 SMD|DIO_LED_G|D2|475-1410-1-ND|1
+8||Comment|Designator4, Designator5, Designator6, Designator7||4
+9|Header, 3-Pin|M|J1||1
+10|Header, 2-Pin|MTR|J2||1
+11|Header, 2-Pin|PWR|J3||1
+12|TRANS NPN 40V 0.2A SOT23|NPN_40V_100mA|Q1|MMBT3904TPMSCT-ND|1
+13|MOSFET N-CH 40V 75A D2PAK|NMOS_40V_75A|Q2, Q3, Q4, Q5, Q6|1727-7257-1-ND|5
+14|RES SMD 43K OHM 5% 1/10W 0603|RES_43K_0603|R1|311-43KGRCT-ND|1
+15|RES SMD 10K OHM 5% 1/10W 0603|RES_10K_0603|R2, R5, R6, R7, R9, R10, R12, R13|311-10KGRCT-ND|8
+16|RES SMD 0 OHM JUMPER 1/10W 0603|RES_0R_0603|R3, R11|311-0.0GRCT-ND|2
+17|RES SMD 698K OHM 1% 1/10W 0603|RES_698K_0603|R4|311-698KHRCT-ND|1
+18|RES SMD 10mOHM 1% 4W 2728|RES_10m_2728|R8|CSSH2728FT10L0DKR-ND|1
+19|Power Switch (Red)|SW_PWR|S1, S2|CKN10587CT-ND|2
+20|TESTPOINT_SMD|AVDD|TP1||1
+21|TESTPOINT_SMD|Vbat2|TP2||1
+22|TESTPOINT_SMD|nSleep|TP3||1
+23|TESTPOINT_SMD|DVDD|TP4||1
+24|TESTPOINT_SMD|PWM|TP5||1
+25|TESTPOINT_SMD|DIR|TP6||1
+26|DRV8701ERGET|DRV8701ERGET|U1||1
+27|SN74AHC1G02DBVT|SN74AHC1G02DBVT|U2||1
+28|OSCILLATOR_2kHz|2kHz|Y1||1

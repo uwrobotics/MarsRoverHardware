@@ -1,0 +1,10 @@
+Change Component DesignItemId : Designator=J1 Old DesignItemId=CON_2M_PH_SIDE_SMT New DesignItemId=CON_2M_PH_TOP_SMT
+Change Component Footprint: Designator=J1 Old Footprint=JST-S2B-SM4-TB New Footprint=JST-B2B-SM4-TB
+Change Component Comment : Designator=J1 Old Comment=PH SIDE SMD New Comment=PH TOP SMD
+Change Component Description : Designator=J1 Old Description=CONN HEADER PH SIDE 2POS 2MM SMD New Description=CONN HEADER PH TOP 2POS 2MM SMD
+Change component parameters: Designator = "J1"; Footprint = "JST-B2B-SM4-TB"; UniqueID = "\ANGWXNVG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "B2B-PH-SM4-TB"; VariantName = "[No Variations]"

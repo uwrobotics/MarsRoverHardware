@@ -1,0 +1,7 @@
+Replace Part C13 CAP_0.33uF_16V_0603 in C:\Users\14169\Documents\GitHub\MarsRover2019-PCB\Projects\Arm board\Arm Board 2019\POWER.SchDoc with CAP_0.33uF_16V_0603 from UWRT_Schematic_Library_2019.SchLib
+Replace Part D2 DIO_LED_R in C:\Users\14169\Documents\GitHub\MarsRover2019-PCB\Projects\Arm board\Arm Board 2019\POWER.SchDoc with DIO_LED_R from UWRT_Schematic_Library_2019.SchLib
+Replace Part R4 RES_100R_0603 in C:\Users\14169\Documents\GitHub\MarsRover2019-PCB\Projects\Arm board\Arm Board 2019\POWER.SchDoc with RES_100R_0603 from UWRT_Schematic_Library_2019.SchLib
+Replace Part TP3 TESTPOINT_SMD in C:\Users\14169\Documents\GitHub\MarsRover2019-PCB\Projects\Arm board\Arm Board 2019\POWER.SchDoc with TESTPOINT_SMD from UWRT_Schematic_Library_2019.SchLib
+Replace Part TP4 TESTPOINT_SMD in C:\Users\14169\Documents\GitHub\MarsRover2019-PCB\Projects\Arm board\Arm Board 2019\POWER.SchDoc with TESTPOINT_SMD from UWRT_Schematic_Library_2019.SchLib
+Replace Part TP5 TESTPOINT_LOOP in C:\Users\14169\Documents\GitHub\MarsRover2019-PCB\Projects\Arm board\Arm Board 2019\POWER.SchDoc with TESTPOINT_LOOP from UWRT_Schematic_Library_2019.SchLib
+Replace Part VR1 5V0_3V3_LDO in C:\Users\14169\Documents\GitHub\MarsRover2019-PCB\Projects\Arm board\Arm Board 2019\POWER.SchDoc with 5V0_3V3_LDO from UWRT_Schematic_Library_2019.SchLib

@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=Net1_1 Pin=J1-1
+Removed Pin From Net: NetName=Net1_2 Pin=J1-2
+Removed Member From Class: ClassName=CAN Member=J1
+Change Component Designator: OldDesignator=CAN1 NewDesignator=J4
+Change Component Designator: OldDesignator=CAN2 NewDesignator=J5
+Change Component Designator: OldDesignator=E1 NewDesignator=J10
+Change Component Designator: OldDesignator=E2 NewDesignator=J11
+Change Component Designator: OldDesignator=E3 NewDesignator=J15
+Change Component Designator: OldDesignator=ER1 NewDesignator=J7
+Change Component Designator: OldDesignator=ER2 NewDesignator=J18
+Change Component Designator: OldDesignator=I1 NewDesignator=J8
+Change Component Designator: OldDesignator=L1 NewDesignator=J9
+Change Component Designator: OldDesignator=L2 NewDesignator=J12
+Change Component Designator: OldDesignator=L3 NewDesignator=J13
+Change Component Designator: OldDesignator=L4 NewDesignator=J14
+Change Component Designator: OldDesignator=L5 NewDesignator=J17
+Change Component Designator: OldDesignator=L6 NewDesignator=J19
+Change Component Designator: OldDesignator=M1 NewDesignator=J2
+Change Component Designator: OldDesignator=M2 NewDesignator=J3
+Change Component Designator: OldDesignator=M3 NewDesignator=J6
+Change Component Designator: OldDesignator=PWR NewDesignator=J1
+Change Component Designator: OldDesignator=UART_SWD1 NewDesignator=J16
+Added Component: Designator=P1(OSTYK51102030)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "ED2953-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "On Shore Technology Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "OSTYK51102030"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net1_1 Pin=P1-1
+Added Pin To Net: NetName=Net1_2 Pin=P1-2
+Change Net Name : Old Net Name=Net1_1 New Net Name=NetD1_2
+Change Net Name : Old Net Name=Net1_2 New Net Name=NetP1_2
+Change Net Name : Old Net Name=NetCAN1_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetE1_2 New Net Name=NetJ10_2
+Change Net Name : Old Net Name=NetE2_2 New Net Name=NetJ11_2
+Change Net Name : Old Net Name=NetE3_2 New Net Name=NetJ15_2
+Change Net Name : Old Net Name=NetER1_3 New Net Name=NetJ7_3
+Change Net Name : Old Net Name=NetER1_4 New Net Name=NetJ7_4
+Change Net Name : Old Net Name=NetER1_5 New Net Name=NetJ7_5
+Change Net Name : Old Net Name=NetER2_3 New Net Name=NetJ18_3
+Change Net Name : Old Net Name=NetER2_4 New Net Name=NetJ18_4
+Change Net Name : Old Net Name=NetER2_5 New Net Name=NetJ18_5
+Change Net Name : Old Net Name=NetM1_1 New Net Name=NetJ2_1
+Change Net Name : Old Net Name=NetM1_2 New Net Name=NetJ2_2
+Change Net Name : Old Net Name=NetM2_1 New Net Name=NetJ3_1
+Change Net Name : Old Net Name=NetM2_2 New Net Name=NetJ3_2
+Change Net Name : Old Net Name=NetM3_1 New Net Name=NetJ6_1
+Change Net Name : Old Net Name=NetM3_2 New Net Name=NetJ6_2
+Change Net Name : Old Net Name=NetU2_46 New Net Name=NetJ16_5
+Change Net Name : Old Net Name=NetU2_49 New Net Name=NetJ16_6
+Added Member To Class: ClassName=CAN Member=Component P1 TERMINAL_2

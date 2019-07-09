@@ -1,0 +1,3 @@
+Added Component: Designator=*(MOUNTING_HOLE)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=support Member=Component * MOUNTING_HOLES

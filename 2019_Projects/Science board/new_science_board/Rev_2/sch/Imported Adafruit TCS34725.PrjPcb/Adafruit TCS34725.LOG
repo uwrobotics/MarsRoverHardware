@@ -1,0 +1,23 @@
+Importer Log Report
+Project : Adafruit TCS34725.PrjPcb
+
+Section : Analyze Document - C:\Users\Adrianna\Documents\MarsRover2019-PCB\Projects\Science board\new_science_board\resources\Adafruit-TCS34725-Color-Sensor-Breakout-PCB-master\Adafruit-TCS34725-Color-Sensor-Breakout-PCB-master\Adafruit TCS34725.sch
+    Analyzing data of C:\Users\Adrianna\Documents\MarsRover2019-PCB\Projects\Science board\new_science_board\resources\Adafruit-TCS34725-Color-Sensor-Breakout-PCB-master\Adafruit-TCS34725-Color-Sensor-Breakout-PCB-master\Adafruit TCS34725.sch
+    Load settings
+    Load layers 121
+    Load schematic
+    Load Libraries 2
+    Load Library "microbuilder"
+    Load Packages 40
+    Load Symbols 12
+    Load DeviceSets 12
+    Load Library "supply1"
+    Load Packages 0
+    Load Symbols 1
+    Load DeviceSets 1
+    Load Attributes 0
+    Load Classes 1
+    Load Parts 37
+    Load Sheets 1
+    ERROR: Unhandled typeerrors
+EndSection

@@ -1,0 +1,23 @@
+Importer Log Report
+Project : OTHERTEST.PrjPcb
+
+Section : Analyze Document - C:\Users\shiva\Desktop\Imported OTHERTEST.PrjPcb\OTHERTEST.lbr
+    Analyzing data of C:\Users\shiva\Desktop\Imported OTHERTEST.PrjPcb\OTHERTEST.lbr
+    Load settings
+    Load layers 59
+    Load Library library
+    Load Library ""
+    Load Packages 44
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    ERROR: Unhandled typedimension
+    Load Symbols 28
+    Load DeviceSets 66
+EndSection

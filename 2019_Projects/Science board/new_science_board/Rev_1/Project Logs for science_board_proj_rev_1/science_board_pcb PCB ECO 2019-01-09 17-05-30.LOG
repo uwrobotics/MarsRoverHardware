@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=LS-E-B NewDesignator=LS-EB
+Change Component Designator: OldDesignator=LS-E-T NewDesignator=LS-ET
+Change Net Name : Old Net Name=NetLS-E-B_1 New Net Name=NetLS-EB_1
+Change Net Name : Old Net Name=NetLS-E-T_1 New Net Name=NetLS-ET_1

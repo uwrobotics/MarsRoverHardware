@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=NetC4_2 Pin=S1-2
+Change Component Footprint: Designator=D1 Old Footprint=AO3420-SOT23 New Footprint=TVS_DIODE_CAN
+Change Component Footprint: Designator=VR1 Old Footprint=ONSC-DPAK-3-369AAB New Footprint=VOLTAGE_REGULATOR
+Change Component Footprint: Designator=R1 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R2 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R3 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R4 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R5 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R6 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R7 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R8 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R9 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R10 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R12 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R13 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R14 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R15 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R16 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R19 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R20 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R21 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R22 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R23 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=R24 Old Footprint=RESC0201(0603)_N New Footprint=RESC0603(1608)_N
+Change Component Footprint: Designator=S2 Old Footprint=SPST-2 New Footprint=B3U-1100P
+Change Component Footprint: Designator=S3 Old Footprint=SPST-2 New Footprint=B3U-1100P
+Change Component Footprint: Designator=S1 Old Footprint=SPST-2 New Footprint=PTS830GM140
+Change Component Description : Designator=S1 Old Description=Switch New Description=Power Switch (Red)
+Change Component Description : Designator=S2 Old Description=Switch New Description=Tactile Switch (Grey)
+Change Component Description : Designator=S3 Old Description=Switch New Description=Tactile Switch (Grey)
+Change component parameters: Designator = "S2"; Footprint = "B3U-1100P"; UniqueID = "\LGRQQFLO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "SW1021TR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "B3U-1100P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S3"; Footprint = "B3U-1100P"; UniqueID = "\AHSHLKWD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "SW1021TR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "B3U-1100P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "S1"; Footprint = "PTS830GM140"; UniqueID = "\SLCKYTEW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ckswitches.com/media/1478/pts830.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "PTS830GM140 SMTR LFS"; VariantName = "[No Variations]"
+Added Component: Designator=U1(LTC2875)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.analog.com/media/en/technical-documentation/data-sheets/2875f.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Linear Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "8-SOIC (0.154", 3.90mm Width)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTC2875IS8#PBF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_2 Pin=S1-4
+Added Pin To Net: NetName=NetU1_1 Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=+3V3 Pin=U1-3
+Added Pin To Net: NetName=NetU1_4 Pin=U1-4
+Added Pin To Net: NetName=Net1_1 Pin=U1-6
+Added Pin To Net: NetName=NetCAN1_1 Pin=U1-7
+Added Pin To Net: NetName=NetR1_1 Pin=U1-8
+Added Member To Class: ClassName=CAN Member=Component U1 IC TXRX CAN

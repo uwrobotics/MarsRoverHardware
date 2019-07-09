@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=GND Pin=Designator10-0
+Removed Pin From Net: NetName=GND Pin=Designator11-0
+Removed Pin From Net: NetName=GND Pin=Designator12-0
+Removed Pin From Net: NetName=GND Pin=Designator13-0
+Added Component: Designator=U?(VFQFPN-24_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case/Package"; Value = "VQFN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "Parallel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "DRV8701ERGET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=2.83, 10=2.541, 100=2.0425 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "17098"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-42155-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=U?-1
+Added Pin To Net: NetName=NetC3_1 Pin=U?-2
+Added Pin To Net: NetName=NetC4_2 Pin=U?-3
+Added Pin To Net: NetName=NetC4_1 Pin=U?-4
+Added Pin To Net: NetName=GND Pin=U?-5
+Added Pin To Net: NetName=NetR5_2 Pin=U?-6
+Added Pin To Net: NetName=AVDD Pin=U?-7
+Added Pin To Net: NetName=DVDD Pin=U?-8
+Added Pin To Net: NetName=NetR6_2 Pin=U?-9
+Added Pin To Net: NetName=NetR7_2 Pin=U?-10
+Added Pin To Net: NetName=NetR4_1 Pin=U?-13
+Added Pin To Net: NetName=Net1_4 Pin=U?-14
+Added Pin To Net: NetName=Net2_4 Pin=U?-15
+Added Pin To Net: NetName=GND Pin=U?-16
+Added Pin To Net: NetName=NetQ3_1 Pin=U?-17
+Added Pin To Net: NetName=NetJ2_2 Pin=U?-18
+Added Pin To Net: NetName=NetQ5_1 Pin=U?-19
+Added Pin To Net: NetName=GND Pin=U?-20
+Added Pin To Net: NetName=NetQ5_3 Pin=U?-21
+Added Pin To Net: NetName=NetQ6_1 Pin=U?-22
+Added Pin To Net: NetName=NetJ2_1 Pin=U?-23
+Added Pin To Net: NetName=NetQ4_1 Pin=U?-24
+Added Pin To Net: NetName=GND Pin=U?-25
+Added Member To Class: ClassName=MCMainSch Member=Component U? DRV8701ERGET
+Added Room: Name=MC_Sch2
+Added Room: Name=MCMainSch

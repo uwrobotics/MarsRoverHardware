@@ -1,0 +1,26 @@
+PCAD Importer Log
+Project : 74LVC1G3157GW_125.LibPkg
+
+Section : C:\Users\shiva\Desktop\Imported OTHERTEST.PrjPcb\74LVC1G3157GW_125.lia
+    Section : PCB Library - 74LVC1G3157GW_125.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 74LVC1G3157 On Line 102
+            Warning - 1 : Skipping Token attachedSymbol On Line 189
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - 74LVC1G3157GW_125.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 92
+            Warning - 1 : Skipping Token layerContents On Line 96
+        EndSection
+
+        Section : Generating SCH Library - 74LVC1G3157GW_125.SchLib
+        EndSection
+    EndSection
+EndSection

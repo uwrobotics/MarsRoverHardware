@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=I2C_SCL Pin=U2-58
+Added Pin To Net: NetName=I2C_SDA Pin=U2-59
+Added Member To Class: ClassName=Connectors Member=Component J1 +5V0

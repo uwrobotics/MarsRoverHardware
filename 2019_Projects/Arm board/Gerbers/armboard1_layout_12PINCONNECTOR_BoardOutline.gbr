@@ -1,0 +1,21 @@
+G04 DipTrace 3.2.0.0*
+G04 armboard1_layout_12PINCONNECTOR_BoardOutline.gbr*
+%MOMM*%
+G04 #@! TF.FileFunction,Profile*
+G04 #@! TF.Part,Single*
+%ADD11C,0.14*%
+%FSLAX35Y35*%
+G04*
+G71*
+G90*
+G75*
+G01*
+G04 BoardOutline*
+%LPD*%
+X-4182750Y-2989237D2*
+D11*
+X2817250D1*
+Y2910763D1*
+X-4182750D1*
+Y-2989237D1*
+M02*

@@ -1,0 +1,2 @@
+LTC #2
+positive is closer to 16, negative is closer to 1

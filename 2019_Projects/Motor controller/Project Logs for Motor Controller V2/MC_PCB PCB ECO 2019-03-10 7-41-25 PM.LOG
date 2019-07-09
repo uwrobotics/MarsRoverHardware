@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NetR4_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC1_1 Pin=C3-2
+Added Member To Class: ClassName=MCMainSch Member=Component C3 CAP_0.1uF_16V_0603
+Added Room: Name=MC_Sch2
+Added Room: Name=MCMainSch

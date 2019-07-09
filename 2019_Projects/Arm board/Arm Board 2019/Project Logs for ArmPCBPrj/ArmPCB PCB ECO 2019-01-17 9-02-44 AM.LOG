@@ -1,0 +1,68 @@
+Change Component Footprint: Designator=TP1 Old Footprint=TESTPOINT New Footprint=TESTPOINT_LOOP
+Change Component Footprint: Designator=TP2 Old Footprint=TESTPOINT New Footprint=TESTPOINT_LOOP
+Change Component Comment : Designator=TP1 Old Comment=TESTPOINT_SMD New Comment=CAN_H
+Change Component Comment : Designator=TP2 Old Comment=TESTPOINT_SMD New Comment=CAN_L
+Change component parameters: Designator = "TP1"; Footprint = "TESTPOINT_LOOP"; UniqueID = "\MLNSYIQS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Change component parameters: Designator = "TP2"; Footprint = "TESTPOINT_LOOP"; UniqueID = "\BLYUKUDW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Added Component: Designator=TP3(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP4(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP5(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Added Component: Designator=TP10(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "36-5002-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Keystone Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "5002"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V0 Pin=TP3-1
+Added Pin To Net: NetName=+3V3 Pin=TP4-1
+Added Pin To Net: NetName=GND Pin=TP5-1
+Added Pin To Net: NetName=I2C_SDA Pin=TP6-1
+Added Pin To Net: NetName=I2C_SCL Pin=TP7-1
+Added Pin To Net: NetName=UART_TX Pin=TP8-1
+Added Pin To Net: NetName=UART_RX Pin=TP9-1
+Added Pin To Net: NetName=UART_RTS Pin=TP10-1
+Added Member To Class: ClassName=POWER Member=Component TP3 +5V0
+Added Member To Class: ClassName=POWER Member=Component TP4 +3V3
+Added Member To Class: ClassName=POWER Member=Component TP5 GND
+Added Member To Class: ClassName=Support Member=Component TP6 I2C_SDA
+Added Member To Class: ClassName=Support Member=Component TP7 I2C_SCL
+Added Member To Class: ClassName=Support Member=Component TP8 UART_TX
+Added Member To Class: ClassName=Support Member=Component TP9 UART_RX
+Added Member To Class: ClassName=Support Member=Component TP10 UART_RTS

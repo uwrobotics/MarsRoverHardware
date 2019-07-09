@@ -1,0 +1,95 @@
+Removed Pin From Net: NetName=+3V3 Pin=R17-2
+Removed Pin From Net: NetName=+3V3 Pin=R18-2
+Removed Member From Class: ClassName=CAN Member=D6
+Removed Member From Class: ClassName=Support Member=R1
+Removed Member From Class: ClassName=Support Member=R2
+Removed Member From Class: ClassName=CAN Member=R8
+Removed Member From Class: ClassName=Support Member=R17
+Removed Member From Class: ClassName=Support Member=R18
+Removed Member From Class: ClassName=Support Member=TP1
+Removed Member From Class: ClassName=Support Member=TP2
+Change Component Footprint: Designator=I1 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=L1 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=L2 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=L3 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=L4 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=L5 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=L6 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=PWR1 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=PWR2 Old Footprint=JST-B2B-SM4-TB New Footprint=JST-S2B-SM4-TB
+Change Component Footprint: Designator=CAN1 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=CAN2 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=E1 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=E2 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=E3 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=M1 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=M2 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=M3 Old Footprint=JST-B3B-SM4-TB New Footprint=JST-S3B-SM4-TB
+Change Component Footprint: Designator=ER1 Old Footprint=JST-B5B-SM4-TB New Footprint=JST-S5B-SM4-TB
+Change Component Footprint: Designator=ER2 Old Footprint=JST-B5B-SM4-TB New Footprint=JST-S5B-SM4-TB
+Change Component Comment : Designator=PWR1 Old Comment=+3V3 New Comment=PH SIDE SMD
+Change Component Comment : Designator=PWR2 Old Comment=+5V0 New Comment=PH SIDE SMD
+Change Component Comment : Designator=D1 Old Comment=0 New Comment=TVS_DIODE_CAN
+Change Component Comment : Designator=CAN1 Old Comment=CAN New Comment=PH SIDE SMD
+Change Component Comment : Designator=CAN2 Old Comment=CAN New Comment=PH SIDE SMD
+Change Component Comment : Designator=TP1 Old Comment=CAN_H New Comment=TESTPOINT_SMD
+Change Component Comment : Designator=TP2 Old Comment=CAN_L New Comment=TESTPOINT_SMD
+Change Component Comment : Designator=E3 Old Comment=ENC_EL New Comment=PH SIDE SMD
+Change Component Comment : Designator=ER1 Old Comment=ENC_REL 1 New Comment=PH SIDE SMD
+Change Component Comment : Designator=E2 Old Comment=ENC_SH New Comment=PH SIDE SMD
+Change Component Comment : Designator=E1 Old Comment=ENC_TT New Comment=PH SIDE SMD
+Change Component Comment : Designator=ER2 Old Comment=ENC REL 2 New Comment=PH SIDE SMD
+Change Component Comment : Designator=I1 Old Comment=I2C New Comment=PH SIDE SMD
+Change Component Comment : Designator=1 Old Comment=Jumper New Comment=Header 2
+Change Component Comment : Designator=L2 Old Comment=LIM_1A New Comment=PH SIDE SMD
+Change Component Comment : Designator=L4 Old Comment=LIM_1B New Comment=PH SIDE SMD
+Change Component Comment : Designator=L1 Old Comment=LIM_2A New Comment=PH SIDE SMD
+Change Component Comment : Designator=L3 Old Comment=LIM_2B New Comment=PH SIDE SMD
+Change Component Comment : Designator=L5 Old Comment=LIM_3A New Comment=PH SIDE SMD
+Change Component Comment : Designator=L6 Old Comment=LIM_3B New Comment=PH SIDE SMD
+Change Component Comment : Designator=M1 Old Comment=PWM_1 New Comment=PH SIDE SMD
+Change Component Comment : Designator=M2 Old Comment=PWM_2 New Comment=PH SIDE SMD
+Change Component Comment : Designator=M3 Old Comment=PWM_3 New Comment=PH SIDE SMD
+Change component parameters: Designator = "D1"; Footprint = "AO3420-SOT23"; UniqueID = "\AWXDCUDW\LWNRYUTK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SC-70, SOT-323"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "PESD2CAN,215"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3"; Footprint = "LED_0805"; UniqueID = "\JDNDXSJH\JVJRNPRR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LY R976-PS-36"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "475-2560-6-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4"; Footprint = "LED_0805"; UniqueID = "\JDNDXSJH\XCCMYCXM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LG R971-KN-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "RSComponents"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "654-5773P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D5"; Footprint = "LED_0805"; UniqueID = "\JDNDXSJH\DAYAOMNY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LG R971-KN-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "RSComponents"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "654-5773P"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D6"; Footprint = "LED_0805"; UniqueID = "\JDNDXSJH\QHLTRTQC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LG R971-KN-1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "RSComponents"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "654-5773P"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=CAN Member=Component R2 RES_120R_0603
+Added Member To Class: ClassName=Support Member=Component R12 RES_10K_0603
+Added Member To Class: ClassName=Support Member=Component R13 RES_10K_0603
+Added Member To Class: ClassName=Support Member=Component R15 RES_10K_0603

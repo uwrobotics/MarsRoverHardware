@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : CA3140AMZ.LibPkg
+
+Section : C:\Users\Adrianna\Documents\MarsRover2019-PCB\Projects\Science board\new_science_board\lib\CA3140AMZ.lia
+    Section : PCB Library - CA3140AMZ.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token CA3140AMZ On Line 189
+            Warning - 1 : Skipping Token attachedSymbol On Line 296
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - CA3140AMZ.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 94
+            Warning - 1 : Skipping Token layerContents On Line 101
+            Warning - 1 : Skipping Token layerContents On Line 144
+        EndSection
+
+        Section : Generating SCH Library - CA3140AMZ.SchLib
+        EndSection
+    EndSection
+EndSection

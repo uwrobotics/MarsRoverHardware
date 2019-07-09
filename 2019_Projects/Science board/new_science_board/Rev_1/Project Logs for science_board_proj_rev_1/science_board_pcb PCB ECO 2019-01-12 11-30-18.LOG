@@ -1,0 +1,33 @@
+Change Component Designator: OldDesignator=P1 NewDesignator=P
+Change Component Designator: OldDesignator=R23 NewDesignator=R24
+Change Component Designator: OldDesignator=R24 NewDesignator=R25
+Change Component Designator: OldDesignator=R25 NewDesignator=R26
+Change Component Designator: OldDesignator=R26 NewDesignator=R27
+Change Component Designator: OldDesignator=R27 NewDesignator=R28
+Change Component Designator: OldDesignator=R28 NewDesignator=R29
+Change Component Designator: OldDesignator=R29 NewDesignator=R30
+Change Component Designator: OldDesignator=R30 NewDesignator=R31
+Change Component Designator: OldDesignator=R31 NewDesignator=R32
+Change Component Designator: OldDesignator=R32 NewDesignator=R33
+Added Component: Designator=R23(RESC0603(1608)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603JR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R23-1
+Added Pin To Net: NetName=NetM-F_1 Pin=R23-2
+Change Net Name : Old Net Name=NetP1_2 New Net Name=NetP_2
+Change Net Name : Old Net Name=NetP1_3 New Net Name=NetP_3
+Change Net Name : Old Net Name=NetP1_4 New Net Name=NetP_4
+Change Net Name : Old Net Name=NetP1_6 New Net Name=NetP_6
+Change Net Name : Old Net Name=NetP1_7 New Net Name=NetP_7
+Change Net Name : Old Net Name=NetR27_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR29_1
+Change Net Name : Old Net Name=NetR29_1 New Net Name=NetR30_1
+Change Net Name : Old Net Name=NetR30_1 New Net Name=NetR31_1
+Change Net Name : Old Net Name=NetR31_1 New Net Name=NetR32_1
+Change Net Name : Old Net Name=NetR32_2 New Net Name=NetR33_2
+Added Member To Class: ClassName=support Member=Component R33 RES_10K_0603

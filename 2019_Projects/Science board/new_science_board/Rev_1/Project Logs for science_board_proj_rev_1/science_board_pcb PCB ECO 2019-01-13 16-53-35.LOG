@@ -1,0 +1,120 @@
+Change Component DesignItemId : Designator=R28 Old DesignItemId=RES_100R_0603 New DesignItemId=RES_150K_0603
+Change Component DesignItemId : Designator=R29 Old DesignItemId=RES_100R_0603 New DesignItemId=RES_150K_0603
+Change Component DesignItemId : Designator=R30 Old DesignItemId=RES_100R_0603 New DesignItemId=RES_150K_0603
+Change Component DesignItemId : Designator=R31 Old DesignItemId=RES_100R_0603 New DesignItemId=RES_150K_0603
+Change Component DesignItemId : Designator=CANH Old DesignItemId=TESTPOINT_SMD New DesignItemId=TESTPOINT_LOOP
+Change Component DesignItemId : Designator=CANL Old DesignItemId=TESTPOINT_SMD New DesignItemId=TESTPOINT_LOOP
+Change Component Footprint: Designator=CANH Old Footprint=TESTPOINT New Footprint=TESTPOINT_LOOP
+Change Component Footprint: Designator=CANL Old Footprint=TESTPOINT New Footprint=TESTPOINT_LOOP
+Change Component Comment : Designator=R28 Old Comment=RES_100R_0603 New Comment=RES_150K_0603
+Change Component Comment : Designator=R29 Old Comment=RES_100R_0603 New Comment=RES_150K_0603
+Change Component Comment : Designator=R30 Old Comment=RES_100R_0603 New Comment=RES_150K_0603
+Change Component Comment : Designator=R31 Old Comment=RES_100R_0603 New Comment=RES_150K_0603
+Change Component Comment : Designator=CANH Old Comment=TESTPOINT_SMD New Comment=TESTPOINT_LOOP
+Change Component Comment : Designator=CANL Old Comment=TESTPOINT_SMD New Comment=TESTPOINT_LOOP
+Change Component Designator: OldDesignator=CAN NewDesignator=CAN1
+Change Component Designator: OldDesignator=CANH NewDesignator=CANH1
+Change Component Designator: OldDesignator=CANL NewDesignator=CANL1
+Change Component Designator: OldDesignator=J1 NewDesignator=POWER
+Change Component Designator: OldDesignator=J2 NewDesignator=J1
+Change Component Designator: OldDesignator=R17 NewDesignator=R21
+Change Component Designator: OldDesignator=R18 NewDesignator=R17
+Change Component Designator: OldDesignator=R19 NewDesignator=R18
+Change Component Designator: OldDesignator=R20 NewDesignator=R23
+Change Component Designator: OldDesignator=R21 NewDesignator=R19
+Change Component Designator: OldDesignator=R22 NewDesignator=R20
+Change Component Designator: OldDesignator=R23 NewDesignator=R22
+Change Component Designator: OldDesignator=R27 NewDesignator=R32
+Change Component Designator: OldDesignator=R28 NewDesignator=R27
+Change Component Designator: OldDesignator=R29 NewDesignator=R28
+Change Component Designator: OldDesignator=R31 NewDesignator=R33
+Change Component Designator: OldDesignator=R32 NewDesignator=R29
+Change Component Designator: OldDesignator=R33 NewDesignator=R31
+Change Component Description : Designator=R27 Old Description=RES SMD 100 OHM 1% 1/10W 0603 New Description=RES SMD 150K OHM 5% 1/10W 0603
+Change Component Description : Designator=R28 Old Description=RES SMD 100 OHM 1% 1/10W 0603 New Description=RES SMD 150K OHM 5% 1/10W 0603
+Change Component Description : Designator=R30 Old Description=RES SMD 100 OHM 1% 1/10W 0603 New Description=RES SMD 150K OHM 5% 1/10W 0603
+Change Component Description : Designator=R33 Old Description=RES SMD 100 OHM 1% 1/10W 0603 New Description=RES SMD 150K OHM 5% 1/10W 0603
+Change component parameters: Designator = "CANH1"; Footprint = "TESTPOINT_LOOP"; UniqueID = "\QWVWEMQL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "CANL1"; Footprint = "TESTPOINT_LOOP"; UniqueID = "\HXTSHUCB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27"; Footprint = "RESC0603(1608)_N"; UniqueID = "\SEHLSJNM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603JR-07150KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "150K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R28"; Footprint = "RESC0603(1608)_N"; UniqueID = "\TPLRHCSC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603JR-07150KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "150K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R30"; Footprint = "RESC0603(1608)_N"; UniqueID = "\TSLDDDSK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603JR-07150KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "150K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R33"; Footprint = "RESC0603(1608)_N"; UniqueID = "\CHHUPTNV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603JR-07150KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "150K"; VariantName = "[No Variations]"
+Added Component: Designator=CAN?(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=PWMA(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=PWMC(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=PWME(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=PWMF(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=PWMP(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=CAN_H Pin=CAN?-1
+Added Pin To Net: NetName=CAN_L Pin=CAN?-2
+Added Pin To Net: NetName=GND Pin=CAN?-3
+Added Pin To Net: NetName=NetM-A_1 Pin=PWMA-1
+Added Pin To Net: NetName=NetM-C_1 Pin=PWMC-1
+Added Pin To Net: NetName=NetM-E_1 Pin=PWME-1
+Added Pin To Net: NetName=NetM-F_3 Pin=PWMF-1
+Added Pin To Net: NetName=NetM-P_3 Pin=PWMP-1
+Change Net Name : Old Net Name=NetJ2_1 New Net Name=NetJ1_1
+Change Net Name : Old Net Name=NetR18_1 New Net Name=NetR17_1
+Change Net Name : Old Net Name=NetR19_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR27_1
+Change Net Name : Old Net Name=NetR29_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetR31_1 New Net Name=NetR33_1
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR29_1
+Change Net Name : Old Net Name=NetR33_2 New Net Name=NetR31_2
+Added Member To Class: ClassName=power Member=Component 3V3 TESTPOINT_SMD
+Added Member To Class: ClassName=connectors Member=Component CAN? PH TOP SMD
+Added Member To Class: ClassName=connectors Member=Component E-E PH TOP SMD
+Added Member To Class: ClassName=support Member=Component PWMA TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component PWMC TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component PWME TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component PWMF TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component PWMP TESTPOINT_LOOP
+Added Member To Class: ClassName=connectors Member=Component TEMP PH TOP SMD

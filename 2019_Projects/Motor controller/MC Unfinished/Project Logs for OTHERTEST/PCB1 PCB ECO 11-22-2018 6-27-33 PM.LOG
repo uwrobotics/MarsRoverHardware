@@ -1,0 +1,586 @@
+Added Component: Designator=AVDD(TESTPAD_1.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "AVDD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=C1(CAP_0603_5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CAP_0.1UF_35V_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "OTHERTEST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GMK107B7104KAHT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CAP_0603_5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CAP_NONPOLARIZED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VOLTAGE"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CAP_0.1UF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GMK107B7104KAHT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "C2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CAP_0.1UF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VOLTAGE"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPPR-2/4h6.8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ATTR_1"; Value = "Electrolytic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://katalog.we-online.de/pbs/datasheet/860020672011.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CAP_22UF_POL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "OTHERTEST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Wurth Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "860020672011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "CAPPR-2/4h6.8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CAP_22UF_POL"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAP_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CAP_1UF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "CC0603ZRY5V7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "C4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CAP_1UF_0603"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAP_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CAP_0.1UF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "GMK107B7104KAHT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "C5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CAP_0.1UF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VOLTAGE"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAP_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CAP_1UF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "CC0603ZRY5V7BB105"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "C6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CAP_1UF_0603"; VariantName = "[No Variations]"
+Added Component: Designator=C8(CAP_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CAP_100NF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "CC0603KRX7R7BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "C8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CAP_100NF_0603"; VariantName = "[No Variations]"
+Added Component: Designator=D1(SOD-123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/BAS16GW.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "BAS16GW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "BAS16GW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "D1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "BAS16GW"; VariantName = "[No Variations]"
+Added Component: Designator=D2(RES_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "DIO_LED_G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "OSRAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "LG R971-KN-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "D2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "DIO_LED_G"; VariantName = "[No Variations]"
+Added Component: Designator=DIR(TESTPAD_1.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "DIR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=DVDD(TESTPAD_1.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "DVDD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=J1(HDRF-1x3T/2.54/8x3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CON_3M_TH_180"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "JST-B03B-PASK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "J1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CON_3M_TH_180"; VariantName = "[No Variations]"
+Added Component: Designator=J2(OSTYK51102030)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://www.on-shore.com/wp-content/uploads/2015/09/ostyk511xx030.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CON_2M_30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "On Shore Technology Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "OSTYK51102030"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "J2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CON_2M_30A"; VariantName = "[No Variations]"
+Added Component: Designator=J3(OSTYK51102030)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://www.on-shore.com/wp-content/uploads/2015/09/ostyk511xx030.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "CON_2M_30A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "On Shore Technology Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "OSTYK51102030"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "J3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "CON_2M_30A"; VariantName = "[No Variations]"
+Added Component: Designator=NSLEEP(TESTPAD_1.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "NSLEEP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=OSC(TESTPAD_1.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "OSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=PWM(TESTPAD_1.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "PWM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(SOT23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://www.mccsemi.com/up_pdf/MMBT3904(SOT-23).pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NPN_40V_100MA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Micro Commercial Co"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "MMBT3904-TP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NPN_40V_100MA"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(D2Pak_nexperia)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/BUK765R3-40E.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NMOS_40V_75A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "BUK768R1-40E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NMOS_40V_75A"; VariantName = "[No Variations]"
+Added Component: Designator=Q3(D2Pak_nexperia)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/BUK765R3-40E.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NMOS_40V_75A_3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "BUK768R1-40E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NMOS_40V_75A_3_0"; VariantName = "[No Variations]"
+Added Component: Designator=Q4(D2Pak_nexperia)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/BUK765R3-40E.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NMOS_40V_75A_4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "BUK768R1-40E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NMOS_40V_75A_4_0"; VariantName = "[No Variations]"
+Added Component: Designator=Q5(D2Pak_nexperia)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/BUK765R3-40E.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NMOS_40V_75A_3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "BUK768R1-40E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NMOS_40V_75A_3_0"; VariantName = "[No Variations]"
+Added Component: Designator=Q6(D2Pak_nexperia)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/BUK765R3-40E.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NMOS_40V_75A_4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "BUK768R1-40E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NMOS_40V_75A_4_0"; VariantName = "[No Variations]"
+Added Component: Designator=Q7(SOT23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ATTR_1"; Value = "Enhancement Mode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ATTR_2"; Value = "N-Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ATTR_3"; Value = "Single-Gate"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ATTR_4"; Value = "with Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/2N7002P.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NMOS_60V_360MA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "2N7002P,215"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NMOS_60V_360MA"; VariantName = "[No Variations]"
+Added Component: Designator=Q8(SOT23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ATTR_1"; Value = "Enhancement Mode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ATTR_2"; Value = "N-Channel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ATTR_3"; Value = "Single-Gate"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ATTR_4"; Value = "with Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://assets.nexperia.com/documents/data-sheet/2N7002P.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "NMOS_60V_360MA_16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "2N7002P,215"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Q8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "NMOS_60V_360MA_16_0"; VariantName = "[No Variations]"
+Added Component: Designator=R1(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://medhttp://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_43K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-0743KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_43K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R2(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_100R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_100R_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_698K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603FR-07698KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_698K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-0710KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-070RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-070RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_150K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-07150KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_150K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "RES_150K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RC0603JR-07150KL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "R11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "RES_150K_0603"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(PUSHBUTTON_RECTANGLE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ATTR_1"; Value = "Normally Open"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "PUSHBUTTON_TACTILE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "C&K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RS-282G05A3-SM RT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "SW1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "PUSHBUTTON_TACTILE"; VariantName = "[No Variations]"
+Added Component: Designator=SW2(PUSHBUTTON_RECTANGLE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ATTR_1"; Value = "Normally Open"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "PUSHBUTTON_TACTILE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "C&K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "RS-282G05A3-SM RT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "SW2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "PUSHBUTTON_TACTILE"; VariantName = "[No Variations]"
+Added Component: Designator=U1(QFN-24RV/4x4x0.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "DRV8701E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "DRV8701ERGET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "U1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "DRV8701E"; VariantName = "[No Variations]"
+Added Component: Designator=U2(SOT353)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "https://www.fairchildsemi.com/datasheets/NC/NC7SP86.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "XOR_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "NC7SV86P5XCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "U2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "XOR_1"; VariantName = "[No Variations]"
+Added Component: Designator=Vbat2(TESTPAD_1.5mm)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Vbat2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "TESTPOINT"; VariantName = "[No Variations]"
+Added Component: Designator=Y1(4_lead_CDFN3225)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DATASHEET"; Value = "http://ww1.microchip.com/downloads/en/DeviceDoc/20005625B.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "OSCILLATOR_2KHZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "PART_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "common"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANUFACTURER"; Value = "Microchip Technology"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MPN"; Value = "DSC6083CI2A-002K000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NAME"; Value = "Y1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "OSCILLATOR_2KHZ"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AVDD Pin=AVDD-1
+Added Pin To Net: NetName=AVDD Pin=C6-2
+Added Pin To Net: NetName=AVDD Pin=D2-1
+Added Pin To Net: NetName=AVDD Pin=R5-1
+Added Pin To Net: NetName=AVDD Pin=U1-7
+Added Net: Name=AVDD
+Added Pin To Net: NetName=DIR Pin=DIR-1
+Added Pin To Net: NetName=DIR Pin=J1-2
+Added Net: Name=DIR
+Added Pin To Net: NetName=DVDD Pin=C4-1
+Added Pin To Net: NetName=DVDD Pin=DVDD-1
+Added Pin To Net: NetName=DVDD Pin=R6-2
+Added Pin To Net: NetName=DVDD Pin=R7-2
+Added Pin To Net: NetName=DVDD Pin=SW1-2
+Added Pin To Net: NetName=DVDD Pin=SW2-2
+Added Pin To Net: NetName=DVDD Pin=U1-8
+Added Pin To Net: NetName=DVDD Pin=U2-5
+Added Net: Name=DVDD
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=Q5-3
+Added Pin To Net: NetName=GND Pin=Q6-3
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-16
+Added Pin To Net: NetName=GND Pin=U1-20
+Added Pin To Net: NetName=GND Pin=U1-21
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=Y1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=Net_0 Pin=R8-1
+Added Pin To Net: NetName=Net_0 Pin=Y1-1
+Added Net: Name=Net_0
+Added Pin To Net: NetName=Net_3 Pin=OSC-1
+Added Pin To Net: NetName=Net_3 Pin=R8-2
+Added Net: Name=Net_3
+Added Pin To Net: NetName=Net_4 Pin=Q4-1
+Added Pin To Net: NetName=Net_4 Pin=U1-24
+Added Net: Name=Net_4
+Added Pin To Net: NetName=Net_5 Pin=Q5-1
+Added Pin To Net: NetName=Net_5 Pin=U1-19
+Added Net: Name=Net_5
+Added Pin To Net: NetName=Net_6 Pin=Q6-1
+Added Pin To Net: NetName=Net_6 Pin=U1-22
+Added Net: Name=Net_6
+Added Pin To Net: NetName=Net_9 Pin=C1-1
+Added Pin To Net: NetName=Net_9 Pin=R2-1
+Added Pin To Net: NetName=Net_9 Pin=U1-2
+Added Net: Name=Net_9
+Added Pin To Net: NetName=Net_11 Pin=C5-2
+Added Pin To Net: NetName=Net_11 Pin=U1-3
+Added Net: Name=Net_11
+Added Pin To Net: NetName=Net_12 Pin=C5-1
+Added Pin To Net: NetName=Net_12 Pin=U1-4
+Added Net: Name=Net_12
+Added Pin To Net: NetName=Net_17 Pin=D2-2
+Added Pin To Net: NetName=Net_17 Pin=R3-2
+Added Net: Name=Net_17
+Added Pin To Net: NetName=Net_19 Pin=R9-1
+Added Pin To Net: NetName=Net_19 Pin=R10-1
+Added Pin To Net: NetName=Net_19 Pin=SW1-1
+Added Pin To Net: NetName=Net_19 Pin=U2-1
+Added Net: Name=Net_19
+Added Pin To Net: NetName=Net_22 Pin=R5-2
+Added Pin To Net: NetName=Net_22 Pin=U1-6
+Added Net: Name=Net_22
+Added Pin To Net: NetName=Net_24 Pin=R11-1
+Added Pin To Net: NetName=Net_24 Pin=SW2-1
+Added Pin To Net: NetName=Net_24 Pin=U2-2
+Added Net: Name=Net_24
+Added Pin To Net: NetName=Net_28 Pin=Q1-1
+Added Pin To Net: NetName=Net_28 Pin=R1-2
+Added Net: Name=Net_28
+Added Pin To Net: NetName=Net_29 Pin=D1-2
+Added Pin To Net: NetName=Net_29 Pin=Q1-2
+Added Net: Name=Net_29
+Added Pin To Net: NetName=Net_30 Pin=C1-2
+Added Pin To Net: NetName=Net_30 Pin=C2-1
+Added Pin To Net: NetName=Net_30 Pin=C3-2
+Added Pin To Net: NetName=Net_30 Pin=Q2-2
+Added Pin To Net: NetName=Net_30 Pin=Q3-2
+Added Pin To Net: NetName=Net_30 Pin=Q4-2
+Added Pin To Net: NetName=Net_30 Pin=R4-1
+Added Pin To Net: NetName=Net_30 Pin=U1-1
+Added Pin To Net: NetName=Net_30 Pin=Vbat2-1
+Added Net: Name=Net_30
+Added Pin To Net: NetName=Net_31 Pin=Q3-1
+Added Pin To Net: NetName=Net_31 Pin=U1-17
+Added Net: Name=Net_31
+Added Pin To Net: NetName=Net_32 Pin=Q1-3
+Added Pin To Net: NetName=Net_32 Pin=Q2-1
+Added Pin To Net: NetName=Net_32 Pin=R2-2
+Added Net: Name=Net_32
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC8_1 Pin=U2-4
+Added Pin To Net: NetName=NetC8_1 Pin=Y1-4
+Added Net: Name=NetC8_1
+Added Pin To Net: NetName=NetQ3_3 Pin=Q3-3
+Added Pin To Net: NetName=NetQ3_3 Pin=Q5-2
+Added Pin To Net: NetName=NetQ3_3 Pin=U1-18
+Added Net: Name=NetQ3_3
+Added Pin To Net: NetName=NetQ4_3 Pin=Q4-3
+Added Pin To Net: NetName=NetQ4_3 Pin=Q6-2
+Added Pin To Net: NetName=NetQ4_3 Pin=U1-23
+Added Net: Name=NetQ4_3
+Added Pin To Net: NetName=NetQ8_1 Pin=Q8-1
+Added Pin To Net: NetName=NetQ8_1 Pin=R9-2
+Added Net: Name=NetQ8_1
+Added Pin To Net: NetName=nFault Pin=R6-1
+Added Pin To Net: NetName=nFault Pin=U1-9
+Added Net: Name=nFault
+Added Pin To Net: NetName=nSleep Pin=NSLEEP-1
+Added Pin To Net: NetName=nSleep Pin=R4-2
+Added Pin To Net: NetName=nSleep Pin=U1-13
+Added Net: Name=nSleep
+Added Pin To Net: NetName=OffSheet Pin=U1-14
+Added Pin To Net: NetName=OffSheet Pin=U1-15
+Added Net: Name=OffSheet
+Added Pin To Net: NetName=PWM Pin=J1-3
+Added Pin To Net: NetName=PWM Pin=PWM-1
+Added Net: Name=PWM
+Added Pin To Net: NetName=SNSOUT Pin=R7-1
+Added Pin To Net: NetName=SNSOUT Pin=U1-10
+Added Net: Name=SNSOUT
+Added Pin To Net: NetName=Vbat Pin=D1-1
+Added Pin To Net: NetName=Vbat Pin=Q2-3
+Added Net: Name=Vbat
+Added Class: Name=OTHERTEST_0
+Added Class: Name=OTHERTEST_1
+Added Room: Name=OTHERTEST_0
+Added Room: Name=OTHERTEST_1

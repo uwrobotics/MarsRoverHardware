@@ -1,0 +1,31 @@
+Change Component DesignItemId : Designator=LS-C Old DesignItemId=CON_2M_PH_SIDE_SMT New DesignItemId=CON_2M_PH_TOP_SMT
+Change Component DesignItemId : Designator=LS-E-B Old DesignItemId=CON_2M_PH_SIDE_SMT New DesignItemId=CON_2M_PH_TOP_SMT
+Change Component DesignItemId : Designator=LS-E-T Old DesignItemId=CON_2M_PH_SIDE_SMT New DesignItemId=CON_2M_PH_TOP_SMT
+Change Component Footprint: Designator=LS-C Old Footprint=JST-S2B-SM4-TB New Footprint=JST-B2B-SM4-TB
+Change Component Footprint: Designator=LS-E-B Old Footprint=JST-S2B-SM4-TB New Footprint=JST-B2B-SM4-TB
+Change Component Footprint: Designator=LS-E-T Old Footprint=JST-S2B-SM4-TB New Footprint=JST-B2B-SM4-TB
+Change Component Comment : Designator=LS-C Old Comment=PH SIDE SMD New Comment=PH TOP SMD
+Change Component Comment : Designator=LS-E-B Old Comment=PH SIDE SMD New Comment=PH TOP SMD
+Change Component Comment : Designator=LS-E-T Old Comment=PH SIDE SMD New Comment=PH TOP SMD
+Change Component Description : Designator=LS-C Old Description=CONN HEADER PH SIDE 2POS 2MM SMD New Description=CONN HEADER PH TOP 2POS 2MM SMD
+Change Component Description : Designator=LS-E-B Old Description=CONN HEADER PH SIDE 2POS 2MM SMD New Description=CONN HEADER PH TOP 2POS 2MM SMD
+Change Component Description : Designator=LS-E-T Old Description=CONN HEADER PH SIDE 2POS 2MM SMD New Description=CONN HEADER PH TOP 2POS 2MM SMD
+Change component parameters: Designator = "LS-C"; Footprint = "JST-B2B-SM4-TB"; UniqueID = "\HHWHIHUR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "B2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LS-E-B"; Footprint = "JST-B2B-SM4-TB"; UniqueID = "\GVMBTHFR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "B2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Change component parameters: Designator = "LS-E-T"; Footprint = "JST-B2B-SM4-TB"; UniqueID = "\MFJTVFOO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "B2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=ph Member=Component C16 CAP_10uF_0603_POL

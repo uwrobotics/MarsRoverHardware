@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=J6-1
+Added Pin To Net: NetName=+3V3 Pin=J6-2
+Added Pin To Net: NetName=NetJ5_3 Pin=J6-3
+Added Pin To Net: NetName=NetJ5_4 Pin=J6-4

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetP1_3 Pin=UART_R-1
+Removed Pin From Net: NetName=NetP1_4 Pin=UART_RTS-1
+Removed Pin From Net: NetName=NetP1_2 Pin=UART_U-1
+Removed Member From Class: ClassName=support Member=UART_R
+Removed Member From Class: ClassName=support Member=UART_RTS
+Removed Member From Class: ClassName=support Member=UART_U
+Added Member To Class: ClassName=power Member=Component C14 CAP_10uF_1411_POL

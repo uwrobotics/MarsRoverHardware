@@ -1,0 +1,14 @@
+G04 DipTrace 3.2.0.0*
+G04 Science_board_v2_TopDimension.gbr*
+%MOMM*%
+G04 #@! TF.FileFunction,Drawing,Top*
+G04 #@! TF.Part,Single*
+%FSLAX35Y35*%
+G04*
+G71*
+G90*
+G75*
+G01*
+G04 TopDimension*
+%LPD*%
+M02*

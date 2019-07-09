@@ -1,0 +1,10 @@
+Change Component Designator: Old Designator=I2C New Designator=I1
+Change Component Designator: Old Designator=L1A New Designator=L2
+Change Component Designator: Old Designator=L1B New Designator=L4
+Change Component Designator: Old Designator=L2A New Designator=L1
+Change Component Designator: Old Designator=L2B New Designator=L3
+Change Component Designator: Old Designator=L3A New Designator=L5
+Change Component Designator: Old Designator=L3B New Designator=L6
+Change Component Designator: Old Designator=PWR3 New Designator=PWR1
+Change Component Designator: Old Designator=PWR5 New Designator=PWR2
+Change Component Designator: Old Designator=UART_SWD New Designator=UART_SWD1

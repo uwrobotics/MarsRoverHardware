@@ -1,0 +1,68 @@
+Removed Pin From Net: NetName=GND Pin=R11-1
+Removed Pin From Net: NetName=NetM3_1 Pin=R13-2
+Removed Member From Class: ClassName=Support Member=R11
+Added Component: Designator=C13(CAPC0603(1608)55_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CC0603KRX7R7BB104"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=C14(POLAR0.8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Electronics Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "860020672011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "22uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=D2(LED_0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Forward Voltage Drop"; Value = "2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LS R976-NR-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "RSComponents"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "497-4804"; VariantName = "[No Variations]"
+Added Component: Designator=R4(RESC0201(0603)_N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100R"; VariantName = "[No Variations]"
+Added Component: Designator=VR1(ONSC-DPAK-3-369AAB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Current Output"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "NCP1117DT33T5G"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=+5V0 Pin=C13-2
+Added Pin To Net: NetName=+3V3 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=+3V3 Pin=R4-2
+Added Pin To Net: NetName=NetM3_1 Pin=R12-2
+Added Pin To Net: NetName=NetM2_1 Pin=R13-2
+Added Pin To Net: NetName=LED_1 Pin=U2-8
+Added Pin To Net: NetName=LED_2 Pin=U2-9
+Added Pin To Net: NetName=LED_3 Pin=U2-10
+Added Pin To Net: NetName=LED_4 Pin=U2-11
+Added Pin To Net: NetName=BUTTON_1 Pin=U2-14
+Added Pin To Net: NetName=BUTTON_2 Pin=U2-15
+Added Pin To Net: NetName=NetER1_5 Pin=U2-23
+Added Pin To Net: NetName=NetER1_4 Pin=U2-24
+Added Pin To Net: NetName=NetER1_3 Pin=U2-25
+Added Pin To Net: NetName=NetER2_5 Pin=U2-26
+Added Pin To Net: NetName=NetER2_4 Pin=U2-27
+Added Pin To Net: NetName=NetER2_3 Pin=U2-28
+Added Pin To Net: NetName=NetE3_2 Pin=U2-43
+Added Pin To Net: NetName=+5V0 Pin=VR1-1
+Added Pin To Net: NetName=+3V3 Pin=VR1-3
+Change Net Name : Old Net Name=R\S\T\ New Net Name=NetC4_2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R4-1
+Added Net: Name=NetD2_1
+Added Class: Name=POWER

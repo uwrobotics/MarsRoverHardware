@@ -1,0 +1,46 @@
+Removed Pin From Net: NetName=NetD1_2 Pin=J1-1
+Removed Pin From Net: NetName=NetP1_2 Pin=J1-2
+Change Component Designator: OldDesignator=CAN1 NewDesignator=J4
+Change Component Designator: OldDesignator=CAN2 NewDesignator=J5
+Change Component Designator: OldDesignator=E1 NewDesignator=J10
+Change Component Designator: OldDesignator=E2 NewDesignator=J11
+Change Component Designator: OldDesignator=E3 NewDesignator=J15
+Change Component Designator: OldDesignator=ER1 NewDesignator=J7
+Change Component Designator: OldDesignator=ER2 NewDesignator=J18
+Change Component Designator: OldDesignator=I1 NewDesignator=J8
+Change Component Designator: OldDesignator=L1 NewDesignator=J9
+Change Component Designator: OldDesignator=L2 NewDesignator=J12
+Change Component Designator: OldDesignator=L3 NewDesignator=J13
+Change Component Designator: OldDesignator=L4 NewDesignator=J14
+Change Component Designator: OldDesignator=L5 NewDesignator=J17
+Change Component Designator: OldDesignator=L6 NewDesignator=J19
+Change Component Designator: OldDesignator=M1 NewDesignator=J2
+Change Component Designator: OldDesignator=M2 NewDesignator=J3
+Change Component Designator: OldDesignator=M3 NewDesignator=J6
+Change Component Designator: OldDesignator=PWR NewDesignator=J1
+Change Component Designator: OldDesignator=UART_SWD1 NewDesignator=J16
+Added Component: Designator=J?(HDR1X2)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetD1_2 Pin=J?-1
+Added Pin To Net: NetName=NetP1_2 Pin=J?-2
+Change Net Name : Old Net Name=NetP1_2 New Net Name=NetJ?_2
+Added Member To Class: ClassName=Connectors Member=Component J1 +5V0
+Added Member To Class: ClassName=Connectors Member=Component J2 PWM
+Added Member To Class: ClassName=Connectors Member=Component J3 PWM
+Added Member To Class: ClassName=Connectors Member=Component J4 CAN
+Added Member To Class: ClassName=Connectors Member=Component J5 CAN
+Added Member To Class: ClassName=Connectors Member=Component J6 PWM
+Added Member To Class: ClassName=Connectors Member=Component J7 ENCR
+Added Member To Class: ClassName=Connectors Member=Component J8 I2C
+Added Member To Class: ClassName=Connectors Member=Component J9 LIM_2A
+Added Member To Class: ClassName=Connectors Member=Component J10 ENC_TT
+Added Member To Class: ClassName=Connectors Member=Component J11 ENC_SH
+Added Member To Class: ClassName=Connectors Member=Component J12 LIM_1A
+Added Member To Class: ClassName=Connectors Member=Component J13 LIM_2B
+Added Member To Class: ClassName=Connectors Member=Component J14 LIM_1B
+Added Member To Class: ClassName=Connectors Member=Component J15 ENC_EL
+Added Member To Class: ClassName=Connectors Member=Component J16 HEADER 4X2
+Added Member To Class: ClassName=Connectors Member=Component J17 LIM_3A
+Added Member To Class: ClassName=Connectors Member=Component J18 ENCR
+Added Member To Class: ClassName=Connectors Member=Component J19 LIM_3B
+Added Member To Class: ClassName=CAN Member=Component J? JUMPER_2

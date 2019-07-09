@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=UART_SWD1 Old Footprint=HDR2X4_CEN New Footprint=HEADER_2X4
+Change Component Footprint: Designator=U2 Old Footprint=STM-LQFP64_M New Footprint=STM_LQFP64_N

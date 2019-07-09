@@ -1,0 +1,7 @@
+Replace Part 3V3 * in C:\Users\Xujia\Documents\Robotics 2019\MarsRover2019-PCB\Projects\Gimbal Board\Gimbal 2019\PCB_Project\sch\power.SchDoc with * from UWRT_Schematic_Library_2019.SchLib
+Replace Part C13 CAP_0.33uF_16V_0603 in C:\Users\Xujia\Documents\Robotics 2019\MarsRover2019-PCB\Projects\Gimbal Board\Gimbal 2019\PCB_Project\sch\power.SchDoc with CAP_0.33uF_16V_0603 from UWRT_Schematic_Library_2019.SchLib
+Replace Part C14 CAP_10uF_0603 in C:\Users\Xujia\Documents\Robotics 2019\MarsRover2019-PCB\Projects\Gimbal Board\Gimbal 2019\PCB_Project\sch\power.SchDoc with CAP_10uF_0603 from UWRT_Schematic_Library_2019.SchLib
+Replace Part D2 DIO_LED_R in C:\Users\Xujia\Documents\Robotics 2019\MarsRover2019-PCB\Projects\Gimbal Board\Gimbal 2019\PCB_Project\sch\power.SchDoc with DIO_LED_R from UWRT_Schematic_Library_2019.SchLib
+Replace Part R3 RES_100R_0603 in C:\Users\Xujia\Documents\Robotics 2019\MarsRover2019-PCB\Projects\Gimbal Board\Gimbal 2019\PCB_Project\sch\power.SchDoc with RES_100R_0603 from UWRT_Schematic_Library_2019.SchLib
+Replace Part TESTPOINT_5V * in C:\Users\Xujia\Documents\Robotics 2019\MarsRover2019-PCB\Projects\Gimbal Board\Gimbal 2019\PCB_Project\sch\power.SchDoc with * from UWRT_Schematic_Library_2019.SchLib
+Replace Part VR1 5V0_3V3_LDO in C:\Users\Xujia\Documents\Robotics 2019\MarsRover2019-PCB\Projects\Gimbal Board\Gimbal 2019\PCB_Project\sch\power.SchDoc with 5V0_3V3_LDO from UWRT_Schematic_Library_2019.SchLib

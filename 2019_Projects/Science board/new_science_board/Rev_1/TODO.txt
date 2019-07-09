@@ -1,0 +1,9 @@
+Chat with Florence, 22/11
+General comments:
+
+
+Encoders use 5V power 
+
+
+Consider some extra I2C connectors just in case
+

@@ -1,0 +1,23 @@
+Change Component Footprint: Designator=D2 Old Footprint=LED_0805_LINE New Footprint=LED_0805
+Change Component Footprint: Designator=D3 Old Footprint=LED_0805_LINE New Footprint=LED_0805
+Change Component Footprint: Designator=D4 Old Footprint=LED_0805_LINE New Footprint=LED_0805
+Change Component Footprint: Designator=D5 Old Footprint=LED_0805_LINE New Footprint=LED_0805
+Change Component Footprint: Designator=D6 Old Footprint=LED_0805_LINE New Footprint=LED_0805
+Change Component Comment : Designator=I1 Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L1 Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L2 Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L3 Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L4 Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L5 Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L6 Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=PWR Old Comment=PH TOP SMD New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=CAN1 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=CAN2 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=E1 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=E2 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=E3 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=M1 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=M2 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=M3 Old Comment=PH TOP SMD New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=ER1 Old Comment=PH TOP SMD New Comment=CON_5M_PH_TOP_SMT
+Change Component Comment : Designator=ER2 Old Comment=PH TOP SMD New Comment=CON_5M_PH_TOP_SMT

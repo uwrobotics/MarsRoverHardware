@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=* NewDesignator=H1
+Change Component Designator: OldDesignator=* NewDesignator=H2
+Change Component Designator: OldDesignator=* NewDesignator=H3
+Change Component Designator: OldDesignator=* NewDesignator=H4
+Added Member To Class: ClassName=MCU Member=Component H1 MOUNTING_HOLES
+Added Member To Class: ClassName=MCU Member=Component H2 MOUNTING_HOLES
+Added Member To Class: ClassName=MCU Member=Component H4 MOUNTING_HOLES

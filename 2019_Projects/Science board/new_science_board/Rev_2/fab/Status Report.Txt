@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [science_board_proj_rev_2.PrjPcb]
+   Generated File[Bill of Materials-science_board_proj_rev_2.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 00:10:26 On 2019-03-29

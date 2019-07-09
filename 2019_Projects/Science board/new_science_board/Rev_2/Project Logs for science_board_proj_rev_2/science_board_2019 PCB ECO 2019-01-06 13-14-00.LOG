@@ -1,0 +1,28 @@
+Added Component: Designator=R10(3362P-1-502LF)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Dimensions"; Value = "0.275" x 0.260" Face x 0.185" H (6.99mm x 6.60mm x 4.70mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number (MPN)"; Value = "3362P-1-502LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5K"; VariantName = "[No Variations]"
+Added Component: Designator=U3(CA3140AMZ)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U4(TL081BCDG4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Parameter 1"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U5(SOT23-6)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR9_1 Pin=R10-1
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetC20_1 Pin=R10-3
+Added Pin To Net: NetName=-5V Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=+5V Pin=U5-3
+Added Pin To Net: NetName=NetU5_4 Pin=U5-4
+Added Pin To Net: NetName=NetC24_1 Pin=U5-5
+Added Pin To Net: NetName=NetC24_2 Pin=U5-6
+Added Member To Class: ClassName=ph Member=Component R10 POT_5K
+Added Member To Class: ClassName=ph Member=Component U3 CA3140AMZ
+Added Member To Class: ClassName=ph Member=Component U4 TL081BCDG4
+Added Member To Class: ClassName=ph Member=Component U5 LM2776

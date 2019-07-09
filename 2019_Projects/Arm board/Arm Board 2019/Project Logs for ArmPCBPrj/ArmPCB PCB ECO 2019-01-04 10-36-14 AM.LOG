@@ -1,0 +1,282 @@
+Removed Member From Class: ClassName=Support Member=R15
+Removed Member From Class: ClassName=Support Member=R16
+Removed Member From Class: ClassName=Support Member=R17
+Change Component Designator: OldDesignator=? NewDesignator=1
+Change Component Designator: OldDesignator=C1 NewDesignator=C2
+Change Component Designator: OldDesignator=C2 NewDesignator=C3
+Change Component Designator: OldDesignator=C3 NewDesignator=C4
+Change Component Designator: OldDesignator=C4 NewDesignator=C5
+Change Component Designator: OldDesignator=C5 NewDesignator=C6
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C11
+Change Component Designator: OldDesignator=C11 NewDesignator=C12
+Change Component Designator: OldDesignator=C14 NewDesignator=C1
+Change Component Designator: OldDesignator=D2 NewDesignator=D3
+Change Component Designator: OldDesignator=D3 NewDesignator=D4
+Change Component Designator: OldDesignator=D4 NewDesignator=D5
+Change Component Designator: OldDesignator=D5 NewDesignator=D6
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R5
+Change Component Designator: OldDesignator=R3 NewDesignator=R6
+Change Component Designator: OldDesignator=R4 NewDesignator=R7
+Change Component Designator: OldDesignator=R5 NewDesignator=R8
+Change Component Designator: OldDesignator=R6 NewDesignator=R9
+Change Component Designator: OldDesignator=R7 NewDesignator=R10
+Change Component Designator: OldDesignator=R8 NewDesignator=R15
+Change Component Designator: OldDesignator=R9 NewDesignator=R16
+Change Component Designator: OldDesignator=R10 NewDesignator=R17
+Change Component Designator: OldDesignator=R11 NewDesignator=R19
+Change Component Designator: OldDesignator=R12 NewDesignator=R21
+Change Component Designator: OldDesignator=R13 NewDesignator=R23
+Change Component Designator: OldDesignator=R14 NewDesignator=R24
+Change Component Designator: OldDesignator=R15 NewDesignator=R11
+Change Component Designator: OldDesignator=R16 NewDesignator=R12
+Change Component Designator: OldDesignator=R17 NewDesignator=R13
+Change Component Designator: OldDesignator=R18 NewDesignator=R14
+Change Component Designator: OldDesignator=R19 NewDesignator=R20
+Change Component Designator: OldDesignator=R20 NewDesignator=R22
+Change Component Designator: OldDesignator=R21 NewDesignator=R2
+Change Component Designator: OldDesignator=R22 NewDesignator=R1
+Change Component Designator: OldDesignator=R23 NewDesignator=R18
+Change Component Designator: OldDesignator=TP? NewDesignator=TP1
+Change Component Designator: OldDesignator=TP? NewDesignator=TP2
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=UART_SWD NewDesignator=UART_SWD1
+Added Component: Designator=CAN1(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=CAN2(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=D1(AO3420-SOT23)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SC-70, SOT-323"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "PESD1CAN-UX"; VariantName = "[No Variations]"
+Added Component: Designator=E1(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=E2(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=E3(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=ER1(JST-B5B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B5B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=ER2(JST-B5B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B5B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=I1(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=L1(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=L2(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=L3(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=L4(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=L5(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=L6(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=M1(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=M2(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=M3(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=PWR1(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Component: Designator=PWR2(JST-B2B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "S2B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetCAN1_1 Pin=CAN1-1
+Added Pin To Net: NetName=GND Pin=CAN1-3
+Added Pin To Net: NetName=NetCAN1_1 Pin=CAN2-1
+Added Pin To Net: NetName=GND Pin=CAN2-3
+Added Pin To Net: NetName=NetCAN1_1 Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-3
+Added Pin To Net: NetName=VCC Pin=E1-1
+Added Pin To Net: NetName=NetE1_2 Pin=E1-2
+Added Pin To Net: NetName=GND Pin=E1-3
+Added Pin To Net: NetName=VCC Pin=E2-1
+Added Pin To Net: NetName=NetE2_2 Pin=E2-2
+Added Pin To Net: NetName=GND Pin=E2-3
+Added Pin To Net: NetName=VCC Pin=E3-1
+Added Pin To Net: NetName=NetE3_2 Pin=E3-2
+Added Pin To Net: NetName=GND Pin=E3-3
+Added Pin To Net: NetName=GND Pin=ER1-1
+Added Pin To Net: NetName=VCC Pin=ER1-2
+Added Pin To Net: NetName=NetER1_3 Pin=ER1-3
+Added Pin To Net: NetName=NetER1_4 Pin=ER1-4
+Added Pin To Net: NetName=NetER1_5 Pin=ER1-5
+Added Pin To Net: NetName=GND Pin=ER2-1
+Added Pin To Net: NetName=VCC Pin=ER2-2
+Added Pin To Net: NetName=NetER2_3 Pin=ER2-3
+Added Pin To Net: NetName=NetER2_4 Pin=ER2-4
+Added Pin To Net: NetName=NetER2_5 Pin=ER2-5
+Added Pin To Net: NetName=I2C_SDA Pin=I1-1
+Added Pin To Net: NetName=I2C_SCL Pin=I1-2
+Added Pin To Net: NetName=LIM_2A Pin=L1-1
+Added Pin To Net: NetName=GND Pin=L1-2
+Added Pin To Net: NetName=LIM_1A Pin=L2-1
+Added Pin To Net: NetName=GND Pin=L2-2
+Added Pin To Net: NetName=LIM_2B Pin=L3-1
+Added Pin To Net: NetName=GND Pin=L3-2
+Added Pin To Net: NetName=LIM_1B Pin=L4-1
+Added Pin To Net: NetName=GND Pin=L4-2
+Added Pin To Net: NetName=LIM_3A Pin=L5-1
+Added Pin To Net: NetName=GND Pin=L5-2
+Added Pin To Net: NetName=LIM_3B Pin=L6-1
+Added Pin To Net: NetName=GND Pin=L6-2
+Added Pin To Net: NetName=NetM1_1 Pin=M1-1
+Added Pin To Net: NetName=NetM1_2 Pin=M1-2
+Added Pin To Net: NetName=GND Pin=M1-3
+Added Pin To Net: NetName=NetM2_1 Pin=M2-1
+Added Pin To Net: NetName=NetM2_2 Pin=M2-2
+Added Pin To Net: NetName=GND Pin=M2-3
+Added Pin To Net: NetName=NetM3_1 Pin=M3-1
+Added Pin To Net: NetName=NetM3_2 Pin=M3-2
+Added Pin To Net: NetName=GND Pin=M3-3
+Added Pin To Net: NetName=+3V3 Pin=PWR1-1
+Added Pin To Net: NetName=GND Pin=PWR1-2
+Added Pin To Net: NetName=+5V0 Pin=PWR2-1
+Added Pin To Net: NetName=GND Pin=PWR2-2
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC2_2
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC3_2
+Change Net Name : Old Net Name=NetD2_1 New Net Name=NetD3_1
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD4_1
+Change Net Name : Old Net Name=NetD4_1 New Net Name=NetD5_1
+Change Net Name : Old Net Name=NetD5_1 New Net Name=NetD6_1
+Change Net Name : Old Net Name=NetR1_1 New Net Name=NetR3_1
+Change Net Name : Old Net Name=NetR15_2 New Net Name=NetR11_2
+Change Net Name : Old Net Name=NetR16_2 New Net Name=NetR12_2
+Change Net Name : Old Net Name=NetU1_8 New Net Name=NetU2_8
+Change Net Name : Old Net Name=NetU1_9 New Net Name=NetU2_9
+Change Net Name : Old Net Name=NetU1_10 New Net Name=NetU2_10
+Change Net Name : Old Net Name=NetU1_11 New Net Name=NetU2_11
+Change Net Name : Old Net Name=NetU1_14 New Net Name=NetU2_14
+Change Net Name : Old Net Name=NetU1_15 New Net Name=NetU2_15
+Change Net Name : Old Net Name=NetU1_23 New Net Name=NetU2_23
+Change Net Name : Old Net Name=NetU1_24 New Net Name=NetU2_24
+Change Net Name : Old Net Name=NetU1_25 New Net Name=NetU2_25
+Change Net Name : Old Net Name=NetU1_26 New Net Name=NetU2_26
+Change Net Name : Old Net Name=NetU1_27 New Net Name=NetU2_27
+Change Net Name : Old Net Name=NetU1_28 New Net Name=NetU2_28
+Change Net Name : Old Net Name=NetU1_43 New Net Name=NetU2_43
+Change Net Name : Old Net Name=NetU1_46 New Net Name=NetU2_46
+Change Net Name : Old Net Name=NetU1_49 New Net Name=NetU2_49
+Added Pin To Net: NetName=Net1_1 Pin=1-1
+Added Pin To Net: NetName=Net1_1 Pin=1-2
+Added Pin To Net: NetName=Net1_1 Pin=CAN1-2
+Added Pin To Net: NetName=Net1_1 Pin=CAN2-2
+Added Pin To Net: NetName=Net1_1 Pin=D1-2
+Added Pin To Net: NetName=Net1_1 Pin=R2-2
+Added Pin To Net: NetName=Net1_1 Pin=TP2-1
+Added Net: Name=Net1_1
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Net: Name=NetR1_1
+Added Pin To Net: NetName=NetU1_1 Pin=U2-62
+Added Net: Name=NetU1_1
+Added Pin To Net: NetName=NetU1_4 Pin=U2-61
+Added Net: Name=NetU1_4
+Added Member To Class: ClassName=Connectors Member=Component CAN1 CAN
+Added Member To Class: ClassName=Connectors Member=Component CAN2 CAN
+Added Member To Class: ClassName=CAN Member=Component D1 0
+Added Member To Class: ClassName=Connectors Member=Component E1 ENC_TT
+Added Member To Class: ClassName=Connectors Member=Component E2 ENC_SH
+Added Member To Class: ClassName=Connectors Member=Component E3 ENC_EL
+Added Member To Class: ClassName=Connectors Member=Component ER1 ENC_REL 1
+Added Member To Class: ClassName=Connectors Member=Component ER2 ENC REL 2
+Added Member To Class: ClassName=Connectors Member=Component I1 I2C
+Added Member To Class: ClassName=Connectors Member=Component L1 LIM_2A
+Added Member To Class: ClassName=Connectors Member=Component L2 LIM_1A
+Added Member To Class: ClassName=Connectors Member=Component L3 LIM_2B
+Added Member To Class: ClassName=Connectors Member=Component L4 LIM_1B
+Added Member To Class: ClassName=Connectors Member=Component L5 LIM_3A
+Added Member To Class: ClassName=Connectors Member=Component L6 LIM_3B
+Added Member To Class: ClassName=Connectors Member=Component M1 PWM_1
+Added Member To Class: ClassName=Connectors Member=Component M2 PWM_2
+Added Member To Class: ClassName=Connectors Member=Component M3 PWM_3
+Added Member To Class: ClassName=Connectors Member=Component PWR1 +3V3
+Added Member To Class: ClassName=Connectors Member=Component PWR2 +5V0
+Added Member To Class: ClassName=Support Member=Component R21 RES_100R_0603
+Added Member To Class: ClassName=Support Member=Component R22 RES_10K_0603
+Added Member To Class: ClassName=Support Member=Component R24 RES_100R_0603
+Added Member To Class: ClassName=CAN Member=Component TP1 CAN_H

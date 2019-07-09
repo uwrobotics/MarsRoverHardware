@@ -1,0 +1,77 @@
+Removed Pin From Net: NetName=+5V Pin=M-F-2
+Removed Pin From Net: NetName=GND Pin=M-F-3
+Removed Pin From Net: NetName=GND Pin=M-P1-3
+Removed Pin From Net: NetName=GND Pin=R23-1
+Removed Pin From Net: NetName=NetTP20_1 Pin=U2-29
+Removed Pin From Net: NetName=NetTP21_1 Pin=U2-30
+Removed Pin From Net: NetName=NetR3_1 Pin=U2-33
+Removed Member From Class: ClassName=connectors Member=M-F
+Removed Member From Class: ClassName=support Member=R33
+Change Component Footprint: Designator=D3 Old Footprint=LED_0805 New Footprint=LED_0805_LINE
+Change Component Footprint: Designator=D4 Old Footprint=LED_0805 New Footprint=LED_0805_LINE
+Change Component Footprint: Designator=D5 Old Footprint=LED_0805 New Footprint=LED_0805_LINE
+Change Component Footprint: Designator=D6 Old Footprint=LED_0805 New Footprint=LED_0805_LINE
+Change Component Designator: OldDesignator=CAN NewDesignator=CAN1
+Change Component Designator: OldDesignator=E-C NewDesignator=E-C1
+Change Component Designator: OldDesignator=LS-C NewDesignator=LS-C1
+Change Component Designator: OldDesignator=LS-E-B NewDesignator=LS-E-B1
+Change Component Designator: OldDesignator=LS-ET NewDesignator=LS-ET1
+Change Component Designator: OldDesignator=M-P1 NewDesignator=M-S1
+Change Component Designator: OldDesignator=MOIST NewDesignator=MOIST1
+Change Component Designator: OldDesignator=P NewDesignator=P1
+Change Component Designator: OldDesignator=PH NewDesignator=TP19
+Change Component Designator: OldDesignator=R24 NewDesignator=R23
+Change Component Designator: OldDesignator=R25 NewDesignator=R24
+Change Component Designator: OldDesignator=R26 NewDesignator=R25
+Change Component Designator: OldDesignator=R27 NewDesignator=R26
+Change Component Designator: OldDesignator=R28 NewDesignator=R27
+Change Component Designator: OldDesignator=R29 NewDesignator=R28
+Change Component Designator: OldDesignator=R30 NewDesignator=R29
+Change Component Designator: OldDesignator=R31 NewDesignator=R30
+Change Component Designator: OldDesignator=R32 NewDesignator=R31
+Change Component Designator: OldDesignator=R33 NewDesignator=R32
+Change Component Designator: OldDesignator=RGB NewDesignator=RGB1
+Change Component Designator: OldDesignator=TEMP NewDesignator=TEMP1
+Change Component Designator: OldDesignator=ULTRA NewDesignator=ULTRA1
+Added Component: Designator=MH1(MOUNTING_HOLE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MH2(MOUNTING_HOLE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MH3(MOUNTING_HOLE)
+Add component. Clean all parameters for all variants
+Added Component: Designator=MH4(MOUNTING_HOLE)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=M-S1-1
+Added Pin To Net: NetName=NetTP20_1 Pin=U2-42
+Added Pin To Net: NetName=NetTP21_1 Pin=U2-43
+Added Pin To Net: NetName=NetR3_1 Pin=U2-50
+Change Net Name : Old Net Name=CAN_N New Net Name=CAN_L
+Change Net Name : Old Net Name=CAN_P New Net Name=CAN_H
+Change Net Name : Old Net Name=NetE-C_1 New Net Name=NetE-C1_1
+Change Net Name : Old Net Name=NetE-C_2 New Net Name=NetE-C1_2
+Change Net Name : Old Net Name=NetE-C_3 New Net Name=NetE-C1_3
+Change Net Name : Old Net Name=NetLS-C_1 New Net Name=NetLS-C1_1
+Change Net Name : Old Net Name=NetLS-E-B_1 New Net Name=NetLS-E-B1_1
+Change Net Name : Old Net Name=NetLS-ET_1 New Net Name=NetLS-ET1_1
+Change Net Name : Old Net Name=NetMOIST_1 New Net Name=NetMOIST1_1
+Change Net Name : Old Net Name=NetMOIST_2 New Net Name=NetMOIST1_2
+Change Net Name : Old Net Name=NetP_2 New Net Name=NetP1_2
+Change Net Name : Old Net Name=NetP_3 New Net Name=NetP1_3
+Change Net Name : Old Net Name=NetP_4 New Net Name=NetP1_4
+Change Net Name : Old Net Name=NetP_6 New Net Name=NetP1_6
+Change Net Name : Old Net Name=NetP_7 New Net Name=NetP1_7
+Change Net Name : Old Net Name=NetPH_1 New Net Name=NetR10_2
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR27_1
+Change Net Name : Old Net Name=NetR29_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetR30_1 New Net Name=NetR29_1
+Change Net Name : Old Net Name=NetR31_1 New Net Name=NetR30_1
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR31_1
+Change Net Name : Old Net Name=NetR33_2 New Net Name=NetR32_2
+Added Pin To Net: NetName=NetM-S1_3 Pin=M-S1-3
+Added Pin To Net: NetName=NetM-S1_3 Pin=R22-2
+Added Pin To Net: NetName=NetM-S1_3 Pin=U2-40
+Added Net: Name=NetM-S1_3
+Added Member To Class: ClassName=support Member=Component MH1 MOUNTING_HOLES
+Added Member To Class: ClassName=support Member=Component MH2 MOUNTING_HOLES
+Added Member To Class: ClassName=support Member=Component MH3 MOUNTING_HOLES
+Added Member To Class: ClassName=support Member=Component MH4 MOUNTING_HOLES

@@ -1,0 +1,85 @@
+Added Component: Designator=TP5(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP6(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP7(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP8(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP10(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP11(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP12(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP13(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP14(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP15(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP16(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP17(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP18(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP19(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP20(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP21(TESTPOINT_LOOP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetE-C_1 Pin=TP5-1
+Added Pin To Net: NetName=NetE-C_2 Pin=TP6-1
+Added Pin To Net: NetName=NetR19_1 Pin=TP7-1
+Added Pin To Net: NetName=NetR18_1 Pin=TP8-1
+Added Pin To Net: NetName=NetE-C_3 Pin=TP9-1
+Added Pin To Net: NetName=NetP1_4 Pin=TP10-1
+Added Pin To Net: NetName=NetP1_2 Pin=TP11-1
+Added Pin To Net: NetName=NetP1_3 Pin=TP12-1
+Added Pin To Net: NetName=NetE-E_1 Pin=TP13-1
+Added Pin To Net: NetName=NetE-E_2 Pin=TP14-1
+Added Pin To Net: NetName=NetE-E_3 Pin=TP15-1
+Added Pin To Net: NetName=NetR3_1 Pin=TP16-1
+Added Pin To Net: NetName=NetMOIST_1 Pin=TP17-1
+Added Pin To Net: NetName=NetMOIST_2 Pin=TP18-1
+Added Pin To Net: NetName=NetR10_2 Pin=TP19-1
+Added Pin To Net: NetName=NetTP20_1 Pin=TP20-1
+Added Pin To Net: NetName=NetTP21_1 Pin=TP21-1
+Added Member To Class: ClassName=support Member=Component TP5 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP6 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP7 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP8 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP9 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP10 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP11 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP12 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP13 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP14 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP15 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP16 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP17 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP18 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP19 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP20 TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component TP21 TESTPOINT_LOOP

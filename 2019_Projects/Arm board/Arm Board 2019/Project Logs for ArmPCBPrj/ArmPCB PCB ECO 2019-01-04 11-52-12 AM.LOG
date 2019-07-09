@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=Net1_1 Pin=1-2
+Removed Pin From Net: NetName=Net1_1 Pin=R2-2
+Change Component Footprint: Designator=C14 Old Footprint=POLAR0.8 New Footprint=CAPR-2/4h6.8
+Change component parameters: Designator = "D2"; Footprint = "LED_0805"; UniqueID = "\QAWHWYQW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LS R976-NR-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3"; Footprint = "LED_0805"; UniqueID = "\JVJRNPRR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LY R976-PS-36"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4"; Footprint = "LED_0805"; UniqueID = "\XCCMYCXM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LG R971-KN-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D5"; Footprint = "LED_0805"; UniqueID = "\DAYAOMNY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LG R971-KN-1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D6"; Footprint = "LED_0805"; UniqueID = "\QHLTRTQC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Forward Voltage Drop"; Value = "2.2V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "OSRAM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0805 (2012 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "LG R971-KN-1"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=R2-2
+Added Net: Name=Net1_2

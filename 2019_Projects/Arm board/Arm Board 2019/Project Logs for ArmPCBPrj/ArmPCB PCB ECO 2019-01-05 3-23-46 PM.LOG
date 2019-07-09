@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VCC Pin=UART_SWD1-1
+Change Net Name : Old Net Name=VCC New Net Name=5V0
+Added Pin To Net: NetName=3V3 Pin=UART_SWD1-1
+Added Net: Name=3V3

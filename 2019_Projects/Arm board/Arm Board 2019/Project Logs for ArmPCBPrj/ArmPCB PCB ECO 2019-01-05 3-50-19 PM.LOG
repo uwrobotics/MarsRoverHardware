@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=+5V0 Pin=VR1-1
+Removed Pin From Net: NetName=+3V3 Pin=VR1-3
+Change Component Comment : Designator=CAN1 Old Comment=CAN1 New Comment=PH TOP SMD
+Change Component Comment : Designator=CAN2 Old Comment=CAN2 New Comment=PH TOP SMD
+Change Component Comment : Designator=E1 Old Comment=ENC1 New Comment=PH TOP SMD
+Change Component Comment : Designator=E2 Old Comment=ENC2 New Comment=PH TOP SMD
+Change Component Comment : Designator=E3 Old Comment=ENC3 New Comment=PH TOP SMD
+Change Component Comment : Designator=ER1 Old Comment=ENCREL1 New Comment=PH TOP SMD
+Change Component Comment : Designator=ER2 Old Comment=ENCREL2 New Comment=PH TOP SMD
+Change Component Comment : Designator=I1 Old Comment=I2C New Comment=PH TOP SMD
+Change Component Comment : Designator=L2 Old Comment=LIM1A New Comment=PH TOP SMD
+Change Component Comment : Designator=L4 Old Comment=LIM1B New Comment=PH TOP SMD
+Change Component Comment : Designator=L1 Old Comment=LIM2A New Comment=PH TOP SMD
+Change Component Comment : Designator=L3 Old Comment=LIM2B New Comment=PH TOP SMD
+Change Component Comment : Designator=L5 Old Comment=LIM3A New Comment=PH TOP SMD
+Change Component Comment : Designator=L6 Old Comment=LIM3B New Comment=PH TOP SMD
+Change Component Comment : Designator=M1 Old Comment=MOTOR1 New Comment=PH TOP SMD
+Change Component Comment : Designator=M2 Old Comment=MOTOR2 New Comment=PH TOP SMD
+Change Component Comment : Designator=M3 Old Comment=MOTOR3 New Comment=PH TOP SMD
+Change Component Comment : Designator=PWR Old Comment=POWER New Comment=PH TOP SMD
+Change Component Comment : Designator=UART_SWD1 Old Comment=UART_SWD New Comment=HEADER 4X2
+Added Pin To Net: NetName=GND Pin=VR1-1
+Added Pin To Net: NetName=+5V0 Pin=VR1-3

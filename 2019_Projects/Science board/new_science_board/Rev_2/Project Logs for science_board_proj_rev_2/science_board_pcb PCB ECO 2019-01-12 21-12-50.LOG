@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=NetTP20_1 Pin=U2-42
+Removed Pin From Net: NetName=NetTP21_1 Pin=U2-43
+Added Component: Designator=M-F(JST-B3B-SM4-TB)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "B3B-PH-SM4-TB"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=M-F-1
+Added Pin To Net: NetName=+5V Pin=M-F-2
+Added Pin To Net: NetName=NetTP20_1 Pin=U2-29
+Added Pin To Net: NetName=NetTP21_1 Pin=U2-30
+Added Pin To Net: NetName=NetM-F_3 Pin=M-F-3
+Added Pin To Net: NetName=NetM-F_3 Pin=U2-42
+Added Net: Name=NetM-F_3
+Added Member To Class: ClassName=support Member=Component D6 DIO_LED_G
+Added Member To Class: ClassName=connectors Member=Component M-F PH TOP SMD
+Added Member To Class: ClassName=connectors Member=Component M-S1 PH TOP SMD
+Added Member To Class: ClassName=support Member=Component R27 RES_100R_0603
+Added Member To Class: ClassName=support Member=Component R28 RES_100R_0603
+Added Member To Class: ClassName=support Member=Component R29 RES_100R_0603
+Added Member To Class: ClassName=support Member=Component R31 RES_100R_0603
+Added Member To Class: ClassName=support Member=Component S2 SW_TACTILE
+Added Member To Class: ClassName=support Member=Component S3 SW_TACTILE

@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=LIM_3A Pin=L1-1
+Removed Pin From Net: NetName=LIM_2A Pin=L3-1
+Removed Pin From Net: NetName=LIM_3B Pin=L5-1
+Removed Pin From Net: NetName=LIM_2B Pin=L6-1
+Change Component Comment : Designator=PWR Old Comment=+5V0 New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=CAN1 Old Comment=CAN New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=CAN2 Old Comment=CAN New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=E3 Old Comment=ENC_EL New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=ER1 Old Comment=ENC_REL New Comment=CON_5M_PH_TOP_SMT
+Change Component Comment : Designator=ER2 Old Comment=ENC_REL New Comment=CON_5M_PH_TOP_SMT
+Change Component Comment : Designator=E2 Old Comment=ENC_SH New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=E1 Old Comment=ENC_TT New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=I1 Old Comment=I2C New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L2 Old Comment=LIM_1A New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L4 Old Comment=LIM_1B New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L3 Old Comment=LIM_2A New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L6 Old Comment=LIM_2B New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L1 Old Comment=LIM_3A New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=L5 Old Comment=LIM_3B New Comment=CON_2M_PH_TOP_SMT
+Change Component Comment : Designator=M1 Old Comment=PWM New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=M2 Old Comment=PWM New Comment=CON_3M_PH_TOP_SMT
+Change Component Comment : Designator=M3 Old Comment=PWM New Comment=CON_3M_PH_TOP_SMT
+Change component parameters: Designator = "D1"; Footprint = "TVS_DIODE_CAN"; UniqueID = "\LWNRYUTK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "1727-3891-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Nexperia USA Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MPN"; Value = "PESD2CAN,215"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SC-70, SOT-323"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=LIM_2A Pin=L1-1
+Added Pin To Net: NetName=LIM_2B Pin=L3-1
+Added Pin To Net: NetName=LIM_3A Pin=L5-1
+Added Pin To Net: NetName=LIM_3B Pin=L6-1
+Added Member To Class: ClassName=POWER Member=Component C13 CAP_0.33uF_16V_0603
+Added Member To Class: ClassName=POWER Member=Component C14 CAP_10uF_0603_POL

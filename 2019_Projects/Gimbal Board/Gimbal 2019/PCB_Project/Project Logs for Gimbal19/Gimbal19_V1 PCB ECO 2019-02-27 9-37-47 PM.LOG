@@ -1,0 +1,15 @@
+Change Component Designator: OldDesignator= NewDesignator=UART_RTS
+Change Component Designator: OldDesignator= NewDesignator=UART_RX
+Change Component Designator: OldDesignator= NewDesignator=UART_TX
+Change Component Designator: OldDesignator=CANH NewDesignator=CANH1
+Change Component Designator: OldDesignator=CANL NewDesignator=CANL1
+Change Component Designator: OldDesignator=CR NewDesignator=PWMCR
+Change Component Designator: OldDesignator=LS1 NewDesignator=LS-C1
+Change Component Designator: OldDesignator=LS2 NewDesignator=LS-C2
+Change Component Designator: OldDesignator=TH NewDesignator=PWMTH
+Change Component Designator: OldDesignator=TP_5V NewDesignator=TESTPOINT_5V
+Added Member To Class: ClassName=support Member=Component PWMCR TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component PWMTH TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component UART_RTS TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component UART_RX TESTPOINT_LOOP
+Added Member To Class: ClassName=support Member=Component UART_TX TESTPOINT_LOOP

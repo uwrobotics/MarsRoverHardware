@@ -1,0 +1,20 @@
+Change Component Comment : Designator=R6 Old Comment=RES_634K_0603 New Comment=RES_82K_0603
+Change Component Description : Designator=R6 Old Description=RES SMD 634K OHM 1% 1/10W 0603 New Description=RES SMD 82K OHM 1% 1/10W 0603
+Change component parameters: Designator = "R6"; Footprint = "RESC0603(1608)_N"; UniqueID = "\RLYKGNKO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-634KHRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603FR-07634KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "82K"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8"; Footprint = "RESC0603(1608)_N"; UniqueID = "\STNYVYJF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "311-261KHRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dimensions"; Value = "0.063" L x 0.031" W (1.60mm x 0.80mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number (MPN)"; Value = "RC0603FR-07261KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10.2K"; VariantName = "[No Variations]"
