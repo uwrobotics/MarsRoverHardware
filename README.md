@@ -1,4 +1,4 @@
-# MarsRover2019-PCB
+# MarsRover2020-PCB
 Contains schematics and PCB designs
 
 Conflict Resolution
