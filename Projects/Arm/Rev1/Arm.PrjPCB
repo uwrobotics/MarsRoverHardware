@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=OUBGRKMT
 
 [Document7]
 DocumentPath=BoardName.OutJob
@@ -333,7 +333,11 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
+<<<<<<< HEAD
 TargetPrinter=Microsoft Print to PDF
+=======
+TargetPrinter=HP Officejet 6600
+>>>>>>> f66f54c7b8d283f20fef83e1fe80ae6fb189e3a7
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
