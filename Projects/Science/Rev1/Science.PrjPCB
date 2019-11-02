@@ -72,6 +72,23 @@ GenerateClassCluster=0
 DocumentUniqueId=WUYBKWNW
 
 [Document3]
+DocumentPath=sch\Support.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CVNYLEUC
+
+[Document4]
 DocumentPath=sch\MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HQGBRUXS
 
-[Document4]
+[Document5]
 DocumentPath=sch\POWER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,23 +121,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ANKOHXUE
-
-[Document5]
-DocumentPath=sch\Support.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CVNYLEUC
 
 [Document6]
 DocumentPath=pcb\Template.PcbDoc
