@@ -140,7 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=OUBGRKMT
 
 [Document7]
-DocumentPath=BoardName.OutJob
+DocumentPath=Arm.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,28 +191,28 @@ GenerateClassCluster=0
 DocumentUniqueId=SPCGXPIL
 
 [Parameter1]
-Name=Address1
-Value=200 University Avenue
+Name=DrawnBy
+Value=Your Name
 
 [Parameter2]
-Name=Address2
-Value=Waterloo
+Name=BoardName
+Value=Arm
 
 [Parameter3]
-Name=Address3
-Value=Ontario
-
-[Parameter4]
 Name=Address4
 Value=Canada N2L 3G6
 
+[Parameter4]
+Name=Address3
+Value=Ontario
+
 [Parameter5]
-Name=BoardName
-Value=Your Board Name
+Name=Address2
+Value=Waterloo
 
 [Parameter6]
-Name=DrawnBy
-Value=Your Name
+Name=Address1
+Value=200 University Avenue
 
 [Configuration1]
 Name=Sources
@@ -223,6 +223,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -333,7 +336,11 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
+<<<<<<< HEAD
 TargetPrinter=Lexmark Universal v2
+=======
+TargetPrinter=Send To OneNote 2016
+>>>>>>> 089b360134e7df5b94182b3cf9b066e4f0bb6be7
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -819,6 +826,36 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
