@@ -15,15 +15,15 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [PublishSettings]
-OutputFilePath2=C:\Users\rndf_\Documents\Electronics\Portfoloio\.PDF
+OutputFilePath2=C:\Users\rndf_\Desktop\Altium_sch\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\rndf_\Documents\Electronics\Portfoloio\
+OutputBasePath2=C:\Users\rndf_\Desktop\Altium_sch\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=MCU.pdf
+OutputFileName2=Connectors1.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
@@ -121,7 +121,7 @@ PDFACompliance5=Disabled
 PDFVersion5=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\rndf_\Documents\Electronics\Portfoloio\.PDF
+RelativeOutputPath2=C:\Users\rndf_\Desktop\Altium_sch\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
@@ -158,9 +158,9 @@ OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
 OutputType1=Schematic Print
-OutputName1=Schematic Prints of MCU.SchDoc
+OutputName1=Schematic Prints of Connectors1.SchDoc
 OutputCategory1=Documentation
-OutputDocumentPath1=MCU.SchDoc
+OutputDocumentPath1=Connectors1.SchDoc
 OutputVariantName1=
 OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
