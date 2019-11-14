@@ -173,6 +173,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPCGXPIL
 
+[Document9]
+DocumentPath=pcb\PCB - Christopher.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SDWJEJBT
+
 [Parameter1]
 Name=Address1
 Value=200 University Avenue
