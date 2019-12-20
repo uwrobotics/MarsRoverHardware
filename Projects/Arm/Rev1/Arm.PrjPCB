@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CQYNJLMC
 
 [Document2]
-DocumentPath=sch\Connectors1.SchDoc
+DocumentPath=sch\Connectors.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WUYBKWNW
 
 [Document3]
-DocumentPath=sch\Connectors2.SchDoc
+DocumentPath=sch\SPI Connectors.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -406,7 +406,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Lexmark Universal v2
+TargetPrinter=HP Officejet 6600
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
