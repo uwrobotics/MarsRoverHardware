@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WUYBKWNW
 
 [Document3]
-DocumentPath=sch\SPI Connectors.SchDoc
+DocumentPath=sch\SPI Encoders.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -260,10 +260,10 @@ ConfigurationType=Source
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
-AutoOpenOutJob=-1
+AutoOpenOutJob=0
 
 [Generic_SmartPDFSettings]
-ProjectMode=0
+ProjectMode=-1
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
