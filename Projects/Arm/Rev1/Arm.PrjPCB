@@ -140,8 +140,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CVNYLEUC
 
 [Document7]
-<<<<<<< HEAD
-=======
 DocumentPath=pcb\Arm_V1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +157,6 @@ GenerateClassCluster=0
 DocumentUniqueId=OUBGRKMT
 
 [Document8]
->>>>>>> 7403ce6d78b98a9d86fb3616d7c973dc743dc9c2
 DocumentPath=Arm.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=..\..\..\Library\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPFTEXWW
 
-[Document9]
+[Document10]
 DocumentPath=..\..\..\Library\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPCGXPIL
 
-[Document10]
+[Document11]
 DocumentPath=sch\FSR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDEOHGTW
 
-[Document11]
+[Document12]
 DocumentPath=sch\Encoders.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
