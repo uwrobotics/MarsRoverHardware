@@ -27,7 +27,7 @@ OutputFileName2=Arm.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
-OpenOutput2=1
+OpenOutput2=0
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
@@ -122,7 +122,7 @@ PDFVersion5=Default
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\kyleh\Desktop\Works\UWRT\MarsRover2020-PCB\Projects\Arm\Rev1\.PDF
-OpenOutputs2=1
+OpenOutputs2=0
 RelativeOutputPath3=
 OpenOutputs3=1
 AddToProject3=1
