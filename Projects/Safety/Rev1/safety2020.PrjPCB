@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for safety2020
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -225,6 +225,10 @@ GenerateClassCluster=0
 DocumentUniqueId=MCRSPJVS
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for safety2020\Design Rule Check - Safety-Rev1.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for safety2020\Design Rule Check - Template.html
 DItemRevisionGUID=
 
@@ -299,7 +303,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for safety2020
 
 [OutputGroup1]
 Name=Netlist Outputs
