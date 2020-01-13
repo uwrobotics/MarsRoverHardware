@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\kyleh\Desktop\Works\UWRT\MarsRover2020-PCB\Projects\Arm\Rev1\pcb\Arm.PcbDoc
 Date     : 1/12/2020
-Time     : 8:19:29 PM
+Time     : 8:59:09 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -192,4 +192,4 @@ Waived Violations :20
 
 Violations Detected : 0
 Waived Violations : 138
-Time Elapsed        : 00:00:10
+Time Elapsed        : 00:00:13
