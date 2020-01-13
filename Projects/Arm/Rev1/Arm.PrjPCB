@@ -140,23 +140,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CVNYLEUC
 
 [Document7]
-DocumentPath=Arm.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
 DocumentPath=..\..\..\Library\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPFTEXWW
 
-[Document9]
+[Document8]
 DocumentPath=..\..\..\Library\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPCGXPIL
 
-[Document10]
+[Document9]
 DocumentPath=sch\FSR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GDEOHGTW
 
-[Document11]
+[Document10]
 DocumentPath=sch\Encoders.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SPNCHZBP
 
-[Document12]
+[Document11]
 DocumentPath=Arm.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=pcb\Arm.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +241,80 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OLRDTNJD
 
+[Document13]
+DocumentPath=Arm.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
+DocumentPath=fab/\NC Drill\Arm.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=fab/\Gerber\Arm.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=fab/\Gerber\Arm.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=fab/\Gerber\Arm.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=fab/\Gerber\Arm.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=fab/\Gerber\Arm.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=fab/\Gerber\Arm.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=fab/\Gerber\Arm.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=fab/\Gerber\Arm.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=fab/\Gerber\Arm.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=fab/\NC Drill\Arm.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=fab/\Gerber\Arm.REP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=fab/\Gerber\Arm.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=fab/\NC Drill\Arm.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Arm\Design Rule Check - Arm.html
 DItemRevisionGUID=
 

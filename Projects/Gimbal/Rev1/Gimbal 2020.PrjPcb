@@ -191,23 +191,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VVVHRGNL
 
 [Document10]
-DocumentPath=Gimbal 2020.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
 DocumentPath=Gimbal 2020 BOM.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,8 +207,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=..\..\..\Library\PadVia.PvLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=Gimbal.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -243,6 +243,62 @@ DocumentUniqueId=
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Gimbal 2020\Design Rule Check - gimbalPCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=fab/\NC Drill\gimbalPCB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=fab/\Gerber\gimbalPCB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=fab/\Gerber\gimbalPCB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=fab/\Gerber\gimbalPCB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=fab/\Gerber\gimbalPCB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=fab/\Gerber\gimbalPCB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=fab/\Gerber\gimbalPCB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=fab/\Gerber\gimbalPCB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=fab/\Gerber\gimbalPCB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=fab/\Gerber\gimbalPCB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=fab/\NC Drill\gimbalPCB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=fab/\Gerber\gimbalPCB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=fab/\Gerber\gimbalPCB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=fab/\NC Drill\gimbalPCB.TXT
 DItemRevisionGUID=
 
 [Configuration1]
