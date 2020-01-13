@@ -290,14 +290,10 @@ DocumentPath=fab/\NC Drill\gimbalPCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=fab/\Gerber\gimbalPCB.REP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
 DocumentPath=fab/\Gerber\gimbalPCB.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument15]
+[GeneratedDocument14]
 DocumentPath=fab/\NC Drill\gimbalPCB.TXT
 DItemRevisionGUID=
 
@@ -459,7 +455,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=NPI0647DF (HP LaserJet Professional P1102w)
+TargetPrinter=EPSON WF-3640 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
