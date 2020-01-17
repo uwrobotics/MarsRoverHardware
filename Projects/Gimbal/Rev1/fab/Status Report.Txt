@@ -1,12 +1,12 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [gimbalPCB.PcbDoc]
-   Generated File[gimbalPCB.TXT]
-   Generated File[gimbalPCB.LDP]
-   Generated File[gimbalPCB.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [gimbalPCB.PcbDoc]
+   Generated File[gimbalPCB.RUL]
+   Generated File[gimbalPCB.EXTREP]
+   Generated File[gimbalPCB.REP]
 
 
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 00:58:36 On 13/01/20
+Finished Output Generation At 16:44:33 On 16/01/20
