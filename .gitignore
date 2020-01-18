@@ -4,6 +4,8 @@
 *.PrjPCBStructure
 *.SchDocPreview
 *.PcbDocPreview
+*\__Previews
+*\History
 __Previews
 *.PrjPcbStructure
 *.Dat
