@@ -39,7 +39,7 @@ PrefsRevisionGUID=
 
 [Document1]
 DocumentPath=sch\CAN.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -56,7 +56,7 @@ DocumentUniqueId=CQYNJLMC
 
 [Document2]
 DocumentPath=sch\Connectors.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -73,7 +73,7 @@ DocumentUniqueId=WUYBKWNW
 
 [Document3]
 DocumentPath=sch\Support.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -90,7 +90,7 @@ DocumentUniqueId=CVNYLEUC
 
 [Document4]
 DocumentPath=sch\MCU.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
