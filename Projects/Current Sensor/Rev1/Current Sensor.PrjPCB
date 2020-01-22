@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=WUYBKWNW
 
 [Document2]
-DocumentPath=pcb\Template.PcbDoc
+DocumentPath=pcb\Current-Sensor-Rev1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -69,7 +69,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=OUBGRKMT
 
 [Document3]
 DocumentPath=BoardName.OutJob
@@ -103,7 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
 
 [Document5]
 DocumentPath=..\..\..\Library\UWRT_Schematic_Library_2020.SchLib
@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SPCGXPIL
 
 [Document6]
 DocumentPath=sch\CurrentSensor.SchDoc
