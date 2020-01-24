@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\lance\Desktop\MarsRover2020-PCB\Projects\Science\Rev1\pcb\Science-Rev1.PcbDoc
-Date     : 2020-01-24
-Time     : 1:40:56 PM
+PCB File : C:\Users\kyleh\Desktop\Works\UWRT\MarsRover2020-PCB\Projects\Science\Rev1\pcb\Science-Rev1.PcbDoc
+Date     : 1/24/2020
+Time     : 4:59:14 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -31,20 +31,13 @@ Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad Y1-1(1459.362mil,2052.693mil) on Top Layer And Pad Y1-4(1408.181mil,2052.693mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad Y1-2(1459.362mil,2119.622mil) on Top Layer And Pad Y1-3(1408.181mil,2119.622mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=6mil) (IsPad),(All)
 Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (8.195mil < 10mil) Between Text "J8" (2447.292mil,3629.99mil) on Top Overlay And Text "LIMIT SWITCH 4" (2749.636mil,3794mil) on Top Overlay Silk Text to Silk Clearance [8.195mil]
-   Violation between Silk To Silk Clearance Constraint: (8.563mil < 10mil) Between Text "RST" (2056.647mil,2415mil) on Top Overlay And Track (2025mil,2430mil)(2425mil,2430mil) on Top Overlay Silk Text to Silk Clearance [8.563mil]
-   Violation between Silk To Silk Clearance Constraint: (8.579mil < 10mil) Between Text "RX" (2165mil,2695mil) on Top Overlay And Track (2025mil,2630mil)(2425mil,2630mil) on Top Overlay Silk Text to Silk Clearance [8.579mil]
-   Violation between Silk To Silk Clearance Constraint: (8.579mil < 10mil) Between Text "TX" (2270mil,2695mil) on Top Overlay And Track (2025mil,2630mil)(2425mil,2630mil) on Top Overlay Silk Text to Silk Clearance [8.579mil]
-   Violation between Silk To Silk Clearance Constraint: (8.589mil < 10mil) Between Text "VCC" (2360mil,2725mil) on Top Overlay And Track (2025mil,2630mil)(2425mil,2630mil) on Top Overlay Silk Text to Silk Clearance [8.589mil]
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
@@ -55,7 +48,19 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad Y1-1(1459.362mil,2052.693mil) on Top Layer And Pad Y1-4(1408.181mil,2052.693mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]Waived by Kyle Hong at 1/24/2020 4:54:28 PMInternal issue
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad Y1-2(1459.362mil,2119.622mil) on Top Layer And Pad Y1-3(1408.181mil,2119.622mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]Waived by Kyle Hong at 1/24/2020 4:54:56 PMInternal issue
+Waived Violations :2
 
-Violations Detected : 7
-Waived Violations : 0
-Time Elapsed        : 00:00:02
+Waived Violations Of Rule : Silk to Silk (Clearance=10mil) (All),(All)
+   Waived Violation between Silk To Silk Clearance Constraint: (8.563mil < 10mil) Between Text "RST" (2056.647mil,2415mil) on Top Overlay And Track (2025mil,2430mil)(2425mil,2430mil) on Top Overlay Silk Text to Silk Clearance [8.563mil]Waived by Kyle Hong at 1/24/2020 4:58:47 PMInternal issue
+   Waived Violation between Silk To Silk Clearance Constraint: (8.579mil < 10mil) Between Text "RX" (2165mil,2695mil) on Top Overlay And Track (2025mil,2630mil)(2425mil,2630mil) on Top Overlay Silk Text to Silk Clearance [8.579mil]Waived by Kyle Hong at 1/24/2020 4:58:56 PMInternal issue
+   Waived Violation between Silk To Silk Clearance Constraint: (8.579mil < 10mil) Between Text "TX" (2270mil,2695mil) on Top Overlay And Track (2025mil,2630mil)(2425mil,2630mil) on Top Overlay Silk Text to Silk Clearance [8.579mil]Waived by Kyle Hong at 1/24/2020 4:59:00 PMInternal issue
+   Waived Violation between Silk To Silk Clearance Constraint: (8.589mil < 10mil) Between Text "VCC" (2360mil,2725mil) on Top Overlay And Track (2025mil,2630mil)(2425mil,2630mil) on Top Overlay Silk Text to Silk Clearance [8.589mil]Waived by Kyle Hong at 1/24/2020 4:59:05 PMInternal issue
+Waived Violations :4
+
+
+Violations Detected : 0
+Waived Violations : 6
+Time Elapsed        : 00:00:04
