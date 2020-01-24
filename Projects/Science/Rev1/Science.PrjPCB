@@ -207,10 +207,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SBKXBGAC
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Science\Design Rule Check - Science-Rev1.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Address1
 Value=200 University Avenue
