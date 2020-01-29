@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Current Sensor
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -140,28 +140,28 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=DrawnBy
-Value=Your Name
+Name=Address1
+Value=200 University Avenue
 
 [Parameter2]
-Name=BoardName
-Value=Your Board Name
-
-[Parameter3]
-Name=Address4
-Value=Canada N2L 3G6
-
-[Parameter4]
-Name=Address3
-Value=Ontario
-
-[Parameter5]
 Name=Address2
 Value=Waterloo
 
+[Parameter3]
+Name=Address3
+Value=Ontario
+
+[Parameter4]
+Name=Address4
+Value=Canada N2L 3G6
+
+[Parameter5]
+Name=BoardName
+Value=Your Board Name
+
 [Parameter6]
-Name=Address1
-Value=200 University Avenue
+Name=DrawnBy
+Value=Your Name
 
 [Configuration1]
 Name=Sources
@@ -210,7 +210,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for Current Sensor
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
