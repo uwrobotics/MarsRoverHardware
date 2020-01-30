@@ -1,88 +1,43 @@
-# Project Title
+# Science Board
 
-One Paragraph of project description goes here
+Describe function of board
 
-## Getting Started
+## Block Diagram
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+- insert picture of block diagram
 
-### Prerequisites
+## Actuators
 
-What things you need to install the software and how to install them
+### Motor Controllers
 
-```
-Give examples
-```
+* TBD
 
-### Installing
+### Servo
 
-A step by step series of examples that tell you how to get a development env running
+* [Feetech FS90](https://www.pololu.com/product/2818) - 9g analog servo
+* [Hitec HS-82MG](https://hitecrcd.com/products/servos/micro-and-mini-servos/analog-micro-and-mini-servos/hs-82mg/product) - Metal gear micro servo 
 
-Say what the step will be
+## Sensors
 
-```
-Give the example
-```
+* [DFRobot SHT20](https://wiki.dfrobot.com/SHT20_I2C_Temperature_%26_Humidity_Sensor__Waterproof_Probe__SKU__SEN0227) - I2C temperature & humidity sensor with waterproof probe
+* [Adafruit STEMMA Soil Sensor](https://www.adafruit.com/product/4026) - I2C capacitive moisture sensor
 
-And repeat
+## Images
 
-```
-until finished
-```
+- insert top view picture of PCB
 
-End with an example of getting some data out of the system or using it for a little demo
+## Designers
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+* **Christopher Arjune** - *MCU routing* - [ChristopherA057](https://github.com/ChristopherA057)
+* **Wolfgang Windholtz** - *Component placement* - [WolfgangWindholtz](https://github.com/WolfgangWindholtz)
+* **Kyle Hong** - *PCB design* - [Scotrus](https://github.com/Scotrus)
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Altium Designer](https://www.altium.com/) - The PCB design software used
+* [OSHStencils](https://www.oshstencils.com/) - The PCB stencil maker used
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Errata
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+* TBD

@@ -15,7 +15,7 @@ Describe function of board
 
 ### Servo
 
-* [SG90](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
+* [SG90](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf) - Micro servo motor
 
 
 ### Limit Switches
@@ -38,9 +38,9 @@ Describe function of board
 
 ## Designers
 
-* **Kyle Hong** - *Main PCB design* - [Scotrus](https://github.com/Scotrus)
-* **Princely Onaifo** - *MCU config and MCU routing* - [ABC](https://github.com/ABC)
-* **Noah Chapman** - *SPI encoder circuit* - [Nzyme](https://github.com/PurpleBooth)
+* **Kyle Hong** - *PCB design* - [Scotrus](https://github.com/Scotrus)
+* **Princely Onaifo** - *MCU config and routing* - [Princely-O](https://github.com/Princely-O)
+* **Noah Chapman** - *SPI encoder circuit* - [Nzyme](https://github.com/Nzyme)
 * **Ayesha Ebrahim** - *Force sensitive resistor circuit* - [a-ebrahim](https://github.com/a-ebrahim)
 
 
