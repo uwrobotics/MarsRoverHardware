@@ -1,6 +1,7 @@
 # Gimbal/Autonomy
 
-Describe function of board
+The Gimbal/Autonomy board is resonsible for both controlling the movement of the rover's camera gimbal
+and accommodating the ultrasonic sensors and LED matrix for autonomous operation.
 
 ## Block Diagram
 
