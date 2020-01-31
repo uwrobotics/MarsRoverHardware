@@ -35,9 +35,8 @@ Describe function of board
 * Ultrasonic Sensors (TBD)
 
 
-
 ## Images
-
+![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Gimbal/Rev1/Rev1%20Assembled%20Board.jpg)
 
 
 ## Designers
