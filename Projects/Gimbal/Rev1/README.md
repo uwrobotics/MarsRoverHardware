@@ -1,88 +1,62 @@
-# Project Title
+# Gimbal/Autonomy
 
-One Paragraph of project description goes here
+Describe function of board
 
-## Getting Started
+## Block Diagram
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
 
-What things you need to install the software and how to install them
+## Peripherals
 
-```
-Give examples
-```
 
-### Installing
+### LED Matrix
 
-A step by step series of examples that tell you how to get a development env running
+* 
 
-Say what the step will be
 
-```
-Give the example
-```
+### Servo Motors
 
-And repeat
+* [Hitec HSR-1425CR](https://www.servocity.com/hsr-1425cr-servoSS) - 5V Continuous Rotation Servo Motor
+* [Hitec HS-645](https://www.servocity.com/hs-645mg-servo) - 5V Standard Servo Motor
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Limit Switches
 
-## Running the tests
+* TBD
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
+### Encoders
 
-Explain what these tests test and why
+* TBD
 
-```
-Give an example
-```
 
-### And coding style tests
+## Sensors
 
-Explain what these tests test and why
+* Ultrasonic Sensors (TBD)
 
-```
-Give an example
-```
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
+## Images
+
+
+
+## Designers
+
+* **Aidan Gratton** - *PCB Design* - [a-gratton](https://github.com/a-gratton)
+* **Jing Hao Yao** - *Schematic Capture* - [Jing Hao Yao](https://github.com/JingHaoYao)
+* **Caitlyn Mei** - *Routing* - [caitlynxymei](https://github.com/caitlynxymei)
+
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Altium Designer](https://www.altium.com/) - The PCB design software used
+* [OSHStencils](https://www.oshstencils.com/) - The PCB stencil maker used
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+## Errata
 
-## Versioning
+* 5V level shifter bypass capacitor (C19) is not next to IC, it is currently beside the voltage regulator
+* SPI1_MISO should be level shifted
+* Team logo and designer names should be added to silkscreen
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
