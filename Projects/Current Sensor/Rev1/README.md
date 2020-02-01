@@ -1,6 +1,6 @@
 # Current Sensor Board
 
-Describe function of board
+The current sensor board is used to ensure the measured device is operating under optimal conditions and to detect erroneous behaviour to protect components.
 
 ## Current Sensor 
 
