@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Current Sensor
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -139,6 +139,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Current Sensor\Design Rule Check - Current-Sensor-Rev1.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Address1
 Value=200 University Avenue
@@ -210,7 +214,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Current Sensor
 
 [OutputGroup1]
 Name=Netlist Outputs
