@@ -4,7 +4,7 @@ Describe function of board
 
 ## Block Diagram
 
-- insert picture of block diagram
+![alt text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Arm/Rev1/ArmBlockDiagram.png)
 
 ## Peripherals
 
