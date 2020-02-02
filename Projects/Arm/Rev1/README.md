@@ -53,5 +53,5 @@ Describe function of board
 
 ## Errata
 
-* TBD
+* Configure and route two shoulder limit switches for Rev 2
 
