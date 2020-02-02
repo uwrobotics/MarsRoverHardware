@@ -1,6 +1,6 @@
 # Arm Board
 
-Describe function of board
+Arm board is responsible for the control of the rover's robotic arm and the end effector claw. Arm board's MCU, STM32F446VET7, interfaces with force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
 
 ## Block Diagram
 
