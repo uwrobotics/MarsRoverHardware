@@ -20,8 +20,8 @@ Describe function of board
 
 ### Limit Switches
 
-* [Twidec Short Hinge Roller Lever Arm Switch](https://www.amazon.ca/gp/product/B07NVDXGPS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-* [Cylewet Long Straight Hinge Lever Arm Switch](https://www.amazon.ca/gp/product/B07DGX5Q1Q/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+* [Twidec Limit Switch](https://www.amazon.ca/gp/product/B07NVDXGPS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - Short Hinge Roller Lever Arm Switch
+* [Cylewet Limit Switch](https://www.amazon.ca/gp/product/B07DGX5Q1Q/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - Long Straight Hinge Lever Arm Switch
 
 ### Force Sensitive Resistor
 
