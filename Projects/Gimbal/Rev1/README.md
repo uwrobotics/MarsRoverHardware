@@ -12,7 +12,7 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 
 ### LED Matrix
 
-* [NeoPixel WS2812](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) - Autonomy Signalling LEDs
+* [NeoPixel WS2812](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) - Intelligent RGB LED
 
 
 ### Servo Motors
