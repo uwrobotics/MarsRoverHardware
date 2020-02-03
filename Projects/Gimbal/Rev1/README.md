@@ -12,13 +12,13 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 
 ### LED Matrix
 
-* 
+* [NeoPixel WS2812](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) - Autonomy Signalling LEDs
 
 
 ### Servo Motors
 
-* [Hitec HSR-1425CR](https://www.servocity.com/hsr-1425cr-servo) - 5V Continuous Rotation Servo Motor
-* [Hitec HS-645](https://www.servocity.com/hs-645mg-servo) - 5V Standard Servo Motor
+* [Hitec HSR-1425CR](https://hitecrcd.com/products/servos/robotic-servos/hsr1425/product) - 5V Continuous Rotation Servo Motor
+* [Hitec HS-645](https://hitecrcd.com/products/servos/sport-servos/analog-sport-servos/hs-645mg/product) - 5V Standard Servo Motor
 
 
 ### Limit Switches
