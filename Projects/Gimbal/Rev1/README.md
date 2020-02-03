@@ -17,7 +17,7 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 
 ### Servo Motors
 
-* [Hitec HSR-1425CR](https://www.servocity.com/hsr-1425cr-servoSS) - 5V Continuous Rotation Servo Motor
+* [Hitec HSR-1425CR](https://www.servocity.com/hsr-1425cr-servo) - 5V Continuous Rotation Servo Motor
 * [Hitec HS-645](https://www.servocity.com/hs-645mg-servo) - 5V Standard Servo Motor
 
 
@@ -43,7 +43,7 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 ## Designers
 
 * **Aidan Gratton** - *PCB Design* - [a-gratton](https://github.com/a-gratton)
-* **Jing Hao Yao** - *Schematic Capture* - [Jing Hao Yao](https://github.com/JingHaoYao)
+* **Jing Hao Yao** - *Schematic Capture* - [JingHaoYao](https://github.com/JingHaoYao)
 * **Caitlyn Mei** - *Routing* - [caitlynxymei](https://github.com/caitlynxymei)
 
 
