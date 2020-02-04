@@ -21,14 +21,10 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 * [Hitec HS-645](https://hitecrcd.com/products/servos/sport-servos/analog-sport-servos/hs-645mg/product) - 5V Standard Servo Motor
 
 
-### Limit Switches
-
-* TBD
-
-
 ### Encoders
 
-* TBD
+* [US Digital MAE3](https://www.usdigital.com/products/encoders/absolute/magnetic/MAE3) - Absolute Encoder (PWM)
+* [Broadcom AEAT-6012](https://www.broadcom.com/products/motion-control-encoders/magnetic-encoders/aeat-6012-a06) - Absolute Encoder (SPI)
 
 
 ## Sensors
@@ -58,5 +54,5 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 * 5V level shifter bypass capacitor (C19) is not next to IC, it is currently beside the voltage regulator
 * SPI1_MISO should be level shifted
 * Team logo and designer names should be added to silkscreen
-
+* Need fusing for ultrasonic sensors
 
