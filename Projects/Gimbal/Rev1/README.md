@@ -33,7 +33,7 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 
 ## Sensors
 
-* Ultrasonic Sensors (TBD)
+* [JSN-SR04T V2.0](https://www.makerfabs.com/water-proof-ultrasonic-ranger-jsn-sr04t-v2.0.html) - Ultrasonic Sensors
 
 
 ## Images
