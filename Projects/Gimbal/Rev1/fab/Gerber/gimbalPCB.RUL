@@ -1,5 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\Adrianna\Documents\MarsRover2020-PCB\Projects\Gimbal\Rev1\pcb\gimbalPCB.PcbDoc
-RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=10.00
-RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=6.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00

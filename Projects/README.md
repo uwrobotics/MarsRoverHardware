@@ -7,3 +7,4 @@ Within each revision, the following structure should be observed:
 - pcb (folder containing your .PcbDoc)
 - fab (folder with BOM and Gerber files)
 - assy (folder containing assembly drawing and STEP file)
+- CubeMX (folder containing MCU pin configuration file)
