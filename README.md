@@ -7,7 +7,7 @@ Further descriptions and instructions for using each individual board are availa
 ## System Architecture
 
 
-##Conflict Resolution
+## Conflict Resolution
 If you're updating a library or any binary file, and git tells you there is a conflict, please follow the following steps to resolve it:
 1. Copy your local version somewhere else (ex. desktop).
 2. Undo your changes.
