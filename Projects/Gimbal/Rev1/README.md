@@ -52,7 +52,7 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 ## Errata
 
 * 5V level shifter bypass capacitor (C19) is not next to IC, it is currently beside the voltage regulator
-* SPI1_MISO should be level shifted
+* SPI1_MISO should be level shifted since MCU pins are not 5V tolerant
 * Team logo and designer names should be added to silkscreen
 * Need fusing for ultrasonic sensors
 

@@ -1,7 +1,13 @@
 # MarsRover2020-PCB
-Contains schematics and PCB designs
+Contains schematics and PCB designs made in [Altium Designer](https://www.altium.com/). 
 
-Conflict Resolution
+Further descriptions and instructions for using each individual board are available in the README in the relevant board's directory.
+
+
+## System Architecture
+
+
+##Conflict Resolution
 If you're updating a library or any binary file, and git tells you there is a conflict, please follow the following steps to resolve it:
 1. Copy your local version somewhere else (ex. desktop).
 2. Undo your changes.
@@ -11,7 +17,7 @@ If you're updating a library or any binary file, and git tells you there is a co
 
 If you made a lot of changes, or you suspect someone else is working on the same file as you at the same time, then you can check the change log on github.com, the app, or the terminal (git log) to see who made the most recent changes to the file.
 
-# Folder structure
+## Folder structure
 In the Projects folder, make a folder for your board. Under it should be folders for each revision. 
 Within each revision, the following structure should be observed:
 - Board.PrjPCB (The project file for your PCB)

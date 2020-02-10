@@ -1,6 +1,6 @@
 # Arm Board
 
-Arm board is responsible for the control of the rover's robotic arm and the end effector claw. Arm board's MCU, STM32F446VET7, interfaces with force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
+The arm board is responsible for the control of the rover's 6-DOF robotic arm. This PCB interfaces with a STM32F446VET7,  force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
 
 ## Block Diagram
 
@@ -54,4 +54,4 @@ Arm board is responsible for the control of the rover's robotic arm and the end 
 ## Errata
 
 * Configure and route two shoulder limit switches for Rev 2
-
+* Must level shift SPI enocder MISO signal since MCU pins are not 5V tolerant
