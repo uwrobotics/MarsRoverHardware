@@ -33,7 +33,7 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 
 
 ## Images
-![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Gimbal/Rev1/Rev1%20Assembled%20Board.jpg)
+![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Gimbal/Rev1/images/Rev1%20Assembled%20Board.jpg)
 
 
 ## Designers
