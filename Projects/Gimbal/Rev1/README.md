@@ -55,4 +55,5 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 * SPI1_MISO should be level shifted since MCU pins are not 5V tolerant
 * Team logo and designer names should be added to silkscreen
 * Need fusing for ultrasonic sensors
+* Silkscreen should be made 60mils
 
