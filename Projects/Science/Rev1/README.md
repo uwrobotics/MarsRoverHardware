@@ -1,10 +1,10 @@
 # Science Board
 
-Describe function of board
+The Science board is responsible for interfacing with the motors, servos, and sensors (temperature and moisture) used in the rover's science data collection mechanism.
 
 ## Block Diagram
 
-- insert picture of block diagram
+![Block Diagram](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Science/Rev1/images/Science_Block_Diagram.png)
 
 ## Actuators
 
@@ -12,7 +12,7 @@ Describe function of board
 
 * TBD
 
-### Servo
+### Servos
 
 * [Feetech FS90](https://www.pololu.com/product/2818) - 9g analog servo
 * [Hitec HS-82MG](https://hitecrcd.com/products/servos/micro-and-mini-servos/analog-micro-and-mini-servos/hs-82mg/product) - Metal gear micro servo 
