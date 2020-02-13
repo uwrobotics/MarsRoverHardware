@@ -1,6 +1,5 @@
 # Mars Rover 2020 Hardware Repository
 This repository contains:
-- Bringup code [[Bringup Firmware](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Bringup%20Firmware/GPIO%20Test)]
 - PCB design rules [[Design Rules](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Design%20Rules)]
 - Altium libraries [[Library](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Library)]
 - PCB designs [[Projects](https://github.com/uwrobotics/MarsRover2020-firmware/tree/alex/add-readme/misc)]
