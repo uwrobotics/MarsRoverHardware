@@ -4,7 +4,7 @@ The Gimbal/Autonomy board is resonsible for both controlling the movement of the
 and accommodating the ultrasonic sensors and LED matrix for autonomous operation.
 
 ## Block Diagram
-
+![Block Diagram](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Gimbal/Rev1/images/Block%20Diagram.PNG)
 
 
 ## Peripherals
@@ -33,8 +33,8 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 
 
 ## Images
+Assembled PCB:
 ![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Gimbal/Rev1/images/Rev1%20Assembled%20Board.jpg)
-
 
 ## Designers
 
