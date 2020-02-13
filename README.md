@@ -5,7 +5,7 @@ This repository contains:
 - Bringup code [[Bringup Firmware](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Bringup%20Firmware/GPIO%20Test)]
 - PCB design rules [[Design Rules](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Design%20Rules)]
 - Altium libraries [[Library](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Library)]
-- PCB designs [[misc](https://github.com/uwrobotics/MarsRover2020-firmware/tree/alex/add-readme/misc)]
+- PCB designs [[Projects](https://github.com/uwrobotics/MarsRover2020-firmware/tree/alex/add-readme/misc)]
 - Altium templates [[Templates](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Templates)]
 
 Further descriptions and instructions for using each individual board are available in the README in the relevant board's directory.
@@ -13,7 +13,7 @@ Further descriptions and instructions for using each individual board are availa
 ## UWRT Hardware Development Instructions
 
 1. Download [Diptrace](https://diptrace.com/download/download-diptrace/)
-2. Complete the 555 timer PCB tutorial in Diptrace(https://docs.google.com/document/d/1YiGjYYuB-FUKcaG-C9Ers9Dd0e59WRM9QEbI4RcCCmw/edit?usp=sharing)
+2. Complete the [555 timer PCB tutorial](https://docs.google.com/document/d/1YiGjYYuB-FUKcaG-C9Ers9Dd0e59WRM9QEbI4RcCCmw/edit?usp=sharing) in Diptrace
 3. Request Altium license from [aascalon](https://github.com/aascalon)
 4. Download [Altium Designer 19.1.9](https://www.altium.com/products/downloads/)
 5. Download [Saturn PCB Toolkit](http://www.saturnpcb.com/pcb_toolkit/)
