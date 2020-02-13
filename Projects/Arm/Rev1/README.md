@@ -1,6 +1,6 @@
 # Arm Board
 
-The arm board is responsible for the control of the rover's 6-DOF robotic arm. This PCB interfaces with force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
+The arm board is responsible for the control of the rover's 6-DOF robotic arm. The MCU onboard is the [STM32F446VET7](https://www.st.com/resource/en/datasheet/stm32f446re.pdf). This PCB interfaces with force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
 
 ## Block Diagram
 
