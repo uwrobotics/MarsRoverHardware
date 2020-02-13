@@ -37,7 +37,7 @@ The arm board is responsible for the control of the rover's 6-DOF robotic arm. T
 
 ![alt text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Arm/Rev1/Board_Topview.JPG)
 
-## Designers
+## Contributors
 
 * **Kyle Hong** - *PCB design* - [Scotrus](https://github.com/Scotrus)
 * **Princely Onaifo** - *MCU config and routing* - [Princely-O](https://github.com/Princely-O)
@@ -47,8 +47,9 @@ The arm board is responsible for the control of the rover's 6-DOF robotic arm. T
 
 ## Built With
 
-* [Altium Designer](https://www.altium.com/) - The PCB design software used
-* [OSHStencils](https://www.oshstencils.com/) - The PCB stencil maker used
+* [Altium Designer](https://www.altium.com/) - PCB design software used
+* [OSHStencils](https://www.oshstencils.com/) - PCB stencil maker used
+* [Candor Industries](https://www.candorind.com/) - PCB sponsor
 
 
 ## Errata
