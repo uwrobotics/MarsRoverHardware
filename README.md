@@ -15,9 +15,12 @@ Further descriptions and instructions for using each individual board are availa
 4. Download [Altium Designer 19.1.9](https://www.altium.com/products/downloads/)
 5. Download [Saturn PCB Toolkit](http://www.saturnpcb.com/pcb_toolkit/)
 6. Clone repository
-7. Read the wiki
+7. Read the [wiki](https://github.com/uwrobotics/MarsRover2020-PCB/wiki)
 
 ## Best Contribution Practices and Tips
+- Preface your commit message with the project name. For example "Arm: add TVS diode" or "Library: add 10K 0603 resistor"
+- When modifying the libraries, notify the #electrical-git Slack channel 
+- After creating a part in the library, request a review in the #electrical-part-review Slack channel
 
 ## Git Conflict Resolution
 If you're updating a library or any binary file, and git tells you there is a conflict, please follow the following steps to resolve it:
