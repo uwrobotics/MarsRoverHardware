@@ -1,6 +1,6 @@
 # Arm Board
 
-The arm board is responsible for the control of the rover's 6-DOF robotic arm. This PCB interfaces with a STM32F446VET7,  force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
+The arm board is responsible for the control of the rover's 6-DOF robotic arm. This PCB interfaces with force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
 
 ## Block Diagram
 
@@ -35,7 +35,7 @@ The arm board is responsible for the control of the rover's 6-DOF robotic arm. T
 
 ## Images
 
-![alt text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Arm/Rev1/Board3D.png)
+![alt text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Arm/Rev1/Board_Topview.JPG)
 
 ## Designers
 
