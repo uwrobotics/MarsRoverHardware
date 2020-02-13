@@ -15,6 +15,7 @@ Further descriptions and instructions for using each individual board are availa
 4. Download [Altium Designer 19.1.9](https://www.altium.com/products/downloads/)
 5. Download [Saturn PCB Toolkit](http://www.saturnpcb.com/pcb_toolkit/)
 6. Clone repository
+    - `git clone https://github.com/uwrobotics/MarsRover2020-PCB.git`
 7. Read the [wiki](https://github.com/uwrobotics/MarsRover2020-PCB/wiki)
 
 ## Best Contribution Practices and Tips
@@ -25,7 +26,8 @@ Further descriptions and instructions for using each individual board are availa
 ## Git Conflict Resolution
 If you're updating a library or any binary file, and git tells you there is a conflict, please follow the following steps to resolve it:
 1. Copy your local version somewhere else (ex. desktop)
-2. Undo your changes
+2. Reset your changes
+    - `git reset --hard`
 3. Pull all the changes from the repository, overwriting your local copy
 4. Make your changes in the updated version of the file
 5. Commit and push your changes
