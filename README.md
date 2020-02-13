@@ -1,7 +1,5 @@
 # Mars Rover 2020 Hardware Repository
 This repository contains:
-- Designs from previous years [[2019 Projects](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/2019%20Projects)]
-- Tutorial submissions [[555 Timer Tutorial](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/555%20Timer%20Tutorial)]
 - Bringup code [[Bringup Firmware](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Bringup%20Firmware/GPIO%20Test)]
 - PCB design rules [[Design Rules](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Design%20Rules)]
 - Altium libraries [[Library](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Library)]
