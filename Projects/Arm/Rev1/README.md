@@ -35,7 +35,7 @@ The arm board is responsible for the control of the rover's 6-DOF robotic arm. T
 
 ## Images
 
-- insert top view picture of PCB
+![alt text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Arm/Rev1/Board3D.png)
 
 ## Designers
 
