@@ -17,6 +17,11 @@ The Science board is responsible for interfacing with the motors, servos, and se
 * [Feetech FS90](https://www.pololu.com/product/2818) - 9g analog servo
 * [Hitec HS-82MG](https://hitecrcd.com/products/servos/micro-and-mini-servos/analog-micro-and-mini-servos/hs-82mg/product) - Metal gear micro servo 
 
+### Motors
+
+* [165 RPM Planetary Motor](https://www.servocity.com/165-rpm-hd-premium-planetary-gear-motor-w-encoder)
+* [195 RPM Planetary Motor](https://www.servocity.com/195-rpm-premium-planetary-gear-motor)
+
 ## Sensors
 
 * [DFRobot SHT20](https://wiki.dfrobot.com/SHT20_I2C_Temperature_%26_Humidity_Sensor__Waterproof_Probe__SKU__SEN0227) - I2C temperature & humidity sensor with waterproof probe
