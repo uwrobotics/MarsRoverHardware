@@ -29,7 +29,8 @@ The Science board is responsible for interfacing with the motors, servos, and se
 
 ## Images
 
-- insert top view picture of PCB
+Assembled PCB:
+![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Science/Rev1/images/Assembled_Science_Board_Rev1.jpg)
 
 ## Designers
 
