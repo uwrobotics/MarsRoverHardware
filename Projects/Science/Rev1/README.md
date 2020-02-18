@@ -1,6 +1,7 @@
 # Science Board
 
-The Science board is responsible for interfacing with the motors, servos, and sensors in the rover's science data collection mechanism.
+The Science board is responsible for interfacing with the motors, servos, and sensors in the rover's science data collection mechanism. The science module will perform on-board testing on collected soil and rock samples to determine if life is present.
+
 ![Science_Render](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Science/Rev1/images/Science_Render.jpg)
 
 ## Block Diagram
