@@ -36,6 +36,7 @@ Multilayer NTC Thermistors, Beta value (K) = 4601 to 4700
 
 * [Altium Designer](https://www.altium.com/) - The PCB design software used
 * [OSHStencils](https://www.oshstencils.com/) - The PCB stencil maker used
+* [PCBWay](https://www.pcbway.com/) - PCB Sponsor
 
 
 ## Errata
