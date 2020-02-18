@@ -43,7 +43,7 @@ Assembled PCB:
 
 * [Altium Designer](https://www.altium.com/) - The PCB design software used
 * [OSHStencils](https://www.oshstencils.com/) - The PCB stencil maker used
-
+* [JLCPCB](https://jlcpcb.com/) - PCB sponsor
 
 ## Errata
 
