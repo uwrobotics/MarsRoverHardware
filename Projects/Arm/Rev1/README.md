@@ -57,3 +57,4 @@ The arm board is responsible for the control of the rover's 6-DOF robotic arm. T
 
 * Configure and route two shoulder limit switches for Rev 2
 * Must level shift SPI encoder MISO signal since MCU pins are not 5V tolerant
+* Remove low pass filtering capacitor from encoder output
