@@ -19,7 +19,7 @@ Further descriptions and instructions for using each individual board are availa
 7. Read the [wiki](https://github.com/uwrobotics/MarsRover2020-PCB/wiki)
 
 ## Best Contribution Practices and Tips
-- Preface your commit message with the project name. For example "Arm: add TVS diode" or "Library: add 10K 0603 resistor"
+- Preface your commit message with the project name. For example "ARM: add TVS diode" or "LIBRARY: add 10K 0603 resistor"
 - When modifying the libraries, notify the #electrical-git Slack channel 
 - After creating a part in the library, request a review in the #electrical-part-review Slack channel
 
