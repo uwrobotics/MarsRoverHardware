@@ -2,7 +2,7 @@
 This repository contains:
 - PCB design rules [[Design Rules](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Design%20Rules)]
 - Altium libraries [[Library](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Library)]
-- PCB designs [[Projects](https://github.com/uwrobotics/MarsRover2020-firmware/tree/alex/add-readme/misc)]
+- PCB designs [[Projects](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Projects)]
 - Altium templates [[Templates](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Templates)]
 
 Further descriptions and instructions for using each individual board are available in the README in the relevant board's directory.
