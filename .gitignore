@@ -1,5 +1,3 @@
-# add gitignore info
-  
 # Various Altium files
 *.PrjPCBStructure
 *.SchDocPreview
@@ -16,9 +14,8 @@ __Previews
 *.htm
 *.$$$
 
-#useless dirs
+# Useless dirs
 Project\ Logs
-
 
 #History
 History
