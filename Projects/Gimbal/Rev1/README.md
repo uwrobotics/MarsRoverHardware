@@ -51,8 +51,7 @@ Assembled PCB:
 
 ## Errata
 
-* 5V level shifter bypass capacitor (C19) is not next to IC, it is currently beside the voltage regulator
-* SPI1_MISO should be level shifted since MCU pins are not 5V tolerant
+* 5V level shifter bypass capacitor (C19) is not close to IC, it is currently beside the voltage regulator (super far)
 * Team logo and designer names should be added to silkscreen
 * Need fusing for ultrasonic sensors
 * Silkscreen should be made 60mils
