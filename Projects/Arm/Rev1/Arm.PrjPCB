@@ -275,62 +275,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[GeneratedDocument1]
-DocumentPath=fab/\NC Drill\Arm.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=fab/\Gerber\Arm.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=fab/\Gerber\Arm.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=fab/\Gerber\Arm.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=fab/\Gerber\Arm.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=fab/\Gerber\Arm.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=fab/\Gerber\Arm.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=fab/\Gerber\Arm.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=fab/\Gerber\Arm.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=fab/\Gerber\Arm.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=fab/\NC Drill\Arm.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=fab/\Gerber\Arm.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=fab/\NC Drill\Arm.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Arm\Design Rule Check - Arm.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Address1
 Value=200 University Avenue
