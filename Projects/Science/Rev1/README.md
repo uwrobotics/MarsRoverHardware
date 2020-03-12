@@ -26,8 +26,7 @@ The Science board is responsible for interfacing with the motors, servos, and se
 
 ## Sensors
 
-* [DFRobot SHT20](https://wiki.dfrobot.com/SHT20_I2C_Temperature_%26_Humidity_Sensor__Waterproof_Probe__SKU__SEN0227) - I2C temperature & humidity sensor with waterproof probe
-* [Adafruit STEMMA Soil Sensor](https://www.adafruit.com/product/4026) - I2C capacitive moisture sensor
+* [Adafruit STEMMA Soil Sensor](https://www.adafruit.com/product/4026) - I2C capacitive moisture sensor and temperature sensor
 
 ## Images
 
