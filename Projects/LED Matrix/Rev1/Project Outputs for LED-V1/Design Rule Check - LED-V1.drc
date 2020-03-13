@@ -1,0 +1,71 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Shu Yan\Documents\GitHub\MarsRover2020-PCB\Projects\LED Matrix\rev1\LED-V1.PcbDoc
+Date     : 2020-03-12
+Time     : 10:13:23 PM
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=400mil) (Preferred=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=16mil) (Conductor Width=6mil) (Air Gap=6mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=7mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=13mil) (Max=265mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=6mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (5.573mil < 6mil) Between Arc (3011.654mil,675.197mil) on Top Overlay And Pad R19-1(2988.976mil,641.671mil) on Top Layer [Top Overlay] to [Top Solder] clearance [5.573mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (5.18mil < 6mil) Between Arc (3090.394mil,824.803mil) on Top Overlay And Pad R29-1(3071.653mil,791.67mil) on Top Layer [Top Overlay] to [Top Solder] clearance [5.18mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 6mil) Between Pad F1-2(2882.78mil,1077.78mil) on Top Layer And Text "F1" (2920mil,1120mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+Rule Violations :3
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (2421.28mil,1604.791mil)(2516.752mil,1509.318mil) on Bottom Layer 
+   Violation between Net Antennae: Track (2521.307mil,1360.685mil)(2521.307mil,1439.858mil) on Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (3 hole(s)) Top Layer 
+   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (4 hole(s)) Bottom Layer 
+   Violation between Board Outline Clearance(Outline Edge): (8.138mil < 15mil) Between Board Edge And Via (3865mil,1515mil) from Top Layer to Bottom Layer 
+Rule Violations :12
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 17
+Waived Violations : 0
+Time Elapsed        : 00:00:01
