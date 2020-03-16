@@ -103,7 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MRJRLXRN
 
 [Document5]
 DocumentPath=LED Matrix-2.SchDoc
@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=UXMXKZEU
 
 [Document6]
 DocumentPath=LED-V1.PcbDoc
@@ -137,7 +137,11 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=XHHIVDTS
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for LED-V1\Design Rule Check - LED-V1.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
