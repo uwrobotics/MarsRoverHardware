@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Shu Yan\Documents\GitHub\MarsRover2020-PCB\Projects\LED Matrix\rev1\LED-V1.PcbDoc
-Date     : 2020-03-12
-Time     : 10:13:23 PM
+PCB File : C:\Users\Adrianna\Documents\MarsRover2020-PCB\Projects\LED Matrix\Rev1\LED-V1.PcbDoc
+Date     : 15/03/20
+Time     : 16:03:27
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -48,24 +48,13 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :2
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (0 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (3 hole(s)) Top Layer 
-   Violation between Board Outline Clearance(Outline Edge): (10.196mil < 15mil) Between Board Edge And Polygon Region (4 hole(s)) Bottom Layer 
    Violation between Board Outline Clearance(Outline Edge): (8.138mil < 15mil) Between Board Edge And Via (3865mil,1515mil) from Top Layer to Bottom Layer 
-Rule Violations :12
+Rule Violations :1
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 17
+Violations Detected : 6
 Waived Violations : 0
 Time Elapsed        : 00:00:01
