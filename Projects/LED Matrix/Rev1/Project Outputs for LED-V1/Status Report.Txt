@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [LED-V1.PrjPcb]
+   Generated File[LED-V1.TXT]
+   Generated File[LED-V1.LDP]
+   Generated File[LED-V1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:36:58 PM On 2020-03-16
