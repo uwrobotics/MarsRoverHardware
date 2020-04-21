@@ -103,7 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=XMSJXBHM
 
 [Document5]
 DocumentPath=Low Power Brushed Motor Controller.SchDoc
@@ -112,15 +112,19 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AMSDQLHV
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Design Rule Check - Low Power Brushed Motor Controller.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
