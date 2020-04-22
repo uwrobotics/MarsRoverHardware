@@ -1,4 +1,4 @@
-# Low Power Brushed Motor Board
+# Low Power Brushed Motor Controller Board
 
 Motor controller board for low power brushed DC motors (12V).
 
