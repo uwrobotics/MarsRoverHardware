@@ -51,9 +51,7 @@ Assembled PCB:
 
 ## Errata
 
-* LED Matrix Signal needs level shifting (must have 5V logic high)
 * 5V level shifter bypass capacitor (C19) is not close to IC, it is currently beside the voltage regulator (super far)
 * Team logo and designer names should be added to silkscreen
-* Need fusing for ultrasonic sensors
 * Silkscreen should be made 60mils
 
