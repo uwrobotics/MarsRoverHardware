@@ -72,6 +72,23 @@ GenerateClassCluster=0
 DocumentUniqueId=SPCGXPIL
 
 [Document3]
+DocumentPath=sch\Low Power Brushed Motor Controller.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AMSDQLHV
+
+[Document4]
 DocumentPath=Low Power Brushed Motor Controller.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,8 +105,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
-DocumentPath=Low Power Brushed Motor Controller.PcbDoc
+[Document5]
+DocumentPath=pcb\Low Power Brushed Motor Controller.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -104,23 +121,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XMSJXBHM
-
-[Document5]
-DocumentPath=Low Power Brushed Motor Controller.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AMSDQLHV
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Design Rule Check - Low Power Brushed Motor Controller.html
