@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UCORAZWG
 
 [Document2]
-DocumentPath=..\..\..\..\Library\UWRT_Footprint_Library_2020.PcbLib
+DocumentPath=..\..\..\Library\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=..\..\..\..\Library\UWRT_Schematic_Library_2020.SchLib
+DocumentPath=..\..\..\Library\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
