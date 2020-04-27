@@ -1,0 +1,6 @@
+vrefdes,vpin,refdes,pin
+VCOMP0,0,U1,7
+VCOMP0,1,U1,10
+VCOMP0,2,GND,1
+VCOMP1,0,J1,1
+VCOMP1,1,J1,4
