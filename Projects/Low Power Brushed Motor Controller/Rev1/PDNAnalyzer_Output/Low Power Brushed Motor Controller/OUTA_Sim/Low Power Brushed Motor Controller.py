@@ -37,15 +37,15 @@ passives = []
 
 tech = [
 
-        {'name': 'TOP_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 1.016E-05},
+        {'name': 'TOP_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 2.54E-05},
         {'name': 'TOP_LAYER', 'Conductivity': 47000000, 'Thickness': 3.556E-05},
-        {'name': 'SUBSTRATE-1', 'DielectricConstant': 4.1, 'Thickness': 7.112E-05},
-        {'name': 'GND', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
-        {'name': 'SUBSTRATE-2', 'DielectricConstant': 4.8, 'Thickness': 0.00032004},
-        {'name': '12V_FUSED', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
-        {'name': 'SUBSTRATE-3', 'DielectricConstant': 4.1, 'Thickness': 7.112E-05},
+        {'name': 'SUBSTRATE-1', 'DielectricConstant': 4.1, 'Thickness': 0.00017018},
+        {'name': 'GND', 'Conductivity': 47000000, 'Thickness': 1.778E-05},
+        {'name': 'SUBSTRATE-2', 'DielectricConstant': 4.8, 'Thickness': 0.0011938},
+        {'name': '12V_FUSED', 'Conductivity': 47000000, 'Thickness': 1.778E-05},
+        {'name': 'SUBSTRATE-3', 'DielectricConstant': 4.1, 'Thickness': 0.00017018},
         {'name': 'BOTTOM_LAYER', 'Conductivity': 47000000, 'Thickness': 3.556E-05},
-        {'name': 'BOTTOM_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 1.016E-05}
+        {'name': 'BOTTOM_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 2.54E-05}
 
        ]
 
