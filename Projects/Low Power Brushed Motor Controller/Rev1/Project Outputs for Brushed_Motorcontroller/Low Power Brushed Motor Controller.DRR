@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Low Power Brushed Motor Controller.PcbDoc   2020-04-24  6:39:37 PM
+NCDrill File Report For: Low Power Brushed Motor Controller.PcbDoc   4/29/2020  11:52:25 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,11 +7,13 @@ ASCII RoundHoles File : Low Power Brushed Motor Controller.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.305mm)                                           Round             198       PTH        0.00inch (0.00mm)
-T2      32mil (0.813mm)                                           Round             2         PTH        0.00inch (0.00mm)
-T3      40mil (1.02mm)                                            Round             11        PTH        0.00inch (0.00mm)
-T4      52mil (1.325mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T1      12mil (0.305mm)                                           Round             105       PTH        0.00inch (0.00mm)
+T2      28mil (0.711mm)                                           Round             40        PTH        0.00inch (0.00mm)
+T3      32mil (0.813mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T4      35mil (0.889mm)                                           Round             11        PTH        0.00inch (0.00mm)
+T5      40mil (1.02mm)                                            Round             11        PTH        0.00inch (0.00mm)
+T6      52mil (1.325mm)                                           Round             4         PTH        0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              215
+Totals                                                                              173
 
 Total Processing Time (hh:mm:ss) : 00:00:00
