@@ -38,40 +38,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\Library\UWRT_Footprint_Library_2020.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DPFTEXWW
-
-[Document2]
-DocumentPath=..\..\..\Library\UWRT_Schematic_Library_2020.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SPCGXPIL
-
-[Document3]
 DocumentPath=sch\Low Power Brushed Motor Controller.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AMSDQLHV
 
-[Document4]
+[Document2]
 DocumentPath=Low Power Brushed Motor Controller.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document3]
 DocumentPath=pcb\Low Power Brushed Motor Controller.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,147 +89,63 @@ GenerateClassCluster=0
 DocumentUniqueId=XMSJXBHM
 
 [GeneratedDocument1]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\12v_fused\features
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\gnd\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.G1
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.G2
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument24]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument25]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument26]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument27]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument28]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument29]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\SimulationDummy.REP
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\user\SimulationDummy.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=PDNAnalyzer_Output\Low Power Brushed Motor Controller\ODBTemp\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -924,6 +806,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
