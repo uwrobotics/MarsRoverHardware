@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for BMS
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -156,6 +156,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document8]
+DocumentPath=Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=INJCRCPR
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -203,7 +220,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for BMS
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1190,8 +1207,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID0=BATT_MANAGER
-ComponentSymbolReference0=BATT_MANAGER
+ComponentDesignItemID0=NMOS_50V_200mA
+ComponentSymbolReference0=NMOS_50V_200mA
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1219,18 +1236,14 @@ ParameterName4=Manufacturer 1
 ParameterUpdate4=1
 ParameterName5=Manufacturer Part Number 1
 ParameterUpdate5=1
-ParameterName6=SnapEDA_Link
+ParameterName6=Supplier 1
 ParameterUpdate6=1
-ParameterName7=Supplier 1
+ParameterName7=Supplier Part Number 1
 ParameterUpdate7=1
-ParameterName8=Supplier Part Number 1
-ParameterUpdate8=1
-ParameterName9=Value
-ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=BQ40Z80RSMT
+ModelName0=SOT23-3
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
