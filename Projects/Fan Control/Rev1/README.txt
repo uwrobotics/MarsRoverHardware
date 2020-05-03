@@ -1,3 +1,8 @@
+EXTERNAL TEMP configuration:
+According to datasheet, can use any diode, PNP or NPN transistor (PNP / NPN will need to be wired to DP and DN like in datasheet).
+The IC is responsible for correlating the TEMP:Forward Voltage linear relationship on the fly (No need to write anything for this into
+registers).
+
 ALERT/TACH (Pin 6) configuration:
 If Pin 6 is configured as TACH input, then it will not respond to the ARA command and error conditions will not tirgger interrupt.
 To check error conditions with TACH as input, read STATUS REGISTER.
@@ -8,7 +13,6 @@ Mask Bit:
 
 
 Power Modes:
-
 Normal: TEMP and FAN DRIVER both active, monitors TEMP and checks FAN CONTROL LOOK-UP table.
 Standby: 1-shot command refreshes TEMP, FAN DRIVER on default drive. Refersehed TEMP is checked against TLIMIT not FAN CONTROL LOOK-UP.
 Mixed: 1-shot command refreshes TEMP, FAN DRIVER is active. Refreshed TEMP is checked against FAN CONTROL LOOK-UP.
