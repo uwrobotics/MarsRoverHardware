@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -172,6 +172,18 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
+
+[ProjectVariant1]
+UniqueID=7EC466FE-E416-4F95-8368-5BA90401D296
+Description=Production
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=C2|UniqueId=\MCOWQNRE|Kind=1|AlternatePart= 
+Variation2=Designator=C3|UniqueId=\EPFCMQIB|Kind=1|AlternatePart= 
+Variation3=Designator=C5|UniqueId=\GZWVNMZX|Kind=1|AlternatePart= 
+Variation4=Designator=C6|UniqueId=\FQNOADUT|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
