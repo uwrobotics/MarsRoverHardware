@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=pcb\Localization.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QXXGBUEP
+
+[Document2]
 DocumentPath=sch\GPS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YHVQWWCF
 
-[Document2]
+[Document3]
 DocumentPath=sch\USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XPHJQHNU
 
-[Document3]
+[Document4]
 DocumentPath=sch\Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IWTIQITK
 
-[Document4]
+[Document5]
 DocumentPath=sch\MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DVJCXQQI
 
-[Document5]
+[Document6]
 DocumentPath=sch\CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ONILNXHM
 
-[Document6]
+[Document7]
 DocumentPath=Localization.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=Localization.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=APYHDTDL
 
-[Document9]
+[Document10]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
-[Document10]
+[Document11]
 DocumentPath=sch\IMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DJTPUBVT
 
-[Document11]
+[Document12]
 DocumentPath=sch\SD_CARD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1246,8 +1263,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID0=IC_4CH_LVL_SHIFTER
-ComponentSymbolReference0=IC_4CH_LVL_SHIFTER
+ComponentDesignItemID0=LDO_1.8V_250mA
+ComponentSymbolReference0=LDO_1.8V_250mA
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1267,38 +1284,26 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Datasheet_URL
+ParameterName2=Current Output
 ParameterUpdate2=1
 ParameterName3=Description
 ParameterUpdate3=1
-ParameterName4=FAMILY_NAME
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=GENERIC_PART_NUMBER
+ParameterName5=Manufacturer 1
 ParameterUpdate5=1
-ParameterName6=INDUSTRY_STD_PKG_TYPE
+ParameterName6=Manufacturer Part Number 1
 ParameterUpdate6=1
-ParameterName7=Library Reference
+ParameterName7=Mount
 ParameterUpdate7=1
-ParameterName8=Manufacturer 1
+ParameterName8=Supplier 1
 ParameterUpdate8=1
-ParameterName9=Manufacturer Part Number 1
+ParameterName9=Supplier Part Number 1
 ParameterUpdate9=1
-ParameterName10=PACKAGE_DESIGNATOR
-ParameterUpdate10=1
-ParameterName11=PIN_COUNT
-ParameterUpdate11=1
-ParameterName12=Supplier 1
-ParameterUpdate12=1
-ParameterName13=Supplier Part Number 1
-ParameterUpdate13=1
-ParameterName14=VCCA MAX
-ParameterUpdate14=1
-ParameterName15=VCCB MAX
-ParameterUpdate15=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=PW14
+ModelName0=LP5907MFX-1.8/NOPB
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
