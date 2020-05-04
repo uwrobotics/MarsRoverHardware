@@ -1,3 +1,7 @@
+!RATED VOLT for INPUT & OUTPUT CAPS should be 4X NOMINAL VOLT
+!Equivilant Series Resistance of CAPS decrease as capcitance increase, use 1210 package caps instead of 0805
+!FIND 24V BLDC
+
 EXTERNAL TEMP configuration:
 According to datasheet, can use any diode, PNP or NPN transistor (PNP / NPN will need to be wired to DP and DN like in datasheet).
 The IC is responsible for correlating the TEMP:Forward Voltage linear relationship on the fly (No need to write anything for this into
