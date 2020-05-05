@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for BMS
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -178,11 +178,18 @@ UniqueID=7EC466FE-E416-4F95-8368-5BA90401D296
 Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
+VariationCount=11
 Variation1=Designator=C2|UniqueId=\MCOWQNRE|Kind=1|AlternatePart= 
 Variation2=Designator=C3|UniqueId=\EPFCMQIB|Kind=1|AlternatePart= 
 Variation3=Designator=C5|UniqueId=\GZWVNMZX|Kind=1|AlternatePart= 
 Variation4=Designator=C6|UniqueId=\FQNOADUT|Kind=1|AlternatePart= 
+Variation5=Designator=Q1|UniqueId=\USMGYCYM|Kind=1|AlternatePart= 
+Variation6=Designator=Q5|UniqueId=\DJGIEVFA|Kind=1|AlternatePart= 
+Variation7=Designator=R13|UniqueId=\TVWLXOXF|Kind=1|AlternatePart= 
+Variation8=Designator=TP21|UniqueId=\JJANXREO|Kind=1|AlternatePart= 
+Variation9=Designator=R35|UniqueId=\TFEJTOEW|Kind=1|AlternatePart= 
+Variation10=Designator=R34|UniqueId=\PAEWIVWT|Kind=1|AlternatePart= 
+Variation11=Designator=R16|UniqueId=\WDLOOJJS|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -232,7 +239,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for BMS
 
 [OutputGroup1]
 Name=Netlist Outputs
