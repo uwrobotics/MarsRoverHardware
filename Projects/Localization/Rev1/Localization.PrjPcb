@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Localization
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -224,10 +224,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XYJSZEIS
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Localization\Design Rule Check - Localization.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -275,7 +271,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Localization
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
