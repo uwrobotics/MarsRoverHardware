@@ -3,7 +3,7 @@
 The localization board consists of an IMU sensor and a GPS receiver for robot localization purposes.
 
 ## Block Diagram
-![Block Diagram](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Localization/Rev1/images/Block_Diagram.PNG)
+![Block Diagram](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Localization/Rev1/images/Block_Diagram.png)
 
 ## IMU
 * [ICM-20948](https://invensense.tdk.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf) - 9DOF IMU with Digital Motion Processor
