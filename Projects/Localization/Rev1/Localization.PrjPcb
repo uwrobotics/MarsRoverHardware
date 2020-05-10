@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Localization
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -224,6 +224,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Localization\Design Rule Check - Localization.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -271,7 +275,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Localization
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1246,8 +1250,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID0=CON_4M_TERM
-ComponentSymbolReference0=CON_4M_TERM
+ComponentDesignItemID0=IC_USB_TRANSCEIVER
+ComponentSymbolReference0=IC_USB_TRANSCEIVER
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1267,36 +1271,22 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Current
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Manufacturer 1
 ParameterUpdate4=1
-ParameterName5=Manufacturer 1
+ParameterName5=Manufacturer Part Number 1
 ParameterUpdate5=1
-ParameterName6=Manufacturer Part Number 1
+ParameterName6=Supplier 1
 ParameterUpdate6=1
-ParameterName7=Mounting Type
+ParameterName7=Supplier Part Number 1
 ParameterUpdate7=1
-ParameterName8=Pitch
-ParameterUpdate8=1
-ParameterName9=Screw Thread
-ParameterUpdate9=1
-ParameterName10=Supplier 1
-ParameterUpdate10=1
-ParameterName11=Supplier Part Number 1
-ParameterUpdate11=1
-ParameterName12=Voltage
-ParameterUpdate12=1
-ParameterName13=Wire Gauge
-ParameterUpdate13=1
-ParameterName14=Wire Termination
-ParameterUpdate14=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=1935187
+ModelName0=SSOP-16
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
