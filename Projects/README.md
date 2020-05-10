@@ -1,4 +1,4 @@
-# 2020 PCB Designs
+# 2021 PCB Designs
 
 ## Folder Structure 
 For each revision, the following folder structure should be followed:
@@ -7,4 +7,3 @@ Project.PrjPcb file
 - fab (BOM and Gerber files)
 - mechanical (DXF, STEP, SLDPRT files)
 - sch (contains all of the schematic files)
-
