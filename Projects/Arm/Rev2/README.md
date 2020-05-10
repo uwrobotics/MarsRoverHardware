@@ -36,11 +36,7 @@ The arm board is responsible for the control of the rover's 6-DOF robotic arm. T
 
 ## Contributors
 
-* **Kyle Hong** - *MCU config and consolidated connectors* - [Scotrus](https://github.com/Scotrus)
-* **Princely Onaifo** - *MCU config* - [Princely-O](https://github.com/Princely-O)
-* **Noah Chapman** - *SPI encoder circuit* - [Nzyme](https://github.com/Nzyme)
-* **Ayesha Ebrahim** - *Force sensitive resistor circuit* - [a-ebrahim](https://github.com/a-ebrahim)
-
+* **Kyle Hong** - *Schematic Design* - [Scotrus](https://github.com/Scotrus)
 
 ## Built With
 
