@@ -14,7 +14,7 @@ Further descriptions and instructions for using each individual board are availa
 4. Download [Altium Designer 20.1.7](https://www.altium.com/products/downloads/)
 5. Download [Saturn PCB Toolkit](http://www.saturnpcb.com/pcb_toolkit/)
 6. Clone repository
-    - `git clone https://github.com/uwrobotics/MarsRover2020-PCB.git`
+    - `git clone https://github.com/uwrobotics/MarsRover2021-hardware.git`
 7. Read the [wiki](https://github.com/uwrobotics/MarsRover2020-PCB/wiki)
 
 ## Best Practices and Tips
