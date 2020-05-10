@@ -1,4 +1,4 @@
-# Mars Rover 2020 Hardware Repository
+# Mars Rover 2021 Hardware Repository
 This repository contains:
 - Altium libraries [[Libraries](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Libraries)]
 - PCB designs [[Projects](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Projects)]
