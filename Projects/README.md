@@ -6,4 +6,4 @@ Project.PrjPcb file
 - CubeMX (folder containing MCU pin configuration file)
 - fab (BOM and Gerber files)
 - mechanical (DXF, STEP, SLDPRT files)
-- sch (contains all of the schematic files)
+- sch (schematic files)
