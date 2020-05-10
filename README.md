@@ -1,4 +1,4 @@
-# Mars Rover 2021 Hardware Repository
+# University of Waterloo Mars Rover 2021 Hardware Repository
 This repository contains:
 - Altium libraries [[Libraries](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Libraries)]
 - PCB designs [[Projects](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Projects)]
@@ -6,7 +6,7 @@ This repository contains:
 
 Further descriptions and instructions for using each individual board are available in the README in the relevant board's directory.
 
-## UWRT Hardware Development Instructions
+## Hardware Development Instructions
 
 1. Download [Diptrace](https://diptrace.com/download/download-diptrace/)
 2. Complete the [555 timer PCB tutorial](https://docs.google.com/document/d/1YiGjYYuB-FUKcaG-C9Ers9Dd0e59WRM9QEbI4RcCCmw/edit?usp=sharing) in Diptrace
@@ -17,7 +17,7 @@ Further descriptions and instructions for using each individual board are availa
     - `git clone https://github.com/uwrobotics/MarsRover2020-PCB.git`
 7. Read the [wiki](https://github.com/uwrobotics/MarsRover2020-PCB/wiki)
 
-## Best Contribution Practices and Tips
+## Best Practices and Tips
 - Preface your commit message with the project name. For example "ARM: add TVS diode" or "LIBRARY: add 10K 0603 resistor"
 - When modifying the libraries, notify the #electrical-git Slack channel 
 - After creating a part in the library, request a review in the #electrical-part-review Slack channel
