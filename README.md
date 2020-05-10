@@ -1,7 +1,6 @@
 # Mars Rover 2020 Hardware Repository
 This repository contains:
-- PCB design rules [[Design Rules](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Design%20Rules)]
-- Altium libraries [[Library](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Library)]
+- Altium libraries [[Libraries](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Libraries)]
 - PCB designs [[Projects](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Projects)]
 - Altium templates [[Templates](https://github.com/uwrobotics/MarsRover2020-PCB/tree/master/Templates)]
 
