@@ -11,7 +11,7 @@ Further descriptions and instructions for using each individual board are availa
 1. Download [Diptrace](https://diptrace.com/download/download-diptrace/)
 2. Complete the [555 timer PCB tutorial](https://docs.google.com/document/d/1YiGjYYuB-FUKcaG-C9Ers9Dd0e59WRM9QEbI4RcCCmw/edit?usp=sharing) in Diptrace
 3. Request Altium license from [Lance Bantoto](https://github.com/lwbantoto)
-4. Download [Altium Designer 19.1.9](https://www.altium.com/products/downloads/)
+4. Download [Altium Designer 20.1.7](https://www.altium.com/products/downloads/)
 5. Download [Saturn PCB Toolkit](http://www.saturnpcb.com/pcb_toolkit/)
 6. Clone repository
     - `git clone https://github.com/uwrobotics/MarsRover2020-PCB.git`
