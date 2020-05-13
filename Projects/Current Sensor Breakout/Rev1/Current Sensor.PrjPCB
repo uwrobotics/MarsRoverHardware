@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Current Sensor
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LDYBPFTT
+DocumentUniqueId=VOUJDWLN
 
 [Document6]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AJCBFXBD
 
 [Document7]
 DocumentPath=..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
@@ -154,7 +154,11 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
+
+[GeneratedDocument1]
+DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.doc
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Address1
@@ -191,7 +195,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_SmartPDF]
-AutoOpenFile=-1
+AutoOpenFile=0
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
@@ -224,10 +228,10 @@ SCH_ExpandPorts=0
 SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=-1
+SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Current Sensor
 
 [OutputGroup1]
 Name=Netlist Outputs
