@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Localization.GBR   2020-05-12  10:15:10 PM
+Gerber File Extension Report For: Localization.GBR   2020-05-15  9:30:20 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -16,4 +16,5 @@ Layer Extension     Layer Description
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
+.GM2                Board Outline                           
 ------------------------------------------------------------------------------------------
