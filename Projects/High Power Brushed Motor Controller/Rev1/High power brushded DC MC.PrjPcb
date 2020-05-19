@@ -55,7 +55,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YIYQQAWV
 
 [Document2]
-DocumentPath=..\..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
+DocumentPath=..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -69,10 +69,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
 
 [Document3]
-DocumentPath=..\..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
+DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -86,10 +86,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AJCBFXBD
 
 [Document4]
-DocumentPath=..\..\..\..\Templates\outjob_template.OutJob
+DocumentPath=..\..\..\Templates\outjob_template.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
