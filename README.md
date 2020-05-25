@@ -6,6 +6,9 @@ This repository contains:
 
 Further descriptions and instructions for using each individual board are available in the README in the relevant board's directory.
 
+## System Block Diagram
+![Alt Text](https://github.com/uwrobotics/MarsRover2021-hardware/blob/master/System_block_diagram.png)
+
 ## Hardware Development Instructions
 
 1. Download [Diptrace](https://diptrace.com/download/download-diptrace/)
