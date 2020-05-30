@@ -1,3 +1,0 @@
-ayesh
-LAPTOP-IORF1QFH 
-May 27, 2020  4:07:25 AM
