@@ -2,9 +2,9 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=C:\Users\gratt\Documents\University\Design Teams\UW Mars Rover\2020 Electrical Repo\MarsRover2020-PCB\Projects\Gimbal\Gimbal_Rev2\.PDF
+OutputFilePath2=C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Gimbal\Rev2\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\gratt\Documents\University\Design Teams\UW Mars Rover\2020 Electrical Repo\MarsRover2020-PCB\Projects\Gimbal\Gimbal_Rev2\
+OutputBasePath2=C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Gimbal\Rev2\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -14,7 +14,7 @@ OutputFileName2=Gimbal_Rev2.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
-OpenOutput2=1
+OpenOutput2=0
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
@@ -81,8 +81,8 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\gratt\Documents\University\Design Teams\UW Mars Rover\2020 Electrical Repo\MarsRover2020-PCB\Projects\Gimbal\Gimbal_Rev2\.PDF
-OpenOutputs2=1
+RelativeOutputPath2=C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Gimbal\Rev2\.PDF
+OpenOutputs2=0
 RelativeOutputPath3=
 OpenOutputs3=1
 AddToProject3=1
