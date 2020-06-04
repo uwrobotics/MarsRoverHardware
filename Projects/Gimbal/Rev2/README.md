@@ -4,27 +4,16 @@ The Gimbal/Autonomy board is resonsible for both controlling the movement of the
 and accommodating the ultrasonic sensors and LED matrix for autonomous operation.
 
 ## Block Diagram
-![Block Diagram](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Gimbal/Rev1/images/Block%20Diagram.PNG)
-
 
 ## Peripherals
 
 
 ### LED Matrix
 
-* [NeoPixel WS2812](https://cdn-shop.adafruit.com/datasheets/WS2812.pdf) - Intelligent RGB LED
-
-
 ### Servo Motors
 
-* [Hitec HSR-1425CR](https://hitecrcd.com/products/servos/robotic-servos/hsr1425/product) - 5V Continuous Rotation Servo Motor
-* [Hitec HS-645](https://hitecrcd.com/products/servos/sport-servos/analog-sport-servos/hs-645mg/product) - 5V Standard Servo Motor
-
-
 ### Encoders
-
-* [US Digital MAE3](https://www.usdigital.com/products/encoders/absolute/magnetic/MAE3) - Absolute Encoder (PWM)
-* [Broadcom AEAT-6012](https://www.broadcom.com/products/motion-control-encoders/magnetic-encoders/aeat-6012-a06) - Absolute Encoder (SPI)
+NETZER
 
 
 ## Sensors
@@ -33,25 +22,16 @@ and accommodating the ultrasonic sensors and LED matrix for autonomous operation
 
 
 ## Images
-Assembled PCB:
-![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Gimbal/Rev1/images/Rev1%20Assembled%20Board.jpg)
 
 ## Designers
 
-* **Aidan Gratton** - *PCB Design* - [a-gratton](https://github.com/a-gratton)
-* **Jing Hao Yao** - *Schematic Capture* - [JingHaoYao](https://github.com/JingHaoYao)
-* **Caitlyn Mei** - *Routing* - [caitlynxymei](https://github.com/caitlynxymei)
+* **Aidan Gratton** - *Schematic and PCB Design* - [a-gratton](https://github.com/a-gratton)
 
 
 ## Built With
 
 * [Altium Designer](https://www.altium.com/) - The PCB design software used
 * [OSHStencils](https://www.oshstencils.com/) - The PCB stencil maker used
-* [PCBWay](https://www.pcbway.com/) - PCB Sponsor
 
 ## Errata
-
-* 5V level shifter bypass capacitor (C19) is not close to IC, it is currently beside the voltage regulator (super far)
-* Team logo and designer names should be added to silkscreen
-* Silkscreen should be made 60mils
 
