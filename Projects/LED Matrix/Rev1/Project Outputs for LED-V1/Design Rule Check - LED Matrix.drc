@@ -1,10 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\jadam\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev1\LED Matrix.PcbDoc
-Date     : 6/2/2020
-Time     : 7:20:49 PM
-
-WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
-   Polygon named: NONET_L01_P034 In net 24V On Top Layer
+Date     : 6/4/2020
+Time     : 3:05:41 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -16,27 +13,10 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D26-4(1387.631mil,-2531.858mil) on Bottom Layer And Pad D10-4(1445.702mil,-2535.499mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D27-4(2454.298mil,-2531.858mil) on Bottom Layer And Pad D11-4(2512.369mil,-2535.499mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D29-4(3520.965mil,-2752.165mil) on Bottom Layer And Pad D12-4(3579.035mil,-2752.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D28-4(320.964mil,-3602.165mil) on Bottom Layer And Pad D13-4(379.036mil,-3602.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D17-4(320.964mil,-402.166mil) on Bottom Layer And Pad D1-4(379.036mil,-402.166mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D30-4(1387.631mil,-3602.165mil) on Bottom Layer And Pad D14-4(1445.702mil,-3602.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D31-4(2454.298mil,-3602.165mil) on Bottom Layer And Pad D15-4(2512.369mil,-3602.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D32-4(3520.964mil,-3602.165mil) on Bottom Layer And Pad D16-4(3579.035mil,-3602.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D18-4(1387.631mil,-402.166mil) on Bottom Layer And Pad D2-4(1445.702mil,-402.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D19-4(2454.298mil,-402.166mil) on Bottom Layer And Pad D3-4(2512.369mil,-402.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D20-4(3520.965mil,-402.166mil) on Bottom Layer And Pad D4-4(3579.035mil,-402.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D21-4(320.964mil,-1468.832mil) on Bottom Layer And Pad D5-4(379.036mil,-1468.832mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D22-4(1387.631mil,-1468.832mil) on Bottom Layer And Pad D6-4(1445.702mil,-1468.832mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D24-4(3520.965mil,-1252.165mil) on Bottom Layer And Pad D8-4(3579.035mil,-1252.165mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetD25_1 Between Pad D25-1(379.035mil,-2535.499mil) on Bottom Layer And Pad R77-2(504.035mil,-2533.333mil) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net 24V Between Pad D25-4(320.964mil,-2535.499mil) on Bottom Layer And Pad D9-4(379.036mil,-2535.499mil) on Top Layer 
-Rule Violations :16
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-   Violation between Modified Polygon: Polygon Shelved  (NONET_L01_P034) on Top Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (InNet('GND'))
 Rule Violations :0
@@ -47,7 +27,7 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (InNetClass('3V3'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=6mil) (Max=400mil) (Preferred=8mil) (All)
+Processing Rule : Width Constraint (Min=6mil) (Max=400mil) (Preferred=20mil) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=4mil) (Conductor Width=6mil) (Air Gap=6mil) (Entries=4) (All)
@@ -72,24 +52,15 @@ Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Via (2450mil,-1600mil) from Top Layer to Bottom Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Pad MH1-0(19507mil,-3265mil) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Pad MH2-0(19721mil,-3265mil) on Multi-Layer 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Text "MH1" (19424.899mil,-3163.067mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Text "MH2" (19638.894mil,-3163.067mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Track (3860mil,-1616.536mil)(3896.103mil,-1616.536mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Track (3860mil,-2246.456mil)(3896.103mil,-2246.456mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Track (3896.103mil,-2201.496mil)(3896.103mil,-1616.536mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 15mil) Between Board Edge And Track (3896.103mil,-2246.456mil)(3896.103mil,-2201.496mil) on Top Overlay 
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 26
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:02
