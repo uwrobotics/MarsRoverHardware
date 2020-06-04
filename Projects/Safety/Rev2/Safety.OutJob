@@ -1,68 +1,6 @@
 [OutputJobFile]
 Version=1.0
 
-[OutputGroup1]
-Name=
-Description=
-TargetOutputMedium=PDF
-VariantName=[No Variations]
-VariantScope=0
-CurrentConfigurationName=
-TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium1=Print Job
-OutputMedium1_Type=Printer
-OutputMedium1_Printer=
-OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium2=PDF
-OutputMedium2_Type=Publish
-OutputMedium3=Folder Structure
-OutputMedium3_Type=GeneratedFiles
-OutputMedium4=Video
-OutputMedium4_Type=Multimedia
-OutputType1=Schematic Print
-OutputName1=Schematic Prints
-OutputCategory1=Documentation
-OutputDocumentPath1=[Project Physical Documents]
-OutputVariantName1=[No Variations]
-OutputEnabled1=1
-OutputEnabled1_OutputMedium1=0
-OutputEnabled1_OutputMedium2=1
-OutputEnabled1_OutputMedium3=0
-OutputEnabled1_OutputMedium4=0
-OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.99|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
-OutputType2=BOM_PartType
-OutputName2=Bill of Materials
-OutputCategory2=Report
-OutputDocumentPath2=Safety.BomDoc
-OutputVariantName2=[No Variations]
-OutputEnabled2=1
-OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=2
-OutputEnabled2_OutputMedium3=0
-OutputEnabled2_OutputMedium4=0
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration2_Name1=ColumnNameFormat
-Configuration2_Item1=CaptionAsName
-Configuration2_Name2=ForceUpdateSettings
-Configuration2_Item2=False
-Configuration2_Name3=General
-Configuration2_Item3=TemplateFilename=Board Stack Report.XLT
-Configuration2_Name4=GroupOrder
-Configuration2_Item4=
-Configuration2_Name5=VisibleOrder
-Configuration2_Item5=Line #=53|Comment=52|Description=225|Designator=77|Quantity=67|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
-Configuration2_Name6=VisibleOrder_Base
-Configuration2_Item6=Line #=53|Comment=52|Description=225|Designator=77|Quantity=67|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
-Configuration2_Name7=VisibleOrder_Consolidated
-Configuration2_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
-Configuration2_Name8=VisibleOrder_Flat
-Configuration2_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
-
 [PublishSettings]
 OutputFilePath2=C:\Users\badpr\altium_porjects\MarsRover2020-PCB\Projects\Safety\Rev2\.PDF
 ReleaseManaged2=0
@@ -157,4 +95,66 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
+
+[OutputGroup1]
+Name=
+Description=
+TargetOutputMedium=PDF
+VariantName=[No Variations]
+VariantScope=0
+CurrentConfigurationName=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=PDF
+OutputMedium2_Type=Publish
+OutputMedium3=Folder Structure
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Video
+OutputMedium4_Type=Multimedia
+OutputType1=Schematic Print
+OutputName1=Schematic Prints
+OutputCategory1=Documentation
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=[No Variations]
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.99|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType2=BOM_PartType
+OutputName2=Bill of Materials
+OutputCategory2=Report
+OutputDocumentPath2=Safety.BomDoc
+OutputVariantName2=[No Variations]
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=2
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=ForceUpdateSettings
+Configuration2_Item2=False
+Configuration2_Name3=General
+Configuration2_Item3=TemplateFilename=Board Stack Report.XLT
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=
+Configuration2_Name5=VisibleOrder
+Configuration2_Item5=Line #=53|Comment=52|Description=225|Designator=77|Quantity=67|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration2_Name6=VisibleOrder_Base
+Configuration2_Item6=Line #=53|Comment=52|Description=225|Designator=77|Quantity=67|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration2_Name7=VisibleOrder_Consolidated
+Configuration2_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration2_Name8=VisibleOrder_Flat
+Configuration2_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=75|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
 
