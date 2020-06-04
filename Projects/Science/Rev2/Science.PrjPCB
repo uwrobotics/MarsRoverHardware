@@ -1,4 +1,4 @@
-﻿[Design]
+[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -461,7 +461,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Color LaserJet MFP M180nw (846D1E)
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1489,8 +1489,8 @@ ComponentUpdate24=0
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
 ComponentLibraryIdentifier25=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID25=RES_10kΩ_0603
-ComponentSymbolReference25=RES_10kΩ_0603
+ComponentDesignItemID25=RES_10kO_0603
+ComponentSymbolReference25=RES_10kO_0603
 ComponentUpdate25=1
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
@@ -1501,20 +1501,20 @@ ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
 ComponentLibraryIdentifier27=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID27=RES_120Ω_0603
-ComponentSymbolReference27=RES_120Ω_0603
+ComponentDesignItemID27=RES_120O_0603
+ComponentSymbolReference27=RES_120O_0603
 ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
 ComponentLibraryIdentifier28=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID28=RES_1kΩ_0603
-ComponentSymbolReference28=RES_1kΩ_0603
+ComponentDesignItemID28=RES_1kO_0603
+ComponentSymbolReference28=RES_1kO_0603
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
 ComponentLibraryIdentifier29=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID29=RES_2.2kΩ_0603
-ComponentSymbolReference29=RES_2.2kΩ_0603
+ComponentDesignItemID29=RES_2.2kO_0603
+ComponentSymbolReference29=RES_2.2kO_0603
 ComponentUpdate29=1
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
@@ -1525,8 +1525,8 @@ ComponentUpdate30=0
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
 ComponentLibraryIdentifier31=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID31=RES_3.3kΩ_0603
-ComponentSymbolReference31=RES_3.3kΩ_0603
+ComponentDesignItemID31=RES_3.3kO_0603
+ComponentSymbolReference31=RES_3.3kO_0603
 ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
