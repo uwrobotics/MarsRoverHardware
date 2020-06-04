@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\jadam\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev1\LED Matrix.PcbDoc
 Date     : 6/4/2020
-Time     : 3:55:55 PM
+Time     : 5:16:19 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -21,10 +21,10 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (InNet('GND'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=20mil) (Max=40mil) (Preferred=30mil) (InNetClass('Power'))
+Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (InNetClass('3V3'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (InNetClass('3V3'))
+Processing Rule : Width Constraint (Min=20mil) (Max=40mil) (Preferred=30mil) (InNetClass('Power'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=6mil) (Max=400mil) (Preferred=20mil) (All)
