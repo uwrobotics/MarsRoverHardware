@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [LED Matrix.PrjPcb]
+   Generated File[LED Matrix.TXT]
+   Generated File[LED Matrix.LDP]
+   Generated File[LED Matrix.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:56:35 PM On 2020-06-04
