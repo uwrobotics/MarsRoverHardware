@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Robot Controller\Dev Board\Dev Board.PcbDoc
 Date     : 2020-06-07
-Time     : 3:21:32 PM
+Time     : 4:12:13 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -36,7 +36,7 @@ Rule Violations :0
 Processing Rule : Minimum Annular Ring (Minimum=4mil) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=10mil) (Max=265mil) (All)
+Processing Rule : Hole Size Constraint (Min=10mil) (Max=500mil) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
@@ -85,4 +85,4 @@ Rule Violations :2
 
 Violations Detected : 22
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
