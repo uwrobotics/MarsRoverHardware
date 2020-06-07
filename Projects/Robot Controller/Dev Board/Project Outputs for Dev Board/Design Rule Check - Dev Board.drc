@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Robot Controller\Dev Board\Dev Board.PcbDoc
-Date     : 2020-06-06
-Time     : 5:13:06 PM
+Date     : 2020-06-07
+Time     : 3:21:32 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -85,4 +85,4 @@ Rule Violations :2
 
 Violations Detected : 22
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
