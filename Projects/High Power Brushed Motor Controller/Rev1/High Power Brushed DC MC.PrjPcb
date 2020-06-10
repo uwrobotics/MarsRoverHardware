@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for High Power Brushed DC MC
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -140,7 +140,91 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\comp_+_top\components
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\eda\data
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Project Outputs for High Power Brushed DC MC\Design Rule Check - High Power Brushed DC MC.html
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\drill\features
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\ground\features
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\power\features
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_layer\features
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\SimulationDummy.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\user\SimulationDummy.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -190,7 +274,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for High Power Brushed DC MC
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -458,6 +542,8 @@ OutputName10=ODB++ Files
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
+Configuration10_Name1=OutputConfigurationParameter1
+Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots_Mechanical 1=False|AddToAllPlots_Mechanical 10=False|AddToAllPlots_Mechanical 11=False|AddToAllPlots_Mechanical 12=False|AddToAllPlots_Mechanical 13=False|AddToAllPlots_Mechanical 14=False|AddToAllPlots_Mechanical 15=False|AddToAllPlots_Mechanical 16=False|AddToAllPlots_Mechanical 2=False|AddToAllPlots_Mechanical 3=False|AddToAllPlots_Mechanical 4=False|AddToAllPlots_Mechanical 5=False|AddToAllPlots_Mechanical 6=False|AddToAllPlots_Mechanical 7=False|AddToAllPlots_Mechanical 8=False|AddToAllPlots_Mechanical 9=False|Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|LayerClassesPlot.Set= |MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=False|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=False|PlotMechanical4Plot=True|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|Units=Imperial
 OutputType11=Plane
 OutputName11=Power-Plane Prints
 OutputDocumentPath11=

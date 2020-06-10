@@ -1,26 +1,26 @@
 designFile = "C:/Users/kyleh/Desktop/Works/UWRT/MarsRover2021-hardware/Projects/High Power Brushed Motor Controller/Rev1/PDNAnalyzer_Output/High Power Brushed DC MC/odb.tgz"
 
-powerNets = ["24V", "MOTOR_P"]
+powerNets = ["24V", "MOTOR_M"]
 
-groundNets = ["GND", "MOTOR_M"]
+groundNets = ["GND", "MOTOR_P"]
 
 excitation = [
 {
 "id": "0",
+"type": "load",
+"power_pins": [ ("J3", "pdna_pin_2_1"), ("J3", "pdna_pin_2_2"), ("J3", "pdna_pin_2_3"), ("J3", "pdna_pin_2_4") ],
+"ground_pins": [ ("J3", "pdna_pin_1_1"), ("J3", "pdna_pin_1_2"), ("J3", "pdna_pin_1_3"), ("J3", "pdna_pin_1_4") ],
+"current": 26.5,
+"Rpin": 0.0150943396226415,
+}
+,
+{
+"id": "1",
 "type": "source",
 "power_pins": [ ("J2", "pdna_pin_1_1"), ("J2", "pdna_pin_1_2"), ("J2", "pdna_pin_1_3"), ("J2", "pdna_pin_1_4") ],
 "ground_pins": [ ("J2", "pdna_pin_2_1"), ("J2", "pdna_pin_2_2"), ("J2", "pdna_pin_2_3"), ("J2", "pdna_pin_2_4") ],
 "voltage": 24,
 "Rpin": 0,
-}
-,
-{
-"id": "1",
-"type": "load",
-"power_pins": [ ("J3", "pdna_pin_1_1"), ("J3", "pdna_pin_1_2"), ("J3", "pdna_pin_1_3"), ("J3", "pdna_pin_1_4") ],
-"ground_pins": [ ("J3", "pdna_pin_2_1"), ("J3", "pdna_pin_2_2"), ("J3", "pdna_pin_2_3"), ("J3", "pdna_pin_2_4") ],
-"current": 26.5,
-"Rpin": 0.0150943396226415,
 }
 ]
 
@@ -30,8 +30,8 @@ voltage_regulators = [
 "id": "2",
 "type": "linear",
 
-"in": [ ("Q1", "3") ],
-"out": [ ("Q1", "pdna_pin_1_1"), ("Q1", "pdna_pin_1_2"), ("Q1", "pdna_pin_1_3") ],
+"in": [ ("Q4", "3") ],
+"out": [ ("Q4", "pdna_pin_1_1"), ("Q4", "pdna_pin_1_2"), ("Q4", "pdna_pin_1_3") ],
 "ref": [],
 
 "v2": 0,
@@ -44,8 +44,8 @@ voltage_regulators = [
 "id": "3",
 "type": "linear",
 
-"in": [ ("Q7", "pdna_pin_1_1"), ("Q7", "pdna_pin_1_2"), ("Q7", "pdna_pin_1_3") ],
-"out": [ ("Q7", "3") ],
+"in": [ ("Q5", "pdna_pin_1_1"), ("Q5", "pdna_pin_1_2"), ("Q5", "pdna_pin_1_3") ],
+"out": [ ("Q5", "3") ],
 "ref": [],
 
 "v2": 0,
