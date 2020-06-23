@@ -58,8 +58,8 @@ D78   ROUNDED           123.120      64.060       0.000 FLASH       0.000
 D79   ROUNDED            64.060     123.120       0.000 FLASH       0.000
 D80   ROUNDED            55.000      55.000       0.000 FLASH       0.000
 D81   ROUNDED            33.000      33.000       0.000 FLASH       0.000
-D82   ROUNDED             8.000       8.000       0.000  LINE       0.000
-D83   ROUNDED             7.992       7.992       0.000  LINE       0.000
+D82   ROUNDED             7.992       7.992       0.000  LINE       0.000
+D83   ROUNDED             8.000       8.000       0.000  LINE       0.000
 D84   ROUNDED           100.000     100.000       0.000 FLASH       0.000
 D85   ROUNDED           100.394     100.394       0.000 FLASH       0.000
 D86   ROUNDED            70.866      70.866       0.000 FLASH       0.000
@@ -79,5 +79,3 @@ D99   ROUNDED           118.120      59.060       0.000 FLASH       0.000
 D100  ROUNDED            59.060     118.120       0.000 FLASH       0.000
 D101  ROUNDED            50.000      50.000       0.000 FLASH       0.000
 D102  ROUNDED            28.000      28.000       0.000 FLASH       0.000
-D103  ROUNDED            60.000      60.000       0.000 FLASH       0.000
-D104  ROUNDED             2.000       2.000       0.000  LINE       0.000
