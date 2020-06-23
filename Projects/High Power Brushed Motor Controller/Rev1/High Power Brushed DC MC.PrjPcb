@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for High Power Brushed DC MC
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -140,91 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for High Power Brushed DC MC\Design Rule Check - High Power Brushed DC MC.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\ground\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\power\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\SimulationDummy.REP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\user\SimulationDummy.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=PDNAnalyzer_Output\High Power Brushed DC MC\ODBTemp\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -274,7 +190,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for High Power Brushed DC MC
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs

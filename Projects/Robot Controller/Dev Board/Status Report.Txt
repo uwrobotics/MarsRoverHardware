@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Free Documents]
+   Generated File[Dev Board.TXT]
+   Generated File[Dev Board-RectHoles.TXT]
+   Generated File[Dev Board.LDP]
+   Generated File[Dev Board.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 8:51:20 PM On 6/22/2020
