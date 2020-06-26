@@ -1,7 +1,13 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\kyleh\Desktop\Works\UWRT\MarsRover2021-hardware\Projects\High Power Brushed Motor Controller\Rev1\High Power Brushed DC MC.PcbDoc
-Date     : 6/7/2020
-Time     : 12:01:40 AM
+Date     : 6/25/2020
+Time     : 9:45:48 PM
+
+Processing Rule : Clearance Constraint (Gap=40mil) ((HasFootprint('MOUNTING_HOLE'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=15mil) (InNet('24V') Or InNet('MOTOR_M') Or InNet('MOTOR_P')),(InNet('GND') Or InNet('MOTOR_M') Or InNet('MOTOR_P'))
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -51,4 +57,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:03

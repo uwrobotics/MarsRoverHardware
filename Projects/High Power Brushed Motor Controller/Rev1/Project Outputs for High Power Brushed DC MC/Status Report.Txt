@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [High Power Brushed DC MC.PrjPcb]
+   Generated File[High Power Brushed DC MC.TXT]
+   Generated File[High Power Brushed DC MC.LDP]
+   Generated File[High Power Brushed DC MC.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:08:24 PM On 6/25/2020
