@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : C:\Users\emily\Documents\GitHub\MarsRover2021-hardware\Projects\Science\Rev1\Science-Rev1.PcbDoc
+Date         : 2020-06-18
+Time         : 11:25:40 AM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 3937.008milsx3937.008mils
+    Components on board, 97
+count : 2
