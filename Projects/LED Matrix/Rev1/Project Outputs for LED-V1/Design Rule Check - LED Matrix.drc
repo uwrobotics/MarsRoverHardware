@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\emily\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev1\LED Matrix.PcbDoc
-Date     : 2020-07-07
-Time     : 5:53:17 PM
+Date     : 2020-07-08
+Time     : 9:23:19 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -63,4 +63,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:06
+Time Elapsed        : 00:00:05

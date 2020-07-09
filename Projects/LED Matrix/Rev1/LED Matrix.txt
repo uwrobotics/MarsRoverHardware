@@ -1,0 +1,14 @@
+Board Information Report
+Filename     : C:\Users\emily\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev1\LED Matrix.PcbDoc
+Date         : 2020-07-08
+Time         : 9:30:11 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 3897.638milsx3900mils
+    Components on board, 143
+count : 2
+
+Net Via Size, Count
+    22mils, 105
+count : 1
