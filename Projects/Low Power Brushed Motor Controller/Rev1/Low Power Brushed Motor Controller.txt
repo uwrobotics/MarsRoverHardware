@@ -1,0 +1,10 @@
+Board Information Report
+Filename     : C:\Users\emily\Documents\GitHub\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev1\Low Power Brushed Motor Controller.PcbDoc
+Date         : 2020-06-22
+Time         : 9:26:40 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 3150milsx1180mils
+    Components on board, 34
+count : 2
