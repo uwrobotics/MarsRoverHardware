@@ -161,71 +161,71 @@ DocumentPath=Project Outputs for Dev Board\Design Rule Check - Dev Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Dev Board\Dev Board-RectHoles.TXT
+DocumentPath=Project Outputs for Dev Board\Dev Board-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Dev Board\Dev Board.DRR
+DocumentPath=Project Outputs for Dev Board\Dev Board-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Dev Board\Dev Board.EXTREP
+DocumentPath=Project Outputs for Dev Board\Dev Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Dev Board\Dev Board.G1
+DocumentPath=Project Outputs for Dev Board\Dev Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Dev Board\Dev Board.G2
+DocumentPath=Project Outputs for Dev Board\Dev Board.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GBL
+DocumentPath=Project Outputs for Dev Board\Dev Board.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GBO
+DocumentPath=Project Outputs for Dev Board\Dev Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GBP
+DocumentPath=Project Outputs for Dev Board\Dev Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GBS
+DocumentPath=Project Outputs for Dev Board\Dev Board.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GM2
+DocumentPath=Project Outputs for Dev Board\Dev Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GTL
+DocumentPath=Project Outputs for Dev Board\Dev Board.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GTO
+DocumentPath=Project Outputs for Dev Board\Dev Board.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GTP
+DocumentPath=Project Outputs for Dev Board\Dev Board.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Dev Board\Dev Board.GTS
+DocumentPath=Project Outputs for Dev Board\Dev Board.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Dev Board\Dev Board.LDP
+DocumentPath=Project Outputs for Dev Board\Dev Board.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Dev Board\Dev Board.REP
+DocumentPath=Project Outputs for Dev Board\Dev Board.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Dev Board\Dev Board.TXT
+DocumentPath=Project Outputs for Dev Board\Dev Board.REP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
@@ -540,7 +540,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
