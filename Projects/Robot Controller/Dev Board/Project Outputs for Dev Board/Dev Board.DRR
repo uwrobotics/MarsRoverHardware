@@ -1,10 +1,10 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Dev Board.PcbDoc   6/22/2020  9:09:26 PM
+NCDrill File Report For: Dev Board.PcbDoc   7/22/2020  9:03:29 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : Dev Board.TXT
-ASCII RectHoles File : Dev Board-RectHoles.TXT
+ASCII RoundHoles File : Dev Board-RoundHoles.TXT
+ASCII SlotHoles File : Dev Board-SlotHoles.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -13,7 +13,7 @@ T2      28mil (0.711mm)                                           Round         
 T3      32mil (0.8mm)                                             Round             3         PTH        0.00inch (0.00mm)
 T4      35mil (0.889mm)                                           Round             6         PTH        0.00inch (0.00mm)
 T5      35mil (0.9mm)                                             Round             18        PTH        0.00inch (0.00mm)
-T6      39mil (1mm)                                               Rectangle         3         PTH        0.00inch (0.00mm)
+T6      39mil (1mm)                                               Slot              3         PTH        0.00inch (0.00mm)
 T7      40mil (1.02mm)                                            Round             10        PTH        0.00inch (0.00mm)
 T8      43mil (1.1mm)                                             Round             4         PTH        0.00inch (0.00mm)
 T9      47mil (1.2mm)                                             Round             6         PTH        0.00inch (0.00mm)
@@ -27,4 +27,4 @@ T16     118mil (3mm)                                              Round         
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              225
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01

@@ -1,8 +1,8 @@
 Output: NC Drill Files
 Type  : NC Drill
 From  : Project [Dev Board.PrjPcb]
-   Generated File[Dev Board.TXT]
-   Generated File[Dev Board-RectHoles.TXT]
+   Generated File[Dev Board-RoundHoles.TXT]
+   Generated File[Dev Board-SlotHoles.TXT]
    Generated File[Dev Board.LDP]
    Generated File[Dev Board.DRR]
 
@@ -10,4 +10,4 @@ From  : Project [Dev Board.PrjPcb]
 Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 9:09:26 PM On 6/22/2020
+Finished Output Generation At 9:03:30 PM On 7/22/2020
