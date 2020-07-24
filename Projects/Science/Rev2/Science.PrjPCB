@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Science
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HQGBRUXS
+DocumentUniqueId=EELOVBBJ
 
 [Document7]
 DocumentPath=SH5 - CAN.SchDoc
@@ -384,7 +384,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Science
 
 [OutputGroup1]
 Name=Netlist Outputs
