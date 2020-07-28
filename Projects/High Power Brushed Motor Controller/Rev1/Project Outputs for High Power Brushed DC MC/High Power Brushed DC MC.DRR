@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: High Power Brushed DC MC.PcbDoc   7/26/2020  9:41:27 PM
+NCDrill File Report For: High Power Brushed DC MC.PcbDoc   6/25/2020  10:08:24 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,14 +7,13 @@ ASCII RoundHoles File : High Power Brushed DC MC.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      12mil (0.305mm)                                           Round             5         PTH        0.00inch (0.00mm)
-T2      16mil (0.406mm)                                           Round             4         PTH        0.00inch (0.00mm)
-T3      28mil (0.711mm)                                           Round             172       PTH        0.00inch (0.00mm)
-T4      30mil (0.762mm)                                           Round             2         PTH        0.00inch (0.00mm)
-T5      52mil (1.325mm)                                           Round             3         PTH        0.00inch (0.00mm)
-T6      60mil (1.524mm)                                           Round             16        PTH        0.00inch (0.00mm)
-T7      118mil (3mm)                                              Round             4         NPTH       0.00inch (0.00mm)
+T1      20mil (0.508mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T2      28mil (0.711mm)                                           Round             178       PTH        0.00inch (0.00mm)
+T3      30mil (0.762mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T4      52mil (1.325mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T5      60mil (1.524mm)                                           Round             16        PTH        0.00inch (0.00mm)
+T6      118mil (3mm)                                              Round             4         NPTH       0.00inch (0.00mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              206
+Totals                                                                              205
 
 Total Processing Time (hh:mm:ss) : 00:00:00
