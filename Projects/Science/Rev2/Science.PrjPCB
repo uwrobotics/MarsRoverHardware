@@ -52,7 +52,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
 
 [Document2]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
@@ -205,7 +205,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LFFBSESB
 
 [Parameter1]
 Name=Address1
