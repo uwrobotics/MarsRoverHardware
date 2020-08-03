@@ -6,7 +6,7 @@ measurement of ambient temperature.
 
 ## Block Diagram
 
-![safety board block diagram](images/safety_block_diagram.jpg)
+![safety board block diagram](https://github.com/uwrobotics/MarsRover2021-hardware/blob/master/Projects/Safety/Rev1/images/safety_block_diagram_drawio.jpg)
 
 ## Peripherals
 
@@ -20,11 +20,6 @@ Operational Amplifier
 
 * [ERT-J1VV104J](https://industrial.panasonic.com/cdbs/www-data/pdf/AUA0000/AUA0000C8.pdf) - 
 Multilayer NTC Thermistors, Beta value (K) = 4601 to 4700
-
-
-## Images
-
-![assembled safety board top view](images/safety_top_view.jpg)
 
 ## Designers
 
