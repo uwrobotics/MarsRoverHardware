@@ -207,6 +207,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LFFBSESB
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Science\Design Rule Check - Science-Rev02.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Address1
 Value=200 University Avenue
@@ -495,7 +499,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
