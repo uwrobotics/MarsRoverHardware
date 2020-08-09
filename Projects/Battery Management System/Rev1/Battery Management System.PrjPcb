@@ -314,99 +314,7 @@ DocumentPath=Project Outputs for Battery Management System\BMS.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument23]
 DocumentPath=Project Outputs for Battery Management System\Design Rule Check - BMS.html
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\ground\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\power\features
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\SimulationDummy.REP
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\user\SimulationDummy.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1079,6 +987,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
