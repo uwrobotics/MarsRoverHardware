@@ -1,6 +1,6 @@
 Output: NC Drill Files
 Type  : NC Drill
-From  : Project [Battery Management System.PrjPcb]
+From  : PCB Document [BMS.PcbDoc]
    Generated File[BMS.TXT]
    Generated File[BMS.LDP]
    Generated File[BMS.DRR]
@@ -9,4 +9,4 @@ From  : Project [Battery Management System.PrjPcb]
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 6:17:09 PM On 6/26/2020
+Finished Output Generation At 5:28:25 AM On 2020-08-11

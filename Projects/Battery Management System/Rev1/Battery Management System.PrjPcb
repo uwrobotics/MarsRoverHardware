@@ -229,174 +229,80 @@ UniqueID=7EC466FE-E416-4F95-8368-5BA90401D296
 Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=11
-Variation1=Designator=C2|UniqueId=\MCOWQNRE|Kind=1|AlternatePart= 
-Variation2=Designator=C3|UniqueId=\EPFCMQIB|Kind=1|AlternatePart= 
-Variation3=Designator=C5|UniqueId=\GZWVNMZX|Kind=1|AlternatePart= 
-Variation4=Designator=C6|UniqueId=\FQNOADUT|Kind=1|AlternatePart= 
-Variation5=Designator=Q1|UniqueId=\USMGYCYM|Kind=1|AlternatePart= 
-Variation6=Designator=Q5|UniqueId=\DJGIEVFA|Kind=1|AlternatePart= 
-Variation7=Designator=R13|UniqueId=\TVWLXOXF|Kind=1|AlternatePart= 
-Variation8=Designator=TP21|UniqueId=\JJANXREO|Kind=1|AlternatePart= 
-Variation9=Designator=R35|UniqueId=\TFEJTOEW|Kind=1|AlternatePart= 
-Variation10=Designator=R34|UniqueId=\PAEWIVWT|Kind=1|AlternatePart= 
-Variation11=Designator=R16|UniqueId=\WDLOOJJS|Kind=1|AlternatePart= 
+VariationCount=5
+Variation1=Designator=C2|UniqueId=\OFKPSIER|Kind=1|AlternatePart= 
+Variation2=Designator=C3|UniqueId=\TFASBRWJ|Kind=1|AlternatePart= 
+Variation3=Designator=C5|UniqueId=\PZDVBDCH|Kind=1|AlternatePart= 
+Variation4=Designator=C6|UniqueId=\FVKTRFOO|Kind=1|AlternatePart= 
+Variation5=Designator=R13|UniqueId=\USTMYZAQ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Battery Management System\BMS.DRR
+DocumentPath=Project Outputs for Battery Management System\BOM\Bill of Materials-Battery Management System(Production).xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Battery Management System\BMS.EXTREP
+DocumentPath=Project Outputs for Battery Management System\NC Drill\BMS.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Battery Management System\BMS.G1
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Battery Management System\BMS.G2
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.G1
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBL
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.G2
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBO
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBP
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBS
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Battery Management System\BMS.GM1
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTL
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTO
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTP
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTS
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Battery Management System\BMS.LDP
+DocumentPath=Project Outputs for Battery Management System\NC Drill\BMS.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Battery Management System\BMS.TXT
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.REP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_bot\components
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Battery Management System\Design Rule Check - BMS.html
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\ground\features
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\power\features
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\SimulationDummy.REP
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\user\SimulationDummy.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=PDNAnalyzer_Output\BMS\ODBTemp\odb\steps\pcb\layers\drill\tools
+DocumentPath=Project Outputs for Battery Management System\NC Drill\BMS.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1069,36 +975,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
