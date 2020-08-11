@@ -1,14 +1,12 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 7:48:11 AM On 2020-08-09
-
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [Production] of Project [Battery Management System.PrjPcb]
-   Generated File[Bill of Materials-Battery Management System(Production).xlsx]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BMS.PcbDoc]
+   Generated File[BMS.TXT]
+   Generated File[BMS.LDP]
+   Generated File[BMS.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 7:48:14 AM On 2020-08-09
+Finished Output Generation At 5:08:46 AM On 2020-08-11
