@@ -242,79 +242,67 @@ DocumentPath=Project Outputs for Battery Management System\BOM\Bill of Materials
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Battery Management System\BMS.DRR
+DocumentPath=Project Outputs for Battery Management System\NC Drill\BMS.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Battery Management System\BMS.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
 DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.EXTREP
 DItemRevisionGUID=
 
+[GeneratedDocument4]
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.G1
+DItemRevisionGUID=
+
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Battery Management System\BMS.G1
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.G2
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Battery Management System\BMS.G2
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBL
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBO
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBP
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Battery Management System\BMS.GBS
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Battery Management System\BMS.GM1
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTL
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTO
+DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTP
+DocumentPath=Project Outputs for Battery Management System\NC Drill\BMS.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Battery Management System\BMS.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Battery Management System\BMS.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
 DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.REP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Battery Management System\Gerber\BMS.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Battery Management System\BMS.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for Battery Management System\Design Rule Check - BMS.html
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Battery Management System\NC Drill\BMS.TXT
 DItemRevisionGUID=
 
 [Configuration1]
