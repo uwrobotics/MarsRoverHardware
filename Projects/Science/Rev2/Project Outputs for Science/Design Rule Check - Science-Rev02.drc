@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\badpr\altium_porjects\MarsRover2020-PCB\Projects\Science\Rev2\pcb\Science-Rev02.PcbDoc
 Date     : 8/12/2020
-Time     : 5:12:39 PM
+Time     : 5:42:53 PM
 
 Processing Rule : Clearance Constraint (Gap=15mil) (InNet('24V') Or InNet('MOTOR_M') Or InNet('MOTOR_P')),(InNet('GND') Or InNet('MOTOR_M') Or InNet('MOTOR_P'))
 Rule Violations :0
@@ -49,20 +49,12 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (17.74mil < 20mil) Between Board Edge And Track (1074.764mil,2487.26mil)(1716.499mil,2487.26mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (19.797mil < 20mil) Between Board Edge And Track (2354.169mil,2456.667mil)(2354.169mil,2485.203mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (19.797mil < 20mil) Between Board Edge And Track (2354.178mil,2485.203mil)(2818.738mil,2485.203mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (19.797mil < 20mil) Between Board Edge And Track (2818.738mil,2456.667mil)(2818.738mil,2485.203mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (5.042mil < 20mil) Between Board Edge And Track (3351.422mil,1160.871mil)(3379.958mil,1160.871mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (5.042mil < 20mil) Between Board Edge And Track (3351.422mil,696.301mil)(3379.958mil,696.301mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (5.042mil < 20mil) Between Board Edge And Track (3379.958mil,696.301mil)(3379.958mil,1160.862mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (10.954mil < 20mil) Between Board Edge And Track (341.35mil,2494.047mil)(911.89mil,2492.073mil) on Top Overlay 
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=2000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 8
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
