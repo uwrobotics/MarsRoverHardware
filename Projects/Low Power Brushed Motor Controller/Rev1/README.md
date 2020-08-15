@@ -18,6 +18,9 @@ The reverse polarity protection circuit uses a P-channel MOSFET (or PMOS) which 
 
 ![Reverse Polarity Protection Circuit](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Low%20Power%20Brushed%20Motor%20Controller/Rev1/images/rpp_circuit.png)
 
+## Images
+![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Low%20Power%20Brushed%20Motor%20Controller/Rev1/images/assembled_board.jpg)
+
 ## Contributors
 
 * **Kyle Hong** - *Schematic Capture* - [Scotrus](https://github.com/Scotrus)
@@ -26,3 +29,7 @@ The reverse polarity protection circuit uses a P-channel MOSFET (or PMOS) which 
 ## Built With
 
 * [Altium Designer](https://www.altium.com/) - PCB design software used
+
+## Errata
+* Fix P-Channel MOSFET footprint
+* Fix Zener diode footprint cathode indicator
