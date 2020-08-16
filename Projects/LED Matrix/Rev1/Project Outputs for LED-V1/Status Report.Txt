@@ -1,12 +1,22 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [LED Matrix.PrjPcb]
-   Generated File[LED Matrix.TXT]
-   Generated File[LED Matrix.LDP]
-   Generated File[LED Matrix.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LED Matrix.PrjPcb]
+   Generated File[LED Matrix.GTO]
+   Generated File[LED Matrix.GTP]
+   Generated File[LED Matrix.GTS]
+   Generated File[LED Matrix.GTL]
+   Generated File[LED Matrix.G1]
+   Generated File[LED Matrix.G2]
+   Generated File[LED Matrix.GBL]
+   Generated File[LED Matrix.GBS]
+   Generated File[LED Matrix.GBP]
+   Generated File[LED Matrix.GBO]
+   Generated File[LED Matrix.GM2]
+   Generated File[LED Matrix.EXTREP]
+   Generated File[LED Matrix.REP]
 
 
-Files Generated   : 3
+Files Generated   : 13
 Documents Printed : 0
 
-Finished Output Generation At 9:56:35 PM On 2020-06-04
+Finished Output Generation At 8:25:31 AM On 2020-07-29
