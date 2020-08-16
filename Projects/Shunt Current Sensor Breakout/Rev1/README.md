@@ -8,7 +8,7 @@ The current sensor board is used to ensure the measured device is operating unde
 
 ## Images
 Assembled PCB:
-![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Shunt%20Current&20Sensor&20Breakout/Rev1/images/assembled_board.jpg)
+![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Shunt%20Current%20Sensor%20Breakout/Rev1/images/assembled_board.jpg)
 
 ## Designers
 
