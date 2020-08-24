@@ -72,10 +72,10 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=SH1 - Power.SchDoc
-AnnotationEnabled=0
+DocumentPath=SH1 - Connectors.SchDoc
+AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
@@ -90,7 +90,7 @@ DocumentUniqueId=VIXEHQTG
 
 [Document4]
 DocumentPath=SH2 - Microcontroller.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=9
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
