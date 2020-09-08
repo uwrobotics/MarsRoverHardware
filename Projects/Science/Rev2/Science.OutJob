@@ -2,9 +2,9 @@
 Version=1.0
 
 [PublishSettings]
-OutputFilePath2=C:\Users\badpr\altium_porjects\MarsRover2020-PCB\Projects\Science\Rev2\.PDF
+OutputFilePath2=C:\Users\badpr\altium_porjects\MarsRover2021-hardware\Projects\Science\Rev2\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\badpr\altium_porjects\MarsRover2020-PCB\Projects\Science\Rev2\
+OutputBasePath2=C:\Users\badpr\altium_porjects\MarsRover2021-hardware\Projects\Science\Rev2\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -81,7 +81,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\badpr\altium_porjects\MarsRover2020-PCB\Projects\Science\Rev2\.PDF
+RelativeOutputPath2=C:\Users\badpr\altium_porjects\MarsRover2021-hardware\Projects\Science\Rev2\.PDF
 OpenOutputs2=0
 RelativeOutputPath3=
 OpenOutputs3=1
