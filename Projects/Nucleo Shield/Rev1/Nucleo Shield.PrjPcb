@@ -140,6 +140,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BGMDJVGG
 
 [Document7]
+DocumentPath=SH5 - MOTORS AND ENCODERS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VJRQSANJ
+
+[Document8]
 DocumentPath=Nucleo Shield.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document9]
 DocumentPath=Nucleo Shield.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
