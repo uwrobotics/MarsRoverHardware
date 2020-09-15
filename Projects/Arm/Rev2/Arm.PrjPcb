@@ -140,13 +140,13 @@ GenerateClassCluster=0
 DocumentUniqueId=FAXWDSBJ
 
 [Document7]
-DocumentPath=SH5 - SIGNAL CONDITIONING.SchDoc
+DocumentPath=SH5 - NETZER ENCODERS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -154,7 +154,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KOIEESRX
+DocumentUniqueId=JHZACETJ
 
 [Document8]
 DocumentPath=SH6 - MICROCONTROLLER.SchDoc
@@ -209,6 +209,23 @@ DocumentUniqueId=GDEOHGTW
 
 [Document11]
 DocumentPath=Arm.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=SH9 - SIGNAL CONDITIONING.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
