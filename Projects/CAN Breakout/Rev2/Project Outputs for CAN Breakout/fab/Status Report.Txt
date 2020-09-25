@@ -1,12 +1,10 @@
-Output: NC Drill Files
-Type  : NC Drill
+Output: AutoCAD dwg/dxf File PCB
+Type  : AutoCAD PCB
 From  : PCB Document [CAN Breakout.PcbDoc]
-   Generated File[CAN Breakout.TXT]
-   Generated File[CAN Breakout.LDP]
-   Generated File[CAN Breakout.DRR]
+   Generated File[CAN Breakout.DWG]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 00:32:47 On 2020-09-16
+Finished Output Generation At 12:54:42 On 2020-09-24

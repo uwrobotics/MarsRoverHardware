@@ -1,6 +1,6 @@
 Output: NC Drill Files
 Type  : NC Drill
-From  : Project [Power Distribution Board.PrjPcb]
+From  : PCB Document [Power Distribution Board.PcbDoc]
    Generated File[Power Distribution Board.TXT]
    Generated File[Power Distribution Board.LDP]
    Generated File[Power Distribution Board.DRR]
@@ -9,4 +9,4 @@ From  : Project [Power Distribution Board.PrjPcb]
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 9:58:42 PM On 6/22/2020
+Finished Output Generation At 22:38:39 On 2020-09-16
