@@ -1,7 +1,6 @@
-# Gimbal/Autonomy
+# Gimbal
 
-The Gimbal/Autonomy board is resonsible for both controlling the movement of the rover's camera gimbal
-and accommodating the ultrasonic sensors and LED matrix for autonomous operation.
+The gimbal board is resonsible for controlling the movement of the rover's camera gimbal.
 
 ## Block Diagram
 
@@ -21,7 +20,6 @@ NETZER
 
 ## Sensors
 
-* [JSN-SR04T V2.0](https://www.makerfabs.com/water-proof-ultrasonic-ranger-jsn-sr04t-v2.0.html) - Ultrasonic Sensors
 
 
 ## Images
