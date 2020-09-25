@@ -139,6 +139,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPFTEXWW
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for LED-V1\Design Rule Check - LED Matrix.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
