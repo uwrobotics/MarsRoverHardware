@@ -139,78 +139,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPFTEXWW
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for LED-V1\Design Rule Check - LED Matrix.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.G1
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.G2
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.REP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for LED-V1\LED Matrix.TXT
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -369,7 +297,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Canon MG2900 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
