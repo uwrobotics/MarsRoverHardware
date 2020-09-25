@@ -1,12 +1,15 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\emily\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev1\LED Matrix.PcbDoc
-Date     : 2020-07-08
-Time     : 9:23:19 PM
+PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\LED Matrix\Rev1\LED Matrix.PcbDoc
+Date     : 2020-09-25
+Time     : 1:18:46 AM
 
-Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=10mil) (InPolygon),(All)
+Processing Rule : Clearance Constraint (Gap=15mil) (InNet('24V')or InNet('24V_BLUE')or InNet('24V_GREEN')or InNet('24V_RED')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=30mil) (InComponent('MH1')or InComponent('MH2')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -18,16 +21,16 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (InNet('GND'))
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=20mil) (Max=40mil) (Preferred=30mil) (InNetClass('Power'))
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=10mil) (Max=30mil) (Preferred=20mil) (InNetClass('3V3'))
-Rule Violations :0
-
 Processing Rule : Width Constraint (Min=6mil) (Max=400mil) (Preferred=20mil) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=20mil) (InNetClass('3V3'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=20mil) (Max=100mil) (Preferred=30mil) (InNetClass('Power'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=20mil) (InNet('GND'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=4mil) (Conductor Width=6mil) (Air Gap=6mil) (Entries=4) (All)
@@ -63,4 +66,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:05
+Time Elapsed        : 00:00:04
