@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -399,7 +399,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote (Desktop)
+TargetPrinter=Samsung SCX-3400 Series (USB002)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -467,6 +467,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -493,7 +499,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=OneNote (Desktop)
+TargetPrinter=Samsung SCX-3400 Series (USB002)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -891,36 +897,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1051,6 +1027,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1119,6 +1097,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1266,6 +1246,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1286,6 +1267,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=1
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
@@ -1325,8 +1307,8 @@ ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID6=CAP_4.7�F_50V_1206
-ComponentSymbolReference6=CAP_4.7�F_50V_1206
+ComponentDesignItemID6=CAP_4.7µF_50V_1206
+ComponentSymbolReference6=CAP_4.7µF_50V_1206
 ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
@@ -1409,56 +1391,56 @@ ComponentUpdate19=1
 ComponentIsDeviceSheet19=0
 ComponentLibIdentifierKind20=Library Name And Type
 ComponentLibraryIdentifier20=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID20=RES_10.2kO_0805
-ComponentSymbolReference20=RES_10.2kO_0805
+ComponentDesignItemID20=RES_10.2kΩ_0805
+ComponentSymbolReference20=RES_10.2kΩ_0805
 ComponentUpdate20=1
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID21=RES_13.7kO_0805
-ComponentSymbolReference21=RES_13.7kO_0805
+ComponentDesignItemID21=RES_13.7kΩ_0805
+ComponentSymbolReference21=RES_13.7kΩ_0805
 ComponentUpdate21=1
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
 ComponentLibraryIdentifier22=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID22=RES_1kO_0805
-ComponentSymbolReference22=RES_1kO_0805
+ComponentDesignItemID22=RES_1kΩ_0805
+ComponentSymbolReference22=RES_1kΩ_0805
 ComponentUpdate22=1
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
 ComponentLibraryIdentifier23=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID23=RES_1O_1206
-ComponentSymbolReference23=RES_1O_1206
+ComponentDesignItemID23=RES_1Ω_1206
+ComponentSymbolReference23=RES_1Ω_1206
 ComponentUpdate23=1
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
 ComponentLibraryIdentifier24=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID24=RES_221kO_0805
-ComponentSymbolReference24=RES_221kO_0805
+ComponentDesignItemID24=RES_221kΩ_0805
+ComponentSymbolReference24=RES_221kΩ_0805
 ComponentUpdate24=1
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
 ComponentLibraryIdentifier25=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID25=RES_250mO_2512
-ComponentSymbolReference25=RES_250mO_2512
+ComponentDesignItemID25=RES_250mΩ_2512
+ComponentSymbolReference25=RES_250mΩ_2512
 ComponentUpdate25=1
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
 ComponentLibraryIdentifier26=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID26=RES_3.3kO_0805
-ComponentSymbolReference26=RES_3.3kO_0805
+ComponentDesignItemID26=RES_3.3kΩ_0805
+ComponentSymbolReference26=RES_3.3kΩ_0805
 ComponentUpdate26=1
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
 ComponentLibraryIdentifier27=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID27=RES_4.7kO_0805
-ComponentSymbolReference27=RES_4.7kO_0805
+ComponentDesignItemID27=RES_4.7kΩ_0805
+ComponentSymbolReference27=RES_4.7kΩ_0805
 ComponentUpdate27=1
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
 ComponentLibraryIdentifier28=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID28=RES_49.9kO_0805
-ComponentSymbolReference28=RES_49.9kO_0805
+ComponentDesignItemID28=RES_49.9kΩ_0805
+ComponentSymbolReference28=RES_49.9kΩ_0805
 ComponentUpdate28=1
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
@@ -1963,6 +1945,7 @@ ModelUpdate26=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
