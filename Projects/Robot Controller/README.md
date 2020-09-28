@@ -1,6 +1,6 @@
 # Robot Controller
 
-The new Robot Controller board(s) will be responsible for replacing the XBox360 Controller currently used to control the rover. As it stands now, the current plans are to design 3 boards which will each control certain modules of the rover, and can be connected/disconnected at any time. A Dev Board has been created in order to test out different control components and see which are preferred. The MCU which will be on each board is the [STM32F446VET7](https://www.st.com/resource/en/datasheet/stm32f446re.pdf).
+The new Robot Controller board(s) will be responsible for replacing the XBox360 Controller currently used to control the rover. As it stands now, the current plans are to design 3 boards which will each control certain modules of the rover, and can be connected/disconnected at any time. A Dev Board has been created in order to test out different control components and see which are preferred. The MCU which will be on each board is the [STM32F446RET6](https://www.st.com/resource/en/datasheet/stm32f446re.pdf).
 
 
 ## Block Diagram
