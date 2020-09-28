@@ -1,42 +1,35 @@
-# Arm Board
+# Robot Controller - Dev Board
 
-The arm board is responsible for the control of the rover's 6-DOF robotic arm. The MCU onboard is the [STM32F446VET7](https://www.st.com/resource/en/datasheet/stm32f446re.pdf). This PCB interfaces with force sensitive resistor, servo motor, linear actuator, three brushed DC motor drivers, three absolute encoders, three relative integrated encoders, and ten limit switches.
-![alt_text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Arm/Rev1/Arm_Render.png)
+The Robot Controller Dev Board was created for the purpose of testing various possible components for the real Robot Controller, as well as various subsystems like power delivery and serial communication over USB. Some components on the board include joysticks, buttons, switches, and potentiometers. The MCU used on the board is the [STM32F446RET6](https://www.st.com/resource/en/datasheet/stm32f446re.pdf).
 
-## Block Diagram
-
-![alt text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Arm/Rev2/ArmRev2.png)
+![alt text](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Robot%20Controller/Dev%20Board/Dev_Board.jpg)
 
 ## Peripherals
 
-### Motor Controllers
+### Joysticks
 
-* [Cytron MDD10A](https://www.cytron.io/p-10amp-5v-30v-dc-motor-driver-2-channels) - 10Amp 5V-30V Dual Channel DC Motor Driver
-* [Cytron MD30C](https://www.cytron.io/p-30amp-5v-30v-dc-motor-driver) - 30Amp 5V-30V DC Motor Driver
+* [COM-09032 Joystick](https://www.sparkfun.com/products/9032) - 10 kOhm 2-Axis Joystick (PS2-Style)
+* [2765 Mini Joystick](https://www.cytron.io/p-30amp-5v-30v-dc-motor-driver) - 10 kOhm 2-Axis Joystick (PSP-Style)
 
-### Servo
+### Buttons
 
-* [SG90](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf) - Micro servo motor
+* [COM-10302 Buttons](https://www.sparkfun.com/products/10302) - 12 Tactile Buttons
+* [D6R50 F2 Button](https://www.digikey.ca/en/products/detail/c-k/D6R50-F2-LFS/1466350) - Tactile Button
 
+### Switches
 
-### Limit Switches
+* [SPDT Switch](https://www.digikey.ca/en/products/detail/e-switch/100SP1T1B4M2QE/378824?s=N4IgTCBcDaIIwAYEGUAKcAqcBCAWAsmAI4CiIAugL5A) - Toggle SPDT Switch
+* [Mini SPDT Switch](https://www.digikey.ca/en/products/detail/nkk-switches/SS12SDP2/1014829) - Toggle SPDT Switch (but smaller)
 
-* [Twidec Limit Switch](https://www.amazon.ca/gp/product/B07NVDXGPS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - Short Hinge Roller Lever Arm Switch
-* [Cylewet Limit Switch](https://www.amazon.ca/gp/product/B07DGX5Q1Q/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - Long Straight Hinge Lever Arm Switch
+### Potentiometers
 
-### Force Sensitive Resistor
-
-* [Interlink Electronics FSR 402](https://cdn.sparkfun.com/assets/8/a/1/2/0/2010-10-26-DataSheet-FSR402-Layout2.pdf) - 18.28mm diameter force sensitive resistor
-
-
-### Encoders
-
-* [US Digital MAE3](https://www.usdigital.com/products/encoders/absolute/magnetic/MAE3) - Absolute magnetic kit encoder with PWM output. 10/12 bit
-* [Broadcom AEAT-6012-A06](https://www.broadcom.com/products/motion-control-encoders/magnetic-encoders/aeat-6012-a06) - 12-bit magnetic encoder with SPI output
+* [Rotary Potentiometer](https://www.digikey.ca/en/products/detail/bourns-inc/PTV09A-4020F-B103/3534181?s=N4IgTCBcDaIAoBUBqAGAnAQQLQBYVhQDEsAhARhQGYQBdAXyA) - 10 kOhm Potentiometer (Rotary)
+* [Slide Potentiometer](https://www.digikey.ca/en/products/detail/bourns-inc/PTA2043-2015DPB103/3781179?s=N4IgTCBcDaIAoBUCCYAMAWAzAWjQRgFYAROAIT1UxAF0BfIA) - 10 kOhm Potentiomer (Slide)
 
 ## Contributors
 
-* **Kyle Hong** - *Schematic Design* - [Scotrus](https://github.com/Scotrus)
+* **Christopher Arjune** - *Schematic Design* - [ChristopherA057](https://github.com/ChristopherA057)
+* **Qinyang Bao** - *Schematic Design* - [Q7bao](https://github.com/qinyang-bao)
 
 ## Built With
 
