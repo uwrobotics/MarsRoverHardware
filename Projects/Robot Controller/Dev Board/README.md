@@ -9,7 +9,7 @@ The Robot Controller Dev Board was created for the purpose of testing various po
 ### Joysticks
 
 * [COM-09032 Joystick](https://www.sparkfun.com/products/9032) - 10 kOhm 2-Axis Joystick (PS2-Style)
-* [2765 Mini Joystick](https://www.cytron.io/p-30amp-5v-30v-dc-motor-driver) - 10 kOhm 2-Axis Joystick (PSP-Style)
+* [2765 Mini Joystick](https://www.adafruit.com/product/2765) - 10 kOhm 2-Axis Joystick (PSP-Style)
 
 ### Buttons
 
