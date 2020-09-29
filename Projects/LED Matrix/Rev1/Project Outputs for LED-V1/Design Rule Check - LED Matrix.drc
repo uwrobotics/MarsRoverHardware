@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\emily\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev1\LED Matrix.PcbDoc
-Date     : 2020-09-27
-Time     : 10:22:55 PM
+Date     : 2020-09-29
+Time     : 10:25:21 AM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -49,12 +49,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (4.19mil < 5mil) Between Pad TP2-1(-1730mil,-160mil) on Multi-Layer And Region (1 hole(s)) Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [4.19mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad TP5-1(-90mil,1290mil) on Multi-Layer And Text "RED" (60mil,1309.991mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad TP5-1(-90mil,1290mil) on Multi-Layer And Track (-345.809mil,1255mil)(435mil,1255mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad TP6-1(-90mil,920mil) on Multi-Layer And Text "BLUE" (60mil,917.61mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.433mil < 5mil) Between Pad TP9-1(-400mil,450mil) on Multi-Layer And Track (-345.809mil,149.545mil)(-345.809mil,1454.545mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [1.433mil]
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
 Rule Violations :0
@@ -69,6 +64,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 5
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:06
+Time Elapsed        : 00:00:09
