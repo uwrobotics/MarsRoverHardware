@@ -175,11 +175,11 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Adrianna\Documents\MarsRover2021-hardware\Projects\CAN Breakout\Rev2\Project Outputs for CAN Breakout\fab\
+OutputFilePath3=C:\Users\Adrianna\Documents\MarsRover2021-hardware\Projects\CAN Breakout\Rev2\Project Outputs for CAN Breakout\fab_2020-09-29_12-13\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for CAN Breakout
-OutputPathMedia3=fab
-OutputPathMediaValue3=fab
+OutputPathMedia3== 'fab_' + CurrentDate + '_' + CurrentTime
+OutputPathMediaValue3== 'fab_' + CurrentDate + '_' + CurrentTime
 OutputPathOutputer3=
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
@@ -229,7 +229,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\CAN Breakout\Rev2\.PDF
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Adrianna\Documents\MarsRover2021-hardware\Projects\CAN Breakout\Rev2\Project Outputs for CAN Breakout\fab\
+RelativeOutputPath3=C:\Users\Adrianna\Documents\MarsRover2021-hardware\Projects\CAN Breakout\Rev2\Project Outputs for CAN Breakout\fab_2020-09-29_12-13\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
