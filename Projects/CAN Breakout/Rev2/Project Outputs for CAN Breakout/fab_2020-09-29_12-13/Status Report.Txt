@@ -1,0 +1,10 @@
+Output: AutoCAD dwg/dxf File PCB
+Type  : AutoCAD PCB
+From  : PCB Document [CAN Breakout.PcbDoc]
+   Generated File[CAN Breakout.DXF]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:13:57 On 2020-09-29
