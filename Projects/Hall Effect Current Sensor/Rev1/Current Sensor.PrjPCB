@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Current Sensor
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=Current Sensor.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HQGBRUXS
-
-[Document4]
 DocumentPath=Current Sensor.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AHVKSAGQ
 
-[Document5]
+[Document4]
 DocumentPath=..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -120,9 +103,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
 
-[Document6]
+[Document5]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,7 +120,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AJCBFXBD
+
+[Document6]
+DocumentPath=Current Sensor.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LZKYEDUF
 
 [Parameter1]
 Name=Address1
@@ -174,11 +174,11 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_SmartPDF]
-AutoOpenFile=-1
+AutoOpenFile=0
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
-ProjectMode=-1
+ProjectMode=0
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
@@ -207,10 +207,10 @@ SCH_ExpandPorts=0
 SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=-1
+SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Current Sensor
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -321,7 +321,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Color LaserJet MFP M180nw (846D1E)
+TargetPrinter=Samsung SCX-3400 Series (USB002)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -813,36 +813,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
