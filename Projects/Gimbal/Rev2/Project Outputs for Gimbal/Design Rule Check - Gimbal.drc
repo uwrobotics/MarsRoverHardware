@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\gratt\Documents\University\Design Teams\UW Mars Rover\Electrical\MarsRover2021-hardware\Projects\Gimbal\Rev2\Gimbal.PcbDoc
 Date     : 2020-10-02
-Time     : 7:32:09 PM
+Time     : 7:41:35 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
    Violation between Clearance Constraint: (8.583mil < 10mil) Between Pad U5-2(893.937mil,1425mil) on Top Layer And Track (893.937mil,1405.315mil)(960.685mil,1405.315mil) on Top Layer 
@@ -73,7 +73,7 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Net GND Between Pad U7-31(1287.047mil,1634.882mil) on Top Layer And Pad C6-1(1389.496mil,1705mil) on Top Layer 
    Violation between Un-Routed Net Constraint: Net GND Between Pad U7-18(1542.953mil,1634.882mil) on Top Layer And Pad C9-1(1586.496mil,1705mil) on Top Layer 
    Violation between Un-Routed Net Constraint: Net 3V3 Between Via (1800mil,2080mil) from Top Layer to Bottom Layer And Pad D4-4(1809.055mil,1984.528mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 5V Between Track (1181.968mil,1876.823mil)(1196.654mil,1862.138mil) on Top Layer And Pad ENC-1(1493.11mil,2060mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 5V Between Track (1180mil,1876.823mil)(1181.968mil,1876.823mil) on Top Layer And Pad ENC-1(1493.11mil,2060mil) on Top Layer 
    Violation between Un-Routed Net Constraint: Net 3V3 Between Via (1850mil,1170mil) from Top Layer to Bottom Layer And Pad R12-2(1862.992mil,910mil) on Top Layer 
    Violation between Un-Routed Net Constraint: Net GND Between Pad U5-2(893.937mil,1425mil) on Top Layer And Pad R7-1(1023.992mil,1405mil) on Top Layer 
    Violation between Un-Routed Net Constraint: Net 5V Between Pad U5-5(836.063mil,1425mil) on Top Layer And Pad U5-3(893.937mil,1444.685mil) on Top Layer 
