@@ -26,25 +26,17 @@ The Science board is responsible for interfacing with the motors, servos, and se
 
 ## Sensors
 
-* [DFRobot SHT20](https://wiki.dfrobot.com/SHT20_I2C_Temperature_%26_Humidity_Sensor__Waterproof_Probe__SKU__SEN0227) - I2C temperature & humidity sensor with waterproof probe
 * [Adafruit STEMMA Soil Sensor](https://www.adafruit.com/product/4026) - I2C capacitive moisture sensor
 
 ## Images
 
-Assembled PCB:
-![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Science/Rev1/images/Assembled_Science_Board_Rev1.jpg)
-
 ## Designers
 
-* **Christopher Arjune** - *MCU routing* - [ChristopherA057](https://github.com/ChristopherA057)
-* **Wolfgang Windholtz** - *Component placement* - [WolfgangWindholtz](https://github.com/WolfgangWindholtz)
-* **Kyle Hong** - *PCB design* - [Scotrus](https://github.com/Scotrus)
+* **Wolfgang Windholtz** - *Schematic and PCB design* - [WolfgangWindholtz](https://github.com/WolfgangWindholtz)
 
 ## Built With
 
 * [Altium Designer](https://www.altium.com/) - The PCB design software used
-* [OSHStencils](https://www.oshstencils.com/) - The PCB stencil maker used
-* [JLCPCB](https://jlcpcb.com/) - PCB Manufacturer
 
 ## Errata
 
