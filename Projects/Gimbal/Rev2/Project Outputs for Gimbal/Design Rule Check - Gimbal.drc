@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\gratt\Documents\University\Design Teams\UW Mars Rover\Electrical\MarsRover2021-hardware\Projects\Gimbal\Rev2\Gimbal.PcbDoc
-Date     : 2020-10-14
-Time     : 8:22:12 PM
+Date     : 2020-10-15
+Time     : 3:33:43 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -51,4 +51,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02
