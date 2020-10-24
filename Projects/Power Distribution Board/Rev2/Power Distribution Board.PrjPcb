@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=INOZBDLA
 
 [Document3]
-DocumentPath=SH3 - 5V VICOR DCDC.SchDoc
+DocumentPath=SH3 - 17V BUCK CONVERTER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -86,10 +86,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CDWBRSYI
+DocumentUniqueId=RSUKTPKD
 
 [Document4]
-DocumentPath=SH4 - 17V BUCK CONVERTER.SchDoc
+DocumentPath=SH4 - 5V VICOR DCDC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -103,7 +103,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LUTGKWFM
+DocumentUniqueId=YLGVAVTC
 
 [Document5]
 DocumentPath=SH5 - 3.3V BUCK CONVERTER.SchDoc
@@ -120,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=YPZDFEMA
+DocumentUniqueId=LUTGKWFM
 
 [Document6]
 DocumentPath=SH6 - RAIL MONITORING.SchDoc
@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GMDVOZPM
 
 [Document10]
-DocumentPath=SH8 - CAN.Harness
+DocumentPath=SH2 - CONNECTORS.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,7 +208,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=SH6 - MICROCONTROLLER.Harness
+DocumentPath=SH7 - MICROCONTROLLER.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=SH8 - USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
