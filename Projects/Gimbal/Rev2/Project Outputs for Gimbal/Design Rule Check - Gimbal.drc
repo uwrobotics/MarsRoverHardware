@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\gratt\Documents\University\Design Teams\UW Mars Rover\Electrical\MarsRover2021-hardware\Projects\Gimbal\Rev2\Gimbal.PcbDoc
-Date     : 2020-10-25
-Time     : 5:39:33 PM
+Date     : 2020-10-31
+Time     : 7:31:58 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (InNet('3V3') And OnLayer('Power') or InNet('5V') and OnLayer('Power')),(All)
 Rule Violations :0
@@ -55,27 +55,27 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 Waived Violations Of Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1062.374mil,-106.377mil)(1062.374mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,1001.988mil)(-81.922mil,1001.988mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,1001.997mil)(-110.458mil,1533.487mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,1533.487mil)(-81.922mil,1533.487mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,273.933mil)(-81.922mil,273.933mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,273.942mil)(-110.458mil,805.432mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,805.432mil)(-81.922mil,805.432mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1137.335mil,-106.377mil)(1137.335mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1137.335mil,-106.377mil)(1491.665mil,-106.377mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1491.665mil,-106.377mil)(1491.665mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (277.335mil,-106.377mil)(277.335mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (277.335mil,-106.377mil)(631.665mil,-106.377mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (24.724mil < 25mil) Between Board Edge And Track (364.5mil,1510.22mil)(364.5mil,1845.276mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (24.724mil < 25mil) Between Board Edge And Track (364.5mil,1845.276mil)(751.927mil,1845.276mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (631.665mil,-106.377mil)(631.665mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (708.043mil,-106.377mil)(1062.374mil,-106.377mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (708.043mil,-106.377mil)(708.043mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
-   Waived Violation between Board Outline Clearance(Outline Edge): (24.724mil < 25mil) Between Board Edge And Track (751.927mil,1510.22mil)(751.927mil,1845.276mil) on Top Overlay Waived by Aidan Gratton at 2020-10-25 5:39:09 PM"Traces" are just footprint markings
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1062.374mil,-106.377mil)(1062.374mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,1001.988mil)(-81.922mil,1001.988mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,1001.997mil)(-110.458mil,1533.487mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,1533.487mil)(-81.922mil,1533.487mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,273.933mil)(-81.922mil,273.933mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,273.942mil)(-110.458mil,805.432mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (9.542mil < 25mil) Between Board Edge And Track (-110.458mil,805.432mil)(-81.922mil,805.432mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1137.335mil,-106.377mil)(1137.335mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1137.335mil,-106.377mil)(1491.665mil,-106.377mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (1491.665mil,-106.377mil)(1491.665mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (277.335mil,-106.377mil)(277.335mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (277.335mil,-106.377mil)(631.665mil,-106.377mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (24.724mil < 25mil) Between Board Edge And Track (364.5mil,1510.22mil)(364.5mil,1845.276mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (24.724mil < 25mil) Between Board Edge And Track (364.5mil,1845.276mil)(751.927mil,1845.276mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (631.665mil,-106.377mil)(631.665mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (708.043mil,-106.377mil)(1062.374mil,-106.377mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (14.686mil < 25mil) Between Board Edge And Track (708.043mil,-106.377mil)(708.043mil,-67.991mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
+   Waived Violation between Board Outline Clearance(Outline Edge): (24.724mil < 25mil) Between Board Edge And Track (751.927mil,1510.22mil)(751.927mil,1845.276mil) on Top Overlay Waived by Aidan Gratton at 2020-10-31 7:30:55 PM
 Waived Violations :18
 
 
 Violations Detected : 0
 Waived Violations : 18
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:06
