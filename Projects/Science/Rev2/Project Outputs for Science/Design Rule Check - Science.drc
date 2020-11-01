@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Wolfgang Windholtz\altium_projects\MarsRover2021-hardware\Projects\Science\Rev2\Science.PcbDoc
-Date     : 10/30/2020
-Time     : 4:00:02 PM
+Date     : 11/1/2020
+Time     : 1:23:09 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -57,4 +57,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
