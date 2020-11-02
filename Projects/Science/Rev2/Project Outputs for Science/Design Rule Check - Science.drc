@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\Science\Rev2\Science.PcbDoc
 Date     : 2020-11-02
-Time     : 1:39:47 PM
+Time     : 3:57:04 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -18,13 +18,13 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=8mil) (Max=60mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=8mil) (Max=100mil) (Preferred=10mil) (All)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=20mil) (Max=50mil) (Preferred=30mil) ((InNet('NetC27_2') OR InNet('NetC28_2') OR InNet('NetC29_2')))
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (IsVia)
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=5mil) (All)
@@ -49,26 +49,15 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-Rule Violations :0
-
-Processing Rule : Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER'))
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component C24-CAP_0.1uF_50V_0603 (1846.496mil,860mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component C25-CAP_0.1uF_50V_0603 (1820mil,521.496mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component R24-RES_10kO_0603 (1422.008mil,790mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP10-TESTPOINT_1MM_CIRCLE (2665mil,340mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP11-TESTPOINT_1MM_CIRCLE (2725mil,340mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP12-TESTPOINT_1MM_CIRCLE (1810mil,355mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP13-TESTPOINT_1MM_CIRCLE (1560mil,355mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP14-TESTPOINT_1MM_CIRCLE (1022.5mil,360mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP15-TESTPOINT_1MM_CIRCLE (937.5mil,360.208mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP16-TESTPOINT_1MM_CIRCLE (852.5mil,360mil) on Top Layer 
-   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SOIC Component U5-TXS0108EPWR (1650mil,680mil) on Top Layer 
-Rule Violations :11
+   Violation between Board Outline Clearance(Outline Edge): (21.297mil < 25mil) Between Board Edge And Track (2104.287mil,2299.667mil)(2104.287mil,2328.203mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (21.297mil < 25mil) Between Board Edge And Track (2104.296mil,2328.203mil)(2568.856mil,2328.203mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (21.297mil < 25mil) Between Board Edge And Track (2568.856mil,2299.667mil)(2568.856mil,2328.203mil) on Top Overlay 
+Rule Violations :3
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 11
+Violations Detected : 3
 Waived Violations : 0
 Time Elapsed        : 00:00:03
