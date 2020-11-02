@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Wolfgang Windholtz\altium_projects\MarsRover2021-hardware\Projects\Science\Rev2\Science.PcbDoc
-Date     : 11/2/2020
-Time     : 11:47:06 AM
+PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\Science\Rev2\Science.PcbDoc
+Date     : 2020-11-02
+Time     : 1:39:47 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -51,10 +51,24 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
 Rule Violations :0
 
+Processing Rule : Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER'))
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component C24-CAP_0.1uF_50V_0603 (1846.496mil,860mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component C25-CAP_0.1uF_50V_0603 (1820mil,521.496mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component R24-RES_10kO_0603 (1422.008mil,790mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP10-TESTPOINT_1MM_CIRCLE (2665mil,340mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP11-TESTPOINT_1MM_CIRCLE (2725mil,340mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP12-TESTPOINT_1MM_CIRCLE (1810mil,355mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP13-TESTPOINT_1MM_CIRCLE (1560mil,355mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP14-TESTPOINT_1MM_CIRCLE (1022.5mil,360mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP15-TESTPOINT_1MM_CIRCLE (937.5mil,360.208mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SMT Small Component TP16-TESTPOINT_1MM_CIRCLE (852.5mil,360mil) on Top Layer 
+   Violation between Room Definition: Between Room SH3 - LEVEL SHIFTER (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('SH3 - LEVEL SHIFTER')) And SOIC Component U5-TXS0108EPWR (1650mil,680mil) on Top Layer 
+Rule Violations :11
+
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 11
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:03
