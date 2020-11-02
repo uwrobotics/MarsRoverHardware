@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -140,194 +140,66 @@ GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.DXF
-DItemRevisionGUID=
-
-[GeneratedDocument5]
+[GeneratedDocument2]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.DXF
 DItemRevisionGUID=
 
-[GeneratedDocument6]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument8]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument9]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument11]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument12]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument14]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument15]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument17]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GBP
 DItemRevisionGUID=
 
-[GeneratedDocument18]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument21]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument23]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument24]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument27]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument29]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument30]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument32]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GTP
 DItemRevisionGUID=
 
-[GeneratedDocument33]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument35]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument36]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument38]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument39]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.REP
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.REP
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.REP
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.step
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.step
-DItemRevisionGUID=
-
-[GeneratedDocument44]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.step
 DItemRevisionGUID=
 
-[GeneratedDocument45]
-DocumentPath=Project Outputs for CAN Breakout\fab\CAN Breakout.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-12\CAN Breakout.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument47]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for CAN Breakout\fab_2020-09-29_12-13\CAN Breakout.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument48]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for CAN Breakout\Design Rule Check - CAN Breakout.html
 DItemRevisionGUID=
 
@@ -489,7 +361,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote (Desktop)
+TargetPrinter=Samsung CLX-3180 Series (USB001)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -557,6 +429,12 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1103,6 +981,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1171,6 +1051,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1318,6 +1200,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1338,6 +1221,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Any
 ComponentLibraryIdentifier0=
@@ -1662,6 +1546,7 @@ ModelUpdate15=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
