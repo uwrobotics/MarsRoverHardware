@@ -1,4 +1,4 @@
-﻿[Design]
+[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Science
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -443,7 +443,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Science
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -554,7 +554,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Color LaserJet MFP M180nw (846D1E)
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1474,8 +1474,8 @@ ComponentUpdate6=1
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID7=CAP_4.7µF_50V_1206
-ComponentSymbolReference7=CAP_4.7µF_50V_1206
+ComponentDesignItemID7=CAP_4.7�F_50V_1206
+ComponentSymbolReference7=CAP_4.7�F_50V_1206
 ComponentUpdate7=1
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
@@ -1618,50 +1618,50 @@ ComponentUpdate30=1
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
 ComponentLibraryIdentifier31=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID31=RES_0Ω_0603
-ComponentSymbolReference31=RES_0Ω_0603
+ComponentDesignItemID31=RES_0O_0603
+ComponentSymbolReference31=RES_0O_0603
 ComponentUpdate31=1
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
 ComponentLibraryIdentifier32=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID32=RES_100kΩ_0603_1%
-ComponentSymbolReference32=RES_100kΩ_0603_1%
+ComponentDesignItemID32=RES_100kO_0603_1%
+ComponentSymbolReference32=RES_100kO_0603_1%
 ComponentUpdate32=1
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID33=RES_10kΩ_0603_5%
-ComponentSymbolReference33=RES_10kΩ_0603_5%
+ComponentDesignItemID33=RES_10kO_0603_5%
+ComponentSymbolReference33=RES_10kO_0603_5%
 ComponentUpdate33=1
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
 ComponentLibraryIdentifier34=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID34=RES_120Ω_0603
-ComponentSymbolReference34=RES_120Ω_0603
+ComponentDesignItemID34=RES_120O_0603
+ComponentSymbolReference34=RES_120O_0603
 ComponentUpdate34=1
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
 ComponentLibraryIdentifier35=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID35=RES_120Ω_0603_5%
-ComponentSymbolReference35=RES_120Ω_0603_5%
+ComponentDesignItemID35=RES_120O_0603_5%
+ComponentSymbolReference35=RES_120O_0603_5%
 ComponentUpdate35=1
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
 ComponentLibraryIdentifier36=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID36=RES_1kΩ_0603_5%
-ComponentSymbolReference36=RES_1kΩ_0603_5%
+ComponentDesignItemID36=RES_1kO_0603_5%
+ComponentSymbolReference36=RES_1kO_0603_5%
 ComponentUpdate36=1
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
 ComponentLibraryIdentifier37=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID37=RES_20Ω_0603_5%
-ComponentSymbolReference37=RES_20Ω_0603_5%
+ComponentDesignItemID37=RES_20O_0603_5%
+ComponentSymbolReference37=RES_20O_0603_5%
 ComponentUpdate37=1
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
 ComponentLibraryIdentifier38=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID38=RES_453kΩ_0603_1%
-ComponentSymbolReference38=RES_453kΩ_0603_1%
+ComponentDesignItemID38=RES_453kO_0603_1%
+ComponentSymbolReference38=RES_453kO_0603_1%
 ComponentUpdate38=1
 ComponentIsDeviceSheet38=0
 ComponentLibIdentifierKind39=Library Name And Type
