@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Free Documents]
+   Generated File[Gimbal.TXT]
+   Generated File[Gimbal.LDP]
+   Generated File[Gimbal.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:22:03 PM On 11/2/2020
