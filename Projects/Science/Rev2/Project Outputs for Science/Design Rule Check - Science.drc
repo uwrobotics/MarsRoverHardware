@@ -1,10 +1,12 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\Science\Rev2\Science.PcbDoc
+PCB File : C:\Users\gratt\Documents\University\Design Teams\UW Mars Rover\Electrical\MarsRover2021-hardware\Projects\Science\Rev2\Science.PcbDoc
 Date     : 2020-11-02
-Time     : 3:57:04 PM
+Time     : 7:37:12 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (7.774mil < 8mil) Between Region (0 hole(s)) Top Layer And Track (186.756mil,1089.5mil)(189.565mil,1089.5mil) on Top Layer 
+   Violation between Clearance Constraint: (7.774mil < 8mil) Between Region (0 hole(s)) Top Layer And Track (189.565mil,1089.5mil)(199.417mil,1079.648mil) on Top Layer 
+Rule Violations :2
 
 Processing Rule : Clearance Constraint (Gap=10mil) (InNet('3V3') And OnLayer('Power') or InNet('5V') and OnLayer('Power')),(All)
 Rule Violations :0
@@ -58,6 +60,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 5
 Waived Violations : 0
 Time Elapsed        : 00:00:03
