@@ -1,6 +1,15 @@
 # Science Board
 
-The Science board is responsible for interfacing with the motors, servos, and sensors in the rover's science data collection module. The science module will also perform on-board testing on collected soil and rock samples to determine if life is present.
+The science board is responsible for interfacing with the motors, servos, and sensors in the rover's science data collection module.
+The science module consists of two primary components; the digger used to collect soil samples and the centrifuge used to mix soil samples with chemicals 
+The science module will test the dampness of soil sites using the STEMMA moisture sensor to determine where to retreive soil samples.
+The digger has two sub-modules the scoop and the lift.
+The scoop uses the Hitec HS-82MG servo to collect soil samples.
+The lift raises and lowers the scoop using a Pololu 4695.
+At the top of the lift the sample into the centrifuge.
+The centrifuge consists of two components; the lid and the geniva drive used to rotate the centrifuge.
+The lid is controlled by the Feetech FS90 servo.
+The geniva drive is driven by Pololu 4685.
 
 ![Science_Render](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Science/Rev1/images/Science_Render.jpg)
 
@@ -12,7 +21,7 @@ The Science board is responsible for interfacing with the motors, servos, and se
 
 ### Motor Controllers
 
-* TBD
+* [Cytron 10A 5-30V Dual Channel DC Motor Driver](https://www.robotshop.com/ca/en/cytron-10a-5-30v-dual-channel-dc-motor-driver.html)
 
 ### Servos
 
@@ -21,8 +30,8 @@ The Science board is responsible for interfacing with the motors, servos, and se
 
 ### Motors
 
-* [165 RPM Planetary Motor](https://www.servocity.com/165-rpm-hd-premium-planetary-gear-motor-w-encoder)
-* [195 RPM Planetary Motor](https://www.servocity.com/195-rpm-premium-planetary-gear-motor)
+* [Pololu 4695 motor](https://www.pololu.com/product/4693)
+* [Pololu 4685 motor](https://www.pololu.com/product/4685)
 
 ## Sensors
 
