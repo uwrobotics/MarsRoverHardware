@@ -14,7 +14,7 @@ OutputFileName2=Science.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=1
 OutputFileNameSpecial2=
-OpenOutput2=1
+OpenOutput2=0
 PromptOverwrite2=1
 PublishMethod2=0
 ZoomLevel2=50
@@ -82,7 +82,7 @@ WmvQuality4=80
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Robot Controller\Rev1\Science\.PDF
-OpenOutputs2=1
+OpenOutputs2=0
 RelativeOutputPath3=
 OpenOutputs3=1
 AddToProject3=1
