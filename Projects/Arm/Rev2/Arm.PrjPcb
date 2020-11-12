@@ -123,13 +123,13 @@ GenerateClassCluster=0
 DocumentUniqueId=MNOHGRBS
 
 [Document6]
-DocumentPath=SH4 - SPI ENCODERS.SchDoc
+DocumentPath=SH4 - LEVEL SHIFTERS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -137,7 +137,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FAXWDSBJ
+DocumentUniqueId=FDJXLXDW
 
 [Document7]
 DocumentPath=SH5 - NETZER ENCODERS.SchDoc
@@ -208,23 +208,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GDEOHGTW
 
 [Document11]
-DocumentPath=SH9 - LEVEL SHIFTERS.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FDJXLXDW
-
-[Document12]
 DocumentPath=Arm.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
