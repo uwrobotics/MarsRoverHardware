@@ -30,7 +30,7 @@ The geniva drive is driven by Pololu 4685.
 
 ### Motors
 
-* [Pololu 4695 motor](https://www.pololu.com/product/4693)
+* [Pololu 4693 motor](https://www.pololu.com/product/4693)
 * [Pololu 4685 motor](https://www.pololu.com/product/4685)
 
 ## Sensors
