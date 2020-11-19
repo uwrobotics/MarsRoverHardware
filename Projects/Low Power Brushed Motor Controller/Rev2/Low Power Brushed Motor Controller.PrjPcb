@@ -122,10 +122,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KQJAEUAN
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Design Rule Check - Low Power Brushed Motor Controller.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
