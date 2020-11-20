@@ -241,14 +241,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CTGUITTJ
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Arm\Design Rule Check - Arm.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Arm\Move Component(s) Origin To Grid - Arm.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=BoardName
 Value=Arm_Rev2
