@@ -7,7 +7,7 @@ This repository contains:
 Further descriptions and instructions for using each individual board are available in the README in the relevant board's directory.
 
 ## System Block Diagram
-![Alt Text](https://github.com/uwrobotics/MarsRover2021-hardware/blob/master/11-20-2020-block-diagram.png)
+![Alt Text](https://github.com/uwrobotics/MarsRover2021-hardware/blob/master/11-21-2020-block-diagram.png)
 
 ## Hardware Development Instructions
 
