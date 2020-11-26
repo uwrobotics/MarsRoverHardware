@@ -1,58 +1,13 @@
 Protel Design System Design Rule Check
-PCB File : C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc
+PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc
 Date     : 2020-11-25
-Time     : 8:17:20 PM
+Time     : 9:23:33 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=15mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
-   Violation between Clearance Constraint: (11.732mil < 15mil) Between Pad U15-1(2068.386mil,1166.614mil) on Signal And Track (2042.795mil,1166.614mil)(2042.795mil,1217.795mil) on Signal 
-   Violation between Clearance Constraint: (8.457mil < 15mil) Between Pad U15-6(2017.205mil,993.386mil) on Signal And Track (2042.52mil,900mil)(2042.52mil,993.386mil) on Signal 
-   Violation between Clearance Constraint: (13.616mil < 15mil) Between Pad U15-7(2042.795mil,993.386mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (8.322mil < 15mil) Between Pad U15-7(2042.795mil,993.386mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (8.732mil < 15mil) Between Pad U15-7(2042.795mil,993.386mil) on Signal And Track (2017.205mil,993.386mil)(2017.205mil,1067.205mil) on Signal 
-   Violation between Clearance Constraint: (9.008mil < 15mil) Between Pad U15-8(2068.386mil,993.386mil) on Signal And Track (2042.52mil,900mil)(2042.52mil,993.386mil) on Signal 
-   Violation between Clearance Constraint: (13.255mil < 15mil) Between Pad U1-8(2084.646mil,3348.386mil) on Signal And Track (2039.318mil,3320.682mil)(2081.759mil,3320.682mil) on Signal 
-   Violation between Clearance Constraint: (8.255mil < 15mil) Between Pad U1-8(2084.646mil,3348.386mil) on Signal And Track (2081.759mil,3325.682mil)(2084.646mil,3322.795mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-11(830.433mil,2680.236mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-11(830.433mil,2680.236mil) on Signal And Track (804.842mil,2680.236mil)(804.842mil,2723.133mil) on Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-12(804.842mil,2680.236mil) on Signal And Track (753.661mil,2680.236mil)(779.252mil,2680.236mil) on Signal 
-   Violation between Clearance Constraint: (14.591mil < 15mil) Between Pad U2-12(804.842mil,2680.236mil) on Signal And Track (830.339mil,2680.331mil)(830.339mil,2721.679mil) on Signal 
-   Violation between Clearance Constraint: (14.591mil < 15mil) Between Pad U2-12(804.842mil,2680.236mil) on Signal And Track (830.339mil,2680.331mil)(830.433mil,2680.236mil) on Signal 
-   Violation between Clearance Constraint: (14.457mil < 15mil) Between Pad U2-13(779.252mil,2680.236mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-13(779.252mil,2680.236mil) on Signal And Track (804.842mil,2680.236mil)(804.842mil,2723.133mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-17(804.842mil,2459.764mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-17(804.842mil,2459.764mil) on Signal And Track (830.433mil,2402.652mil)(830.433mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.78mil < 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (804.748mil,2422.945mil)(804.748mil,2459.669mil) on Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (804.748mil,2459.669mil)(804.842mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.591mil < 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (855.929mil,2370.165mil)(855.929mil,2459.669mil) on Signal 
-   Violation between Clearance Constraint: (14.591mil < 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (855.929mil,2459.669mil)(856.024mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-19(856.024mil,2459.764mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-19(856.024mil,2459.764mil) on Signal And Track (830.433mil,2402.652mil)(830.433mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-2(1060.748mil,2680.236mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-2(1060.748mil,2680.236mil) on Signal And Track (1035.158mil,2680.236mil)(1035.158mil,2745.157mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-23(958.386mil,2459.764mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-23(958.386mil,2459.764mil) on Signal And Track (983.976mil,2383.048mil)(983.976mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-24(983.976mil,2459.764mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-24(983.976mil,2459.764mil) on Signal And Track (1009.567mil,2406.412mil)(1009.567mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-24(983.976mil,2459.764mil) on Signal And Track (958.386mil,2204.396mil)(958.386mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-25(1009.567mil,2459.764mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-25(1009.567mil,2459.764mil) on Signal And Track (983.976mil,2383.048mil)(983.976mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-27(1060.748mil,2459.764mil) on Signal And Track (1086.339mil,2459.764mil)(1105.236mil,2459.764mil) on Signal 
-   Violation between Clearance Constraint: (14.591mil < 15mil) Between Pad U2-28(1086.339mil,2459.764mil) on Signal And Track (1060.842mil,2428.924mil)(1060.842mil,2434.268mil) on Signal 
-   Violation between Clearance Constraint: (14.607mil < 15mil) Between Pad U2-28(1086.339mil,2459.764mil) on Signal And Track (1060mil,2429.767mil)(1060.842mil,2428.924mil) on Signal 
-   Violation between Clearance Constraint: (14.252mil < 15mil) Between Pad U2-3(1035.158mil,2680.236mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-3(1035.158mil,2680.236mil) on Signal And Track (1009.567mil,2680.236mil)(1009.567mil,2799.567mil) on Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-3(1035.158mil,2680.236mil) on Signal And Track (1060.748mil,2680.236mil)(1060.748mil,2716.009mil) on Signal 
-   Violation between Clearance Constraint: (14.457mil < 15mil) Between Pad U2-4(1009.567mil,2680.236mil) on Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.685mil < 15mil) Between Pad U2-4(1009.567mil,2680.236mil) on Signal And Track (1035.158mil,2680.236mil)(1035.158mil,2745.157mil) on Signal 
-   Violation between Clearance Constraint: (14.656mil < 15mil) Between Region (0 hole(s)) Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.656mil < 15mil) Between Region (0 hole(s)) Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (14.832mil < 15mil) Between Region (0 hole(s)) Signal And Region (0 hole(s)) Signal 
-   Violation between Clearance Constraint: (9.315mil < 15mil) Between Track (2017.205mil,993.386mil)(2017.205mil,1067.205mil) on Signal And Track (2042.52mil,900mil)(2042.52mil,993.386mil) on Signal 
-Rule Violations :45
+Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=20mil) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)
 Rule Violations :0
@@ -66,7 +21,7 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=8mil) (Max=30mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
@@ -84,18 +39,8 @@ Rule Violations :0
 Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=2mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (1.657mil < 2mil) Between Pad U3-1(2511mil,2585mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.657mil < 2mil) Between Pad U3-2(2511mil,2635mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.657mil < 2mil) Between Pad U3-3(2511mil,2685mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.657mil < 2mil) Between Pad U3-4(2511mil,2735mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.88mil < 2mil) Between Pad U3-5(2309mil,2735mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.88mil < 2mil) Between Pad U3-6(2309mil,2685mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.88mil < 2mil) Between Pad U3-7(2309mil,2635mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1.88mil < 2mil) Between Pad U3-8(2309mil,2585mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.929mil < 2mil) Between Pad U3-9(2410mil,2660mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.929mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.929mil < 2mil) Between Pad U3-9(2410mil,2660mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.929mil]
-Rule Violations :10
+Processing Rule : Silk To Solder Mask (Clearance=0.5mil) (IsPad),(All)
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=2mil) (All),(All)
 Rule Violations :0
@@ -109,7 +54,16 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mil) (Max=50000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
+   Waived Violation between Clearance Constraint: (11.732mil < 12mil) Between Pad U15-1(1818.386mil,916.614mil) on Signal And Track (1792.795mil,916.614mil)(1792.795mil,967.795mil) on Signal Waived by Lance Bantoto at 2020-11-25 9:05:55 PM
+   Waived Violation between Clearance Constraint: (8.457mil < 12mil) Between Pad U15-6(1767.205mil,743.386mil) on Signal And Track (1792.52mil,650mil)(1792.52mil,743.386mil) on Signal Waived by Lance Bantoto at 2020-11-25 9:06:00 PM
+   Waived Violation between Clearance Constraint: (8.732mil < 12mil) Between Pad U15-7(1792.795mil,743.386mil) on Signal And Track (1767.205mil,743.386mil)(1767.205mil,817.205mil) on Signal Waived by Lance Bantoto at 2020-11-25 9:06:04 PM
+   Waived Violation between Clearance Constraint: (9.008mil < 12mil) Between Pad U15-8(1818.386mil,743.386mil) on Signal And Track (1792.52mil,650mil)(1792.52mil,743.386mil) on Signal Waived by Lance Bantoto at 2020-11-25 9:06:08 PM
+   Waived Violation between Clearance Constraint: (8.255mil < 12mil) Between Pad U1-8(1834.646mil,3098.386mil) on Signal And Track (1831.759mil,3075.682mil)(1834.646mil,3072.795mil) on Signal Waived by Lance Bantoto at 2020-11-25 9:06:12 PM
+   Waived Violation between Clearance Constraint: (9.315mil < 12mil) Between Track (1767.205mil,743.386mil)(1767.205mil,817.205mil) on Signal And Track (1792.52mil,650mil)(1792.52mil,743.386mil) on Signal Waived by Lance Bantoto at 2020-11-25 9:06:18 PM
+Waived Violations :6
 
-Violations Detected : 55
-Waived Violations : 0
-Time Elapsed        : 00:00:22
+
+Violations Detected : 0
+Waived Violations : 6
+Time Elapsed        : 00:00:06
