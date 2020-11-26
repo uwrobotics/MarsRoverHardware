@@ -1,0 +1,513 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2020-11-25</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8:17:20 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:22</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc" class="file"><acronym title="C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc">C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">55</td></tr>
+</table>
+</td>
+</table><a name="IDRV25ZAKQIFVGOCRV3JE4LHUGAM511UZ1G0NMFUMYXSCWXCTP2LJF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJDFQEWQ4KNMBGS0LN2B51MJZ2HU0YOUHCF5VSKC1YPLEFH1QY2M">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUMJPAUHX5BJOMSJOUA0PK4SPZBDGRGCIRABXRWMZ1BNLJQKTEAHN">Clearance Constraint (Gap=15mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)</a></td>
+<td class="column2">45</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5GYQMPTFWAPDDRWFJDD1HJIQ3PHESN30SP0UYNFW2ZWQ15VEN4FG">Clearance Constraint (Gap=20mil) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUOQKHH5TEUQOPB2J3FREB3WBLGGKN4MORK11KJPP1XQVLIA30LBK">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOMFZGXCPIH2RILB1ZWEAS41RNGR2X1TIU0T4AZB1NN2EVA4JJE0E">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAZ0H4PESFJH5ODF1535EXAAL5CNRO5RMPBVATUIG0GOX2LAPC4">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRROGCY2BJEVJK00UEY4FJ4YMBEDGPFR5HSK3TTPVAWL1EIVQWFKI">Width Constraint (Min=8mil) (Max=30mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCIITMWHKNSFUEF4SRUC2K1IKMBVIXIUPWETHXFLF1QMHTZWFAC">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDS5S53LNX5A5BHBCQENFHTBZ0OB1LXYMRMWIRJDGLEO5V4CJ4YFJ">Minimum Annular Ring (Minimum=5mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3KYW2WJHWCMEMQ4425F2GRFQXBHMQA5ZLRGMEADB05AHVYT1U4BF">Hole Size Constraint (Min=10mil) (Max=200mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEMHT2VIM5TQ4HWSUUMWWPRATCEV05AF0PQEIWVULB5DEW5TLHXB">Hole To Hole Clearance (Gap=20mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHQGBOQDCRJKLIZGTO01BRBJ2QFDHFL0V4SNUF0DUIN4CII5HPCKK">Minimum Solder Mask Sliver (Gap=3mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEL5QK5KTDVPKMPNAEAGAATK2UHZDWKKAK5Q3TMP4LINAEG5I03UL">Silk To Solder Mask (Clearance=2mil) (IsPad),(All)</a></td>
+<td class="column2">10</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYRGT50UGJO0INFRRQBXPYW4GKN3PTLNS1FMWL5KZRRCQ1TWOGRQB">Silk to Silk (Clearance=2mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5RK4WLONAVCAPHMBJJDXCXG4YPFNLAR43OVBV0BVY0LF4KDQO5YE">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXXK0EV55TRAVEAVVILQ4F2YFOGYE0TQ4Z2OSXGBMVNRELE41I2QC">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFI2ENSPYVZXLHUMCKPUGSDE35J3ZSTOIIKVG0IIKAP2ZUXKEIFGH">Height Constraint (Min=0mil) (Max=50000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">55</td>
+</tr>
+</table><br><a name="IDUMJPAUHX5BJOMSJOUA0PK4SPZBDGRGCIRABXRWMZ1BNLJQKTEAHN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=15mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2045.536mil|Location2.X=2061.786mil|Location1.Y=1184.719mil|Location2.Y=1200.969mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2045.536mil|Location2.X=2061.786mil|Location1.Y=1184.719mil|Location2.Y=1200.969mil|Absolute=True">Clearance Constraint: (11.732mil &lt; 15mil) Between Pad U15-1(2068.386mil,1166.614mil) on Signal And Track (2042.795mil,1166.614mil)(2042.795mil,1217.795mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2022.166mil|Location2.X=2038.416mil|Location1.Y=959.03mil|Location2.Y=975.28mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2022.166mil|Location2.X=2038.416mil|Location1.Y=959.03mil|Location2.Y=975.28mil|Absolute=True">Clearance Constraint: (8.457mil &lt; 15mil) Between Pad U15-6(2017.205mil,993.386mil) on Signal And Track (2042.52mil,900mil)(2042.52mil,993.386mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.707mil|Location2.X=2038.656mil|Location1.Y=1017.547mil|Location2.Y=1033.797mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.707mil|Location2.X=2038.656mil|Location1.Y=1017.547mil|Location2.Y=1033.797mil|Absolute=True">Clearance Constraint: (13.616mil &lt; 15mil) Between Pad U15-7(2042.795mil,993.386mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.676mil|Location2.X=2037.926mil|Location1.Y=1012.017mil|Location2.Y=1032.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.676mil|Location2.X=2037.926mil|Location1.Y=1012.017mil|Location2.Y=1032.167mil|Absolute=True">Clearance Constraint: (8.322mil &lt; 15mil) Between Pad U15-7(2042.795mil,993.386mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.446mil|Location2.X=2037.696mil|Location1.Y=1011.491mil|Location2.Y=1027.741mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.446mil|Location2.X=2037.696mil|Location1.Y=1011.491mil|Location2.Y=1027.741mil|Absolute=True">Clearance Constraint: (8.732mil &lt; 15mil) Between Pad U15-7(2042.795mil,993.386mil) on Signal And Track (2017.205mil,993.386mil)(2017.205mil,1067.205mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2046.899mil|Location2.X=2063.149mil|Location1.Y=959.03mil|Location2.Y=975.28mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2046.899mil|Location2.X=2063.149mil|Location1.Y=959.03mil|Location2.Y=975.28mil|Absolute=True">Clearance Constraint: (9.008mil &lt; 15mil) Between Pad U15-8(2068.386mil,993.386mil) on Signal And Track (2042.52mil,900mil)(2042.52mil,993.386mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2049.946mil|Location2.X=2066.196mil|Location1.Y=3324.185mil|Location2.Y=3340.435mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2049.946mil|Location2.X=2066.196mil|Location1.Y=3324.185mil|Location2.Y=3340.435mil|Absolute=True">Clearance Constraint: (13.255mil &lt; 15mil) Between Pad U1-8(2084.646mil,3348.386mil) on Signal And Track (2039.318mil,3320.682mil)(2081.759mil,3320.682mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2073.634mil|Location2.X=2089.884mil|Location1.Y=3326.685mil|Location2.Y=3342.935mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2073.634mil|Location2.X=2089.884mil|Location1.Y=3326.685mil|Location2.Y=3342.935mil|Absolute=True">Clearance Constraint: (8.255mil &lt; 15mil) Between Pad U1-8(2084.646mil,3348.386mil) on Signal And Track (2081.759mil,3325.682mil)(2084.646mil,3322.795mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.295mil|Location2.X=825.545mil|Location1.Y=2702.699mil|Location2.Y=2722.828mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.295mil|Location2.X=825.545mil|Location1.Y=2702.699mil|Location2.Y=2722.828mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-11(830.433mil,2680.236mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.06mil|Location2.X=825.31mil|Location1.Y=2702.131mil|Location2.Y=2718.381mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.06mil|Location2.X=825.31mil|Location1.Y=2702.131mil|Location2.Y=2718.381mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-11(830.433mil,2680.236mil) on Signal And Track (804.842mil,2680.236mil)(804.842mil,2723.133mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=783.47mil|Location2.X=799.72mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=783.47mil|Location2.X=799.72mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-12(804.842mil,2680.236mil) on Signal And Track (753.661mil,2680.236mil)(779.252mil,2680.236mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.918mil|Location2.X=826.168mil|Location1.Y=2672.206mil|Location2.Y=2688.456mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.918mil|Location2.X=826.168mil|Location1.Y=2672.206mil|Location2.Y=2688.456mil|Absolute=True">Clearance Constraint: (14.591mil &lt; 15mil) Between Pad U2-12(804.842mil,2680.236mil) on Signal And Track (830.339mil,2680.331mil)(830.339mil,2721.679mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.918mil|Location2.X=826.168mil|Location1.Y=2672.206mil|Location2.Y=2688.456mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.918mil|Location2.X=826.168mil|Location1.Y=2672.206mil|Location2.Y=2688.456mil|Absolute=True">Clearance Constraint: (14.591mil &lt; 15mil) Between Pad U2-12(804.842mil,2680.236mil) on Signal And Track (830.339mil,2680.331mil)(830.433mil,2680.236mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=784.222mil|Location2.X=800.472mil|Location1.Y=2699.075mil|Location2.Y=2719.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=784.222mil|Location2.X=800.472mil|Location1.Y=2699.075mil|Location2.Y=2719.205mil|Absolute=True">Clearance Constraint: (14.457mil &lt; 15mil) Between Pad U2-13(779.252mil,2680.236mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=784.375mil|Location2.X=800.625mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=784.375mil|Location2.X=800.625mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-13(779.252mil,2680.236mil) on Signal And Track (804.842mil,2680.236mil)(804.842mil,2723.133mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.73mil|Location2.X=825.98mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.73mil|Location2.X=825.98mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-17(804.842mil,2459.764mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.966mil|Location2.X=826.216mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.966mil|Location2.X=826.216mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-17(804.842mil,2459.764mil) on Signal And Track (830.433mil,2402.652mil)(830.433mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.321mil|Location2.X=851.571mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.321mil|Location2.X=851.571mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.013mil|Location2.X=825.263mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.013mil|Location2.X=825.263mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.78mil &lt; 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (804.748mil,2422.945mil)(804.748mil,2459.669mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.06mil|Location2.X=825.31mil|Location1.Y=2451.639mil|Location2.Y=2467.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=809.06mil|Location2.X=825.31mil|Location1.Y=2451.639mil|Location2.Y=2467.889mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (804.748mil,2459.669mil)(804.842mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.509mil|Location2.X=851.759mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.509mil|Location2.X=851.759mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.591mil &lt; 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (855.929mil,2370.165mil)(855.929mil,2459.669mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.509mil|Location2.X=851.759mil|Location1.Y=2451.544mil|Location2.Y=2467.794mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.509mil|Location2.X=851.759mil|Location1.Y=2451.544mil|Location2.Y=2467.794mil|Absolute=True">Clearance Constraint: (14.591mil &lt; 15mil) Between Pad U2-18(830.433mil,2459.764mil) on Signal And Track (855.929mil,2459.669mil)(856.024mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=834.886mil|Location2.X=851.136mil|Location1.Y=2417.185mil|Location2.Y=2437.301mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=834.886mil|Location2.X=851.136mil|Location1.Y=2417.185mil|Location2.Y=2437.301mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-19(856.024mil,2459.764mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=834.651mil|Location2.X=850.901mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=834.651mil|Location2.X=850.901mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-19(856.024mil,2459.764mil) on Signal And Track (830.433mil,2402.652mil)(830.433mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1039.61mil|Location2.X=1055.86mil|Location1.Y=2702.699mil|Location2.Y=2722.828mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1039.61mil|Location2.X=1055.86mil|Location1.Y=2702.699mil|Location2.Y=2722.828mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-2(1060.748mil,2680.236mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1039.375mil|Location2.X=1055.625mil|Location1.Y=2702.131mil|Location2.Y=2718.381mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1039.375mil|Location2.X=1055.625mil|Location1.Y=2702.131mil|Location2.Y=2718.381mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-2(1060.748mil,2680.236mil) on Signal And Track (1035.158mil,2680.236mil)(1035.158mil,2745.157mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=963.274mil|Location2.X=979.524mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=963.274mil|Location2.X=979.524mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-23(958.386mil,2459.764mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=963.509mil|Location2.X=979.759mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=963.509mil|Location2.X=979.759mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-23(958.386mil,2459.764mil) on Signal And Track (983.976mil,2383.048mil)(983.976mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.864mil|Location2.X=1005.114mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.864mil|Location2.X=1005.114mil|Location1.Y=2421.051mil|Location2.Y=2441.18mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-24(983.976mil,2459.764mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=989.099mil|Location2.X=1005.349mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=989.099mil|Location2.X=1005.349mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-24(983.976mil,2459.764mil) on Signal And Track (1009.567mil,2406.412mil)(1009.567mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=962.603mil|Location2.X=978.853mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=962.603mil|Location2.X=978.853mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-24(983.976mil,2459.764mil) on Signal And Track (958.386mil,2204.396mil)(958.386mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.429mil|Location2.X=1004.679mil|Location1.Y=2417.186mil|Location2.Y=2437.301mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.429mil|Location2.X=1004.679mil|Location1.Y=2417.186mil|Location2.Y=2437.301mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-25(1009.567mil,2459.764mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.194mil|Location2.X=1004.444mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.194mil|Location2.X=1004.444mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-25(1009.567mil,2459.764mil) on Signal And Track (983.976mil,2383.048mil)(983.976mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.871mil|Location2.X=1082.121mil|Location1.Y=2451.639mil|Location2.Y=2467.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.871mil|Location2.X=1082.121mil|Location1.Y=2451.639mil|Location2.Y=2467.889mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-27(1060.748mil,2459.764mil) on Signal And Track (1086.339mil,2459.764mil)(1105.236mil,2459.764mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.013mil|Location2.X=1081.263mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.013mil|Location2.X=1081.263mil|Location1.Y=2421.619mil|Location2.Y=2437.869mil|Absolute=True">Clearance Constraint: (14.591mil &lt; 15mil) Between Pad U2-28(1086.339mil,2459.764mil) on Signal And Track (1060.842mil,2428.924mil)(1060.842mil,2434.268mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.011mil|Location2.X=1081.261mil|Location1.Y=2421.278mil|Location2.Y=2437.528mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1065.011mil|Location2.X=1081.261mil|Location1.Y=2421.278mil|Location2.Y=2437.528mil|Absolute=True">Clearance Constraint: (14.607mil &lt; 15mil) Between Pad U2-28(1086.339mil,2459.764mil) on Signal And Track (1060mil,2429.767mil)(1060.842mil,2428.924mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.02mil|Location2.X=1030.27mil|Location1.Y=2702.699mil|Location2.Y=2722.828mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.02mil|Location2.X=1030.27mil|Location1.Y=2702.699mil|Location2.Y=2722.828mil|Absolute=True">Clearance Constraint: (14.252mil &lt; 15mil) Between Pad U2-3(1035.158mil,2680.236mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1013.784mil|Location2.X=1030.034mil|Location1.Y=2702.131mil|Location2.Y=2718.381mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1013.784mil|Location2.X=1030.034mil|Location1.Y=2702.131mil|Location2.Y=2718.381mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-3(1035.158mil,2680.236mil) on Signal And Track (1009.567mil,2680.236mil)(1009.567mil,2799.567mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1040.281mil|Location2.X=1056.531mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1040.281mil|Location2.X=1056.531mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-3(1035.158mil,2680.236mil) on Signal And Track (1060.748mil,2680.236mil)(1060.748mil,2716.009mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.537mil|Location2.X=1030.787mil|Location1.Y=2699.075mil|Location2.Y=2719.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.537mil|Location2.X=1030.787mil|Location1.Y=2699.075mil|Location2.Y=2719.205mil|Absolute=True">Clearance Constraint: (14.457mil &lt; 15mil) Between Pad U2-4(1009.567mil,2680.236mil) on Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.69mil|Location2.X=1030.94mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.69mil|Location2.X=1030.94mil|Location1.Y=2672.111mil|Location2.Y=2688.361mil|Absolute=True">Clearance Constraint: (14.685mil &lt; 15mil) Between Pad U2-4(1009.567mil,2680.236mil) on Signal And Track (1035.158mil,2680.236mil)(1035.158mil,2745.157mil) on Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.647mil|Location2.X=1004.897mil|Location1.Y=2420.581mil|Location2.Y=2436.831mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=988.647mil|Location2.X=1004.897mil|Location1.Y=2420.581mil|Location2.Y=2436.831mil|Absolute=True">Clearance Constraint: (14.656mil &lt; 15mil) Between Region (0 hole(s)) Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.103mil|Location2.X=851.353mil|Location1.Y=2420.581mil|Location2.Y=2436.831mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=835.103mil|Location2.X=851.353mil|Location1.Y=2420.581mil|Location2.Y=2436.831mil|Absolute=True">Clearance Constraint: (14.656mil &lt; 15mil) Between Region (0 hole(s)) Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.321mil|Location2.X=1030.571mil|Location1.Y=2703.404mil|Location2.Y=2719.654mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1014.321mil|Location2.X=1030.571mil|Location1.Y=2703.404mil|Location2.Y=2719.654mil|Absolute=True">Clearance Constraint: (14.832mil &lt; 15mil) Between Region (0 hole(s)) Signal And Region (0 hole(s)) Signal </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.737mil|Location2.X=2037.987mil|Location1.Y=985.261mil|Location2.Y=1001.511mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2021.737mil|Location2.X=2037.987mil|Location1.Y=985.261mil|Location2.Y=1001.511mil|Absolute=True">Clearance Constraint: (9.315mil &lt; 15mil) Between Track (2017.205mil,993.386mil)(2017.205mil,1067.205mil) on Signal And Track (2042.52mil,900mil)(2042.52mil,993.386mil) on Signal </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDEL5QK5KTDVPKMPNAEAGAATK2UHZDWKKAK5Q3TMP4LINAEG5I03UL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=2mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2573.104mil|Location2.Y=2576.354mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2573.104mil|Location2.Y=2576.354mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.657mil &lt; 2mil) Between Pad U3-1(2511mil,2585mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2623.104mil|Location2.Y=2626.354mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2623.104mil|Location2.Y=2626.354mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.657mil &lt; 2mil) Between Pad U3-2(2511mil,2635mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2673.104mil|Location2.Y=2676.354mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2673.104mil|Location2.Y=2676.354mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.657mil &lt; 2mil) Between Pad U3-3(2511mil,2685mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2723.104mil|Location2.Y=2726.354mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2465.251mil|Location2.X=2468.501mil|Location1.Y=2723.104mil|Location2.Y=2726.354mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.657mil &lt; 2mil) Between Pad U3-4(2511mil,2735mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.657mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2722.448mil|Location2.Y=2725.698mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2722.448mil|Location2.Y=2725.698mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.88mil &lt; 2mil) Between Pad U3-5(2309mil,2735mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2672.448mil|Location2.Y=2675.698mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2672.448mil|Location2.Y=2675.698mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.88mil &lt; 2mil) Between Pad U3-6(2309mil,2685mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2622.448mil|Location2.Y=2625.698mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2622.448mil|Location2.Y=2625.698mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.88mil &lt; 2mil) Between Pad U3-7(2309mil,2635mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2572.448mil|Location2.Y=2575.698mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2351.388mil|Location2.X=2354.638mil|Location1.Y=2572.448mil|Location2.Y=2575.698mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (1.88mil &lt; 2mil) Between Pad U3-8(2309mil,2585mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1.88mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2360.666mil|Location2.X=2363.916mil|Location1.Y=2719.399mil|Location2.Y=2722.649mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2360.666mil|Location2.X=2363.916mil|Location1.Y=2719.399mil|Location2.Y=2722.649mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.929mil &lt; 2mil) Between Pad U3-9(2410mil,2660mil) on Signal And Track (2357.89mil,2556.654mil)(2357.89mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.929mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2456.084mil|Location2.X=2459.334mil|Location1.Y=2597.351mil|Location2.Y=2600.601mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\UWRT\MarsRover2021-hardware\Projects\Power Distribution Board\Rev2\Power Distribution Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2456.084mil|Location2.X=2459.334mil|Location1.Y=2597.351mil|Location2.Y=2600.601mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.929mil &lt; 2mil) Between Pad U3-9(2410mil,2660mil) on Signal And Track (2462.11mil,2556.654mil)(2462.11mil,2763.347mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.929mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
