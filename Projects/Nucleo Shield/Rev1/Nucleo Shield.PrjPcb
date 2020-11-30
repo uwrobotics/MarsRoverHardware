@@ -258,23 +258,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WUAAAZZX
 
-[Document14]
-DocumentPath=..\..\Low Power Brushed Motor Controller\Rev2\SH7 - LEVEL SHIFTERS.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MXKDKKVO
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -286,7 +269,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_SmartPDF]
-AutoOpenFile=0
+AutoOpenFile=-1
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
