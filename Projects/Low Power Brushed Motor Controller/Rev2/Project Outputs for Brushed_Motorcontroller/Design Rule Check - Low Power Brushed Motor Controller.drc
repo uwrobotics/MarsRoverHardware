@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc
+PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc
 Date     : 2020-12-01
-Time     : 12:26:33 AM
+Time     : 7:34:38 AM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -10,13 +10,52 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Pad R1-2(1244.841mil,522.5mil) on Top Layer And Pad TP1-1(1300mil,870mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net DIR Between Pad TP5-1(1070mil,-130mil) on Top Layer And Track (1070mil,-54.41mil)(1143.253mil,-127.663mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetR5_2 Between Track (955.906mil,78.594mil)(960.473mil,83.161mil) on Top Layer And Via (1130mil,310mil) from Top Layer to Bottom Layer 
-Rule Violations :3
+   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Pad R1-2(334.841mil,642.5mil) on Top Layer And Pad R4-2(422.992mil,420mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Pad R1-2(334.841mil,642.5mil) on Top Layer And Pad TP1-1(390mil,990mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net DIR Between Pad TP5-1(160mil,-10mil) on Top Layer And Track (233.253mil,-9.632mil)(233.253mil,-7.663mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Via (900mil,310mil) from Top Layer to Bottom Layer And Track (957.5mil,565mil)(960mil,562.5mil) on Top Layer 
+Rule Violations :4
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
+
+Processing Rule : Width Constraint (Min=50mil) (Max=200mil) (Preferred=50mil) (InNetClass('High Current'))
+   Violation between Width Constraint: Track (1020mil,110mil)(1119.449mil,209.449mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (1030mil,410mil)(1236.299mil,410mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (1119.449mil,209.449mil)(1240mil,209.449mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (1123.15mil,603.15mil)(1240mil,603.15mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (1236.299mil,410mil)(1240mil,406.299mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (-175.535mil,215.118mil)(-172.856mil,217.797mil) on Top Layer Actual Width = 10mil, Target Width = 50mil
+   Violation between Width Constraint: Track (334.841mil,642.5mil)(623.76mil,642.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (422.992mil,297.657mil)(422.992mil,299.626mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (422.992mil,297.657mil)(462.227mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (422.992mil,299.626mil)(422.992mil,420mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (462.227mil,258.422mil)(526.772mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (526.772mil,108.422mil)(749.213mil,108.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (526.772mil,258.422mil)(749.213mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (526.772mil,358.422mil)(749.213mil,358.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (623.76mil,642.5mil)(640mil,658.74mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (749.213mil,108.422mil)(750.791mil,110mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (749.213mil,208.422mil)(749.213mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (749.213mil,258.422mil)(900.001mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (749.213mil,358.422mil)(978.422mil,358.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (750.791mil,110mil)(1020mil,110mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (840mil,530mil)(912.5mil,457.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (900.001mil,258.422mil)(902.501mil,255.922mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (900mil,258.423mil)(900.001mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (900mil,258.423mil)(900mil,310mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (902.501mil,169.344mil)(902.501mil,255.922mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (912.5mil,457.5mil)(960mil,457.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (950mil,960.92mil)(957.5mil,953.42mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (957.5mil,565mil)(957.5mil,760.507mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (957.5mil,565mil)(960mil,562.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (960mil,457.5mil)(977.5mil,457.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (965.493mil,169.344mil)(965.493mil,255.922mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (965.493mil,255.922mil)(967.993mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (967.993mil,258.422mil)(1194.804mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (977.5mil,457.5mil)(1123.15mil,603.15mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+   Violation between Width Constraint: Track (978.422mil,358.422mil)(1030mil,410mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
+Rule Violations :35
 
 Processing Rule : Width Constraint (Min=5mil) (Max=1000mil) (Preferred=8mil) (All)
 Rule Violations :0
@@ -40,54 +79,27 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (4.639mil < 5mil) Between Pad D2-1(1263.742mil,748.938mil) on Top Layer And Text "R2" (1158.841mil,665.623mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.639mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad D2-1(1263.742mil,748.938mil) on Top Layer And Text "VBAT" (1077.304mil,692.674mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.192mil < 5mil) Between Pad D2-2(1181.065mil,748.938mil) on Top Layer And Text "R2" (1158.841mil,665.623mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.192mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad D2-2(1181.065mil,748.938mil) on Top Layer And Text "VBAT" (1077.304mil,692.674mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (1mil < 5mil) Between Pad F1-2(1870mil,442.5mil) on Top Layer And Text "D1" (1896.443mil,466mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [1mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad J2-2(900mil,330mil) on Multi-Layer And Text "DIR" (930.245mil,306.674mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (3.376mil < 5mil) Between Pad Q1-1(1121.26mil,37.402mil) on Top Layer And Text "R6" (1136.206mil,34.957mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.376mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad Q1-2(1121.26mil,-37.402mil) on Top Layer And Text "R9" (1136.097mil,-104.213mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.264mil < 5mil) Between Pad R2-2(1181.849mil,621.201mil) on Top Layer And Text "R1" (1127.845mil,574.482mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.264mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (2.167mil < 5mil) Between Pad R3-1(1130mil,130mil) on Top Layer And Text "C3" (1133.865mil,150.772mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [2.167mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.134mil < 5mil) Between Pad R3-1(1130mil,130mil) on Top Layer And Text "Q1" (1087.649mil,94.981mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.134mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad R3-2(1130mil,192.992mil) on Top Layer And Text "C3" (1133.865mil,150.772mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.953mil < 5mil) Between Pad R4-2(1332.992mil,300mil) on Top Layer And Text "U1" (1301.341mil,327.209mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.953mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.323mil < 5mil) Between Pad R7-2(1332.992mil,400mil) on Top Layer And Text "U1" (1301.341mil,327.209mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.323mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.379mil < 5mil) Between Pad R8-1(1206.245mil,-129.632mil) on Top Layer And Text "R9" (1136.097mil,-104.213mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.379mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (3.761mil < 5mil) Between Pad R8-2(1143.253mil,-129.632mil) on Top Layer And Text "R9" (1136.097mil,-104.213mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.761mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.318mil < 5mil) Between Pad TP1-1(1300mil,870mil) on Top Layer And Text "C1" (1232.34mil,877.997mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.318mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.649mil < 5mil) Between Pad TP3-1(1180mil,920mil) on Multi-Layer And Text "C1" (1232.34mil,877.997mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.649mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.641mil < 5mil) Between Pad TP6-1(1200mil,130mil) on Top Layer And Text "C3" (1133.865mil,150.772mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.641mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (3.531mil < 5mil) Between Pad TP6-1(1200mil,130mil) on Top Layer And Text "Q1" (1087.649mil,94.981mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [3.531mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad U1-9(1436.772mil,288.422mil) on Top Layer And Text "R4" (1363.33mil,269.502mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-Rule Violations :21
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (955.906mil,78.594mil)(960.473mil,83.161mil) on Top Layer 
-   Violation between Net Antennae: Track (955.906mil,78.594mil)(960.473mil,83.161mil) on Top Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "DIR" (-105.17mil,119.597mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "DIR_INV" (362.245mil,-143.359mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "GND" (-117.414mil,513.28mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "GND" (2279.245mil,789.631mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "GND" (2694.891mil,609.855mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "OUTA" (2694.891mil,19.303mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "OUTB" (2694.891mil,216.154mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "PWM" (-116.326mil,316.447mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "PWM" (531.245mil,532.674mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "VBAT" (2694.951mil,413.022mil) on Top Overlay 
-Rule Violations :10
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "DIR" (-370mil,140mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "DIR_INV" (-540mil,700.656mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "GND" (-560mil,910.633mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "GND" (860mil,1210.633mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "PWM" (-590mil,830mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "VBAT" (300.033mil,1180mil) on Top Overlay 
+Rule Violations :6
 
 Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 36
+Violations Detected : 45
 Waived Violations : 0
 Time Elapsed        : 00:00:02
