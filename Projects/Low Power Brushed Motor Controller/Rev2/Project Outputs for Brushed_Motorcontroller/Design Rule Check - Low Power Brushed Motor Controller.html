@@ -1,0 +1,487 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2020-12-01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">1:30:24 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc" class="file"><acronym title="C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc">C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">45</td></tr>
+</table>
+</td>
+</table><a name="IDWXVPFJVINLXPBLIZJCDT430MRMIPD2JHYHAFF1BH3IGKFXLXFBVO"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCUUNR2DVPBKSIGLSQKFWZ30NC1XBGJVNCE1XVNSIMSCPS2UUVXH">Clearance Constraint (Gap=5mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2NR5C1JMPO3UPUZ3AVUITADF5EPI2IFXEUE3BRGSKZQXXUEMD51M">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGGEDA1OSRH5ZEYTM0I35O3N1ALX5VFDDYBMQZOCIRP5WBHJ5CYFD">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLURYRTCFAHCVFDBTKPWW3HLQBLZAYM2FKA301RB5H0U1DBRZFY5N">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLSUPRUVQRXFCNEVO0QW43MRGXC2VICOODHOQNCEVX2VR4QTTIKWL">Width Constraint (Min=50mil) (Max=200mil) (Preferred=50mil) (InNetClass('High Current'))</a></td>
+<td class="column2">35</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDJEI2DW0DM4TPSQYKRAECLMI5UA2WBDBVMC1WF5VUQN2SUVX5PB">Width Constraint (Min=5mil) (Max=1000mil) (Preferred=8mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0WSGWI2LRXXCFED2BCILVF3JE1NTYROV0CMORJY1ZTCK404EXUC">Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDT5NBUWR2S2YYN1PZJFZXOGP50MKUZBM4V2MPOGHD1IPGGJR41KYJ">Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=5mil) (Air Gap=5mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDED20GOS23M4DHVUMVQ0YKZPXBHR21OW1FIQFEZIWEX1S305HHIDF">Minimum Annular Ring (Minimum=3mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1ZQLW0DZDWPIMSSSMOQR2RA3OY54L45IAA1LVNVT0050GBVJMXO">Hole Size Constraint (Min=11.811mil) (Max=248.031mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFSMHARVB3JSWHEMAPC5RS3QJDMZ1SYE3JN3XZLIKTB3LVCMSTUKN">Hole To Hole Clearance (Gap=9.842mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN4JLCM1O2H3HHLLIJ2T10X4JLEFWXKKWBHUHM2COTUOZ02DFHENE">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWUU4X4ALHUWEH5SHKG4XGE1XHRXBHYULLJOG3BHWSA0X54WIL2M">Silk To Solder Mask (Clearance=5mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZZI0AH2NV0V5IEOKCSS5SV43INZ4KP4UNPQCGZHHXIVHRRYVGZJH">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDG0RSKDICXWG4EZBH1AMCS5V3KLZ2MKNMJHGSN1I3UGYBUH2TDJTO">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDAMW54I45K4XFCEX5N4P1VJYNFL2AA0L5JHHZTHFVDDVUTEAEAPK">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJQQ3BATFCMS5OROR4WJHBPKSENHU3V3J0KXPOBCRNR2DM13RPRLH">Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">45</td>
+</tr>
+</table><br><a name="IDGGEDA1OSRH5ZEYTM0I35O3N1ALX5VFDDYBMQZOCIRP5WBHJ5CYFD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2129.21mil|Location2.X=2262.637mil|Location1.Y=1466.972mil|Location2.Y=1738.684mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2129.21mil|Location2.X=2262.637mil|Location1.Y=1466.972mil|Location2.Y=1738.684mil|Absolute=True">Un-Routed Net Constraint: Net VBAT_FUSED Between Pad R1-2(334.841mil,642.5mil) on Top Layer And Pad R4-2(422.992mil,420mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2129.21mil|Location2.X=2229.645mil|Location1.Y=1689.472mil|Location2.Y=2084.216mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2129.21mil|Location2.X=2229.645mil|Location1.Y=1689.472mil|Location2.Y=2084.216mil|Absolute=True">Un-Routed Net Constraint: Net VBAT_FUSED Between Pad R1-2(334.841mil,642.5mil) on Top Layer And Pad TP1-1(390mil,990mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1877.007mil|Location2.X=2150.26mil|Location1.Y=961.578mil|Location2.Y=1163.915mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1877.007mil|Location2.X=2150.26mil|Location1.Y=961.578mil|Location2.Y=1163.915mil|Absolute=True">Un-Routed Net Constraint: Net DIR Between Pad TP5-1(160mil,-10mil) on Top Layer And Track (233.253mil,-9.632mil)(233.253mil,-7.663mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2617.007mil|Location2.X=2874.507mil|Location1.Y=1281.578mil|Location2.Y=1736.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2617.007mil|Location2.X=2874.507mil|Location1.Y=1281.578mil|Location2.Y=1736.578mil|Absolute=True">Un-Routed Net Constraint: Net VBAT_FUSED Between Via (900mil,310mil) from Top Layer to Bottom Layer And Track (957.5mil,565mil)(960mil,562.5mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDLSUPRUVQRXFCNEVO0QW43MRGXC2VICOODHOQNCEVX2VR4QTTIKWL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Width Constraint (Min=50mil) (Max=200mil) (Preferred=50mil) (InNetClass('High Current'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2881.232mil|Location2.X=2894.319mil|Location1.Y=1225.802mil|Location2.Y=1236.802mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2881.232mil|Location2.X=2894.319mil|Location1.Y=1225.802mil|Location2.Y=1236.802mil|Absolute=True">Width Constraint: Track (1020mil,110mil)(1119.449mil,209.449mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2944.657mil|Location2.X=2959.087mil|Location1.Y=1476.078mil|Location2.Y=1487.078mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2944.657mil|Location2.X=2959.087mil|Location1.Y=1476.078mil|Location2.Y=1487.078mil|Absolute=True">Width Constraint: Track (1030mil,410mil)(1236.299mil,410mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2991.232mil|Location2.X=3005.662mil|Location1.Y=1275.527mil|Location2.Y=1286.527mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2991.232mil|Location2.X=3005.662mil|Location1.Y=1275.527mil|Location2.Y=1286.527mil|Absolute=True">Width Constraint: Track (1119.449mil,209.449mil)(1240mil,209.449mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2993.082mil|Location2.X=3007.512mil|Location1.Y=1669.227mil|Location2.Y=1680.227mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2993.082mil|Location2.X=3007.512mil|Location1.Y=1669.227mil|Location2.Y=1680.227mil|Absolute=True">Width Constraint: Track (1123.15mil,603.15mil)(1240mil,603.15mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3049.657mil|Location2.X=3062.814mil|Location1.Y=1474.227mil|Location2.Y=1485.227mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3049.657mil|Location2.X=3062.814mil|Location1.Y=1474.227mil|Location2.Y=1485.227mil|Absolute=True">Width Constraint: Track (1236.299mil,410mil)(1240mil,406.299mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1636.312mil|Location2.X=1652.314mil|Location1.Y=1281.535mil|Location2.Y=1294.535mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1636.312mil|Location2.X=1652.314mil|Location1.Y=1281.535mil|Location2.Y=1294.535mil|Absolute=True">Width Constraint: Track (-175.535mil,215.118mil)(-172.856mil,217.797mil) on Top Layer Actual Width = 10mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2290.808mil|Location2.X=2305.238mil|Location1.Y=1708.578mil|Location2.Y=1719.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2290.808mil|Location2.X=2305.238mil|Location1.Y=1708.578mil|Location2.Y=1719.578mil|Absolute=True">Width Constraint: Track (334.841mil,642.5mil)(623.76mil,642.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2234.499mil|Location2.X=2245.499mil|Location1.Y=1364.719mil|Location2.Y=1375.724mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2234.499mil|Location2.X=2245.499mil|Location1.Y=1364.719mil|Location2.Y=1375.724mil|Absolute=True">Width Constraint: Track (422.992mil,297.657mil)(422.992mil,299.626mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2254.117mil|Location2.X=2267.274mil|Location1.Y=1344.118mil|Location2.Y=1355.118mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2254.117mil|Location2.X=2267.274mil|Location1.Y=1344.118mil|Location2.Y=1355.118mil|Absolute=True">Width Constraint: Track (422.992mil,297.657mil)(462.227mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2234.499mil|Location2.X=2245.499mil|Location1.Y=1425.891mil|Location2.Y=1436.896mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2234.499mil|Location2.X=2245.499mil|Location1.Y=1425.891mil|Location2.Y=1436.896mil|Absolute=True">Width Constraint: Track (422.992mil,299.626mil)(422.992mil,420mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2306.007mil|Location2.X=2320.437mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2306.007mil|Location2.X=2320.437mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True">Width Constraint: Track (462.227mil,258.422mil)(526.772mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2449.5mil|Location2.X=2463.93mil|Location1.Y=1174.5mil|Location2.Y=1185.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2449.5mil|Location2.X=2463.93mil|Location1.Y=1174.5mil|Location2.Y=1185.5mil|Absolute=True">Width Constraint: Track (526.772mil,108.422mil)(749.213mil,108.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2449.5mil|Location2.X=2463.93mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2449.5mil|Location2.X=2463.93mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True">Width Constraint: Track (526.772mil,258.422mil)(749.213mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2449.5mil|Location2.X=2463.93mil|Location1.Y=1424.5mil|Location2.Y=1435.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2449.5mil|Location2.X=2463.93mil|Location1.Y=1424.5mil|Location2.Y=1435.5mil|Absolute=True">Width Constraint: Track (526.772mil,358.422mil)(749.213mil,358.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2443.387mil|Location2.X=2456.474mil|Location1.Y=1716.698mil|Location2.Y=1727.698mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2443.387mil|Location2.X=2456.474mil|Location1.Y=1716.698mil|Location2.Y=1727.698mil|Absolute=True">Width Constraint: Track (623.76mil,642.5mil)(640mil,658.74mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2561.509mil|Location2.X=2574.596mil|Location1.Y=1175.289mil|Location2.Y=1186.289mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2561.509mil|Location2.X=2574.596mil|Location1.Y=1175.289mil|Location2.Y=1186.289mil|Absolute=True">Width Constraint: Track (749.213mil,108.422mil)(750.791mil,110mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2560.72mil|Location2.X=2571.72mil|Location1.Y=1299.5mil|Location2.Y=1310.505mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2560.72mil|Location2.X=2571.72mil|Location1.Y=1299.5mil|Location2.Y=1310.505mil|Absolute=True">Width Constraint: Track (749.213mil,208.422mil)(749.213mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.114mil|Location2.X=2650.544mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2636.114mil|Location2.X=2650.544mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True">Width Constraint: Track (749.213mil,258.422mil)(900.001mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2675.325mil|Location2.X=2689.755mil|Location1.Y=1424.5mil|Location2.Y=1435.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2675.325mil|Location2.X=2689.755mil|Location1.Y=1424.5mil|Location2.Y=1435.5mil|Absolute=True">Width Constraint: Track (749.213mil,358.422mil)(978.422mil,358.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696.903mil|Location2.X=2711.333mil|Location1.Y=1176.078mil|Location2.Y=1187.078mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2696.903mil|Location2.X=2711.333mil|Location1.Y=1176.078mil|Location2.Y=1187.078mil|Absolute=True">Width Constraint: Track (750.791mil,110mil)(1020mil,110mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2687.757mil|Location2.X=2700.915mil|Location1.Y=1559.828mil|Location2.Y=1570.828mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2687.757mil|Location2.X=2700.915mil|Location1.Y=1559.828mil|Location2.Y=1570.828mil|Absolute=True">Width Constraint: Track (840mil,530mil)(912.5mil,457.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2712.758mil|Location2.X=2725.916mil|Location1.Y=1323.25mil|Location2.Y=1334.25mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2712.758mil|Location2.X=2725.916mil|Location1.Y=1323.25mil|Location2.Y=1334.25mil|Absolute=True">Width Constraint: Track (900.001mil,258.422mil)(902.501mil,255.922mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2711.508mil|Location2.X=2724.665mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2711.508mil|Location2.X=2724.665mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True">Width Constraint: Track (900mil,258.423mil)(900.001mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2711.507mil|Location2.X=2722.507mil|Location1.Y=1350.289mil|Location2.Y=1361.294mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2711.507mil|Location2.X=2722.507mil|Location1.Y=1350.289mil|Location2.Y=1361.294mil|Absolute=True">Width Constraint: Track (900mil,258.423mil)(900mil,310mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2714.008mil|Location2.X=2725.008mil|Location1.Y=1278.711mil|Location2.Y=1289.716mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2714.008mil|Location2.X=2725.008mil|Location1.Y=1278.711mil|Location2.Y=1289.716mil|Absolute=True">Width Constraint: Track (902.501mil,169.344mil)(902.501mil,255.922mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2747.757mil|Location2.X=2762.187mil|Location1.Y=1523.578mil|Location2.Y=1534.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2747.757mil|Location2.X=2762.187mil|Location1.Y=1523.578mil|Location2.Y=1534.578mil|Absolute=True">Width Constraint: Track (912.5mil,457.5mil)(960mil,457.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2765.257mil|Location2.X=2778.415mil|Location1.Y=2023.248mil|Location2.Y=2034.248mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2765.257mil|Location2.X=2778.415mil|Location1.Y=2023.248mil|Location2.Y=2034.248mil|Absolute=True">Width Constraint: Track (950mil,960.92mil)(957.5mil,953.42mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2769.007mil|Location2.X=2780.007mil|Location1.Y=1728.831mil|Location2.Y=1739.836mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2769.007mil|Location2.X=2780.007mil|Location1.Y=1728.831mil|Location2.Y=1739.836mil|Absolute=True">Width Constraint: Track (957.5mil,565mil)(957.5mil,760.507mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2770.257mil|Location2.X=2783.415mil|Location1.Y=1629.828mil|Location2.Y=1640.828mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2770.257mil|Location2.X=2783.415mil|Location1.Y=1629.828mil|Location2.Y=1640.828mil|Absolute=True">Width Constraint: Track (957.5mil,565mil)(960mil,562.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2780.257mil|Location2.X=2794.687mil|Location1.Y=1523.578mil|Location2.Y=1534.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2780.257mil|Location2.X=2794.687mil|Location1.Y=1523.578mil|Location2.Y=1534.578mil|Absolute=True">Width Constraint: Track (960mil,457.5mil)(977.5mil,457.5mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2777mil|Location2.X=2788mil|Location1.Y=1278.711mil|Location2.Y=1289.716mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2777mil|Location2.X=2788mil|Location1.Y=1278.711mil|Location2.Y=1289.716mil|Absolute=True">Width Constraint: Track (965.493mil,169.344mil)(965.493mil,255.922mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2778.25mil|Location2.X=2791.337mil|Location1.Y=1323.25mil|Location2.Y=1334.25mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2778.25mil|Location2.X=2791.337mil|Location1.Y=1323.25mil|Location2.Y=1334.25mil|Absolute=True">Width Constraint: Track (965.493mil,255.922mil)(967.993mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2892.905mil|Location2.X=2907.336mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2892.905mil|Location2.X=2907.336mil|Location1.Y=1324.5mil|Location2.Y=1335.5mil|Absolute=True">Width Constraint: Track (967.993mil,258.422mil)(1194.804mil,258.422mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2861.832mil|Location2.X=2874.919mil|Location1.Y=1596.403mil|Location2.Y=1607.403mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2861.832mil|Location2.X=2874.919mil|Location1.Y=1596.403mil|Location2.Y=1607.403mil|Absolute=True">Width Constraint: Track (977.5mil,457.5mil)(1123.15mil,603.15mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2815.718mil|Location2.X=2828.805mil|Location1.Y=1450.289mil|Location2.Y=1461.289mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2815.718mil|Location2.X=2828.805mil|Location1.Y=1450.289mil|Location2.Y=1461.289mil|Absolute=True">Width Constraint: Track (978.422mil,358.422mil)(1030mil,410mil) on Top Layer Actual Width = 8mil, Target Width = 50mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDDAMW54I45K4XFCEX5N4P1VJYNFL2AA0L5JHHZTHFVDDVUTEAEAPK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1424.699mil|Location2.X=1430.948mil|Location1.Y=1252.134mil|Location2.Y=1258.383mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1424.699mil|Location2.X=1430.948mil|Location1.Y=1252.134mil|Location2.Y=1258.383mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Text "DIR" (-370mil,140mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.283mil|Location2.X=1383.532mil|Location1.Y=1782.95mil|Location2.Y=1789.199mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1377.283mil|Location2.X=1383.532mil|Location1.Y=1782.95mil|Location2.Y=1789.199mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Text "DIR_INV" (-540mil,700.627mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1310.538mil|Location2.X=1316.787mil|Location1.Y=1998.294mil|Location2.Y=2004.543mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1310.538mil|Location2.X=1316.787mil|Location1.Y=1998.294mil|Location2.Y=2004.543mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Text "GND" (-560mil,910.637mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2730.538mil|Location2.X=2736.787mil|Location1.Y=2298.294mil|Location2.Y=2304.543mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2730.538mil|Location2.X=2736.787mil|Location1.Y=2298.294mil|Location2.Y=2304.543mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Text "GND" (860mil,1210.637mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1285.254mil|Location2.X=1291.504mil|Location1.Y=1917.637mil|Location2.Y=1923.886mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1285.254mil|Location2.X=1291.504mil|Location1.Y=1917.637mil|Location2.Y=1923.886mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Text "PWM" (-590mil,830mil) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2183.214mil|Location2.X=2189.463mil|Location1.Y=2267.637mil|Location2.Y=2273.886mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\4chea\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2183.214mil|Location2.X=2189.463mil|Location1.Y=2267.637mil|Location2.Y=2273.886mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Text "VBAT" (300.04mil,1180mil) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
