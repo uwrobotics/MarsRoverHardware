@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\UWRT\MarsRover2021-hardware\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc
+PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\Low Power Brushed Motor Controller\Rev2\Low Power Brushed Motor Controller.PcbDoc
 Date     : 2020-12-01
-Time     : 10:02:48 PM
+Time     : 11:00:47 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -19,15 +19,7 @@ Processing Rule : Width Constraint (Min=5mil) (Max=1000mil) (Preferred=8mil) (Al
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=50mil) (Max=200mil) (Preferred=50mil) (InNetClass('High Current'))
-   Violation between Width Constraint: Track (390mil,923.29mil)(390mil,1000mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-   Violation between Width Constraint: Track (390mil,923.29mil)(410mil,903.29mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-   Violation between Width Constraint: Track (410mil,710mil)(410mil,903.29mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-   Violation between Width Constraint: Track (910.656mil,190.656mil)(967.874mil,190.656mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-   Violation between Width Constraint: Track (910mil,190mil)(910.656mil,190.656mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-   Violation between Width Constraint: Track (910mil,276.578mil)(912.5mil,279.078mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-   Violation between Width Constraint: Track (910mil,276.578mil)(967.874mil,276.578mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-   Violation between Width Constraint: Track (950mil,960.92mil)(957.5mil,953.42mil) on Top Layer Actual Width = 8mil, Target Width = 50mil
-Rule Violations :8
+Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=5mil) (Air Gap=5mil) (Entries=4) (All)
 Rule Violations :0
@@ -48,11 +40,7 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5mil) Between Pad D1-1(957.5mil,760.507mil) on Top Layer And Text "F1" (910.762mil,744.127mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (2.174mil < 5mil) Between Pad TP2-1(1070mil,980mil) on Multi-Layer And Text "D1" (1049.238mil,1012.757mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [2.174mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.106mil < 5mil) Between Pad TP2-1(1070mil,980mil) on Multi-Layer And Track (1037.5mil,768.381mil)(1037.5mil,945.546mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.106mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (0.967mil < 5mil) Between Pad TP5-1(133.253mil,90.368mil) on Top Layer And Text "Q1" (100.347mil,71.981mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.967mil]
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
 Rule Violations :0
@@ -61,18 +49,25 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "DIR" (-370mil,140mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "DIR_INV" (-540mil,700.637mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "GND" (-560mil,910.637mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "GND" (860mil,1210.637mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "PWM" (-590mil,830mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 7.874mil) Between Board Edge And Text "VBAT" (300.028mil,1180mil) on Top Overlay 
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Width Constraint (Min=50mil) (Max=200mil) (Preferred=50mil) (InNetClass('High Current'))
+   Waived Violation between Width Constraint: Track (123mil,917mil)(130.529mil,924.529mil) on Top Layer Actual Width = 8mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:51:01 PM
+   Waived Violation between Width Constraint: Track (130.529mil,924.529mil)(388.761mil,924.529mil) on Top Layer Actual Width = 8mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:51:06 PM
+   Waived Violation between Width Constraint: Track (388.761mil,924.529mil)(390mil,923.29mil) on Top Layer Actual Width = 8mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:51:10 PM
+   Waived Violation between Width Constraint: Track (390mil,923.29mil)(410mil,903.29mil) on Top Layer Actual Width = 8mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:51:14 PM
+   Waived Violation between Width Constraint: Track (410mil,710mil)(410mil,903.29mil) on Top Layer Actual Width = 8mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:51:18 PM
+   Waived Violation between Width Constraint: Track (526.772mil,108.422mil)(749.213mil,108.422mil) on Top Layer Actual Width = 30mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:51:22 PM
+   Waived Violation between Width Constraint: Track (526.772mil,358.422mil)(749.213mil,358.422mil) on Top Layer Actual Width = 30mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:51:27 PM
+   Waived Violation between Width Constraint: Track (910.656mil,277.234mil)(943.874mil,277.234mil) on Top Layer Actual Width = 22.5mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:55:06 PM
+   Waived Violation between Width Constraint: Track (910mil,190mil)(943.218mil,190mil) on Top Layer Actual Width = 22.5mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:55:10 PM
+   Waived Violation between Width Constraint: Track (910mil,276.578mil)(912.5mil,279.078mil) on Top Layer Actual Width = 8mil, Target Width = 50milWaived by Lance Bantoto at 2020-12-01 10:55:18 PM
+Waived Violations :10
 
-Violations Detected : 18
-Waived Violations : 0
+
+Violations Detected : 0
+Waived Violations : 10
 Time Elapsed        : 00:00:02
