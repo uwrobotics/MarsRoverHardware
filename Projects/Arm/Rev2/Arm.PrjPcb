@@ -242,8 +242,16 @@ GenerateClassCluster=0
 DocumentUniqueId=CTGUITTJ
 
 [Parameter1]
-Name=BoardName
-Value=Arm_Rev2
+Name=Revision
+Value=2
+
+[Parameter2]
+Name=Engineer
+Value=Kyle Hong
+
+[Parameter3]
+Name=CheckedBy
+Value=Lance Bantoto
 
 [Configuration1]
 Name=Sources
