@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Low Power Brushed Motor Controller.PrjPcb]
+   Generated File[Low Power Brushed Motor Controller.TXT]
+   Generated File[Low Power Brushed Motor Controller.LDP]
+   Generated File[Low Power Brushed Motor Controller.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:01:20 PM On 2020-12-05
