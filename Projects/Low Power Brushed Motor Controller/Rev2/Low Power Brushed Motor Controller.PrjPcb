@@ -147,54 +147,58 @@ DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM1
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM2
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM13
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM15
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GPB
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GPT
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTL
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTO
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTP
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTS
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.LDP
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.REP
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=Project Outputs for Brushed_Motorcontroller\Low Power Brushed Motor Controller.TXT
 DItemRevisionGUID=
 
@@ -533,7 +537,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908301~1,16908303~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=KeepLeadingAndTrailingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973834~1,16777217~1,16842751~1,16973835~1,16973831~1,16973837~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
 
 [OutputGroup6]
 Name=Report Outputs
