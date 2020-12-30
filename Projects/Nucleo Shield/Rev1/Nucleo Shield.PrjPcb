@@ -209,6 +209,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMRTUYAZ
 
+[Document11]
+DocumentPath=Nucleo Shield.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MSKIJXCD
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
