@@ -207,6 +207,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Robot Controller\Design Rule Check - Robot Controller.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
