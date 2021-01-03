@@ -188,7 +188,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
 
 [Document10]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib

@@ -1,12 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Robot Controller\Rev1\Robot Controller.PcbDoc
-Date     : 2020-12-30
-Time     : 3:58:49 PM
+Date     : 2021-01-03
+Time     : 9:17:53 AM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
-   Violation between Clearance Constraint: (8.858mil < 9.842mil) Between Hole of Pad J3-MH1(6019mil,5982mil) on Multi-Layer And Pad J3-1(5988.488mil,5973.142mil) on Top Layer 
-   Violation between Clearance Constraint: (8.858mil < 9.842mil) Between Hole of Pad J3-MH2(5855.614mil,5982mil) on Multi-Layer And Pad J3-5(5886.126mil,5973.142mil) on Top Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -87,6 +85,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500m
 Rule Violations :0
 
 
-Violations Detected : 35
+Violations Detected : 33
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
