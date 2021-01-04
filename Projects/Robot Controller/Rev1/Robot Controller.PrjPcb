@@ -188,7 +188,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
 
 [Document10]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
@@ -1622,26 +1622,29 @@ ModelType18=PCBLIB
 ModelName18=SOIC254P1016X440-4N
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=SOT23-3
+ModelName19=SOT-223-6
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=SOT95P285X140-5N
+ModelName20=SOT23-3
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=STM-LQFP64_L
+ModelName21=SOT95P285X140-5N
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=STM-LQFP64_M
+ModelName22=STM-LQFP64_L
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=STM-LQFP64_N
+ModelName23=STM-LQFP64_M
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=TACTILE_SWITCH_PTH_12MM
+ModelName24=STM-LQFP64_N
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=TESTPOINT_LOOP
+ModelName25=TACTILE_SWITCH_PTH_12MM
 ModelUpdate25=1
+ModelType26=PCBLIB
+ModelName26=TESTPOINT_LOOP
+ModelUpdate26=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

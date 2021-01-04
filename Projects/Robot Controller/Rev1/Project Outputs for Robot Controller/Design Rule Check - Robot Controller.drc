@@ -1,12 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\pkmn0\Desktop\ \Document Archive\Other\Electrical Git Repo\MarsRover2020-PCB\Projects\Robot Controller\Rev1\Robot Controller.PcbDoc
-Date     : 2020-12-30
-Time     : 3:58:49 PM
+Date     : 2021-01-03
+Time     : 6:18:10 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
-   Violation between Clearance Constraint: (8.858mil < 9.842mil) Between Hole of Pad J3-MH1(6019mil,5982mil) on Multi-Layer And Pad J3-1(5988.488mil,5973.142mil) on Top Layer 
-   Violation between Clearance Constraint: (8.858mil < 9.842mil) Between Hole of Pad J3-MH2(5855.614mil,5982mil) on Multi-Layer And Pad J3-5(5886.126mil,5973.142mil) on Top Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -59,9 +57,9 @@ Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J8-V1(8500mil,2210mil) on Multi-Layer And Track (8462.992mil,1917.087mil)(8462.992mil,2302.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
    Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J8-V2(8500mil,2110mil) on Multi-Layer And Track (8462.992mil,1917.087mil)(8462.992mil,2302.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
    Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J8-V3(8500mil,2010mil) on Multi-Layer And Track (8462.992mil,1917.087mil)(8462.992mil,2302.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J9-V1(3365mil,2210mil) on Multi-Layer And Track (3327.992mil,1917.087mil)(3327.992mil,2302.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J9-V2(3365mil,2110mil) on Multi-Layer And Track (3327.992mil,1917.087mil)(3327.992mil,2302.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J9-V3(3365mil,2010mil) on Multi-Layer And Track (3327.992mil,1917.087mil)(3327.992mil,2302.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J9-V1(3195mil,1195mil) on Multi-Layer And Track (3157.992mil,902.087mil)(3157.992mil,1287.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J9-V2(3195mil,1095mil) on Multi-Layer And Track (3157.992mil,902.087mil)(3157.992mil,1287.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (4.542mil < 5mil) Between Pad J9-V3(3195mil,995mil) on Multi-Layer And Track (3157.992mil,902.087mil)(3157.992mil,1287.913mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.542mil]
    Violation between Silk To Solder Mask Clearance Constraint: (4.256mil < 5mil) Between Pad VR1-3(3456.457mil,6138.425mil) on Multi-Layer And Track (3348.189mil,6177.795mil)(3485.984mil,6177.795mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.256mil]
    Violation between Silk To Solder Mask Clearance Constraint: (4.383mil < 5mil) Between Pad VR1-4(3690.709mil,4992.756mil) on Multi-Layer And Track (3702.52mil,4799.842mil)(3702.52mil,4937.638mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.383mil]
    Violation between Silk To Solder Mask Clearance Constraint: (4.393mil < 5mil) Between Pad VR1-5(3360mil,5040mil) on Multi-Layer And Track (3348.189mil,5095.118mil)(3348.189mil,5882.52mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.393mil]
@@ -87,6 +85,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500m
 Rule Violations :0
 
 
-Violations Detected : 35
+Violations Detected : 33
 Waived Violations : 0
 Time Elapsed        : 00:00:01
