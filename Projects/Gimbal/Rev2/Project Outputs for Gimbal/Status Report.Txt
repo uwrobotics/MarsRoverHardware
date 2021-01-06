@@ -1,21 +1,12 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [Gimbal.PrjPcb]
-   Generated File[Gimbal.GTO]
-   Generated File[Gimbal.GTS]
-   Generated File[Gimbal.GTL]
-   Generated File[Gimbal.G1]
-   Generated File[Gimbal.G2]
-   Generated File[Gimbal.GBL]
-   Generated File[Gimbal.GBS]
-   Generated File[Gimbal.GBO]
-   Generated File[Gimbal.GKO]
-   Generated File[Gimbal.RUL]
-   Generated File[Gimbal.EXTREP]
-   Generated File[Gimbal.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Gimbal.PrjPcb]
+   Generated File[Gimbal.TXT]
+   Generated File[Gimbal.LDP]
+   Generated File[Gimbal.DRR]
 
 
-Files Generated   : 12
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 8:47:15 PM On 2020-12-30
+Finished Output Generation At 10:40:31 AM On 2021-01-06
