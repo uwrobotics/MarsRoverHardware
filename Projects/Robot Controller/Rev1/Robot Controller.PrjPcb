@@ -207,8 +207,137 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
+[Document11]
+DocumentPath=Robot Controller.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Robot Controller\Design Rule Check - Robot Controller.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Gerbers\NC Drill\Robot Controller.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for Free Documents\NC Drill\Robot Controller.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Gerbers\Gerber\Robot Controller.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Gerbers\Gerber\Robot Controller.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Gerbers\Gerber\Robot Controller.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Gerbers\Gerber\Robot Controller.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Gerbers\Gerber\Robot Controller.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Gerbers\Gerber\Robot Controller.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Gerbers\Gerber\Robot Controller.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Gerbers\Gerber\Robot Controller.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Gerbers\Gerber\Robot Controller.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Gerbers\Gerber\Robot Controller.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Gerbers\NC Drill\Robot Controller.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for Free Documents\NC Drill\Robot Controller.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Gerbers\Gerber\Robot Controller.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for Free Documents\Gerber\Robot Controller.REP
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Gerbers\NC Drill\Robot Controller.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for Free Documents\NC Drill\Robot Controller.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -234,7 +363,7 @@ AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
-ExportBOM=0
+ExportBOM=-1
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=1
