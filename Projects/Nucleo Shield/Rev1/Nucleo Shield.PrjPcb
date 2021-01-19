@@ -40,40 +40,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=DPFTEXWW
-
-[Document2]
-DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AJCBFXBD
-
-[Document3]
 DocumentPath=SH1 - CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -90,7 +56,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FFFMWKVZ
 
-[Document4]
+[Document2]
 DocumentPath=SH2 - RS-485.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,7 +73,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BQUJEQFD
 
-[Document5]
+[Document3]
 DocumentPath=SH3 - NUCLEO HEADERS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -124,7 +90,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BGMDJVGG
 
-[Document6]
+[Document4]
 DocumentPath=SH4 - SD CARD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -141,7 +107,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIUUBVUH
 
-[Document7]
+[Document5]
 DocumentPath=SH5 - RGB LED.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -158,7 +124,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JWSGHLIA
 
-[Document8]
+[Document6]
 DocumentPath=SH6 - BRUSHED MOTOR CONTROLLER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -175,24 +141,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WUAAAZZX
 
-[Document9]
-DocumentPath=..\..\..\JLCPCB Design Rules and Stackups\stackups\4layer-1oz-jlc2313-1.6mm.stackup
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
+[Document7]
 DocumentPath=SH7 - BROADCOM ENCODER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -209,7 +158,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HMRTUYAZ
 
-[Document11]
+[Document8]
 DocumentPath=Nucleo Shield.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
