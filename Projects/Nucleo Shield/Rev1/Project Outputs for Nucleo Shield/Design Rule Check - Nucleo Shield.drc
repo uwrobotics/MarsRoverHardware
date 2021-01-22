@@ -1,30 +1,29 @@
 Protel Design System Design Rule Check
 PCB File : \\Mac\Home\Desktop\MarsRover2021-hardware\Projects\Nucleo Shield\Rev1\Nucleo Shield.PcbDoc
 Date     : 2021-01-22
-Time     : 1:02:37 AM
+Time     : 5:53:48 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-   Violation between Clearance Constraint: (Collision < 10mil) Between Polygon Region (121 hole(s)) Bottom Layer And Track (2231.85mil,8348.701mil)(2233.15mil,8350mil) on Bottom Layer 
-   Violation between Clearance Constraint: (0.276mil < 10mil) Between Polygon Region (121 hole(s)) Bottom Layer And Track (4921.85mil,4860mil)(4930mil,4868.15mil) on Bottom Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=10mil) (InNet('3V3') And OnLayer('Power') or InNet('5V') and OnLayer('Power')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Polygon Region (121 hole(s)) Bottom Layer And Track (2231.85mil,8348.701mil)(2233.15mil,8350mil) on Bottom Layer Location : [X = 2232.5mil][Y = 8349.35mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net OUTA Between Track (2231.85mil,8348.701mil)(2233.15mil,8350mil) on Bottom Layer And Pad J5-1(2823.701mil,8350mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net OUTB Between Track (2426.85mil,8346.85mil)(2430mil,8350mil) on Bottom Layer And Track (2626.85mil,8350mil)(2630mil,8346.85mil) on Bottom Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=8mil) (Max=100mil) (Preferred=10mil) (All)
-Rule Violations :0
+   Violation between Width Constraint: Track (2626.85mil,7515.369mil)(2626.85mil,8350mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
+   Violation between Width Constraint: Track (2626.85mil,7515.369mil)(2652.219mil,7490mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
+   Violation between Width Constraint: Track (2652.219mil,7490mil)(2970mil,7490mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
+   Violation between Width Constraint: Track (2970mil,7490mil)(3035mil,7425mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
+Rule Violations :4
 
 Processing Rule : Width Constraint (Min=20mil) (Max=50mil) (Preferred=30mil) ((InNet('NetC27_2') OR InNet('NetC28_2') OR InNet('NetC29_2')))
 Rule Violations :0
@@ -42,47 +41,16 @@ Processing Rule : Hole To Hole Clearance (Gap=20mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (2.315mil < 3mil) Between Pad C11-2(2680mil,6535mil) on Top Layer And Via (2680mil,6497mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [2.315mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=2mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 2mil) Between Pad R12-2(1870mil,7830mil) on Top Layer And Text "CAN BUS A" (1380mil,7835mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=2mil) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (0.639mil < 2mil) Between Arc (4540mil,7089.646mil) on Top Overlay And Text "U3" (4528.957mil,7064.024mil) on Top Overlay Silk Text to Silk Clearance [0.639mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 2mil) Between Text "CAN BUS A" (1380mil,7835mil) on Top Overlay And Track (1667.874mil,7875mil)(1845.04mil,7875mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 2mil) Between Text "CAN BUS A" (1380mil,7835mil) on Top Overlay And Track (1721.898mil,7895.186mil)(1780.024mil,7953.313mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 2mil) Between Text "CAN BUS A" (1380mil,7835mil) on Top Overlay And Track (1721.898mil,7895.945mil)(1721.898mil,8014.055mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 2mil) Between Text "J6" (3826.448mil,5091.043mil) on Bottom Overlay And Text "RS 485" (4170mil,5090mil) on Bottom Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (0.695mil < 2mil) Between Text "Q1" (3083.067mil,7550.298mil) on Top Overlay And Track (3039.331mil,7569.842mil)(3039.331mil,7625.37mil) on Top Overlay Silk Text to Silk Clearance [0.695mil]
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Track (2225mil,4930.858mil)(2225mil,5131.716mil) on Top Layer 
-   Violation between Net Antennae: Track (2225mil,5131.716mil)(3095mil,6001.716mil) on Top Layer 
-   Violation between Net Antennae: Track (2225mil,5131.716mil)(3095mil,6001.716mil) on Top Layer 
-   Violation between Net Antennae: Track (2230.858mil,4925mil)(2313.425mil,4925mil) on Top Layer 
-   Violation between Net Antennae: Track (2230.858mil,4925mil)(2313.425mil,4925mil) on Top Layer 
-   Violation between Net Antennae: Track (2231.85mil,8348.701mil)(2233.15mil,8350mil) on Bottom Layer 
-   Violation between Net Antennae: Track (2231.85mil,8348.701mil)(2233.15mil,8350mil) on Bottom Layer 
-   Violation between Net Antennae: Track (2426.85mil,8346.85mil)(2430mil,8350mil) on Bottom Layer 
-   Violation between Net Antennae: Track (2426.85mil,8346.85mil)(2430mil,8350mil) on Bottom Layer 
-   Violation between Net Antennae: Track (2970mil,6490mil)(2997.5mil,6490mil) on Top Layer 
-   Violation between Net Antennae: Track (2970mil,6490mil)(2997.5mil,6490mil) on Top Layer 
-   Violation between Net Antennae: Track (2997.5mil,6490mil)(3005mil,6482.5mil) on Top Layer 
-   Violation between Net Antennae: Track (2997.5mil,6490mil)(3005mil,6482.5mil) on Top Layer 
-   Violation between Net Antennae: Track (3005mil,6480.858mil)(3005mil,6482.5mil) on Top Layer 
-   Violation between Net Antennae: Track (3005mil,6480.858mil)(3005mil,6482.5mil) on Top Layer 
-   Violation between Net Antennae: Track (3005mil,6480.858mil)(3010.858mil,6475mil) on Top Layer 
-   Violation between Net Antennae: Track (3005mil,6480.858mil)(3010.858mil,6475mil) on Top Layer 
-   Violation between Net Antennae: Track (3010.858mil,6475mil)(3033.284mil,6475mil) on Top Layer 
-   Violation between Net Antennae: Track (3010.858mil,6475mil)(3033.284mil,6475mil) on Top Layer 
-   Violation between Net Antennae: Track (3033.284mil,6475mil)(3095mil,6413.284mil) on Top Layer 
-   Violation between Net Antennae: Track (3033.284mil,6475mil)(3095mil,6413.284mil) on Top Layer 
-   Violation between Net Antennae: Track (3095mil,6001.716mil)(3095mil,6413.284mil) on Top Layer 
-   Violation between Net Antennae: Track (3095mil,6001.716mil)(3095mil,6413.284mil) on Top Layer 
-Rule Violations :23
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
 Rule Violations :0
@@ -91,6 +59,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 36
+Violations Detected : 4
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
