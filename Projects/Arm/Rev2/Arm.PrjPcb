@@ -243,6 +243,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CTGUITTJ
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Arm\Design Rule Check - Arm.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=CheckedBy
 Value=Lance Bantoto
