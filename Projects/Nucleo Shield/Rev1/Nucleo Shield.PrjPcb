@@ -175,6 +175,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MSKIJXCD
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Nucleo Shield\Design Rule Check - Nucleo Shield.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
