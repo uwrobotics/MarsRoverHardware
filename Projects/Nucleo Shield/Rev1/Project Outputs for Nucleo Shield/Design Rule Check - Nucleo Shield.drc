@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : \\Mac\Home\Desktop\MarsRover2021-hardware\Projects\Nucleo Shield\Rev1\Nucleo Shield.PcbDoc
-Date     : 2021-01-22
-Time     : 6:03:04 PM
+PCB File : C:\Users\wwind\altium_projects\MarsRover2021-hardware\Projects\Nucleo Shield\Rev1\Nucleo Shield.PcbDoc
+Date     : 1/26/2021
+Time     : 6:08:27 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -19,11 +19,7 @@ Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=8mil) (Max=100mil) (Preferred=10mil) (All)
-   Violation between Width Constraint: Track (2626.85mil,7515.369mil)(2626.85mil,8350mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
-   Violation between Width Constraint: Track (2626.85mil,7515.369mil)(2652.219mil,7490mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
-   Violation between Width Constraint: Track (2652.219mil,7490mil)(2970mil,7490mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
-   Violation between Width Constraint: Track (2970mil,7490mil)(3035mil,7425mil) on Bottom Layer Actual Width = 43.307mil, Target Width = 30mil
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Width Constraint (Min=20mil) (Max=50mil) (Preferred=30mil) ((InNet('NetC27_2') OR InNet('NetC28_2') OR InNet('NetC29_2')))
 Rule Violations :0
@@ -59,6 +55,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 4
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
