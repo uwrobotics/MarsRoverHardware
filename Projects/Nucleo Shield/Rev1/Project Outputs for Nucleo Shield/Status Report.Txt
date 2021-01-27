@@ -1,0 +1,27 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Nucleo Shield.PrjPcb]
+   Generated File[Nucleo Shield.GTO]
+   Generated File[Nucleo Shield.GTS]
+   Generated File[Nucleo Shield.GTL]
+   Generated File[Nucleo Shield.G1]
+   Generated File[Nucleo Shield.G2]
+   Generated File[Nucleo Shield.GBL]
+   Generated File[Nucleo Shield.GBS]
+   Generated File[Nucleo Shield.GBO]
+   Generated File[Nucleo Shield.GM1]
+   Generated File[Nucleo Shield.GM2]
+   Generated File[Nucleo Shield.GM3]
+   Generated File[Nucleo Shield.GM4]
+   Generated File[Nucleo Shield.GM13]
+   Generated File[Nucleo Shield.GM15]
+   Generated File[Nucleo Shield.GKO]
+   Generated File[Nucleo Shield.RUL]
+   Generated File[Nucleo Shield.EXTREP]
+   Generated File[Nucleo Shield.REP]
+
+
+Files Generated   : 18
+Documents Printed : 0
+
+Finished Output Generation At 11:42:46 PM On 1/26/2021
