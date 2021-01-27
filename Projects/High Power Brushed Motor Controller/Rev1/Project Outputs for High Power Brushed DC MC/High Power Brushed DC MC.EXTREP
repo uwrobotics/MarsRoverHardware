@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: High Power Brushed DC MC.GBR   11/2/2020  10:45:17 PM
+Gerber File Extension Report For: High Power Brushed DC MC.GBR   2021-01-17  4:45:16 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -7,7 +7,6 @@ Gerber File Extension Report For: High Power Brushed DC MC.GBR   11/2/2020  10:4
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
 .GTO                Top Overlay                             
-.GTP                Top Paste                               
 .GTS                Top Solder                              
 .GTL                Top Layer                               
 .G1                 Ground                                  
@@ -17,4 +16,5 @@ Layer Extension     Layer Description
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
 .GM2                Mechanical 2                            
+.GKO                Keep-Out Layer                          
 ------------------------------------------------------------------------------------------

@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Robot Controller.PcbDoc   2021-01-26  11:11:56 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Robot Controller.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      28mil (0.711mm)                                           Round             158       PTH        0.00inch (0.00mm)
+T2      35mil (0.889mm)                                           Round             30        PTH        0.00inch (0.00mm)
+T3      35mil (0.899mm)                                           Round             26        PTH        0.00inch (0.00mm)
+T4      40mil (1.021mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T5      47mil (1.199mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T6      51mil (1.3mm)                                             Round             64        PTH        0.00inch (0.00mm)
+T7      55mil (1.397mm)                                           Round             20        PTH        0.00inch (0.00mm)
+T8      67mil (1.699mm)                                           Round             8         PTH        0.00inch (0.00mm)
+T9      73mil (1.849mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T10     79mil (1.999mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T11     126mil (3.2mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T12     28mil (0.701mm)                                           Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              332
+
+Total Processing Time (hh:mm:ss) : 00:00:01

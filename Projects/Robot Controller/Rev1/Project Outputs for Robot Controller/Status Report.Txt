@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Robot Controller.PrjPcb]
+   Generated File[Robot Controller.TXT]
+   Generated File[Robot Controller.LDP]
+   Generated File[Robot Controller.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:11:57 PM On 2021-01-26
