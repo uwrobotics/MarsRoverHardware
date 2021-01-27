@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\wwind\altium_projects\MarsRover2021-hardware\Projects\Nucleo Shield\Rev1\Nucleo Shield.PcbDoc
-Date     : 1/26/2021
-Time     : 6:08:27 PM
+PCB File : \\Mac\Home\Desktop\MarsRover2021-hardware\Projects\Nucleo Shield\Rev1\Nucleo Shield.PcbDoc
+Date     : 2021-01-26
+Time     : 8:34:25 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -57,4 +57,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
