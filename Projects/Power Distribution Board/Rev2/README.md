@@ -16,7 +16,7 @@ The PDB also serves to control the LED Matrix board and interface with four URM0
 
 ## Images
 
-![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Power%20Distribution%20Board/Rev2/Images/PDB_Rev2_Assembled.png)
+![Assembled PCB](https://github.com/uwrobotics/MarsRover2020-PCB/blob/master/Projects/Power%20Distribution%20Board/Rev2/Images/PDB_Rev2_Assembled.jpg)
 
 ## Designers
 
