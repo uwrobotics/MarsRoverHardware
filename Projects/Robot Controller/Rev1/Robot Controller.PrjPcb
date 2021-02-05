@@ -1,4 +1,4 @@
-﻿[Design]
+[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -229,138 +229,82 @@ DocumentPath=Project Outputs for Robot Controller\Design Rule Check - Robot Cont
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Gerbers\NC Drill\Robot Controller.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.DRR
 DItemRevisionGUID=
 
-[GeneratedDocument4]
-DocumentPath=Gerbers\Gerber\Robot Controller.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument5]
+[GeneratedDocument3]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.EXTREP
 DItemRevisionGUID=
 
-[GeneratedDocument6]
-DocumentPath=Gerbers\Gerber\Robot Controller.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GBL
 DItemRevisionGUID=
 
-[GeneratedDocument8]
-DocumentPath=Gerbers\Gerber\Robot Controller.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
+[GeneratedDocument5]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GBO
 DItemRevisionGUID=
 
-[GeneratedDocument10]
-DocumentPath=Gerbers\Gerber\Robot Controller.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Gerbers\Gerber\Robot Controller.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument12]
+[GeneratedDocument6]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GBS
 DItemRevisionGUID=
 
-[GeneratedDocument13]
+[GeneratedDocument7]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GKO
 DItemRevisionGUID=
 
-[GeneratedDocument14]
-DocumentPath=Gerbers\Gerber\Robot Controller.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument15]
+[GeneratedDocument8]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM1
 DItemRevisionGUID=
 
-[GeneratedDocument16]
+[GeneratedDocument9]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM2
 DItemRevisionGUID=
 
-[GeneratedDocument17]
+[GeneratedDocument10]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM3
 DItemRevisionGUID=
 
-[GeneratedDocument18]
+[GeneratedDocument11]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM4
 DItemRevisionGUID=
 
-[GeneratedDocument19]
+[GeneratedDocument12]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM7
 DItemRevisionGUID=
 
-[GeneratedDocument20]
+[GeneratedDocument13]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM13
 DItemRevisionGUID=
 
-[GeneratedDocument21]
+[GeneratedDocument14]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM15
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GM16
 DItemRevisionGUID=
 
-[GeneratedDocument23]
-DocumentPath=Gerbers\Gerber\Robot Controller.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument24]
+[GeneratedDocument16]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GTL
 DItemRevisionGUID=
 
-[GeneratedDocument25]
-DocumentPath=Gerbers\Gerber\Robot Controller.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument26]
+[GeneratedDocument17]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GTO
 DItemRevisionGUID=
 
-[GeneratedDocument27]
-DocumentPath=Gerbers\Gerber\Robot Controller.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Gerbers\Gerber\Robot Controller.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument29]
+[GeneratedDocument18]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.GTS
 DItemRevisionGUID=
 
-[GeneratedDocument30]
-DocumentPath=Gerbers\NC Drill\Robot Controller.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
+[GeneratedDocument19]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.LDP
 DItemRevisionGUID=
 
-[GeneratedDocument32]
-DocumentPath=Project Outputs for Robot Controller\Robot Controller.REP
-DItemRevisionGUID=
-
-[GeneratedDocument33]
+[GeneratedDocument20]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.RUL
 DItemRevisionGUID=
 
-[GeneratedDocument34]
-DocumentPath=Gerbers\NC Drill\Robot Controller.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument35]
+[GeneratedDocument21]
 DocumentPath=Project Outputs for Robot Controller\Robot Controller.TXT
 DItemRevisionGUID=
 
@@ -590,12 +534,6 @@ OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=PDF3D MBA
-OutputName11=PDF3D MBA
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -710,6 +648,24 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=DesignItemId=153|Line #=24|Description=329|Designator=247|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Supplier 1=75|Supplier Part Number 1=142|Supplier Stock 1=101|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration1_Name7=VisibleOrder_Base
+Configuration1_Item7=DesignItemId=153|Line #=24|Description=329|Designator=247|Quantity=67|Manufacturer 1=102|Manufacturer Part Number 1=169|Supplier 1=75|Supplier Part Number 1=142|Supplier Stock 1=101|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration1_Name8=VisibleOrder_Consolidated
+Configuration1_Item8=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision State=100|Revision Status=100|Quantity=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration1_Name9=VisibleOrder_Flat
+Configuration1_Item9=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision State=100|Revision Status=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1150,8 +1106,6 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
-Type118=1
-Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1220,8 +1174,6 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
-Type67=1
-Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1369,7 +1321,6 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
-ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1390,7 +1341,6 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
@@ -1822,7 +1772,6 @@ ModelUpdate26=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
-UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
