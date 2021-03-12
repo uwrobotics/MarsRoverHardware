@@ -1,15 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\EvaluationBoards\VBAT_5V_BUCK_CONVERTER\Buck_Eval_Board.PcbDoc
 Date     : 3/12/2021
-Time     : 02:13:34
+Time     : 03:17:29
 
-Processing Rule : Clearance Constraint (Gap=5mil) (IsStitchingVia and InNet('GND')),((IsVia and (Not IsStitchingVia)) Or IsPad)
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=15mil) (InNamedPolygon('GND_L01_P015')),(All)
+Processing Rule : Clearance Constraint (Gap=15mil) (InNet('VBAT')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -24,10 +21,7 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=4mil) (Max=71497.938mil) (Preferred=4mil) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (All)
-Rule Violations :0
-
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
@@ -54,10 +48,14 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
+
+Waived Violations Of Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+   Waived Violation between Height Constraint: Small Component S1-SW_TOGGLE_SPDT (924.961mil,410mil) on Top Layer Actual Height = 1166.37milWaived by Sahil Kale at 3/12/2021 03:16:05
+Waived Violations :1
 
 
 Violations Detected : 0
-Waived Violations : 0
-Time Elapsed        : 00:00:01
+Waived Violations : 1
+Time Elapsed        : 00:00:02
