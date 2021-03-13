@@ -1,12 +1,18 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\EvaluationBoards\VBAT_5V_BUCK_CONVERTER\Buck_Eval_Board.PcbDoc
 Date     : 3/12/2021
-Time     : 03:17:29
+Time     : 21:15:24
+
+Processing Rule : Clearance Constraint (Gap=15mil) (InNet('VBAT')),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=15mil) (InNet('VBAT')),(All)
+Processing Rule : Clearance Constraint (Gap=5mil) (IsStitchingVia and InNet('GND')),((IsVia and (Not IsStitchingVia)) Or IsPad)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (IsStitchingVia and InNet('5V0')),((IsVia and (Not IsStitchingVia)) Or IsPad)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
