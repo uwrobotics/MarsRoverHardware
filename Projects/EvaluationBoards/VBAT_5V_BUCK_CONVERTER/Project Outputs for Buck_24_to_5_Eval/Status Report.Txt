@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Buck_24_to_5_Eval.PrjPcb]
+   Generated File[Buck_Eval_Board.TXT]
+   Generated File[Buck_Eval_Board.LDP]
+   Generated File[Buck_Eval_Board.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 22:26:00 On 3/15/2021

@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Buck_Eval_Board.PcbDoc   3/15/2021  22:26:00
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Buck_Eval_Board.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.305mm)                                           Round             134       PTH        0.00inch (0.00mm)
+T2      13mil (0.33mm)                                            Round             6         PTH        0.00inch (0.00mm)
+T3      40mil (1.021mm)                                           Round             5         PTH        0.00inch (0.00mm)
+T4      52mil (1.326mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T5      73mil (1.849mm)                                           Round             3         PTH        0.00inch (0.00mm)
+T6      126mil (3.2mm)                                            Round             4         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              156
+
+Total Processing Time (hh:mm:ss) : 00:00:00
