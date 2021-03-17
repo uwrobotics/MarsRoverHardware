@@ -228,6 +228,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
+DocumentPath=SH6 - HIGH SIDE DRIVER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AJXYZPOT
+
+[Document13]
 DocumentPath=Science.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWRNVVLE
 
-[Document13]
+[Document14]
 DocumentPath=Science.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,76 +278,63 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
-DocumentPath=SH6 - High Side Driver.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=13
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AJXYZPOT
-
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Science\Science.DRR
+DocumentPath=Project Outputs for Science\Design Rule Check - Science.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Science\Science.EXTREP
+DocumentPath=Project Outputs for Science\Science.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Science\Science.G1
+DocumentPath=Project Outputs for Science\Science.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Science\Science.G2
+DocumentPath=Project Outputs for Science\Science.G1
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Science\Science.GBL
+DocumentPath=Project Outputs for Science\Science.G2
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Science\Science.GBO
+DocumentPath=Project Outputs for Science\Science.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Science\Science.GBS
+DocumentPath=Project Outputs for Science\Science.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Science\Science.GKO
+DocumentPath=Project Outputs for Science\Science.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Science\Science.GTL
+DocumentPath=Project Outputs for Science\Science.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Science\Science.GTO
+DocumentPath=Project Outputs for Science\Science.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Science\Science.GTS
+DocumentPath=Project Outputs for Science\Science.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Science\Science.LDP
+DocumentPath=Project Outputs for Science\Science.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Science\Science.RUL
+DocumentPath=Project Outputs for Science\Science.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument14]
+DocumentPath=Project Outputs for Science\Science.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
 DocumentPath=Project Outputs for Science\Science.TXT
 DItemRevisionGUID=
 
