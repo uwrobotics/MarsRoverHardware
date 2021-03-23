@@ -1,0 +1,410 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Tibi\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2021-03-22</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11:22:51 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc" class="file"><acronym title="C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc">C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">26</td></tr>
+</table>
+</td>
+</table><a name="IDQHZ40PNRVX1CLASMIGB25E24WIU4C3J3ID5RS0M1LXXEDMKYKYWM"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLRPAGI1RNRHKMIVAOMZJDW1WEEIO3BF0ALTQBKJGZKZLKUGW0MYM">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQCYK2RVEGOXHGKAEQJDTV3CCBI3KA4TVZDZFZUOV1WMTYHDOORG">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDF3SBLC1T2XWJH3PTDS5ONY3MAN2QXG023HTHUPEVM0VVCXPSTCEO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXHIZJX2EEM44NMBLHDEVAPB2XFF4U1GMDZIQL0FQ4KDIJXTZNCNH">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKHTUCYUAT1E0PIXLATVHIC3BZOF50DKJEYVZQRCMZ3Z151DI2LGB">Width Constraint (Min=0.254mm) (Max=3mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTFPWM2WSRVS4GCQQJXZPB1EG5EKVFEAW4PQOR22R5BAZRTWEEKH">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFJTKYEYIEK0BLLHRVNVX4VHHVOTF4F512J0XV3XOH0TKUEXKMKF">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJP0QRF1EKIJSMPPRDFOUYRKNTPHTC1HQTTSIS1HMODWETNFUKVCL">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3C3E3GAFAXGZIIUPQWRGBKBEQCT4JV2PLJU431BF3DOBM5TGG1NF">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">22</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDP2LRJ1U2A0WUOL3CX2OATMDG3KGU4JAAR0NC3FKLLAVFLU531P5E">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFWUPHQ3SA4CO5M0O30BGHO1QKHMGYCJW1ZWWFCD4LKKWKUVL42O">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDYSO5U3XS4BHGJMREWMNL1YX4RKVNKPQ43LZVHEEOGNXT0ZR5X40E">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFHBMUCRBA3CLNTYRHBYGAQ35WLOO3ECMAV5VOHBCKABYREXW0HAN">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">26</td>
+</tr>
+</table><br><a name="IDFJTKYEYIEK0BLLHRVNVX4VHHVOTF4F512J0XV3XOH0TKUEXKMKF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1070.241mil|Location2.X=1197.475mil|Location1.Y=2267.092mil|Location2.Y=2394.326mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1070.241mil|Location2.X=1197.475mil|Location1.Y=2267.092mil|Location2.Y=2394.326mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad MH1-0(3.4mm,33.8mm) on Multi-Layer Actual Hole Size = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3369.454mil|Location2.X=3496.688mil|Location1.Y=2255.28mil|Location2.Y=2382.515mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3369.454mil|Location2.X=3496.688mil|Location1.Y=2255.28mil|Location2.Y=2382.515mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad MH2-0(61.8mm,33.5mm) on Multi-Layer Actual Hole Size = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1054.493mil|Location2.X=1181.727mil|Location1.Y=1054.493mil|Location2.Y=1181.727mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1054.493mil|Location2.X=1181.727mil|Location1.Y=1054.493mil|Location2.Y=1181.727mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad MH3-0(3mm,3mm) on Multi-Layer Actual Hole Size = 3.2mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3393.076mil|Location2.X=3520.31mil|Location1.Y=1082.052mil|Location2.Y=1209.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3393.076mil|Location2.X=3520.31mil|Location1.Y=1082.052mil|Location2.Y=1209.286mil|Absolute=True">Hole Size Constraint: (3.2mm &gt; 2.54mm) Pad MH4-0(62.4mm,3.7mm) on Multi-Layer Actual Hole Size = 3.2mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3C3E3GAFAXGZIIUPQWRGBKBEQCT4JV2PLJU431BF3DOBM5TGG1NF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1606.107mil|Location2.Y=1617.357mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1606.107mil|Location2.Y=1617.357mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-1(27.305mm,15.938mm) on Top Layer And Pad U1-2(27.305mm,15.138mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1322.643mil|Location2.Y=1333.893mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1322.643mil|Location2.Y=1333.893mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-10(27.305mm,8.738mm) on Top Layer And Pad U1-11(27.305mm,7.938mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1354.139mil|Location2.Y=1365.389mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1354.139mil|Location2.Y=1365.389mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-10(27.305mm,8.738mm) on Top Layer And Pad U1-9(27.305mm,9.538mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1291.147mil|Location2.Y=1302.397mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1291.147mil|Location2.Y=1302.397mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-11(27.305mm,7.938mm) on Top Layer And Pad U1-12(27.305mm,7.138mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1291.147mil|Location2.Y=1302.397mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1291.147mil|Location2.Y=1302.397mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-13(36.957mm,7.138mm) on Top Layer And Pad U1-14(36.957mm,7.938mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1322.643mil|Location2.Y=1333.893mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1322.643mil|Location2.Y=1333.893mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-14(36.957mm,7.938mm) on Top Layer And Pad U1-15(36.957mm,8.738mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1354.139mil|Location2.Y=1365.389mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1354.139mil|Location2.Y=1365.389mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-15(36.957mm,8.738mm) on Top Layer And Pad U1-16(36.957mm,9.538mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1385.635mil|Location2.Y=1396.885mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1385.635mil|Location2.Y=1396.885mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-16(36.957mm,9.538mm) on Top Layer And Pad U1-17(36.957mm,10.338mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1417.131mil|Location2.Y=1428.381mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1417.131mil|Location2.Y=1428.381mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-17(36.957mm,10.338mm) on Top Layer And Pad U1-18(36.957mm,11.138mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1448.627mil|Location2.Y=1459.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1448.627mil|Location2.Y=1459.877mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-18(36.957mm,11.138mm) on Top Layer And Pad U1-19(36.957mm,11.938mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1480.123mil|Location2.Y=1491.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1480.123mil|Location2.Y=1491.373mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-19(36.957mm,11.938mm) on Top Layer And Pad U1-20(36.957mm,12.738mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1574.611mil|Location2.Y=1585.861mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1574.611mil|Location2.Y=1585.861mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-2(27.305mm,15.138mm) on Top Layer And Pad U1-3(27.305mm,14.338mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1511.619mil|Location2.Y=1522.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1511.619mil|Location2.Y=1522.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-20(36.957mm,12.738mm) on Top Layer And Pad U1-21(36.957mm,13.538mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1543.115mil|Location2.Y=1554.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1543.115mil|Location2.Y=1554.365mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-21(36.957mm,13.538mm) on Top Layer And Pad U1-22(36.957mm,14.338mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1574.611mil|Location2.Y=1585.861mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1574.611mil|Location2.Y=1585.861mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-22(36.957mm,14.338mm) on Top Layer And Pad U1-23(36.957mm,15.138mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1606.107mil|Location2.Y=1617.357mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2418.875mil|Location2.X=2430.125mil|Location1.Y=1606.107mil|Location2.Y=1617.357mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-23(36.957mm,15.138mm) on Top Layer And Pad U1-24(36.957mm,15.938mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1543.115mil|Location2.Y=1554.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1543.115mil|Location2.Y=1554.365mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-3(27.305mm,14.338mm) on Top Layer And Pad U1-4(27.305mm,13.538mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1511.619mil|Location2.Y=1522.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1511.619mil|Location2.Y=1522.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-4(27.305mm,13.538mm) on Top Layer And Pad U1-5(27.305mm,12.738mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1480.123mil|Location2.Y=1491.373mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1480.123mil|Location2.Y=1491.373mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-5(27.305mm,12.738mm) on Top Layer And Pad U1-6(27.305mm,11.938mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1448.627mil|Location2.Y=1459.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1448.627mil|Location2.Y=1459.877mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-6(27.305mm,11.938mm) on Top Layer And Pad U1-7(27.305mm,11.138mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1417.131mil|Location2.Y=1428.381mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1417.131mil|Location2.Y=1428.381mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-7(27.305mm,11.138mm) on Top Layer And Pad U1-8(27.305mm,10.338mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1385.635mil|Location2.Y=1396.885mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2038.875mil|Location2.X=2050.125mil|Location1.Y=1385.635mil|Location2.Y=1396.885mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.241mm &lt; 0.254mm) Between Pad U1-8(27.305mm,10.338mm) on Top Layer And Pad U1-9(27.305mm,9.538mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
