@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Nucleo Shield.PcbDoc   1/26/2021  11:20:34 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Nucleo Shield.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.305mm)                                           Round             437       PTH        0.00inch (0.00mm)
+T2      35mil (0.899mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T3      40mil (1.016mm)                                           Round             76        PTH        0.00inch (0.00mm)
+T4      40mil (1.021mm)                                           Round             2         PTH        0.00inch (0.00mm)
+T5      52mil (1.326mm)                                           Round             27        PTH        0.00inch (0.00mm)
+T6      51mil (1.3mm)                                             Round             2         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              550
+
+Total Processing Time (hh:mm:ss) : 00:00:00
