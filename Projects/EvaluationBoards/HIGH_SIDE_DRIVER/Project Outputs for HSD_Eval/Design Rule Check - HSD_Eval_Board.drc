@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\EvaluationBoards\HIGH_SIDE_DRIVER\HSD_Eval_Board.PcbDoc
 Date     : 2021-03-25
-Time     : 1:16:33 AM
+Time     : 10:14:25 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -45,4 +45,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
