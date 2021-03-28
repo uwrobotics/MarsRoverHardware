@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Owner\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev2\LED Matrix.PcbDoc
 Date     : 2021-03-28
-Time     : 12:00:56 AM
+Time     : 12:32:19 PM
 
 Processing Rule : Clearance Constraint (Gap=30mil) (InComponent('MH1')or InComponent('MH2')),(All)
 Rule Violations :0
