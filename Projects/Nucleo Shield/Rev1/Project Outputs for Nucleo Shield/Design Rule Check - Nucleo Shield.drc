@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : \\Mac\Home\Desktop\MarsRover2021-hardware\Projects\Nucleo Shield\Rev1\Nucleo Shield.PcbDoc
-Date     : 2021-03-25
-Time     : 1:08:13 AM
+Date     : 2021-03-28
+Time     : 2:51:24 AM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -9,12 +9,17 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=10mil) (InNet('3V3') And OnLayer('Power') or InNet('5V') and OnLayer('Power')),(All)
 Rule Violations :0
 
+Processing Rule : Clearance Constraint (Gap=5mil) (IsStitchingVia and InNet('GND')),((IsVia and (Not IsStitchingVia)) Or IsPad)
+Rule Violations :0
+
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Via (4650mil,6485mil) from Top Layer to Bottom Layer And Via (4740mil,5771mil) from Top Layer to Bottom Layer 
-Rule Violations :1
+   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Pad TP VBAT_FUSED-1(2664mil,8086mil) on Top Layer And Pad C7-2(2831mil,7694mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Track (2796mil,7348mil)(2798.008mil,7350.008mil) on Top Layer And Pad C8-2(2831mil,7642mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Via (2416mil,7942mil) from Top Layer to Bottom Layer And Pad TP VBAT_FUSED-1(2664mil,8086mil) on Top Layer 
+Rule Violations :3
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -56,6 +61,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 1
+Violations Detected : 3
 Waived Violations : 0
 Time Elapsed        : 00:00:02
