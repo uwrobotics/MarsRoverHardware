@@ -30,7 +30,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for Nucleo Shield
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -74,24 +74,7 @@ GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
 [Document3]
-DocumentPath=SH1 - CAN.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FFFMWKVZ
-
-[Document4]
-DocumentPath=SH2 - RS-485.SchDoc
+DocumentPath=SH3 - RS-485.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,30 +84,13 @@ AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BQUJEQFD
 
-[Document5]
-DocumentPath=SH3 - NUCLEO HEADERS.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BGMDJVGG
-
-[Document6]
+[Document4]
 DocumentPath=SH4 - SD CARD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,13 +101,13 @@ AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MIUUBVUH
 
-[Document7]
+[Document5]
 DocumentPath=SH5 - RGB LED.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,47 +118,13 @@ AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JWSGHLIA
 
-[Document8]
-DocumentPath=SH6 - BRUSHED MOTOR CONTROLLER.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WUAAAZZX
-
-[Document9]
-DocumentPath=SH7 - BROADCOM ENCODER.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HMRTUYAZ
-
-[Document10]
+[Document6]
 DocumentPath=Nucleo Shield.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -209,7 +141,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MSKIJXCD
 
-[Document11]
+[Document7]
 DocumentPath=Nucleo Shield.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -226,105 +158,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=CAMtastic1.Cam
+[Document8]
+DocumentPath=SH1 - NUCLEO HEADERS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=BGMDJVGG
+
+[Document9]
+DocumentPath=SH2 - CAN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FFFMWKVZ
+
+[Document10]
+DocumentPath=SH6 - BROADCOM ENCODER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HMRTUYAZ
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Nucleo Shield\Design Rule Check - Nucleo Shield.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.G1
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.G2
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for Nucleo Shield\Nucleo Shield.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -374,7 +260,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Nucleo Shield
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -485,7 +371,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung ML-2950 Series
+TargetPrinter=HP Color LaserJet MFP M180nw (846D1E)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -585,7 +471,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Samsung ML-2950 Series
+TargetPrinter=HP Color LaserJet MFP M180nw (846D1E)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -1282,196 +1168,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID0=CAP_0.1uF_50V_0603
-ComponentSymbolReference0=CAP_0.1uF_50V_0603
+ComponentDesignItemID0=RES_10kΩ_0805_5%
+ComponentSymbolReference0=RES_10kΩ_0805_5%
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID1=CAP_0.1uF_50V_0805
-ComponentSymbolReference1=CAP_0.1uF_50V_0805
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID2=CAP_1uF_25V_0603
-ComponentSymbolReference2=CAP_1uF_25V_0603
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID3=CAP_270uF_50V_ALUM
-ComponentSymbolReference3=CAP_270uF_50V_ALUM
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID4=CON_2POS_SCREW_TERM
-ComponentSymbolReference4=CON_2POS_SCREW_TERM
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID5=CON_4M_TERM
-ComponentSymbolReference5=CON_4M_TERM
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID6=CON_5POS_SCREW_TERM
-ComponentSymbolReference6=CON_5POS_SCREW_TERM
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID7=CON_6POS_SCREW_TERM
-ComponentSymbolReference7=CON_6POS_SCREW_TERM
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID8=CON_SD_CARD
-ComponentSymbolReference8=CON_SD_CARD
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID9=FUSE_250mA_0603
-ComponentSymbolReference9=FUSE_250mA_0603
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID10=FUSE_5A_1206
-ComponentSymbolReference10=FUSE_5A_1206
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID11=HEADER_NUCLEO
-ComponentSymbolReference11=HEADER_NUCLEO
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID12=IC_BUFFER
-ComponentSymbolReference12=IC_BUFFER
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID13=IC_CAN_TRANSCEIVER
-ComponentSymbolReference13=IC_CAN_TRANSCEIVER
-ComponentUpdate13=1
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID14=IC_LVL_SHIFTER_2_CH
-ComponentSymbolReference14=IC_LVL_SHIFTER_2_CH
-ComponentUpdate14=1
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID15=IC_MOTOR_DRIVER_ST
-ComponentSymbolReference15=IC_MOTOR_DRIVER_ST
-ComponentUpdate15=1
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID16=JUMPER
-ComponentSymbolReference16=JUMPER
-ComponentUpdate16=1
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID17=LED_GREEN
-ComponentSymbolReference17=LED_GREEN
-ComponentUpdate17=1
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID18=LED_RGB
-ComponentSymbolReference18=LED_RGB
-ComponentUpdate18=1
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID19=MAX3491
-ComponentSymbolReference19=MAX3491
-ComponentUpdate19=1
-ComponentIsDeviceSheet19=0
-ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID20=MAX485CSA
-ComponentSymbolReference20=MAX485CSA
-ComponentUpdate20=1
-ComponentIsDeviceSheet20=0
-ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID21=NMOS_30V_2.2A
-ComponentSymbolReference21=NMOS_30V_2.2A
-ComponentUpdate21=1
-ComponentIsDeviceSheet21=0
-ComponentLibIdentifierKind22=Library Name And Type
-ComponentLibraryIdentifier22=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID22=RES_0Ω_0805
-ComponentSymbolReference22=RES_0Ω_0805
-ComponentUpdate22=1
-ComponentIsDeviceSheet22=0
-ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID23=RES_10kΩ_0603_5%
-ComponentSymbolReference23=RES_10kΩ_0603_5%
-ComponentUpdate23=1
-ComponentIsDeviceSheet23=0
-ComponentLibIdentifierKind24=Library Name And Type
-ComponentLibraryIdentifier24=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID24=RES_120Ω_0805_1%
-ComponentSymbolReference24=RES_120Ω_0805_1%
-ComponentUpdate24=1
-ComponentIsDeviceSheet24=0
-ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID25=RES_1kΩ_0603_5%
-ComponentSymbolReference25=RES_1kΩ_0603_5%
-ComponentUpdate25=1
-ComponentIsDeviceSheet25=0
-ComponentLibIdentifierKind26=Library Name And Type
-ComponentLibraryIdentifier26=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID26=RES_20Ω_0805_1%
-ComponentSymbolReference26=RES_20Ω_0805_1%
-ComponentUpdate26=1
-ComponentIsDeviceSheet26=0
-ComponentLibIdentifierKind27=Library Name And Type
-ComponentLibraryIdentifier27=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID27=TESTPOINT_1MM_CIRCLE
-ComponentSymbolReference27=TESTPOINT_1MM_CIRCLE
-ComponentUpdate27=1
-ComponentIsDeviceSheet27=0
-ComponentLibIdentifierKind28=Library Name And Type
-ComponentLibraryIdentifier28=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID28=TESTPOINT_1MM_SQUARE
-ComponentSymbolReference28=TESTPOINT_1MM_SQUARE
-ComponentUpdate28=1
-ComponentIsDeviceSheet28=0
-ComponentLibIdentifierKind29=Library Name And Type
-ComponentLibraryIdentifier29=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID29=TESTPOINT_LOOP
-ComponentSymbolReference29=TESTPOINT_LOOP
-ComponentUpdate29=1
-ComponentIsDeviceSheet29=0
-ComponentLibIdentifierKind30=Library Name And Type
-ComponentLibraryIdentifier30=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID30=TVS_DIODE_UNIDIR_26V
-ComponentSymbolReference30=TVS_DIODE_UNIDIR_26V
-ComponentUpdate30=1
-ComponentIsDeviceSheet30=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1485,232 +1191,35 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Category
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Color
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Comment
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Component Kind
+ParameterName3=LCSC Part #
 ParameterUpdate3=1
-ParameterName4=ComponentLink1Description
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=ComponentLink1URL
+ParameterName5=Manufacturer 1
 ParameterUpdate5=1
-ParameterName6=ComponentLink2Description
+ParameterName6=Manufacturer Part Number 1
 ParameterUpdate6=1
-ParameterName7=ComponentLink2URL
+ParameterName7=Mounting Type
 ParameterUpdate7=1
-ParameterName8=Current Rating
+ParameterName8=Package/Footprint
 ParameterUpdate8=1
-ParameterName9=Data Rate
+ParameterName9=Supplier 1
 ParameterUpdate9=1
-ParameterName10=Description
+ParameterName10=Supplier Part Number 1
 ParameterUpdate10=1
-ParameterName11=Dielectric
+ParameterName11=Value
 ParameterUpdate11=1
-ParameterName12=Dominant Wavelength
-ParameterUpdate12=1
-ParameterName13=Forward Voltage
-ParameterUpdate13=1
-ParameterName14=Forward Voltage Drop
-ParameterUpdate14=1
-ParameterName15=Height - Seated (Max)
-ParameterUpdate15=1
-ParameterName16=Id
-ParameterUpdate16=1
-ParameterName17=Interface IC Type
-ParameterUpdate17=1
-ParameterName18=JESD-30 Code
-ParameterUpdate18=1
-ParameterName19=JESD-609 Code
-ParameterUpdate19=1
-ParameterName20=LCSC Part #
-ParameterUpdate20=1
-ParameterName21=Length
-ParameterUpdate21=1
-ParameterName22=Lens Color
-ParameterUpdate22=1
-ParameterName23=Lens Style
-ParameterUpdate23=1
-ParameterName24=Lens Transparency
-ParameterUpdate24=1
-ParameterName25=Library Reference
-ParameterUpdate25=1
-ParameterName26=Luminous Intensity
-ParameterUpdate26=1
-ParameterName27=Manufacturer 1
-ParameterUpdate27=1
-ParameterName28=Manufacturer Part Number 1
-ParameterUpdate28=1
-ParameterName29=Max Operating Temperature
-ParameterUpdate29=1
-ParameterName30=Max Supply Voltage
-ParameterUpdate30=1
-ParameterName31=Min Operating Temperature
-ParameterUpdate31=1
-ParameterName32=Min Supply Voltage
-ParameterUpdate32=1
-ParameterName33=Moisture Sensitivity Level
-ParameterUpdate33=1
-ParameterName34=Mounting Type
-ParameterUpdate34=1
-ParameterName35=Number of Functions
-ParameterUpdate35=1
-ParameterName36=Number of Pins
-ParameterUpdate36=1
-ParameterName37=Output Current
-ParameterUpdate37=1
-ParameterName38=Package Body Material
-ParameterUpdate38=1
-ParameterName39=Package Code
-ParameterUpdate39=1
-ParameterName40=Package Shape
-ParameterUpdate40=1
-ParameterName41=Package Style
-ParameterUpdate41=1
-ParameterName42=Package/Footprint
-ParameterUpdate42=1
-ParameterName43=Peak Reflow Temperature (Cel)
-ParameterUpdate43=1
-ParameterName44=Pitch
-ParameterUpdate44=1
-ParameterName45=Pricing 1
-ParameterUpdate45=1
-ParameterName46=Protocol
-ParameterUpdate46=1
-ParameterName47=RoHS
-ParameterUpdate47=1
-ParameterName48=Screw Thread
-ParameterUpdate48=1
-ParameterName49=Stock 1
-ParameterUpdate49=1
-ParameterName50=Supplier 1
-ParameterUpdate50=1
-ParameterName51=Supplier Part Number 1
-ParameterUpdate51=1
-ParameterName52=Supply Voltage
-ParameterUpdate52=1
-ParameterName53=Supply Voltage-Nom
-ParameterUpdate53=1
-ParameterName54=Surface Mount
-ParameterUpdate54=1
-ParameterName55=Temperature Grade
-ParameterUpdate55=1
-ParameterName56=Terminal Finish
-ParameterUpdate56=1
-ParameterName57=Terminal Form
-ParameterUpdate57=1
-ParameterName58=Terminal Pitch
-ParameterUpdate58=1
-ParameterName59=Terminal Position
-ParameterUpdate59=1
-ParameterName60=Test Current
-ParameterUpdate60=1
-ParameterName61=Value
-ParameterUpdate61=1
-ParameterName62=Vdss
-ParameterUpdate62=1
-ParameterName63=Verified
-ParameterUpdate63=1
-ParameterName64=Vgs (Max)
-ParameterUpdate64=1
-ParameterName65=Viewing Angle
-ParameterUpdate65=1
-ParameterName66=Voltage Rating
-ParameterUpdate66=1
-ParameterName67=Voltage Rating (DC)
-ParameterUpdate67=1
-ParameterName68=Width
-ParameterUpdate68=1
-ParameterName69=Wire Gauge
-ParameterUpdate69=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=1935161
+ModelName0=RESC0805
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=1935187
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=1935190
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=1935200
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=CAP0603
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=CAP2012
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=FUSE_0603
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=FUSE_1206
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=HDR1X2
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=HEADER_NUCLEO
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=HRS_DM1AA-SF-PEJ(21)
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=LED_0805_GREEN
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=LED_RGB
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=LTC2875
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=LT-S8_N
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=MAX3491CSD+T
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=NMOS_SSOT-3
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=RADIAL_PANASONIC_G
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=RESC0603
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=RESC0805
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=SN74LV1T34DBVR
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=SO-16N
-ModelUpdate21=1
-ModelType22=PCBLIB
-ModelName22=SOIC127P600X175-8N
-ModelUpdate22=1
-ModelType23=PCBLIB
-ModelName23=TESTPOINT_CIRCLE_1MM
-ModelUpdate23=1
-ModelType24=PCBLIB
-ModelName24=TESTPOINT_LOOP
-ModelUpdate24=1
-ModelType25=PCBLIB
-ModelName25=TESTPOINT_SQUARE_1MM
-ModelUpdate25=1
-ModelType26=PCBLIB
-ModelName26=TVS_DIODE_UNIDIRECTIONAL_SMB
-ModelUpdate26=1
-ModelType27=PCBLIB
-ModelName27=TXS0102QDCURQ1
-ModelUpdate27=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
