@@ -143,23 +143,6 @@ GenerateClassCluster=0
 DocumentUniqueId=MIUUBVUH
 
 [Document7]
-DocumentPath=SH6 - BROADCOM ENCODER.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HMRTUYAZ
-
-[Document8]
 DocumentPath=SH5 - RGB LED.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -175,6 +158,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JWSGHLIA
+
+[Document8]
+DocumentPath=SH6 - BROADCOM ENCODER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HMRTUYAZ
 
 [Document9]
 DocumentPath=Nucleo Shield.PcbDoc
