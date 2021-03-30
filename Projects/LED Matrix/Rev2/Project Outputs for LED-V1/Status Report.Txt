@@ -1,0 +1,30 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [LED Matrix.PrjPcb]
+   Generated File[LED Matrix.GTO]
+   Generated File[LED Matrix.GTP]
+   Generated File[LED Matrix.GTS]
+   Generated File[LED Matrix.GTL]
+   Generated File[LED Matrix.G1]
+   Generated File[LED Matrix.G2]
+   Generated File[LED Matrix.GBL]
+   Generated File[LED Matrix.GBS]
+   Generated File[LED Matrix.GBP]
+   Generated File[LED Matrix.GBO]
+   Generated File[LED Matrix.GM1]
+   Generated File[LED Matrix.GM2]
+   Generated File[LED Matrix.GM4]
+   Generated File[LED Matrix.GM13]
+   Generated File[LED Matrix.GM15]
+   Generated File[LED Matrix.GKO]
+   Generated File[LED Matrix.GPT]
+   Generated File[LED Matrix.GPB]
+   Generated File[LED Matrix.RUL]
+   Generated File[LED Matrix.EXTREP]
+   Generated File[LED Matrix.REP]
+
+
+Files Generated   : 21
+Documents Printed : 0
+
+Finished Output Generation At 7:17:12 PM On 2021-03-29
