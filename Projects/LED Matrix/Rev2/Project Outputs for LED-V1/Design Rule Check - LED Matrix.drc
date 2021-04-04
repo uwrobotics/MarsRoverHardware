@@ -1,7 +1,10 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Owner\Documents\GitHub\MarsRover2021-hardware\Projects\LED Matrix\Rev2\LED Matrix.PcbDoc
-Date     : 2021-03-23
-Time     : 6:11:48 PM
+PCB File : C:\Users\lance\Github\MarsRover2020-PCB\Projects\LED Matrix\Rev2\LED Matrix.PcbDoc
+Date     : 2021-03-28
+Time     : 1:16:44 PM
+
+Processing Rule : Clearance Constraint (Gap=30mil) (InComponent('MH1')or InComponent('MH2')),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -9,7 +12,7 @@ Rule Violations :0
 Processing Rule : Clearance Constraint (Gap=15mil) (InNet('24V')or InNet('24V_BLUE')or InNet('24V_GREEN')or InNet('24V_RED')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=30mil) (InComponent('MH1')or InComponent('MH2')),(All)
+Processing Rule : Clearance Constraint (Gap=25mil) (InNet('No Net')),(InNet('No Net'))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
