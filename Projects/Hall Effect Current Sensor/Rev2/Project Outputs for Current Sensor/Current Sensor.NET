@@ -1,0 +1,115 @@
+Wire List
+
+<<< Component List >>>
+CAP_1uF_100V_1206               C1             CAPC3216X190X50NL20T25
+CAP_0.1uF_50V_0805              C2             CAP2012
+CAP_1uF_100V_1206               C3             CAPC3216X190X50NL20T25
+CAP_0.1uF_50V_0805              C4             CAP2012
+CAP_100pF_50V_0805              C5             CAP2012
+CAP_0.1uF_50V_0805              C6             CAP2012
+CAP_0.1uF_50V_0805              C7             CAP2012
+CAP_1000pF_50V_0805             C8             CAP2012
+CAP_1000pF_50V_0805             C9             CAP2012
+CON_5M_SM_RA                    J1             MOLEX-5025850570
+SCREW_TERMINAL_1_POS_6_32       J2             7701_KEYSTONE
+SCREW_TERMINAL_1_POS_6_32       J3             7701_KEYSTONE
+RES_4.87kO_0805_0.1%            R1             RES0805
+RES_1.6kO_0805_0.1%             R2             RES0805
+RES_4.87kO_0805_0.1%            R3             RES0805
+RES_1.6kO_0805_0.1%             R4             RES0805
+TESTPOINT_SMD_LOOP              TP1            S1751-46R
+TESTPOINT_1MM_CIRCLE            TP2            TESTPOINT_CIRCLE_1MM
+TESTPOINT_SMD_LOOP              TP3            S1751-46R
+TESTPOINT_1MM_CIRCLE            TP4            TESTPOINT_CIRCLE_1MM
+TESTPOINT_1MM_CIRCLE            TP5            TESTPOINT_CIRCLE_1MM
+TESTPOINT_1MM_CIRCLE            TP6            TESTPOINT_CIRCLE_1MM
+TESTPOINT_1MM_CIRCLE            TP7            TESTPOINT_CIRCLE_1MM
+TESTPOINT_SMD_LOOP              TP8            S1751-46R
+TESTPOINT_SMD_LOOP              TP9            S1751-46R
+TESTPOINT_1MM_CIRCLE            TP10           TESTPOINT_CIRCLE_1MM
+TESTPOINT_1MM_SQUARE            TP11           TESTPOINT_SQUARE_1MM
+MAX6037CAUKADJ+T                U1             SOT23-5
+ADCS7476AIMF/NOPB               U2             ADCS747x
+MLX91208LDC-CAL-000-TU          U3             8-SOIC_M
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] 5V
+        C1         2       2              PASSIVE     CAP_1uF_100V_1206
+        C2         2       2              PASSIVE     CAP_0.1uF_50V_0805
+        C5         2       2              PASSIVE     CAP_100pF_50V_0805
+        C6         2       2              PASSIVE     CAP_0.1uF_50V_0805
+        J1         1       1              PASSIVE     CON_5M_SM_RA
+        R3         2       2              PASSIVE     RES_4.87kO_0805_0.1%
+        TP3        1       =value         PASSIVE     TESTPOINT_SMD_LOOP
+        U1         3       SHDNn          PASSIVE     MAX6037CAUKADJ+T
+        U1         4       IN             PASSIVE     MAX6037CAUKADJ+T
+
+[00002] ADC_IN
+        C3         2       2              PASSIVE     CAP_1uF_100V_1206
+        C4         2       2              PASSIVE     CAP_0.1uF_50V_0805
+        R1         2       2              PASSIVE     RES_4.87kO_0805_0.1%
+        TP1        1       =value         PASSIVE     TESTPOINT_SMD_LOOP
+        U1         5       OUT            PASSIVE     MAX6037CAUKADJ+T
+        U2         1       VDD            PASSIVE     ADCS7476AIMF/NOPB
+
+[00003] ANALOG_FILTERED
+
+[00004] ANALOG_OUT
+        C9         2       2              PASSIVE     CAP_1000pF_50V_0805
+        R4         2       2              PASSIVE     RES_1.6kO_0805_0.1%
+        TP4        1       =value         PASSIVE     TESTPOINT_1MM_CIRCLE
+
+[00005] CURRENT_SENSE_LINE
+        J2         1       1              PASSIVE     SCREW_TERMINAL_1_POS_6_32
+        J3         1       1              PASSIVE     SCREW_TERMINAL_1_POS_6_32
+        TP8        1       =value         PASSIVE     TESTPOINT_SMD_LOOP
+        TP9        1       =value         PASSIVE     TESTPOINT_SMD_LOOP
+
+[00006] GND
+        C1         1       1              PASSIVE     CAP_1uF_100V_1206
+        C2         1       1              PASSIVE     CAP_0.1uF_50V_0805
+        C3         1       1              PASSIVE     CAP_1uF_100V_1206
+        C4         1       1              PASSIVE     CAP_0.1uF_50V_0805
+        C5         1       1              PASSIVE     CAP_100pF_50V_0805
+        C6         1       1              PASSIVE     CAP_0.1uF_50V_0805
+        C7         1       1              PASSIVE     CAP_0.1uF_50V_0805
+        C8         1       1              PASSIVE     CAP_1000pF_50V_0805
+        C9         1       1              PASSIVE     CAP_1000pF_50V_0805
+        J1         0       0              PASSIVE     CON_5M_SM_RA
+        J1         2       2              PASSIVE     CON_5M_SM_RA
+        R2         1       1              PASSIVE     RES_1.6kO_0805_0.1%
+        TP11       1       =value         PASSIVE     TESTPOINT_1MM_SQUARE
+        U1         2       GND            PASSIVE     MAX6037CAUKADJ+T
+        U2         2       GND            PASSIVE     ADCS7476AIMF/NOPB
+
+[00007] NetC7_2
+        C7         2       2              PASSIVE     CAP_0.1uF_50V_0805
+        R4         1       1              PASSIVE     RES_1.6kO_0805_0.1%
+        TP10       1       =value         PASSIVE     TESTPOINT_1MM_CIRCLE
+        U2         3       VIN            PASSIVE     ADCS7476AIMF/NOPB
+
+[00009] NetJ1_3
+        J1         3       3              PASSIVE     CON_5M_SM_RA
+        TP5        1       =value         PASSIVE     TESTPOINT_1MM_CIRCLE
+        U2         4       SCLK           PASSIVE     ADCS7476AIMF/NOPB
+
+[00010] NetJ1_4
+        J1         4       4              PASSIVE     CON_5M_SM_RA
+        TP6        1       =value         PASSIVE     TESTPOINT_1MM_CIRCLE
+        U2         5       SDATA          PASSIVE     ADCS7476AIMF/NOPB
+
+[00011] NetJ1_5
+        J1         5       5              PASSIVE     CON_5M_SM_RA
+        R3         1       1              PASSIVE     RES_4.87kO_0805_0.1%
+        TP7        1       =value         PASSIVE     TESTPOINT_1MM_CIRCLE
+        U2         6       CSn            PASSIVE     ADCS7476AIMF/NOPB
+
+[00012] NetR1_1
+        R1         1       1              PASSIVE     RES_4.87kO_0805_0.1%
+        R2         2       2              PASSIVE     RES_1.6kO_0805_0.1%
+        TP2        1       =value         PASSIVE     TESTPOINT_1MM_CIRCLE
+        U1         1       ADJ            PASSIVE     MAX6037CAUKADJ+T
+

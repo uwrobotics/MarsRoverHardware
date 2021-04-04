@@ -1,0 +1,10 @@
+Output: WireList Netlist
+Type  : WireListNetlist
+From  : Project [Current Sensor.PrjPCB]
+   Generated File[Current Sensor.NET]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:11:51 PM On 2021-04-04
