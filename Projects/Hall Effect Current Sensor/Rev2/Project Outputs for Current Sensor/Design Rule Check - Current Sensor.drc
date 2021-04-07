@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Owner\Documents\GitHub\MarsRover2021-hardware\Projects\Hall Effect Current Sensor\Rev2\Current Sensor.PcbDoc
-Date     : 2021-04-06
-Time     : 10:39:08 PM
+Date     : 2021-04-07
+Time     : 4:56:00 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -51,7 +51,7 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Room Current Sensor (Bounding Region = (2185.5mil, 2769.503mil, 3845.5mil, 3989.503mil) (InComponentClass('Current Sensor'))
+Processing Rule : Room Current Sensor (Bounding Region = (2509.5mil, 2769.503mil, 3845.5mil, 3989.503mil) (InComponentClass('Current Sensor'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
