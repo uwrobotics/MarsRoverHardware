@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Owner\Documents\GitHub\MarsRover2021-hardware\Projects\Hall Effect Current Sensor\Rev2\Current Sensor.PcbDoc
-Date     : 2021-04-04
-Time     : 2:36:18 PM
+Date     : 2021-04-06
+Time     : 10:39:08 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -31,12 +31,12 @@ Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-1(810.646mil,387.402mil) on Top Layer And Pad U1-2(810.646mil,350mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-2(810.646mil,350mil) on Top Layer And Pad U1-3(810.646mil,312.598mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-1(712.181mil,632.602mil) on Top Layer And Pad U2-2(712.181mil,670.003mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-2(712.181mil,670.003mil) on Top Layer And Pad U2-3(712.181mil,707.405mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-4(609.819mil,707.405mil) on Top Layer And Pad U2-5(609.819mil,670.003mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-5(609.819mil,670.003mil) on Top Layer And Pad U2-6(609.819mil,632.602mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-1(588.646mil,242.402mil) on Top Layer And Pad U1-2(588.646mil,205mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-2(588.646mil,205mil) on Top Layer And Pad U1-3(588.646mil,167.598mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-1(699.181mil,472.602mil) on Top Layer And Pad U2-2(699.181mil,510.003mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-2(699.181mil,510.003mil) on Top Layer And Pad U2-3(699.181mil,547.405mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-4(596.819mil,547.405mil) on Top Layer And Pad U2-5(596.819mil,510.003mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-5(596.819mil,510.003mil) on Top Layer And Pad U2-6(596.819mil,472.602mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
 Rule Violations :6
 
 Processing Rule : Silk To Solder Mask (Clearance=6mil) (IsPad),(All)
