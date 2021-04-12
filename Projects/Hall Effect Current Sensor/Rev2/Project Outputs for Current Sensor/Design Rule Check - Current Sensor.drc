@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Owner\Documents\GitHub\MarsRover2021-hardware\Projects\Hall Effect Current Sensor\Rev2\Current Sensor.PcbDoc
-Date     : 2021-04-07
-Time     : 4:56:00 PM
+PCB File : D:\GitHub Desktop\MarsRover2021-hardware\Projects\Hall Effect Current Sensor\Rev2\Current Sensor.PcbDoc
+Date     : 2021-04-12
+Time     : 7:43:32 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -31,12 +31,12 @@ Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-1(588.646mil,242.402mil) on Top Layer And Pad U1-2(588.646mil,205mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-2(588.646mil,205mil) on Top Layer And Pad U1-3(588.646mil,167.598mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-1(699.181mil,472.602mil) on Top Layer And Pad U2-2(699.181mil,510.003mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-2(699.181mil,510.003mil) on Top Layer And Pad U2-3(699.181mil,547.405mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-4(596.819mil,547.405mil) on Top Layer And Pad U2-5(596.819mil,510.003mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-5(596.819mil,510.003mil) on Top Layer And Pad U2-6(596.819mil,472.602mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-1(265.356mil,246.888mil) on Top Layer And Pad U1-2(265.356mil,209.487mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (4.599mil < 6mil) Between Pad U1-2(265.356mil,209.487mil) on Top Layer And Pad U1-3(265.356mil,172.085mil) on Top Layer [Top Solder] Mask Sliver [4.599mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-1(375.892mil,477.088mil) on Top Layer And Pad U2-2(375.892mil,514.49mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-2(375.892mil,514.49mil) on Top Layer And Pad U2-3(375.892mil,551.891mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.779mil < 6mil) Between Pad U2-4(273.53mil,551.891mil) on Top Layer And Pad U2-5(273.53mil,514.49mil) on Top Layer [Top Solder] Mask Sliver [5.779mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (5.78mil < 6mil) Between Pad U2-5(273.53mil,514.49mil) on Top Layer And Pad U2-6(273.53mil,477.088mil) on Top Layer [Top Solder] Mask Sliver [5.78mil]
 Rule Violations :6
 
 Processing Rule : Silk To Solder Mask (Clearance=6mil) (IsPad),(All)
@@ -51,7 +51,7 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Room Current Sensor (Bounding Region = (2509.5mil, 2769.503mil, 3845.5mil, 3989.503mil) (InComponentClass('Current Sensor'))
+Processing Rule : Room Current Sensor (Bounding Region = (2186.211mil, 2773.99mil, 3522.211mil, 3993.99mil) (InComponentClass('Current Sensor'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
