@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: D:\GitHub Desktop\MarsRover2021-hardware\Projects\Hall Effect Current Sensor\Rev2\Current Sensor.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=current clearance|Scope=Board|Minimum=15.00

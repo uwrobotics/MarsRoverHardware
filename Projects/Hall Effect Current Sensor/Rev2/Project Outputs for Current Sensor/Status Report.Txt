@@ -1,10 +1,12 @@
-Output: WireList Netlist
-Type  : WireListNetlist
+Output: NC Drill Files
+Type  : NC Drill
 From  : Project [Current Sensor.PrjPCB]
-   Generated File[Current Sensor.NET]
+   Generated File[Current Sensor.TXT]
+   Generated File[Current Sensor.LDP]
+   Generated File[Current Sensor.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 12:11:51 PM On 2021-04-04
+Finished Output Generation At 7:50:48 PM On 2021-04-12
