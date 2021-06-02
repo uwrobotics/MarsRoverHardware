@@ -125,6 +125,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QWHWTILC
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\Design Rule Check - Buck Converter.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
