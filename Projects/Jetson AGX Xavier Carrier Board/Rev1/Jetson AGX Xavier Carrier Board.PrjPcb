@@ -259,6 +259,40 @@ GenerateClassCluster=0
 DocumentUniqueId=RCMBTWRR
 
 [Document14]
+DocumentPath=3.3V POWER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UKMOPGZB
+
+[Document15]
+DocumentPath=1.8V POWER.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YJVGOZIV
+
+[Document16]
 DocumentPath=HIGH LEVEL DESIGN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZRVWGGOZ
 
-[Document15]
+[Document17]
 DocumentPath=USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document18]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IHMUYQCO
 
-[Document17]
+[Document19]
 DocumentPath=HDMI.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EMNIOGXJ
 
-[Document18]
+[Document20]
 DocumentPath=PCIe ETHERNET.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -343,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document21]
 DocumentPath=PCIe ETHERNET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -360,7 +394,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IZABEFUY
 
-[Document20]
+[Document22]
 DocumentPath=RGMII ETHERNET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -377,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NJCACLTW
 
-[Document21]
+[Document23]
 DocumentPath=M.2 E-KEY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -394,7 +428,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XMATOKXR
 
-[Document22]
+[Document24]
 DocumentPath=M.2 M-KEY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -411,7 +445,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WBDFMXJZ
 
-[Document23]
+[Document25]
 DocumentPath=JTAG.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -428,7 +462,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VAXROEJD
 
-[Document24]
+[Document26]
 DocumentPath=GPIO AND SERIAL.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -445,7 +479,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJOSMLOY
 
-[Document25]
+[Document27]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -462,7 +496,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DIKYXGNH
 
-[Document26]
+[Document28]
 DocumentPath=USB PORT STACKED.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,7 +513,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document29]
 DocumentPath=JETSON AGX UPHY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -496,7 +530,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document30]
 DocumentPath=JETSON AGX PCIE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +547,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document31]
 DocumentPath=JETSON AGX DP-HDMI-USB-GBE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +564,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document32]
 DocumentPath=JETSON AGX CSI-I2C-I2S.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +581,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document33]
 DocumentPath=JETSON AGX SDIO-SPI-UART-CAN-GPIO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,7 +598,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document34]
 DocumentPath=JETSON AGX SYS-PWR-GND.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +615,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document35]
 DocumentPath=JETSON AGX NVHS.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -598,7 +632,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document36]
 DocumentPath=M.2 E-KEY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -615,7 +649,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document35]
+[Document37]
 DocumentPath=M.2 M-KEY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -632,7 +666,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document36]
+[Document38]
 DocumentPath=HIGH LEVEL DESIGN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -649,7 +683,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
+[Document39]
 DocumentPath=Jetson AGX Xavier Carrier Board.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -666,7 +700,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document40]
 DocumentPath=RGMII ETHERNET.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -683,7 +717,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document39]
+[Document41]
 DocumentPath=HDMI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -700,7 +734,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document40]
+[Document42]
 DocumentPath=JTAG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -717,7 +751,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document41]
+[Document43]
 DocumentPath=CAN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -734,7 +768,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document42]
+[Document44]
 DocumentPath=GPIO AND SERIAL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
