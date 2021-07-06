@@ -1,0 +1,415 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://D:\Altium Documents\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2021-07-05</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11:15:51 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc" class="file"><acronym title="D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc">D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">29</td></tr>
+</table>
+</td>
+</table><a name="IDYEFN2EDODTK3HSRB5OTSDJRQEC3PQCNJ3HYQZZKQG42FNJB15U4J"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDL2DFDQQYU5T2H0P3SLV5GLWIOKEDEO03V5A0LHCTRF2FYNN1K4NM">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDR4ATTH3TP1PLEXT00XPXWAUUSCT2BFZW4MLR2TBRYRUTMK3VPXTH">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLCBL2P3BMC5HOEY40FAENS2JP0321B3B1ASUNBMN0QX1X01ATXK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKMDAAK2G5NJFCLSE4OCCWQCM3BD30F23Y2D3WHJRFQQTRE51HBQF">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0LPF35Z0FM2FLCTQH4UWWA2FMCN5IAJD2Q3GLCBEFECQHK1EOWH">Width Constraint (Min=10mil) (Max=50mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHKMZU1TYGHWLIU4DGRHNXGV0BB3PLKC3V5CIRFIKAGJAWZM4YQRH">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMGRLLV3SXSOFP2SDQ4E5HZP0HO1EA3B3452AUIBEVA0GJUOIKOWN">Hole Size Constraint (Min=1mil) (Max=100mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2IMVYWIEJFVDMGANYGU2B0CPIJ1G4FIIZKTJ1PW3YOAIKB1NNIO">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLMOOKFOKZO52CUHYF255VMQNAEXI0W4HPBDIA1HD5TSPVHMAIHFD">Minimum Solder Mask Sliver (Gap=3mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMLDKPITBTURL4LFFJEZEFKZKIEQYVCMYYRNPVGGSCRMJLTG2NYL">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</a></td>
+<td class="column2">29</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHKCZWK14JULKD4WUPVRSOQFYRBHPG1T4NX2QCBIFRJJFC23KSLZF">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDU2DNYPVOYVRVFS0ZZV3NSYR0HFVXIRNV4EGR0COY23TPYOXWJYCL">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDW0SE3LW4NOP4HNW4LH5S3AOTFGOEE4LCLS1KGZEFEBVN1BMODE5P">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">29</td>
+</tr>
+</table><br><a name="IDMLDKPITBTURL4LFFJEZEFKZKIEQYVCMYYRNPVGGSCRMJLTG2NYL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=10mil) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4147.879mil|Location2.X=4159.129mil|Location1.Y=3924.023mil|Location2.Y=3935.273mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4147.879mil|Location2.X=4159.129mil|Location1.Y=3924.023mil|Location2.Y=3935.273mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (3.932mil &lt; 10mil) Between Arc (4153.504mil,3947.362mil) on Top Overlay And Pad U1-21(4185mil,3845mil) on Top Layer [Top Overlay] to [Top Solder] clearance [3.932mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3813.981mil|Location2.X=3825.231mil|Location1.Y=4201.849mil|Location2.Y=4213.099mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3813.981mil|Location2.X=3825.231mil|Location1.Y=4201.849mil|Location2.Y=4213.099mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.83mil &lt; 10mil) Between Pad D1-1(3812.52mil,4175mil) on Top Layer And Track (3819.606mil,4217.389mil)(3819.606mil,4225mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.83mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3814.048mil|Location2.X=3825.298mil|Location1.Y=4136.901mil|Location2.Y=4148.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3814.048mil|Location2.X=3825.298mil|Location1.Y=4136.901mil|Location2.Y=4148.151mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.83mil &lt; 10mil) Between Pad D1-1(3812.52mil,4175mil) on Top Layer And Track (3819.673mil,4125mil)(3819.673mil,4132.611mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.83mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3832.485mil|Location2.X=3843.735mil|Location1.Y=4136.901mil|Location2.Y=4148.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3832.485mil|Location2.X=3843.735mil|Location1.Y=4136.901mil|Location2.Y=4148.151mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.83mil &lt; 10mil) Between Pad D1-1(3812.52mil,4175mil) on Top Layer And Track (3838.11mil,4125mil)(3838.11mil,4132.611mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.83mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3832.485mil|Location2.X=3843.735mil|Location1.Y=4201.849mil|Location2.Y=4213.099mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3832.485mil|Location2.X=3843.735mil|Location1.Y=4201.849mil|Location2.Y=4213.099mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.83mil &lt; 10mil) Between Pad D1-1(3812.52mil,4175mil) on Top Layer And Track (3838.11mil,4217.389mil)(3838.11mil,4225mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.83mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3913.834mil|Location2.X=3925.084mil|Location1.Y=4136.901mil|Location2.Y=4148.151mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3913.834mil|Location2.X=3925.084mil|Location1.Y=4136.901mil|Location2.Y=4148.151mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.83mil &lt; 10mil) Between Pad D1-2(3926.693mil,4175mil) on Top Layer And Track (3919.459mil,4125mil)(3919.459mil,4132.611mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.83mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3913.981mil|Location2.X=3925.231mil|Location1.Y=4201.849mil|Location2.Y=4213.099mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3913.981mil|Location2.X=3925.231mil|Location1.Y=4201.849mil|Location2.Y=4213.099mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (9.83mil &lt; 10mil) Between Pad D1-2(3926.693mil,4175mil) on Top Layer And Track (3919.606mil,4217.389mil)(3919.606mil,4225mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [9.83mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4708.147mil|Location2.X=4719.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4708.147mil|Location2.X=4719.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-1(4725.819mil,3638.703mil) on Top Layer And Track (4552.394mil,3686.931mil)(4749.244mil,3686.931mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4558.147mil|Location2.X=4569.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4558.147mil|Location2.X=4569.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-2(4575.819mil,3638.703mil) on Top Layer And Track (4552.394mil,3686.931mil)(4749.244mil,3686.931mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4608.147mil|Location2.X=4619.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4608.147mil|Location2.X=4619.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-2(4625.819mil,3638.703mil) on Top Layer And Track (4552.394mil,3686.931mil)(4749.244mil,3686.931mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4658.147mil|Location2.X=4669.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4658.147mil|Location2.X=4669.397mil|Location1.Y=3673.926mil|Location2.Y=3685.176mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-2(4675.819mil,3638.703mil) on Top Layer And Track (4552.394mil,3686.931mil)(4749.244mil,3686.931mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4582.241mil|Location2.X=4593.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4582.241mil|Location2.X=4593.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-3(4575.819mil,3861.144mil) on Top Layer And Track (4552.394mil,3812.915mil)(4749.244mil,3812.915mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4632.241mil|Location2.X=4643.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4632.241mil|Location2.X=4643.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-3(4625.819mil,3861.144mil) on Top Layer And Track (4552.394mil,3812.915mil)(4749.244mil,3812.915mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4682.241mil|Location2.X=4693.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4682.241mil|Location2.X=4693.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-3(4675.819mil,3861.144mil) on Top Layer And Track (4552.394mil,3812.915mil)(4749.244mil,3812.915mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4732.241mil|Location2.X=4743.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4732.241mil|Location2.X=4743.491mil|Location1.Y=3814.67mil|Location2.Y=3825.92mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q1-3(4725.819mil,3861.144mil) on Top Layer And Track (4552.394mil,3812.915mil)(4749.244mil,3812.915mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4885.603mil|Location2.X=4896.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4885.603mil|Location2.X=4896.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-1(4879.181mil,3716.297mil) on Top Layer And Track (4855.756mil,3668.069mil)(5052.606mil,3668.069mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4935.603mil|Location2.X=4946.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4935.603mil|Location2.X=4946.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-2(4929.181mil,3716.297mil) on Top Layer And Track (4855.756mil,3668.069mil)(5052.606mil,3668.069mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4985.603mil|Location2.X=4996.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4985.603mil|Location2.X=4996.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-2(4979.181mil,3716.297mil) on Top Layer And Track (4855.756mil,3668.069mil)(5052.606mil,3668.069mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5035.603mil|Location2.X=5046.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5035.603mil|Location2.X=5046.853mil|Location1.Y=3669.824mil|Location2.Y=3681.074mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-2(5029.181mil,3716.297mil) on Top Layer And Track (4855.756mil,3668.069mil)(5052.606mil,3668.069mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4861.509mil|Location2.X=4872.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4861.509mil|Location2.X=4872.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-3(4879.181mil,3493.856mil) on Top Layer And Track (4855.756mil,3542.085mil)(5052.606mil,3542.085mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4911.509mil|Location2.X=4922.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4911.509mil|Location2.X=4922.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-3(4929.181mil,3493.856mil) on Top Layer And Track (4855.756mil,3542.085mil)(5052.606mil,3542.085mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4961.509mil|Location2.X=4972.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4961.509mil|Location2.X=4972.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-3(4979.181mil,3493.856mil) on Top Layer And Track (4855.756mil,3542.085mil)(5052.606mil,3542.085mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5011.509mil|Location2.X=5022.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5011.509mil|Location2.X=5022.759mil|Location1.Y=3529.08mil|Location2.Y=3540.33mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (6.885mil &lt; 10mil) Between Pad Q2-3(5029.181mil,3493.856mil) on Top Layer And Track (4855.756mil,3542.085mil)(5052.606mil,3542.085mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.885mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5012.879mil|Location2.X=5024.129mil|Location1.Y=4011.932mil|Location2.Y=4023.182mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5012.879mil|Location2.X=5024.129mil|Location1.Y=4011.932mil|Location2.Y=4023.182mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.869mil &lt; 10mil) Between Pad R5-1(5050mil,4047.087mil) on Top Layer And Track (5018.504mil,3970.315mil)(5018.504mil,4009.685mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.869mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5075.871mil|Location2.X=5087.121mil|Location1.Y=4011.932mil|Location2.Y=4023.182mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5075.871mil|Location2.X=5087.121mil|Location1.Y=4011.932mil|Location2.Y=4023.182mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.869mil &lt; 10mil) Between Pad R5-1(5050mil,4047.087mil) on Top Layer And Track (5081.496mil,3970.315mil)(5081.496mil,4009.685mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.869mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5012.879mil|Location2.X=5024.129mil|Location1.Y=3956.818mil|Location2.Y=3968.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5012.879mil|Location2.X=5024.129mil|Location1.Y=3956.818mil|Location2.Y=3968.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.869mil &lt; 10mil) Between Pad R5-2(5050mil,3932.913mil) on Top Layer And Track (5018.504mil,3970.315mil)(5018.504mil,4009.685mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.869mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5075.871mil|Location2.X=5087.121mil|Location1.Y=3956.818mil|Location2.Y=3968.068mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5075.871mil|Location2.X=5087.121mil|Location1.Y=3956.818mil|Location2.Y=3968.068mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (7.869mil &lt; 10mil) Between Pad R5-2(5050mil,3932.913mil) on Top Layer And Track (5081.496mil,3970.315mil)(5081.496mil,4009.685mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.869mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4118.175mil|Location2.X=4125.841mil|Location1.Y=3766.768mil|Location2.Y=3774.435mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4118.175mil|Location2.X=4125.841mil|Location1.Y=3766.768mil|Location2.Y=3774.435mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Pad U1-21(4185mil,3845mil) on Top Layer And Track (4122.008mil,3711.142mil)(4122.008mil,3978.858mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4244.159mil|Location2.X=4251.825mil|Location1.Y=3763.428mil|Location2.Y=3771.095mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4244.159mil|Location2.X=4251.825mil|Location1.Y=3763.428mil|Location2.Y=3771.095mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 10mil) Between Pad U1-21(4185mil,3845mil) on Top Layer And Track (4247.992mil,3711.142mil)(4247.992mil,3978.858mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
