@@ -143,10 +143,94 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for 48V-24V Buck Converter\Design Rule Check - 48V-24V Buck Converter.html
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.G2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.REP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\48V-24V Buck Converter.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for 48V-24V Buck Converter\Design Rule Check - 48V-24V Buck Converter.html
+DItemRevisionGUID=
+
+[GeneratedDocument23]
 DocumentPath=Project Outputs for 48V-24V Buck Converter\Design Rule Check - Buck Converter.html
 DItemRevisionGUID=
 
@@ -412,72 +496,80 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Brother DCP-7030
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16908289~1,16908292~1,16908294~1,16908301~1,16908303~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=D:\GitHub Desktop\MarsRover2021-hardware\Projects\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1099,16 +1191,160 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID0=CAP_22uF_80V_ALUM
-ComponentSymbolReference0=CAP_22uF_80V_ALUM
+ComponentDesignItemID0=BUCK_LM5117PWP
+ComponentSymbolReference0=BUCK_LM5117PWP
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID1=CAP_0.015uF_50V_0805
+ComponentSymbolReference1=CAP_0.015uF_50V_0805
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID2=CAP_0.1uF_100V_0805
+ComponentSymbolReference2=CAP_0.1uF_100V_0805
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID3=CAP_0.22uF_100V_0805
+ComponentSymbolReference3=CAP_0.22uF_100V_0805
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID4=CAP_0.47uF_25V_0805
+ComponentSymbolReference4=CAP_0.47uF_25V_0805
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID5=CAP_100uF_35V_ALUM
+ComponentSymbolReference5=CAP_100uF_35V_ALUM
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID6=CAP_150pF_16V_0805
+ComponentSymbolReference6=CAP_150pF_16V_0805
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID7=CAP_22uF_80V_ALUM
+ComponentSymbolReference7=CAP_22uF_80V_ALUM
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID8=CAP_330pF_50V_0805
+ComponentSymbolReference8=CAP_330pF_50V_0805
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID9=CAP_820pF_50V_0805
+ComponentSymbolReference9=CAP_820pF_50V_0805
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID10=CAP_NU_0805
+ComponentSymbolReference10=CAP_NU_0805
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID11=CON_2POS_SCREW_TERM
+ComponentSymbolReference11=CON_2POS_SCREW_TERM
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID12=DIO_SCHOTTKY_100V_150mA
+ComponentSymbolReference12=DIO_SCHOTTKY_100V_150mA
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID13=IND_33uH_12.0A
+ComponentSymbolReference13=IND_33uH_12.0A
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID14=NMOS_100V_10.3A
+ComponentSymbolReference14=NMOS_100V_10.3A
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID15=RES_0.015Ω_1206_1%
+ComponentSymbolReference15=RES_0.015Ω_1206_1%
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID16=RES_0Ω_0805
+ComponentSymbolReference16=RES_0Ω_0805
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID17=RES_1.2kΩ_0805_1%
+ComponentSymbolReference17=RES_1.2kΩ_0805_1%
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID18=RES_12.1kΩ_0805_1%
+ComponentSymbolReference18=RES_12.1kΩ_0805_1%
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID19=RES_133kΩ_0805_1%
+ComponentSymbolReference19=RES_133kΩ_0805_1%
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID20=RES_2.32kΩ_0805_1%
+ComponentSymbolReference20=RES_2.32kΩ_0805_1%
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID21=RES_267kΩ_0805_1%
+ComponentSymbolReference21=RES_267kΩ_0805_1%
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID22=RES_34.8kΩ_0805_1%
+ComponentSymbolReference22=RES_34.8kΩ_0805_1%
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID23=RES_54.9kΩ_0805_1%
+ComponentSymbolReference23=RES_54.9kΩ_0805_1%
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID24=TESTPOINT_LOOP
+ComponentSymbolReference24=TESTPOINT_LOOP
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1126,31 +1362,88 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Current Rating
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=DC Resistance (DCR)
 ParameterUpdate3=1
-ParameterName4=Manufacturer 1
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Manufacturer Part Number 1
+ParameterName5=Dielectric
 ParameterUpdate5=1
-ParameterName6=Mounting Type
+ParameterName6=Id
 ParameterUpdate6=1
-ParameterName7=Package/Footprint
+ParameterName7=Inductance
 ParameterUpdate7=1
-ParameterName8=Supplier 1
+ParameterName8=Inductance Tolerance
 ParameterUpdate8=1
-ParameterName9=Supplier Part Number 1
+ParameterName9=LCSC Part #
 ParameterUpdate9=1
-ParameterName10=Value
+ParameterName10=Library Reference
 ParameterUpdate10=1
-ParameterName11=Voltage Rating
+ParameterName11=Manufacturer 1
 ParameterUpdate11=1
+ParameterName12=Manufacturer Part Number 1
+ParameterUpdate12=1
+ParameterName13=Mounting Type
+ParameterUpdate13=1
+ParameterName14=Package/Footprint
+ParameterUpdate14=1
+ParameterName15=Saturation Current
+ParameterUpdate15=1
+ParameterName16=Supplier 1
+ParameterUpdate16=1
+ParameterName17=Supplier Part Number 1
+ParameterUpdate17=1
+ParameterName18=Test Frequency
+ParameterUpdate18=1
+ParameterName19=Value
+ParameterUpdate19=1
+ParameterName20=Vdss
+ParameterUpdate20=1
+ParameterName21=Vgs (Max)
+ParameterUpdate21=1
+ParameterName22=Voltage Rating
+ParameterUpdate22=1
+ParameterName23=Vr (Max)
+ParameterUpdate23=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=RADIAL_PANASONIC_F
+ModelName0=1935161
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=8-SOIC_NMOS
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAP0805
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CAP2012
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=HTSSOP
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=IND_PULSE_PA4344
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=RADIAL_CHEMICON_HA0
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=RADIAL_CORNELL_D
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=RES0805
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=RES1206
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=SOD-123_FLAT
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=TESTPOINT_LOOP
+ModelUpdate11=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

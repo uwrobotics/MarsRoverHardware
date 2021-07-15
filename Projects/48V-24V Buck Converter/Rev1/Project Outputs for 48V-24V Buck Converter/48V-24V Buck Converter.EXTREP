@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 48V-24V Buck Converter.GBR   2021-07-14  7:49:09 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 L2 - GND                                
+.G2                 L3 - POWER                              
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GM1                Mechanical 1                            
+.GM4                Mechanical 4                            
+.GM6                Dimensions                              
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+------------------------------------------------------------------------------------------
