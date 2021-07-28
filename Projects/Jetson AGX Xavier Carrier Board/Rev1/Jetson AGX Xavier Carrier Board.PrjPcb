@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Jetson AGX Xavier Carrier Board
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -140,6 +140,23 @@ GenerateClassCluster=0
 DocumentUniqueId=KEHJZQEW
 
 [Document7]
+DocumentPath=JETSON AGX UPHY.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HBCYYKNU
+
+[Document8]
 DocumentPath=JETSON AGX DP-HDMI-USB-GBE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ECNGZBSC
 
-[Document8]
+[Document9]
 DocumentPath=JETSON AGX PCIE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -172,23 +189,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QCKDWYEP
-
-[Document9]
-DocumentPath=JETSON AGX UPHY.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HBCYYKNU
 
 [Document10]
 DocumentPath=POWER CON.SchDoc
@@ -548,23 +548,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document31]
-DocumentPath=JETSON AGX UPHY.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document32]
 DocumentPath=JETSON AGX PCIE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -581,7 +564,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document32]
 DocumentPath=JETSON AGX DP-HDMI-USB-GBE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -598,7 +581,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document33]
 DocumentPath=JETSON AGX CSI-I2C-I2S.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -615,7 +598,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document35]
+[Document34]
 DocumentPath=JETSON AGX SDIO-SPI-UART-CAN-GPIO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -632,7 +615,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document36]
+[Document35]
 DocumentPath=JETSON AGX SYS-PWR-GND.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -649,7 +632,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
+[Document36]
 DocumentPath=JETSON AGX NVHS.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -666,7 +649,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document37]
 DocumentPath=M.2 E-KEY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -683,7 +666,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document39]
+[Document38]
 DocumentPath=M.2 M-KEY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -700,7 +683,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document40]
+[Document39]
 DocumentPath=HIGH LEVEL DESIGN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -717,7 +700,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document41]
+[Document40]
 DocumentPath=Jetson AGX Xavier Carrier Board.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -734,7 +717,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document42]
+[Document41]
 DocumentPath=RGMII ETHERNET.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -751,7 +734,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document43]
+[Document42]
 DocumentPath=HDMI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -768,7 +751,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document44]
+[Document43]
 DocumentPath=JTAG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -785,7 +768,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document45]
+[Document44]
 DocumentPath=CAN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -802,7 +785,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document46]
+[Document45]
 DocumentPath=GPIO AND SERIAL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -819,7 +802,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document47]
+[Document46]
 DocumentPath=Debug UART.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -836,7 +819,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MVIEZRUS
 
-[Document48]
+[Document47]
 DocumentPath=Debug UART.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -853,8 +836,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document49]
+[Document48]
 DocumentPath=System.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document49]
+DocumentPath=JETSON AGX UPHY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -917,7 +917,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Jetson AGX Xavier Carrier Board
 
 [OutputGroup1]
 Name=Netlist Outputs
