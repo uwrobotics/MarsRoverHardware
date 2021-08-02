@@ -217,7 +217,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=14
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -353,7 +353,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=17
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -370,7 +370,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=18
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -771,23 +771,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SPVBBREH
 
 [Document44]
-DocumentPath=..\..\..\Libraries\UWRT Footprint Library.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document45]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -804,7 +787,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
-[Document46]
+[Document45]
 DocumentPath=JTAG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -821,7 +804,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document47]
+[Document46]
 DocumentPath=GPIO AND SERIAL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -838,7 +821,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document48]
+[Document47]
 DocumentPath=M.2 M-KEY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1821,8 +1804,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID0=KSZ9131RNXI
-ComponentSymbolReference0=KSZ9131RNXI
+ComponentDesignItemID0=IC_BUFFER
+ComponentSymbolReference0=IC_BUFFER
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1844,20 +1827,26 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=LCSC Part #
 ParameterUpdate3=1
-ParameterName4=Manufacturer 1
+ParameterName4=Library Reference
 ParameterUpdate4=1
-ParameterName5=Manufacturer Part Number 1
+ParameterName5=Manufacturer 1
 ParameterUpdate5=1
-ParameterName6=Supplier 1
+ParameterName6=Manufacturer Part Number 1
 ParameterUpdate6=1
-ParameterName7=Supplier Part Number 1
+ParameterName7=Mounting Type
 ParameterUpdate7=1
+ParameterName8=Package/Footprint
+ParameterUpdate8=1
+ParameterName9=Supplier 1
+ParameterUpdate9=1
+ParameterName10=Supplier Part Number 1
+ParameterUpdate10=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=KSZ9131RNXI
+ModelName0=SN74LV1T34DBVR
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
