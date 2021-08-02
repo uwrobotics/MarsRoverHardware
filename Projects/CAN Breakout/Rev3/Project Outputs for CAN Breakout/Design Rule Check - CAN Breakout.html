@@ -1,0 +1,358 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8/1/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">22:37:40</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc" class="file"><acronym title="C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc">C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">6</td></tr>
+</table>
+</td>
+</table><a name="IDZWT0HP1NI0M1LDAAEI2RFO1WPIHKPJH04R3KLELJXVJQSAKKZ2XP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYG1MN4ZR5SUPBXXW5INJPYA2KTUPQLS1FYDVWIRZOXDAQRVMADI">Clearance Constraint (Gap=5mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLCDOOCCNTUMZVB4H0UXYELU3IFR1DTDK5IVTKJTKMMA0WRXLAKG">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLFIP20EE0XLYGJEMTZLZUQ41LC1UEPMLEJRVLACGTHDT4F0PG3BE">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN44BXAMJBDVVM45H0MR4UKNZOOU2U3H2BW04U4G0DHZRED1DJKGI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFPFYQMF2UHGTDMT00ERKYTN5ABOCTTLUOCC2BYFJL2NL01CY4UKO">Width Constraint (Min=5mil) (Max=1000mil) (Preferred=5mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4PE5P5IS14LYKH40D51RGZS1MPLV3MKRVRQSI5M2LDOXX0QDFEEC">Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=5mil) (Air Gap=5mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRPP1T4T5AEGNDTRKDBDQNJGGCOCJ2SIGM24FFRHPCQ4GQLTB50N">Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS5S1K5S4M5K5OMLPRJ1C0NCXFRPGNELOOJLDG1G4WUGRKO35IN">Minimum Annular Ring (Minimum=3mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0QCGSLRAJ2TBBLZ1BPCYIHDORIZWUXOYVHZUBZIAFDYKX41JRTVK">Hole Size Constraint (Min=11.811mil) (Max=248.031mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTH1USYSI1SNAB5OQPENZGEJG2NKA3D34MDVWIBGNR4BVB0NRHOAN">Hole To Hole Clearance (Gap=9.842mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0K4N1JKGES2ZCQY24SSM13RNTGD1MQEMAEPID2OGNXRJG452WUR">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDV0WRW55OIFDXGGWPKBAHQDX5VIEXBYEAE0KPXBKKPRS3JP3E4OE">Silk To Solder Mask (Clearance=5mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMOYRS43O24OJEQBOVANXU0BJPLSNI0RTWT1N5VDLD2FNPQDX0KV">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZYLSB3NLHJX5J3HZFTGSPHABDK2QJAFDQKIKKPKUFV5AKJ1PUMUD">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTBLJLN1LQEFVKRMHMGTBFMPDK4IWT0HM0CEBMDPB04JTNOR52S">Board Clearance Constraint (Gap=0mil) (All)</a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBHFKGH3V2SHGBYVHI2Q5QG2Q2MICR3NDJPIFYODMWD42AU1J14AP">Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">6</td>
+</tr>
+</table><br><a name="IDTBLJLN1LQEFVKRMHMGTBFMPDK4IWT0HM0CEBMDPB04JTNOR52S"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5411.875mil|Location2.X=5418.125mil|Location1.Y=1196.875mil|Location2.Y=1203.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5411.875mil|Location2.X=5418.125mil|Location1.Y=1196.875mil|Location2.Y=1203.125mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Pad MH1-0(5415mil,1200mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5416.875mil|Location2.X=5423.125mil|Location1.Y=1651.875mil|Location2.Y=1658.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5416.875mil|Location2.X=5423.125mil|Location1.Y=1651.875mil|Location2.Y=1658.125mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Pad MH2-0(5420mil,1655mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7096.875mil|Location2.X=7103.125mil|Location1.Y=1196.875mil|Location2.Y=1203.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7096.875mil|Location2.X=7103.125mil|Location1.Y=1196.875mil|Location2.Y=1203.125mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Pad MH3-0(7100mil,1200mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7096.875mil|Location2.X=7103.125mil|Location1.Y=1651.875mil|Location2.Y=1658.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7096.875mil|Location2.X=7103.125mil|Location1.Y=1651.875mil|Location2.Y=1658.125mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Pad MH4-0(7100mil,1655mil) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6996.875mil|Location2.X=7003.125mil|Location1.Y=1044.903mil|Location2.Y=1051.152mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6996.875mil|Location2.X=7003.125mil|Location1.Y=1044.903mil|Location2.Y=1051.152mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Polygon Region (58 hole(s)) Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6966.876mil|Location2.X=6973.125mil|Location1.Y=1331.875mil|Location2.Y=1338.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Sahil\Documents\GitHub\MarsRover2021-hardware\Projects\CAN Breakout\Rev3\CAN Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6966.876mil|Location2.X=6973.125mil|Location1.Y=1331.875mil|Location2.Y=1338.125mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 7.874mil) Between Board Edge And Text "JETSON" (6994.344mil,1334.902mil) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
