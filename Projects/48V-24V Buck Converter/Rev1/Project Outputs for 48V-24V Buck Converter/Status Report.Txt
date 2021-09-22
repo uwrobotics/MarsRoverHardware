@@ -1,12 +1,27 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [48V-24V Buck Converter.PrjPcb]
-   Generated File[48V-24V Buck Converter.TXT]
-   Generated File[48V-24V Buck Converter.LDP]
-   Generated File[48V-24V Buck Converter.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [48V-24V Buck Converter.PrjPcb]
+   Generated File[48V-24V Buck Converter.GTO]
+   Generated File[48V-24V Buck Converter.GTP]
+   Generated File[48V-24V Buck Converter.GTS]
+   Generated File[48V-24V Buck Converter.GTL]
+   Generated File[48V-24V Buck Converter.G1]
+   Generated File[48V-24V Buck Converter.G2]
+   Generated File[48V-24V Buck Converter.GBL]
+   Generated File[48V-24V Buck Converter.GBS]
+   Generated File[48V-24V Buck Converter.GM1]
+   Generated File[48V-24V Buck Converter.GM4]
+   Generated File[48V-24V Buck Converter.GM6]
+   Generated File[48V-24V Buck Converter.GM13]
+   Generated File[48V-24V Buck Converter.GM15]
+   Generated File[48V-24V Buck Converter.GPT]
+   Generated File[48V-24V Buck Converter.GPB]
+   Generated File[48V-24V Buck Converter.RUL]
+   Generated File[48V-24V Buck Converter.EXTREP]
+   Generated File[48V-24V Buck Converter.REP]
 
 
-Files Generated   : 3
+Files Generated   : 18
 Documents Printed : 0
 
-Finished Output Generation At 7:49:29 PM On 2021-07-14
+Finished Output Generation At 9:30:54 PM On 2021-07-14
