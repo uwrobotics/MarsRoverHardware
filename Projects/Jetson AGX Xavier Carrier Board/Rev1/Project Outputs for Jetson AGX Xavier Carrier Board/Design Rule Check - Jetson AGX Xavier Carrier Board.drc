@@ -1,0 +1,610 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\4chea\projects\MarsRover2021-hardware\Projects\Jetson AGX Xavier Carrier Board\Rev1\Jetson AGX Xavier Carrier Board.PcbDoc
+Date     : 2021-09-23
+Time     : 8:21:24 PM
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C162_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (0mil < 10mil) Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-2(49952.256mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C162_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (0mil < 10mil) Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-2(49952.256mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-3(49952.256mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-3(49952.256mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (0mil < 10mil) Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-2(49952.256mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (0mil < 10mil) Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-2(49952.256mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-3(49952.256mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-3(49952.256mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C168_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C168_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C168_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (6.732mil < 10mil) Between Pad J3_U_USB_PORT_STACKED2-2(49960.13mil,50078.24mil) on Multi-Layer And Pad U6_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (6.732mil < 10mil) Between Pad J3_U_USB_PORT_STACKED2-2(49960.13mil,50078.24mil) on Multi-Layer And Pad U7_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (6.732mil < 10mil) Between Pad J3_U_USB_PORT_STACKED2-3(50038.87mil,50078.24mil) on Multi-Layer And Pad U6_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (6.732mil < 10mil) Between Pad J3_U_USB_PORT_STACKED2-3(50038.87mil,50078.24mil) on Multi-Layer And Pad U7_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (9.055mil < 10mil) Between Pad Q1-2(8465.945mil,14336.614mil) on Top Layer And Pad Q1-3(8465.945mil,14362.205mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (0mil < 10mil) Between Pad R53_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-2(49952.256mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R53_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R54_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R54_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R54_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (4.921mil < 10mil) Between Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (4.921mil < 10mil) Between Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (4.921mil < 10mil) Between Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (0mil < 10mil) Between Pad R55_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-2(49952.256mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R56_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer 
+   Violation between Clearance Constraint: (4.921mil < 10mil) Between Pad R56_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (4.921mil < 10mil) Between Pad R56_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (4.921mil < 10mil) Between Pad R56_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-1(29248.622mil,1544.213mil) on Top Layer And Pad U1-2(29248.622mil,1524.528mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U1-1(29248.622mil,1544.213mil) on Top Layer And Pad U1-24(29275.787mil,1571.378mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-10(29334.842mil,1418.622mil) on Top Layer And Pad U1-11(29354.528mil,1418.622mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-10(29334.842mil,1418.622mil) on Top Layer And Pad U1-9(29315.158mil,1418.622mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-1(12779mil,14868.268mil) on Top Layer And Pad U11-2(12779mil,14848.583mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-11(29354.528mil,1418.622mil) on Top Layer And Pad U1-12(29374.213mil,1418.622mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-10(12779mil,14691.102mil) on Top Layer And Pad U11-11(12779mil,14671.417mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-10(12779mil,14691.102mil) on Top Layer And Pad U11-9(12779mil,14710.787mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-11(12779mil,14671.417mil) on Top Layer And Pad U11-12(12779mil,14651.732mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-14(12826.417mil,14624mil) on Top Layer And Pad U11-15(12846.102mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-15(12846.102mil,14624mil) on Top Layer And Pad U11-16(12865.787mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-16(12865.787mil,14624mil) on Top Layer And Pad U11-17(12885.472mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-17(12885.472mil,14624mil) on Top Layer And Pad U11-18(12905.157mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-18(12905.157mil,14624mil) on Top Layer And Pad U11-19(12924.843mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-19(12924.843mil,14624mil) on Top Layer And Pad U11-20(12944.528mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-2(12779mil,14848.583mil) on Top Layer And Pad U11-3(12779mil,14828.898mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U1-12(29374.213mil,1418.622mil) on Top Layer And Pad U1-13(29401.378mil,1445.787mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-20(12944.528mil,14624mil) on Top Layer And Pad U11-21(12964.213mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-21(12964.213mil,14624mil) on Top Layer And Pad U11-22(12983.898mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-22(12983.898mil,14624mil) on Top Layer And Pad U11-23(13003.583mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-23(13003.583mil,14624mil) on Top Layer And Pad U11-24(13023.268mil,14624mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-25(13051mil,14651.732mil) on Top Layer And Pad U11-26(13051mil,14671.417mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-26(13051mil,14671.417mil) on Top Layer And Pad U11-27(13051mil,14691.102mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-27(13051mil,14691.102mil) on Top Layer And Pad U11-28(13051mil,14710.787mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-28(13051mil,14710.787mil) on Top Layer And Pad U11-29(13051mil,14730.472mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-29(13051mil,14730.472mil) on Top Layer And Pad U11-30(13051mil,14750.157mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-3(12779mil,14828.898mil) on Top Layer And Pad U11-4(12779mil,14809.213mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-13(29401.378mil,1445.787mil) on Top Layer And Pad U1-14(29401.378mil,1465.472mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-30(13051mil,14750.157mil) on Top Layer And Pad U11-31(13051mil,14769.843mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-31(13051mil,14769.843mil) on Top Layer And Pad U11-32(13051mil,14789.528mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-32(13051mil,14789.528mil) on Top Layer And Pad U11-33(13051mil,14809.213mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-33(13051mil,14809.213mil) on Top Layer And Pad U11-34(13051mil,14828.898mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-34(13051mil,14828.898mil) on Top Layer And Pad U11-35(13051mil,14848.583mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-35(13051mil,14848.583mil) on Top Layer And Pad U11-36(13051mil,14868.268mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-37(13023.268mil,14896mil) on Top Layer And Pad U11-38(13003.583mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-38(13003.583mil,14896mil) on Top Layer And Pad U11-39(12983.898mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-39(12983.898mil,14896mil) on Top Layer And Pad U11-40(12964.213mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-4(12779mil,14809.213mil) on Top Layer And Pad U11-5(12779mil,14789.528mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-14(29401.378mil,1465.472mil) on Top Layer And Pad U1-15(29401.378mil,1485.158mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-40(12964.213mil,14896mil) on Top Layer And Pad U11-41(12944.528mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-41(12944.528mil,14896mil) on Top Layer And Pad U11-42(12924.843mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-42(12924.843mil,14896mil) on Top Layer And Pad U11-43(12905.157mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-43(12905.157mil,14896mil) on Top Layer And Pad U11-44(12885.472mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-44(12885.472mil,14896mil) on Top Layer And Pad U11-45(12865.787mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-45(12865.787mil,14896mil) on Top Layer And Pad U11-46(12846.102mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-46(12846.102mil,14896mil) on Top Layer And Pad U11-47(12826.417mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-47(12826.417mil,14896mil) on Top Layer And Pad U11-48(12806.732mil,14896mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-5(12779mil,14789.528mil) on Top Layer And Pad U11-6(12779mil,14769.843mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-15(29401.378mil,1485.158mil) on Top Layer And Pad U1-16(29401.378mil,1504.842mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-6(12779mil,14769.843mil) on Top Layer And Pad U11-7(12779mil,14750.157mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-16(29401.378mil,1504.842mil) on Top Layer And Pad U1-17(29401.378mil,1524.528mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-7(12779mil,14750.157mil) on Top Layer And Pad U11-8(12779mil,14730.472mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-17(29401.378mil,1524.528mil) on Top Layer And Pad U1-18(29401.378mil,1544.213mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U11-8(12779mil,14730.472mil) on Top Layer And Pad U11-9(12779mil,14710.787mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U1-18(29401.378mil,1544.213mil) on Top Layer And Pad U1-19(29374.213mil,1571.378mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-2(29248.622mil,1524.528mil) on Top Layer And Pad U1-3(29248.622mil,1504.842mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-22(29315.158mil,1571.378mil) on Top Layer And Pad U1-23(29295.472mil,1571.378mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-23(29295.472mil,1571.378mil) on Top Layer And Pad U1-24(29275.787mil,1571.378mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-3(29248.622mil,1504.842mil) on Top Layer And Pad U1-4(29248.622mil,1485.158mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-4(29248.622mil,1485.158mil) on Top Layer And Pad U1-5(29248.622mil,1465.472mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-5(29248.622mil,1465.472mil) on Top Layer And Pad U1-6(29248.622mil,1445.787mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U1-6(29248.622mil,1445.787mil) on Top Layer And Pad U1-7(29275.787mil,1418.622mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-7(29275.787mil,1418.622mil) on Top Layer And Pad U1-8(29295.472mil,1418.622mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U1-8(29295.472mil,1418.622mil) on Top Layer And Pad U1-9(29315.158mil,1418.622mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-1(10451.575mil,16228.898mil) on Top Layer And Pad U28-2(10451.575mil,16209.213mil) on Top Layer 
+   Violation between Clearance Constraint: (4.989mil < 10mil) Between Pad U28-1(10451.575mil,16228.898mil) on Top Layer And Pad U28-32(10471.102mil,16248.425mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-14(10569.528mil,16071.575mil) on Top Layer And Pad U28-15(10589.213mil,16071.575mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-15(10589.213mil,16071.575mil) on Top Layer And Pad U28-16(10608.898mil,16071.575mil) on Top Layer 
+   Violation between Clearance Constraint: (4.989mil < 10mil) Between Pad U28-16(10608.898mil,16071.575mil) on Top Layer And Pad U28-17(10628.425mil,16091.102mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-17(10628.425mil,16091.102mil) on Top Layer And Pad U28-18(10628.425mil,16110.787mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-18(10628.425mil,16110.787mil) on Top Layer And Pad U28-19(10628.425mil,16130.472mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-19(10628.425mil,16130.472mil) on Top Layer And Pad U28-20(10628.425mil,16150.157mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-20(10628.425mil,16150.157mil) on Top Layer And Pad U28-21(10628.425mil,16169.843mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-21(10628.425mil,16169.843mil) on Top Layer And Pad U28-22(10628.425mil,16189.528mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-22(10628.425mil,16189.528mil) on Top Layer And Pad U28-23(10628.425mil,16209.213mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-23(10628.425mil,16209.213mil) on Top Layer And Pad U28-24(10628.425mil,16228.898mil) on Top Layer 
+   Violation between Clearance Constraint: (4.989mil < 10mil) Between Pad U28-24(10628.425mil,16228.898mil) on Top Layer And Pad U28-25(10608.898mil,16248.425mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-26(10589.213mil,16248.425mil) on Top Layer And Pad U28-27(10569.528mil,16248.425mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-3(10451.575mil,16189.528mil) on Top Layer And Pad U28-4(10451.575mil,16169.843mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-4(10451.575mil,16169.843mil) on Top Layer And Pad U28-5(10451.575mil,16150.157mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-5(10451.575mil,16150.157mil) on Top Layer And Pad U28-6(10451.575mil,16130.472mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-6(10451.575mil,16130.472mil) on Top Layer And Pad U28-7(10451.575mil,16110.787mil) on Top Layer 
+   Violation between Clearance Constraint: (7.685mil < 10mil) Between Pad U28-7(10451.575mil,16110.787mil) on Top Layer And Pad U28-8(10451.575mil,16091.102mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-1(3587.522mil,2647.922mil) on Top Layer And Pad U3-2(3587.522mil,2628.237mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U3-1(3587.522mil,2647.922mil) on Top Layer And Pad U3-24(3614.687mil,2675.088mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-10(3673.742mil,2522.332mil) on Top Layer And Pad U3-11(3693.428mil,2522.332mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-10(3673.742mil,2522.332mil) on Top Layer And Pad U3-9(3654.057mil,2522.332mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-11(3693.428mil,2522.332mil) on Top Layer And Pad U3-12(3713.113mil,2522.332mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U3-12(3713.113mil,2522.332mil) on Top Layer And Pad U3-13(3740.278mil,2549.497mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-13(3740.278mil,2549.497mil) on Top Layer And Pad U3-14(3740.278mil,2569.182mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-14(3740.278mil,2569.182mil) on Top Layer And Pad U3-15(3740.278mil,2588.867mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-15(3740.278mil,2588.867mil) on Top Layer And Pad U3-16(3740.278mil,2608.552mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-16(3740.278mil,2608.552mil) on Top Layer And Pad U3-17(3740.278mil,2628.237mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-17(3740.278mil,2628.237mil) on Top Layer And Pad U3-18(3740.278mil,2647.922mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U3-18(3740.278mil,2647.922mil) on Top Layer And Pad U3-19(3713.113mil,2675.088mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-2(3587.522mil,2628.237mil) on Top Layer And Pad U3-3(3587.522mil,2608.552mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-22(3654.057mil,2675.088mil) on Top Layer And Pad U3-23(3634.372mil,2675.088mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-23(3634.372mil,2675.088mil) on Top Layer And Pad U3-24(3614.687mil,2675.088mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-3(3587.522mil,2608.552mil) on Top Layer And Pad U3-4(3587.522mil,2588.867mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-4(3587.522mil,2588.867mil) on Top Layer And Pad U3-5(3587.522mil,2569.182mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-5(3587.522mil,2569.182mil) on Top Layer And Pad U3-6(3587.522mil,2549.497mil) on Top Layer 
+   Violation between Clearance Constraint: (7.463mil < 10mil) Between Pad U3-6(3587.522mil,2549.497mil) on Top Layer And Pad U3-7(3614.687mil,2522.332mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-7(3614.687mil,2522.332mil) on Top Layer And Pad U3-8(3634.372mil,2522.332mil) on Top Layer 
+   Violation between Clearance Constraint: (9.449mil < 10mil) Between Pad U3-8(3634.372mil,2522.332mil) on Top Layer And Pad U3-9(3654.057mil,2522.332mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad U6_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad U6_U_USB_PORT_STACKED2-3(49952.256mil,49962.098mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-3(49952.256mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Pad U6_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-1(7899mil,13853.268mil) on Top Layer And Pad U9-2(7899mil,13833.583mil) on Top Layer 
+   Violation between Clearance Constraint: (6.692mil < 10mil) Between Pad U9-1(7899mil,13853.268mil) on Top Layer And Pad U9-48(7926.732mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-10(7899mil,13676.102mil) on Top Layer And Pad U9-11(7899mil,13656.417mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-10(7899mil,13676.102mil) on Top Layer And Pad U9-9(7899mil,13695.787mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-11(7899mil,13656.417mil) on Top Layer And Pad U9-12(7899mil,13636.732mil) on Top Layer 
+   Violation between Clearance Constraint: (6.692mil < 10mil) Between Pad U9-12(7899mil,13636.732mil) on Top Layer And Pad U9-13(7926.732mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-14(7946.417mil,13609mil) on Top Layer And Pad U9-15(7966.102mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-15(7966.102mil,13609mil) on Top Layer And Pad U9-16(7985.787mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-16(7985.787mil,13609mil) on Top Layer And Pad U9-17(8005.472mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-17(8005.472mil,13609mil) on Top Layer And Pad U9-18(8025.158mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-18(8025.158mil,13609mil) on Top Layer And Pad U9-19(8044.842mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-19(8044.842mil,13609mil) on Top Layer And Pad U9-20(8064.528mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-2(7899mil,13833.583mil) on Top Layer And Pad U9-3(7899mil,13813.898mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-20(8064.528mil,13609mil) on Top Layer And Pad U9-21(8084.213mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-21(8084.213mil,13609mil) on Top Layer And Pad U9-22(8103.898mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-22(8103.898mil,13609mil) on Top Layer And Pad U9-23(8123.583mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-23(8123.583mil,13609mil) on Top Layer And Pad U9-24(8143.268mil,13609mil) on Top Layer 
+   Violation between Clearance Constraint: (6.692mil < 10mil) Between Pad U9-24(8143.268mil,13609mil) on Top Layer And Pad U9-25(8171mil,13636.732mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-25(8171mil,13636.732mil) on Top Layer And Pad U9-26(8171mil,13656.417mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-26(8171mil,13656.417mil) on Top Layer And Pad U9-27(8171mil,13676.102mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-27(8171mil,13676.102mil) on Top Layer And Pad U9-28(8171mil,13695.787mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-28(8171mil,13695.787mil) on Top Layer And Pad U9-29(8171mil,13715.472mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-29(8171mil,13715.472mil) on Top Layer And Pad U9-30(8171mil,13735.157mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-3(7899mil,13813.898mil) on Top Layer And Pad U9-4(7899mil,13794.213mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-30(8171mil,13735.157mil) on Top Layer And Pad U9-31(8171mil,13754.843mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-31(8171mil,13754.843mil) on Top Layer And Pad U9-32(8171mil,13774.528mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-32(8171mil,13774.528mil) on Top Layer And Pad U9-33(8171mil,13794.213mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-33(8171mil,13794.213mil) on Top Layer And Pad U9-34(8171mil,13813.898mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-34(8171mil,13813.898mil) on Top Layer And Pad U9-35(8171mil,13833.583mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-35(8171mil,13833.583mil) on Top Layer And Pad U9-36(8171mil,13853.268mil) on Top Layer 
+   Violation between Clearance Constraint: (6.692mil < 10mil) Between Pad U9-36(8171mil,13853.268mil) on Top Layer And Pad U9-37(8143.268mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-37(8143.268mil,13881mil) on Top Layer And Pad U9-38(8123.583mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-38(8123.583mil,13881mil) on Top Layer And Pad U9-39(8103.898mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-39(8103.898mil,13881mil) on Top Layer And Pad U9-40(8084.213mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-4(7899mil,13794.213mil) on Top Layer And Pad U9-5(7899mil,13774.528mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-40(8084.213mil,13881mil) on Top Layer And Pad U9-41(8064.528mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-41(8064.528mil,13881mil) on Top Layer And Pad U9-42(8044.842mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-42(8044.842mil,13881mil) on Top Layer And Pad U9-43(8025.158mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-43(8025.158mil,13881mil) on Top Layer And Pad U9-44(8005.472mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-44(8005.472mil,13881mil) on Top Layer And Pad U9-45(7985.787mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-45(7985.787mil,13881mil) on Top Layer And Pad U9-46(7966.102mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-46(7966.102mil,13881mil) on Top Layer And Pad U9-47(7946.417mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-47(7946.417mil,13881mil) on Top Layer And Pad U9-48(7926.732mil,13881mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-5(7899mil,13774.528mil) on Top Layer And Pad U9-6(7899mil,13754.843mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-6(7899mil,13754.843mil) on Top Layer And Pad U9-7(7899mil,13735.157mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-7(7899mil,13735.157mil) on Top Layer And Pad U9-8(7899mil,13715.472mil) on Top Layer 
+   Violation between Clearance Constraint: (9.685mil < 10mil) Between Pad U9-8(7899mil,13715.472mil) on Top Layer And Pad U9-9(7899mil,13695.787mil) on Top Layer 
+Rule Violations :362
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C158_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer Location : [X = 49979.815mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C159_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer Location : [X = 49979.815mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C159_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer Location : [X = 49979.815mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C160_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer Location : [X = 49979.815mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C160_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C161_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer Location : [X = 49953.805mil][Y = 50028.561mil]
+   Violation between Short-Circuit Constraint: Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50020.532mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer Location : [X = 50051.094mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50020.532mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer Location : [X = 50045.195mil][Y = 50028.561mil]
+   Violation between Short-Circuit Constraint: Between Pad C161_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer Location : [X = 50045.195mil][Y = 49970.439mil]
+   Violation between Short-Circuit Constraint: Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C162_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C163_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C166_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer Location : [X = 49979.815mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C164_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer Location : [X = 49979.815mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C164_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C165_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer And Pad C169_U_USB_PORT_STACKED2-1(49979.815mil,49999.5mil) on Top Layer Location : [X = 49979.815mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C165_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C166_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C167_U_USB_PORT_STACKED2-1(49964.264mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer Location : [X = 49953.805mil][Y = 50028.561mil]
+   Violation between Short-Circuit Constraint: Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R54_U_USB_PORT_STACKED2-2(50062.492mil,49999.5mil) on Top Layer Location : [X = 50051.094mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50020.532mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U6_U_USB_PORT_STACKED2-5(50046.744mil,50036.902mil) on Top Layer Location : [X = 50045.195mil][Y = 50028.561mil]
+   Violation between Short-Circuit Constraint: Between Pad C167_U_USB_PORT_STACKED2-2(50034.736mil,49999.5mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer Location : [X = 50045.195mil][Y = 49970.439mil]
+   Violation between Short-Circuit Constraint: Between Pad C168_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad C169_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50019.185mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad R54_U_USB_PORT_STACKED2-1(49999.5mil,49999.5mil) on Top Layer And Pad R55_U_USB_PORT_STACKED2-2(50019.185mil,49999.5mil) on Top Layer Location : [X = 50013.291mil][Y = 49999.5mil]
+   Violation between Short-Circuit Constraint: Between Pad U6_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-1(49952.256mil,50036.902mil) on Top Layer Location : [X = 49952.256mil][Y = 50036.902mil]
+   Violation between Short-Circuit Constraint: Between Pad U6_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer And Pad U7_U_USB_PORT_STACKED2-4(50046.744mil,49962.098mil) on Top Layer Location : [X = 50046.744mil][Y = 49962.098mil]
+Rule Violations :39
+
+Processing Rule : Un-Routed Net Constraint ( (Disabled)(All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint: (173.228mil > 100mil) Pad H1-0(9065mil,3400mil) on Multi-Layer Actual Hole Size = 173.228mil
+   Violation between Hole Size Constraint: (173.228mil > 100mil) Pad H2-0(8710mil,3400mil) on Multi-Layer Actual Hole Size = 173.228mil
+   Violation between Hole Size Constraint: (173.228mil > 100mil) Pad H3-0(7785mil,3400mil) on Multi-Layer Actual Hole Size = 173.228mil
+   Violation between Hole Size Constraint: (173.228mil > 100mil) Pad H4-0(7205mil,3400mil) on Multi-Layer Actual Hole Size = 173.228mil
+   Violation between Hole Size Constraint: (173.228mil > 100mil) Pad M1-0(7205mil,13255mil) on Multi-Layer Actual Hole Size = 173.228mil
+Rule Violations :5
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (7.748mil < 10mil) Between Pad C10-1(1690mil,2135mil) on Top Layer And Pad C10-2(1729.37mil,2135mil) on Top Layer [Top Solder] Mask Sliver [7.748mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (7.984mil < 10mil) Between Pad C47-1(1475mil,1235mil) on Top Layer And Pad C48-1(1335mil,1236.024mil) on Top Layer [Top Solder] Mask Sliver [7.984mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (7.984mil < 10mil) Between Pad C47-2(1475mil,1362.953mil) on Top Layer And Pad C48-2(1335mil,1363.976mil) on Top Layer [Top Solder] Mask Sliver [7.984mil]
+Rule Violations :3
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C17-1(1285mil,2632.953mil) on Top Layer And Track (1231.848mil,2592.598mil)(1231.851mil,2545.354mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C17-1(1285mil,2632.953mil) on Top Layer And Track (1338.149mil,2545.354mil)(1338.149mil,2592.598mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad C17-2(1285mil,2505mil) on Top Layer And Text "C23" (1197mil,2415mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad C17-2(1285mil,2505mil) on Top Layer And Text "R14" (1197mil,2495mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad C17-2(1285mil,2505mil) on Top Layer And Text "U2" (1297mil,2482mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C17-2(1285mil,2505mil) on Top Layer And Track (1231.848mil,2592.598mil)(1231.851mil,2545.354mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C17-2(1285mil,2505mil) on Top Layer And Track (1338.149mil,2545.354mil)(1338.149mil,2592.598mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C48-1(1335mil,1236.024mil) on Top Layer And Track (1281.851mil,1276.378mil)(1281.851mil,1323.622mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C48-1(1335mil,1236.024mil) on Top Layer And Track (1388.149mil,1323.622mil)(1388.152mil,1276.378mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C48-2(1335mil,1363.976mil) on Top Layer And Track (1281.851mil,1276.378mil)(1281.851mil,1323.622mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C48-2(1335mil,1363.976mil) on Top Layer And Track (1388.149mil,1323.622mil)(1388.152mil,1276.378mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C49-1(1185mil,1235mil) on Top Layer And Track (1131.851mil,1275.354mil)(1131.851mil,1322.598mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C49-1(1185mil,1235mil) on Top Layer And Track (1238.149mil,1322.598mil)(1238.152mil,1275.354mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C49-2(1185mil,1362.953mil) on Top Layer And Track (1131.851mil,1275.354mil)(1131.851mil,1322.598mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.354mil < 10mil) Between Pad C49-2(1185mil,1362.953mil) on Top Layer And Track (1238.149mil,1322.598mil)(1238.152mil,1275.354mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.354mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (5.743mil < 10mil) Between Pad D6-1(3168.661mil,2628.42mil) on Top Layer And Track (3203mil,2613.77mil)(3203mil,2641.42mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.743mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (5.743mil < 10mil) Between Pad D6-1(3168.661mil,2628.42mil) on Top Layer And Track (3203mil,2613.77mil)(3217.448mil,2628.219mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.743mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (5.743mil < 10mil) Between Pad D6-1(3168.661mil,2628.42mil) on Top Layer And Track (3203mil,2642.529mil)(3217.448mil,2628.08mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.743mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (7.146mil < 10mil) Between Pad Q2-2(29520.699mil,1414.508mil) on Top Layer And Track (29515.827mil,1391.575mil)(29744.173mil,1391.575mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.146mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (7.146mil < 10mil) Between Pad Q5-3(3217.441mil,2490.492mil) on Top Layer And Track (2993.967mil,2513.425mil)(3222.313mil,2513.425mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [7.146mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad Q7-2(3420.63mil,3126.018mil) on Top Layer And Text "C32" (3396mil,3114mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad Q7-2(3420.63mil,3126.018mil) on Top Layer And Track (3433.425mil,3117.243mil)(3486.575mil,3117.243mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad R22-2(3925mil,3303.105mil) on Top Layer And Text "R32" (3812mil,3249mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 10mil) Between Pad U4-1(1495mil,1453.701mil) on Top Layer And Text "C47" (1419mil,1428mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+Rule Violations :24
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room U_System (Bounding Region = (7045mil, 15090mil, 10710mil, 15340mil) (InComponentClass('U_System'))
+Rule Violations :0
+
+Processing Rule : Room U_CAN (Bounding Region = (7045mil, 1755mil, 8860mil, 2085mil) (InComponentClass('U_CAN'))
+Rule Violations :0
+
+Processing Rule : Room U_RGMII_ETHERNET (Bounding Region = (7045mil, 14580mil, 20990mil, 15040mil) (InComponentClass('U_RGMII_ETHERNET'))
+Rule Violations :0
+
+Processing Rule : Room U_UART (Bounding Region = (7045mil, 15390mil, 12055mil, 16385mil) (InComponentClass('U_UART'))
+Rule Violations :0
+
+Processing Rule : Room U_USB_PORT_STACKED1 (Bounding Region = (7045mil, 17645mil, 34205mil, 18445mil) (InComponentClass('U_USB_PORT_STACKED1'))
+Rule Violations :0
+
+Processing Rule : Room U_GPIO_AND_SERIAL (Bounding Region = (7045mil, 2135mil, 14875mil, 2415mil) (InComponentClass('U_GPIO_AND_SERIAL'))
+Rule Violations :0
+
+Processing Rule : Room U_HDMI (Bounding Region = (7045mil, 2460mil, 16910mil, 2720mil) (InComponentClass('U_HDMI'))
+Rule Violations :0
+
+Processing Rule : Room U_USB_PORT_STACKED2 (Bounding Region = (49655mil, 49610mil, 51425mil, 50335mil) (InComponentClass('U_USB_PORT_STACKED2'))
+Rule Violations :0
+
+Processing Rule : Room U_JETSON_AGX_DP-HDMI-USB-GBE (Bounding Region = (7045mil, 2765mil, 8390mil, 2955mil) (InComponentClass('U_JETSON_AGX_DP-HDMI-USB-GBE'))
+Rule Violations :0
+
+Processing Rule : Room U_USB (Bounding Region = (7045mil, 16435mil, 14445mil, 16755mil) (InComponentClass('U_USB'))
+Rule Violations :0
+
+Processing Rule : Room U_JETSON_AGX_NVHS (Bounding Region = (7045mil, 3000mil, 14295mil, 3190mil) (InComponentClass('U_JETSON_AGX_NVHS'))
+Rule Violations :0
+
+Processing Rule : Room U_M.2_E-KEY (Bounding Region = (7045mil, 12790mil, 11425mil, 13045mil) (InComponentClass('U_M.2_E-KEY'))
+Rule Violations :0
+
+Processing Rule : Room U_M.2_M-KEY (Bounding Region = (7045mil, 13095mil, 15960mil, 13515mil) (InComponentClass('U_M.2_M-KEY'))
+Rule Violations :0
+
+Processing Rule : Room U_JTAG (Bounding Region = (7045mil, 12310mil, 7345mil, 12740mil) (InComponentClass('U_JTAG'))
+Rule Violations :0
+
+Processing Rule : Room U_JETSON_AGX_SYS-PWR-GND (Bounding Region = (7045mil, 3240mil, 12270mil, 3660mil) (InComponentClass('U_JETSON_AGX_SYS-PWR-GND'))
+Rule Violations :0
+
+Processing Rule : Room U_JETSON_AGX_UPHY (Bounding Region = (7045mil, 8005mil, 17270mil, 12260mil) (InComponentClass('U_JETSON_AGX_UPHY'))
+Rule Violations :0
+
+Processing Rule : Room U_Power_Connectors (Bounding Region = (7045mil, 14075mil, 8610mil, 14535mil) (InComponentClass('U_Power_Connectors'))
+Rule Violations :0
+
+Processing Rule : Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters'))
+   Violation between Room Definition: Between Component Q5-NMOS_30V_60A (3108.14mil,2415mil) on Top Layer And Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) 
+   Violation between Room Definition: Between Component Q6-NMOS_30V_60A (4285mil,3213.42mil) on Top Layer And Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) 
+   Violation between Room Definition: Between Component U2-TPS54339 (1435mil,2345mil) on Top Layer And Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) 
+   Violation between Room Definition: Between Component U4-TPS54339 (1570mil,1560mil) on Top Layer And Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) 
+   Violation between Room Definition: Between LCC Component U3-LM27403SQE/NOPB (3663.9mil,2598.71mil) on Top Layer And Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C10-CAP_0.1uF_16V_X7R_0402 (1709.685mil,2135mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C14-CAP_10pF_50V_0402 (1255mil,2184.37mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C17-CAP_10uF_50V_1210 (1285mil,2568.976mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C18-CAP_10uF_50V_1210 (1425mil,2570mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C19-CAP_10uF_50V_1210 (1570mil,2570mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C20-CAP_22uF_16V_0805 (1335mil,2160.236mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C21-CAP_22uF_16V_0805 (1420mil,2159.764mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C22-CAP_22uF_16V_0805 (1510mil,2160.236mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C23-CAP_1uF_25V_0402 (1205mil,2349.685mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C25-CAP_8.2nF_16V_0402 (1205mil,2269.685mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C31-CAP_0.22uF_25V_X5R_0402 (4060mil,2653.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C32-CAP_10uF_50V_1210 (3485mil,3018.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C33-CAP_10uF_50V_1210 (3735mil,3018.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C34-CAP_10uF_50V_1210 (3980mil,3018.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C35-CAP_10uF_50V_1210 (4230mil,3018.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C36-CAP_10uF_16V_0805 (3990mil,2498.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C37-CAP_10uF_16V_0805 (3325mil,2248.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C38-CAP_10uF_16V_0805 (3555mil,2248.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C39-CAP_10uF_16V_0805 (3785mil,2248.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C40-CAP_0.1uF_16V_X7R_0402 (1385mil,1455mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C41-CAP_0.22uF_25V_X5R_0402 (3690mil,2353.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C42-CAP_1uF_25V_0402 (3300mil,2528.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C43-CAP_180pF_50V_0402 (3385mil,2415mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C44-CAP_10pF_50V_0402 (1680mil,1770mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C45-CAP_10uF_16V_0805 (4140mil,2505mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C46-CAP_10uF_16V_0805 (3715mil,3253.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C47-CAP_10uF_50V_1210 (1475mil,1298.976mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C48-CAP_10uF_50V_1210 (1335mil,1300mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C49-CAP_10uF_50V_1210 (1185mil,1298.976mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C50-CAP_22uF_16V_0805 (1755mil,1645mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C51-CAP_22uF_16V_0805 (1755.236mil,1540mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C52-CAP_22uF_16V_0805 (1749.764mil,1430mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C53-CAP_1uF_25V_0402 (1595mil,1749.685mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C54-CAP_100pF_50V_0402 (3455mil,2445mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C55-CAP_8.2nF_16V_0402 (1495mil,1750.315mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C56-CAP_0.027uF_10V_X7R_0402 (4355mil,2798.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C57-CAP_1.2nF_50V_X7R_0402 (4150mil,2848.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C58-CAP_0.1uF_16V_X7R_0402 (3460mil,2848.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C59-CAP_120pF_50V_0402 (3590mil,3183.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component C60-CAP_1.2nF_50V_X7R_0402 (3185mil,3183.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component D5-SBR0230T5-7 (3920mil,2673.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component D6-DIO_LED_G (3210mil,2628.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component L2-IND_3.3uH_5A (1745mil,2320mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component L3-IND_2.2uH_14.5A (3175mil,2855mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component L4-IND_3.3uH_5A (1690mil,1255mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component Q7-MMBT4401-7-F (3460mil,3163.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R14-RES_23.7kO_0402_1% (1205mil,2429.685mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R19-RES_2.21O_0402_1% (4375mil,2998.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R20-RES_1kO_0402 (3900mil,2353.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R21-RES_845O_0402_1% (3530mil,2493.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R22-RES_20kO_0402_1% (3925mil,3283.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R23-RES_13.7kO_0402_1% (1680.315mil,1730mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R24-RES_56.2kO_0402_1% (3365mil,2588.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R25-RES_7.87kO_0402_1% (3905mil,2208.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R26-RES_124O_0402_1% (3285mil,2383.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R27-RES_24kO_0402_1% (1779.685mil,1725mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R28-RES_7.87kO_0402_1% (3880mil,2453.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R29-RES_11kO_0402_1% (3920mil,2848.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R30-RES_3.48kO_0402_1% (3690mil,2848.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R31-RES_86.6kO_0402_1% (4050mil,3183.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R32-RES_4.42kO_0402_1% (3820mil,3183.42mil) on Top Layer 
+   Violation between Room Definition: Between Room U_Buck_Converters (Bounding Region = (7045mil, 1055mil, 31675mil, 1705mil) (InComponentClass('U_Buck_Converters')) And SMT Small Component R9-RES_32kO_0402_1% (1210mil,2184.685mil) on Top Layer 
+Rule Violations :67
+
+Processing Rule : Room U_PCIe_ETHERNET (Bounding Region = (7045mil, 13565mil, 14070mil, 14025mil) (InComponentClass('U_PCIe_ETHERNET'))
+Rule Violations :0
+
+Processing Rule : Room U_USB_PORT_ STACKED (Bounding Region = (7045mil, 16800mil, 34585mil, 17600mil) (InComponentClass('U_USB_PORT_ STACKED'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Waived Violations : 0
+Time Elapsed        : 00:00:02
