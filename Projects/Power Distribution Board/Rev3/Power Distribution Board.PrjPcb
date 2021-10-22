@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for Power Distribution Board
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -346,23 +346,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
-DocumentPath=C:\Users\Owner\Desktop\PDB-Rev3-Symbols.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EEYTRJOL
-
 [ProjectVariant1]
 UniqueID=881602EF-F388-4016-BBA0-EEE07BF7E78E
 Description=Only Populated Components
@@ -376,66 +359,6 @@ Variation4=Designator=R31|UniqueId=\HMQWCWQC|Kind=1|AlternatePart=
 Variation5=Designator=R47|UniqueId=\SHZRUVXS|Kind=1|AlternatePart= 
 Variation6=Designator=R77|UniqueId=\NHVIZVEM|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Power Distribution Board\Design Rule Check - Power Distribution Board.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.G1
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.G2
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.TXT
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -484,7 +407,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for Power Distribution Board
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
