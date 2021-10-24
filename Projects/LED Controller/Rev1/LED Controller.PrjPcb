@@ -41,6 +41,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=..\..\48V-24V Buck Converter\Rev1\48V-24V Buck Converter.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -57,7 +74,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
-[Document2]
+[Document3]
 DocumentPath=..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPFTEXWW
 
-[Document3]
+[Document4]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LNWTIFOW
 
-[Document4]
+[Document5]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,9 +123,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LZWSEQKY
+DocumentUniqueId=WUSJQCRF
 
-[Document5]
+[Document6]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TMUAZKVG
 
-[Document6]
+[Document7]
 DocumentPath=LED_Controller.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,8 +159,141 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BVKELTAS
 
+[Document8]
+DocumentPath=CAMtastic2.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs\Design Rule Check - LED_Controller.html
+DocumentPath=Project Outputs\LED_Controller.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs\LED_Controller.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs\LED_Controller.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs\LED_Controller.G2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs\LED_Controller.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs\LED_Controller.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs\LED_Controller.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs\LED_Controller.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs\LED_Controller.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs\LED_Controller.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs\LED_Controller.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs\LED_Controller.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs\LED_Controller.GM6
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs\LED_Controller.GM7
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs\LED_Controller.GM8
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs\LED_Controller.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs\LED_Controller.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs\LED_Controller.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs\LED_Controller.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs\LED_Controller.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs\LED_Controller.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs\LED_Controller.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs\LED_Controller.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs\LED_Controller.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs\LED_Controller.REP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs\LED_Controller.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs\LED_Controller.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs\Folder Structure\Pick Place\Pick Place for LED_Controller.csv
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs\Pick Place for LED_Controller.csv
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for Free Documents\Folder Structure\Pick Place\Pick Place for LED_Controller.csv
 DItemRevisionGUID=
 
 [Parameter1]
@@ -500,22 +650,26 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=False|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Case\Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#18=Name:Package Reference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:93|Column#19=Name:ComponentLink3Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#20=Name:REACH SVHC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:112|Column#21=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:107|Column#22=Name:Inductance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#23=Name:Manufacturer Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#24=Name:Datasheet Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#25=Name:Max Repetitive Reverse Voltage (Vrrm),Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#26=Name:Package Quantity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:92|Column#27=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:121|Column#28=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#29=Name:Connector Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#30=Name:Package URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:94|Column#31=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#32=Name:Manufacturer URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#33=Name:Max Forward Surge Current (Ifsm),Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#34=Name:No. of Positions,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82|Column#35=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77|Column#36=Name:Datasheet,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#37=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:99|Column#38=Name:RoHSCompliant,Fixed:False,Metric:False,Visible:False,Sort:None,Position:115|Column#39=Name:Contact Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#40=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:85|Column#41=Name:Gender,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#42=Name:Case/Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#43=Name:DC Resistance (DCR),Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#44=Name:DC Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#45=Name:Packing,Fixed:False,Metric:False,Visible:False,Sort:None,Position:100|Column#46=Name:Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:106|Column#47=Name:ComponentLink3URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#48=Name:Manufaturer Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#49=Name:Voltage Rating (DC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:125|Column#50=Name:Max Clock Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#51=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:116|Column#52=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:119|Column#53=Name:Forward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#54=Name:Access Time,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#55=Name:Arrow Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#56=Name:Min Voltage Input,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#57=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:114|Column#58=Name:Peak Reverse Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:105|Column#59=Name:PartNumber,Fixed:False,Metric:False,Visible:False,Sort:None,Position:103|Column#60=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#61=Name:Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#62=Name:Datasheet URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#63=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#64=Name:Radiation Hardening,Fixed:False,Metric:False,Visible:False,Sort:None,Position:110|Column#65=Name:Arrow Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#66=Name:Lead Free,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#67=Name:Termination,Fixed:False,Metric:False,Visible:False,Sort:None,Position:118|Column#68=Name:Weight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:126|Column#69=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:97|Column#70=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#71=Name:Output Voltage (Fixed),Fixed:False,Metric:False,Visible:False,Sort:None,Position:89|Column#72=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:120|Column#73=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:98|Column#74=Name:Forward Voltage Drop,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#75=Name:Max Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#76=Name:Manufacturer Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#77=Name:Output Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:88|Column#78=Name:RMS Current (Irms),Fixed:False,Metric:False,Visible:False,Sort:None,Position:113|Column#79=Name:Mouser Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:81|Column#80=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#81=Name:Parameter 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:101|Column#82=Name:Mounting Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:79|Column#83=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#84=Name:No. of Rows,Fixed:False,Metric:False,Visible:False,Sort:None,Position:83|Column#85=Name:Peak Non-Repetitive Surge Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:104|Column#86=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#87=Name:Density,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#88=Name:Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#89=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#90=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:102|Column#91=Name:Min Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#92=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:109|Column#93=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#94=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78|Column#95=Name:Max Voltage Input,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#96=Name:Width,Fixed:False,Metric:False,Visible:False,Sort:None,Position:127|Column#97=Name:Nominal Supply Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:84|Column#98=Name:Polarity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:108|Column#99=Name:LCSC Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#100=Name:Input Voltage (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#101=Name:Working Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:128|Column#102=Name:Mouser Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80|Column#103=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:117|Column#104=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#105=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#106=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#107=Name:Average Rectified Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#108=Name:Contact Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#109=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:87|Column#110=Name:Manufacturer 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#111=Name:Package Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:95|Column#112=Name:Current Output,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#113=Name:Package/Footprint,Fixed:False,Metric:False,Visible:False,Sort:None,Position:96|Column#114=Name:Clock Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#115=Name:Rated Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:111|Column#116=Name:Voltage Output,Fixed:False,Metric:False,Visible:False,Sort:None,Position:123|Column#117=Name:Datasheet Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#118=Name:Interface,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#119=Name:Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#120=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:90|Column#121=Name:Voltage Dropout (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:122|Column#122=Name:Max Reverse Voltage (DC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#123=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#124=Name:Package Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:91|Column#125=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:124|Column#126=Name:Element Configuration,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#127=Name:DatasheetVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#128=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:86|Column#129=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|DocumentPath=C:\Users\ariwasch\Documents\MarsRover2021\MarsRover2021-hardware\Projects\LED Controller\Rev1\LED_Controller.PcbDoc
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -556,6 +710,10 @@ OutputName6=NC Drill Files
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+Configuration6_Name1=ForceUpdateSettings
+Configuration6_Item1=False
+Configuration6_Name2=OutputConfigurationParameter1
+Configuration6_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\ariwasch\Documents\MarsRover2021\MarsRover2021-hardware\Projects\LED Controller\Rev1\LED_Controller.PcbDoc
 OutputType7=ODB
 OutputName7=ODB++ Files
 OutputDocumentPath7=
@@ -573,23 +731,25 @@ OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=Gerber
-OutputName10=Gerber Files
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-Configuration10_Name1=OutputConfigurationParameter1
-Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16842753~1,16777218~1,16777219~1,16842754~1,16777221~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908291~1,16908293~1,16908301~1,16908302~1,16908303~1,16908311~1,16908312~1,16908315~1,16908316~1,16908317~1,16908318~1,16908319~1,16908320~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False
-OutputType11=Gerber X2
-OutputName11=Gerber X2 Files
+OutputType11=IPC2581
+OutputName11=IPC-2581 Files
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=IPC2581
-OutputName12=IPC-2581 Files
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908292~1,16908294~1,16908295~1,16908296~1,16908301~1,16908303~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\ariwasch\Documents\MarsRover2021\MarsRover2021-hardware\Projects\LED Controller\Rev1\LED_Controller.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -627,12 +787,10 @@ Configuration4_Name4=GroupOrder
 Configuration4_Item4=Comment=True|Footprint=True|LibRef=True
 Configuration4_Name5=OutputConfigurationParameter1
 Configuration4_Item5=upplier 1=118|Supplier Part Number 1=165|Supplier Unit Price 1=173|Quantity=129
-Configuration4_Name6=SortOrder
-Configuration4_Item6=Designator=Up
-Configuration4_Name7=VisibleOrder
-Configuration4_Item7=Manufacturer 1=100|Manufacturer Part Number 1=242|Designator=214|Supplier 1=100|Supplier Part Number 1=100|Quantity=100|Supplier Unit Price 1=100|LibRef=145|Description=48|LCSC Number=165
-Configuration4_Name8=VisibleOrder_Flat
-Configuration4_Item8=Manufacturer 1=100|Manufacturer Part Number 1=242|Designator=214|Supplier 1=100|Supplier Part Number 1=100|Quantity=100|Supplier Unit Price 1=100|LibRef=145|Description=48|LCSC Number=165
+Configuration4_Name6=VisibleOrder
+Configuration4_Item6=Description=97|Designator=100|Footprint=100|LCSC Number=100
+Configuration4_Name7=VisibleOrder_Flat
+Configuration4_Item7=Description=97|Designator=100|Footprint=100|LCSC Number=100
 OutputType5=ComponentCrossReference
 OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
