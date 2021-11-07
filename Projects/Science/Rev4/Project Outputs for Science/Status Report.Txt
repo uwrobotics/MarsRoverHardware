@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Science.PrjPCB]
+   Generated File[Science.TXT]
+   Generated File[Science.LDP]
+   Generated File[Science.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:14:36 AM On 2020-12-19
