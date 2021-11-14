@@ -347,7 +347,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document19]
-DocumentPath=C:\Users\Owner\Desktop\PDB-Rev3-Footprints.PcbLib
+DocumentPath=PDB Temp.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -361,7 +361,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=GAEOIDXQ
+DocumentUniqueId=NQIQOGME
 
 [ProjectVariant1]
 UniqueID=881602EF-F388-4016-BBA0-EEE07BF7E78E
@@ -1461,11 +1461,17 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=PDB-Rev3-Symbols.SchLib
-ComponentDesignItemID0=IC_BUFFER_TSOP5
-ComponentSymbolReference0=IC_BUFFER_TSOP5
+ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID0=IC_BUFFER
+ComponentSymbolReference0=IC_BUFFER
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID1=SW_PUSHBUTTON
+ComponentSymbolReference1=SW_PUSHBUTTON
+ComponentUpdate1=0
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1502,8 +1508,11 @@ ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SN74LV1T34DBVR
+ModelName0=SOT23-5
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=TACTILE_SWITCH_SMD
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
