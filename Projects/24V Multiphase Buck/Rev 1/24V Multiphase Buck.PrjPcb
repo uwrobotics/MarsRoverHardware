@@ -71,7 +71,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DYBMWVUR
+DocumentUniqueId=VURMQOCT
 
 [Document3]
 DocumentPath=..\..\Altium Library\Library\PcbLibraries\EMR.PcbLib
@@ -165,6 +165,10 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - 24V Multiphase Buck.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=EMR_Address
