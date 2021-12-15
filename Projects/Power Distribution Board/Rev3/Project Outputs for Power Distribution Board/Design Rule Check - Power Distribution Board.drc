@@ -1,14 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : D:\GitHub Desktop\MarsRover2021-hardware\Projects\Power Distribution Board\Rev3\Power Distribution Board.PcbDoc
-Date     : 2021-12-12
-Time     : 1:43:19 PM
+Date     : 2021-12-14
+Time     : 9:39:55 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-   Violation between Clearance Constraint: (6.616mil < 8mil) Between Region (0 hole(s)) Top Layer And Track (5054.528mil,684.528mil)(5108.566mil,684.528mil) on Top Layer 
-   Violation between Clearance Constraint: (7.356mil < 8mil) Between Region (0 hole(s)) Top Layer And Track (5060.16mil,715.472mil)(5075.18mil,700.453mil) on Top Layer 
-   Violation between Clearance Constraint: (7.356mil < 8mil) Between Region (0 hole(s)) Top Layer And Track (5075.18mil,700.453mil)(5139.941mil,700.453mil) on Top Layer 
-   Violation between Clearance Constraint: (6.616mil < 8mil) Between Region (0 hole(s)) Top Layer And Track (5108.566mil,684.528mil)(5116.094mil,677mil) on Top Layer 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -20,11 +16,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C64-1(4902.48mil,845mil) on Top Layer And Via (4920mil,625mil) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Pad R14-2(1227.913mil,2535mil) on Top Layer And Via (1450mil,2550mil) from Top Layer to Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (1796.531mil,1026.61mil)(1833.661mil,1063.74mil) on Top Layer And Pad R77-1(2019.882mil,1077.52mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net VBAT_FUSED Between Pad R93-2(2572.068mil,1876mil) on Top Layer And Track (2890mil,2160mil)(3715mil,2160mil) on L3 - POWER 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -36,22 +28,10 @@ Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Co
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=5mil) (All)
-   Violation between Minimum Annular Ring: (3.937mil < 5mil) Via (1011.654mil,2635.63mil) from Top Layer to Bottom Layer (Annular Ring=3.937mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (3.937mil < 5mil) Via (1011.654mil,2675mil) from Top Layer to Bottom Layer (Annular Ring=3.937mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (3.937mil < 5mil) Via (1011.654mil,2714.37mil) from Top Layer to Bottom Layer (Annular Ring=3.937mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (3.937mil < 5mil) Via (968.346mil,2635.63mil) from Top Layer to Bottom Layer (Annular Ring=3.937mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (3.937mil < 5mil) Via (968.346mil,2675mil) from Top Layer to Bottom Layer (Annular Ring=3.937mil) On (Top Layer)
-   Violation between Minimum Annular Ring: (3.937mil < 5mil) Via (968.346mil,2714.37mil) from Top Layer to Bottom Layer (Annular Ring=3.937mil) On (Top Layer)
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=10mil) (Max=200mil) (All)
-   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1011.654mil,2635.63mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
-   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1011.654mil,2675mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
-   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (1011.654mil,2714.37mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
-   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (968.346mil,2635.63mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
-   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (968.346mil,2675mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
-   Violation between Hole Size Constraint: (7.874mil < 10mil) Via (968.346mil,2714.37mil) from Top Layer to Bottom Layer Actual Hole Size = 7.874mil
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=20mil) (All),(All)
 Rule Violations :0
@@ -77,21 +57,15 @@ Processing Rule : Silk to Silk (Clearance=2mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Via (6450mil,150mil) from Top Layer to Bottom Layer 
-   Violation between Net Antennae: Via (6565mil,40mil) from Top Layer to Bottom Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (1.476mil < 5mil) Between Board Edge And Text "F1" (480.464mil,4031mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (17.953mil < 25mil) Between Board Edge And Track (6503.307mil,308.346mil)(6814.724mil,308.346mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (17.953mil < 25mil) Between Board Edge And Track (6503.307mil,851.654mil)(6814.724mil,851.654mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (17.953mil < 25mil) Between Board Edge And Track (6814.724mil,308.346mil)(6814.724mil,851.654mil) on Top Overlay 
-Rule Violations :4
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=50000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 37
+Violations Detected : 11
 Waived Violations : 0
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:02

@@ -377,6 +377,10 @@ Variation5=Designator=R47|UniqueId=\SHZRUVXS|Kind=1|AlternatePart=
 Variation6=Designator=R77|UniqueId=\NHVIZVEM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Power Distribution Board\Design Rule Check - Power Distribution Board.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
