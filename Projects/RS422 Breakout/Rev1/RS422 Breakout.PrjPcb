@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-OutputPath=
+OutputPath=Project Outputs for RS422 Breakout
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -58,23 +58,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ALTTYVKT
 
 [Document2]
-DocumentPath=RS422 Breakout.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WTUBVGRT
-
-[Document3]
 DocumentPath=..\..\..\Libraries\UWRT_Footprint_Library_2020.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +74,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPFTEXWW
 
-[Document4]
+[Document3]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
-[Document5]
+[Document4]
 DocumentPath=RS422 Breakout.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,8 +108,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=RS422 Breakout.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CIVBSUGF
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for RS422 Breakout\Design Rule Check - RS422 Breakout.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for RS422 Breakout\Design Rule Check - RS422 Breakouttemp.html
 DItemRevisionGUID=
 
 [Configuration1]
@@ -176,7 +180,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for RS422 Breakout
 
 [OutputGroup1]
 Name=Netlist Outputs
