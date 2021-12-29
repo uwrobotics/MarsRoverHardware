@@ -89,7 +89,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ANKOHXUE
+DocumentUniqueId=LVVFQHZR
 
 [Document4]
 DocumentPath=SH2 - CONNECTORS.SchDoc
@@ -106,7 +106,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=TBMCTNXY
+DocumentUniqueId=ROEFTBND
 
 [Document5]
 DocumentPath=SH3 - NUCLEO HEADERS.SchDoc
@@ -126,6 +126,40 @@ GenerateClassCluster=0
 DocumentUniqueId=SLLEOOAH
 
 [Document6]
+DocumentPath=SH4 - CAN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IEDYLOTL
+
+[Document7]
+DocumentPath=SH5 - LED.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WATZTFKB
+
+[Document8]
 DocumentPath=Science.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
