@@ -149,23 +149,6 @@ GenerateClassCluster=0
 DocumentUniqueId=IEDYLOTL
 
 [Document7]
-DocumentPath=SH6 - Level Shifter.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BOHZJNKA
-
-[Document8]
 DocumentPath=SH5 - LED.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -181,6 +164,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WATZTFKB
+
+[Document8]
+DocumentPath=SH6 - Level Shifter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BOHZJNKA
 
 [Document9]
 DocumentPath=Science.OutJob
