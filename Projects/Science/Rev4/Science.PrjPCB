@@ -35,6 +35,12 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
+CrossRefSheetStyle=1
+CrossRefLocationStyle=1
+CrossRefPorts=3
+CrossRefCrossSheets=1
+CrossRefSheetEntries=0
+CrossRefFollowFromMainSettings=1
 
 [Preferences]
 PrefsVaultGUID=
@@ -143,6 +149,23 @@ GenerateClassCluster=0
 DocumentUniqueId=IEDYLOTL
 
 [Document7]
+DocumentPath=SH6 - Level Shifter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BOHZJNKA
+
+[Document8]
 DocumentPath=SH5 - LED.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +182,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WATZTFKB
 
-[Document8]
+[Document9]
 DocumentPath=Science.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
