@@ -1,14 +1,12 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 10:35:55 PM On 2022-01-11
-
-Output: Bill of Materials
-Type  : BOM
-From  : Project [RS422 Breakout.PrjPcb]
-   Generated File[Bill of Materials-RS422 Breakout.xlsx]
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [RS422 Breakout.PcbDoc]
+   Generated File[RS422 Breakout.TXT]
+   Generated File[RS422 Breakout.LDP]
+   Generated File[RS422 Breakout.DRR]
 
 
-Files Generated   : 1
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 10:35:56 PM On 2022-01-11
+Finished Output Generation At 6:39:56 PM On 2022-01-23

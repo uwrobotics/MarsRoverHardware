@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=RS422 Breakout.OutJob
 Description=
-TargetOutputMedium=BOM
+TargetOutputMedium=Gerber
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -35,6 +35,8 @@ OutputMedium4=Video
 OutputMedium4_Type=Multimedia
 OutputMedium5=BOM
 OutputMedium5_Type=GeneratedFiles
+OutputMedium6=Gerber
+OutputMedium6_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints of RS422 Breakout.SchDoc
 OutputCategory1=Documentation
@@ -46,6 +48,7 @@ OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.68|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -55,12 +58,13 @@ OutputName2=Bill of Materials
 OutputCategory2=Report
 OutputDocumentPath2=[ActiveBOM Document]
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=1
+OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=ColumnNameFormat
@@ -79,6 +83,49 @@ Configuration2_Name7=VisibleOrder_Consolidated
 Configuration2_Item7=Line #=54|Comment=52|Description=374|Designator=80|Quantity=67|Manufacturer 1=130|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 Configuration2_Name8=VisibleOrder_Flat
 Configuration2_Item8=Line #=54|Comment=52|Description=82|Designator=80|Manufacturer 1=130|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+OutputType3=NC Drill
+OutputName3=NC Drill Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=RS422 Breakout.PcbDoc
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=2
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Jason\Documents\MarsRoverHardware\Projects\RS422 Breakout\Rev1\RS422 Breakout.PcbDoc
+OutputType4=Pick Place
+OutputName4=Generates pick and place files
+OutputCategory4=Assembly
+OutputDocumentPath4=RS422 Breakout.PcbDoc
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
+OutputDefault4=0
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputCategory5=Fabrication
+OutputDocumentPath5=RS422 Breakout.PcbDoc
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=1
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Jason\Documents\MarsRoverHardware\Projects\RS422 Breakout\Rev1\RS422 Breakout.PcbDoc
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Jason\Documents\MarsRoverHardware\Projects\RS422 Breakout\Rev1\.PDF
@@ -171,6 +218,19 @@ OutputFileNameMulti5=
 UseOutputNameForMulti5=1
 OutputFileNameSpecial5=
 OpenOutput5=1
+OutputFilePath6=C:\Users\Jason\Documents\MarsRoverHardware\Projects\RS422 Breakout\Rev1\Project Outputs for RS422 Breakout\
+ReleaseManaged6=1
+OutputBasePath6=Project Outputs for RS422 Breakout
+OutputPathMedia6=
+OutputPathMediaValue6=
+OutputPathOutputer6=[Output Type]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6=
+UseOutputNameForMulti6=1
+OutputFileNameSpecial6=
+OpenOutput6=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\Jason\Documents\MarsRoverHardware\Projects\RS422 Breakout\Rev1\.PDF
@@ -197,4 +257,14 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
+RelativeOutputPath6=C:\Users\Jason\Documents\MarsRoverHardware\Projects\RS422 Breakout\Rev1\Project Outputs for RS422 Breakout\
+OpenOutputs6=1
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
 
