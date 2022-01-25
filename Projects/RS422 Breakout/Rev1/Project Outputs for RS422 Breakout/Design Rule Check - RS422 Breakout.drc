@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Jason\Documents\MarsRoverHardware\Projects\RS422 Breakout\Rev1\RS422 Breakout.PcbDoc
-Date     : 2022-01-12
-Time     : 9:24:32 PM
+Date     : 2022-01-24
+Time     : 9:49:00 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -54,4 +54,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
