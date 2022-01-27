@@ -207,28 +207,28 @@ DocumentPath=Project Outputs for Science\Science.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=DrawnBy
-Value=Your Name
+Name=Address1
+Value=200 University Avenue
 
 [Parameter2]
-Name=BoardName
-Value=Your Board Name
-
-[Parameter3]
-Name=Address4
-Value=Canada N2L 3G6
-
-[Parameter4]
-Name=Address3
-Value=Ontario
-
-[Parameter5]
 Name=Address2
 Value=Waterloo
 
+[Parameter3]
+Name=Address3
+Value=Ontario
+
+[Parameter4]
+Name=Address4
+Value=Canada N2L 3G6
+
+[Parameter5]
+Name=BoardName
+Value=Your Board Name
+
 [Parameter6]
-Name=Address1
-Value=200 University Avenue
+Name=DrawnBy
+Value=Your Name
 
 [Configuration1]
 Name=Sources
