@@ -39,7 +39,7 @@ CrossRefSheetStyle=1
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
-CrossRefSheetEntries=0
+CrossRefSheetEntries=1
 CrossRefFollowFromMainSettings=1
 
 [Preferences]
@@ -207,28 +207,28 @@ DocumentPath=Project Outputs for Science\Science.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Address1
-Value=200 University Avenue
+Name=DrawnBy
+Value=Your Name
 
 [Parameter2]
-Name=Address2
-Value=Waterloo
-
-[Parameter3]
-Name=Address3
-Value=Ontario
-
-[Parameter4]
-Name=Address4
-Value=Canada N2L 3G6
-
-[Parameter5]
 Name=BoardName
 Value=Your Board Name
 
+[Parameter3]
+Name=Address4
+Value=Canada N2L 3G6
+
+[Parameter4]
+Name=Address3
+Value=Ontario
+
+[Parameter5]
+Name=Address2
+Value=Waterloo
+
 [Parameter6]
-Name=DrawnBy
-Value=Your Name
+Name=Address1
+Value=200 University Avenue
 
 [Configuration1]
 Name=Sources
@@ -716,7 +716,7 @@ Configuration2_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration2_Name4=GroupOrder
 Configuration2_Item4=Document=True
 Configuration2_Name5=SortOrder
-Configuration2_Item5=Document=Up|Designator=Up
+Configuration2_Item5=Designator=Up
 Configuration2_Name6=VisibleOrder
 Configuration2_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType3=ReportHierarchy
