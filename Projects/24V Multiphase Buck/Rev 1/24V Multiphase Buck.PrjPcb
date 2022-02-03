@@ -159,6 +159,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=COOYPVHM
 
+[Document8]
+DocumentPath=..\..\GitHub\MarsRoverHardware\Libraries\UWRT_Footprint_Library_2020.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=A5132D8F-50CD-474D-B72C-90BB8E62C1B5
 Description=01
@@ -172,36 +189,36 @@ DocumentPath=Project Outputs\Design Rule Check - 24V Multiphase Buck.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=EMR_Revision
-Value=0.1
+Name=EMR_Address
+Value=420 Downsview Pl, Waterloo, ON,  N2K3T9, Canada
 
 [Parameter2]
-Name=EMR_Project_Title
-Value=Pipe Dream
-
-[Parameter3]
-Name=EMR_Project_Engineer
-Value=T. Smouter
-
-[Parameter4]
-Name=EMR_Drawn_By
-Value=T. Smouter
-
-[Parameter5]
-Name=EMR_Customer
-Value=Internal
-
-[Parameter6]
-Name=EMR_Copyright_Year
-Value=2021
-
-[Parameter7]
 Name=EMR_Checked_By
 Value=T. Smouter
 
+[Parameter3]
+Name=EMR_Copyright_Year
+Value=2021
+
+[Parameter4]
+Name=EMR_Customer
+Value=Internal
+
+[Parameter5]
+Name=EMR_Drawn_By
+Value=T. Smouter
+
+[Parameter6]
+Name=EMR_Project_Engineer
+Value=T. Smouter
+
+[Parameter7]
+Name=EMR_Project_Title
+Value=Pipe Dream
+
 [Parameter8]
-Name=EMR_Address
-Value=420 Downsview Pl, Waterloo, ON,  N2K3T9, Canada
+Name=EMR_Revision
+Value=0.1
 
 [Configuration1]
 Name=CC3220SF
@@ -1973,22 +1990,6 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-
-[NetInfos]
-Net1=NetName=DH1|NetColor=clYellow
-Net2=NetName=DH2|NetColor=clYellow
-Net3=NetName=DL1|NetColor=clYellow
-Net4=NetName=DL2|NetColor=clYellow
-Net5=NetName=EN|NetColor=$006EFF6E
-Net6=NetName=FB1|NetColor=$006EFF6E
-Net7=NetName=FB2|NetColor=$006EFF6E
-Net8=NetName=GND|NetColor=$00FF6E6E
-Net9=NetName=LX1|NetColor=$00FF6EFF
-Net10=NetName=LX2|NetColor=$00FF6EFF
-Net11=NetName=NetL1_2|NetColor=$00C5DEE5
-Net12=NetName=NetL2_2|NetColor=$00C5DEE5
-Net13=NetName=SS2|NetColor=$006EFF6E
-Net14=NetName=VBAT|NetColor=$0000BE00
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
