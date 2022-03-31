@@ -1,12 +1,33 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Science.PrjPCB]
-   Generated File[Science.TXT]
-   Generated File[Science.LDP]
-   Generated File[Science.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Science.PrjPCB]
+   Generated File[Science.GTO]
+   Generated File[Science.GTP]
+   Generated File[Science.GTS]
+   Generated File[Science.GTL]
+   Generated File[Science.G1]
+   Generated File[Science.G2]
+   Generated File[Science.GBL]
+   Generated File[Science.GBS]
+   Generated File[Science.GBO]
+   Generated File[Science.GM1]
+   Generated File[Science.GM2]
+   Generated File[Science.GM4]
+   Generated File[Science.GM5]
+   Generated File[Science.GM6]
+   Generated File[Science.GM7]
+   Generated File[Science.GM12]
+   Generated File[Science.GM13]
+   Generated File[Science.GM15]
+   Generated File[Science.GKO]
+   Generated File[Science.GPT]
+   Generated File[Science.GPB]
+   Generated File[Science.RUL]
+   Generated File[Science.EXTREP]
+   Generated File[Science.REP]
 
 
-Files Generated   : 3
+Files Generated   : 24
 Documents Printed : 0
 
-Finished Output Generation At 11:14:36 AM On 2020-12-19
+Finished Output Generation At 8:46:00 PM On 30/03/2022
