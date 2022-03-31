@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Science.GBR   30/03/2022  8:45:59 PM
+Gerber File Extension Report For: Science.GBR   30/03/2022  9:22:43 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -14,17 +14,7 @@ Layer Extension     Layer Description
 .G2                 Power                                   
 .GBL                Bottom Layer                            
 .GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
-.GM1                Mechanical 1                            
-.GM2                Mechanical 2                            
 .GM4                Mechanical 4                            
-.GM5                Mechanical 5                            
-.GM6                Mechanical 6                            
-.GM7                Mechanical 7                            
-.GM12               Mechanical 12                           
-.GM13               Mechanical 13                           
-.GM15               Mechanical 15                           
-.GKO                Keep-Out Layer                          
-.GPT                Top Pad Master                          
-.GPB                Bottom Pad Master                       
 ------------------------------------------------------------------------------------------
