@@ -131,8 +131,126 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DTXTIUXS
 
+[Document6]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS HOST BOARD DRILL.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS HOST BOARD.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for SPI LVDS Master\Design Rule Check - SPI LVDS Master.html
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.G1
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.G2
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GM5
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for SPI LVDS Master\SPI LVDS Master.TXT
 DItemRevisionGUID=
 
 [Parameter1]
@@ -169,7 +287,7 @@ GlobalBookmarks=0
 ExportBOM=0
 TemplateFilename=
 TemplateStoreRelative=-1
-PCB_PrintColor=1
+PCB_PrintColor=0
 SCH_PrintColor=0
 PrintQuality=-3
 SCH_ShowNoErc=-1
@@ -187,7 +305,7 @@ SCH_ExpandPorts=0
 SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=-1
+SaveSettingsToOutJob=0
 
 [Generic_EDE]
 OutputDir=
@@ -403,72 +521,80 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Final
-OutputName4=Final Artwork Prints
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
-OutputVariantName5=[No Variations]
+OutputVariantName5=
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Gerber X2
+OutputName10=Gerber X2 Files
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
-OutputVariantName11=
+OutputVariantName11=[No Variations]
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973831~1,16908289~1,16908292~1,16908293~1,16908301~1,16908303~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -481,6 +607,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=CAD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -1102,22 +1240,112 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID0=SN65LVDS179MDGKREP
-ComponentSymbolReference0=SN65LVDS179MDGKREP
+ComponentDesignItemID0=CAP_0.1uF_16V_0603
+ComponentSymbolReference0=CAP_0.1uF_16V_0603
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=UWRT_Schematic_Library_2020.SchLib
-ComponentDesignItemID1=SN65LVDS31MDREP
-ComponentSymbolReference1=SN65LVDS31MDREP
+ComponentDesignItemID1=CAP_0.1uF_50V_0805
+ComponentSymbolReference1=CAP_0.1uF_50V_0805
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID2=CAP_1000pF_50V_0805
+ComponentSymbolReference2=CAP_1000pF_50V_0805
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID3=CON_12M_SM_RA
+ComponentSymbolReference3=CON_12M_SM_RA
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID4=CON_8M_SM_RA
+ComponentSymbolReference4=CON_8M_SM_RA
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID5=FERRITE_BEAD_600OHM_0402
+ComponentSymbolReference5=FERRITE_BEAD_600OHM_0402
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID6=LED_GREEN
+ComponentSymbolReference6=LED_GREEN
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID7=LED_YELLOW
+ComponentSymbolReference7=LED_YELLOW
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID8=MOUNTING_HOLE_M3
+ComponentSymbolReference8=MOUNTING_HOLE_M3
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID9=RES_100Ω_0603_1%
+ComponentSymbolReference9=RES_100Ω_0603_1%
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID10=RES_100Ω_0805_1%
+ComponentSymbolReference10=RES_100Ω_0805_1%
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID11=RES_220Ω_0603_5%
+ComponentSymbolReference11=RES_220Ω_0603_5%
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID12=SN65LVDS179MDGKREP
+ComponentSymbolReference12=SN65LVDS179MDGKREP
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID13=SN65LVDS31MDREP
+ComponentSymbolReference13=SN65LVDS31MDREP
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID14=TESTPOINT_1MM_SQUARE
+ComponentSymbolReference14=TESTPOINT_1MM_SQUARE
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID15=TESTPOINT_LOOP
+ComponentSymbolReference15=TESTPOINT_LOOP
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=UWRT_Schematic_Library_2020.SchLib
+ComponentDesignItemID16=TVS_DIODE_UNIDIR_3.3V_7A
+ComponentSymbolReference16=TVS_DIODE_UNIDIR_3.3V_7A
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1137,34 +1365,115 @@ ParameterName1=Comment
 ParameterUpdate1=1
 ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Current Rating
 ParameterUpdate3=1
-ParameterName4=Digi-Key_Part_Number
+ParameterName4=Current Rating (Max)
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=DC Resistance (DCR) (Max)
 ParameterUpdate5=1
-ParameterName6=MF
+ParameterName6=Description
 ParameterUpdate6=1
-ParameterName7=MP
+ParameterName7=Dielectric
 ParameterUpdate7=1
-ParameterName8=Package
+ParameterName8=Digi-Key_Part_Number
 ParameterUpdate8=1
-ParameterName9=Price
+ParameterName9=Family
 ParameterUpdate9=1
-ParameterName10=Purchase-URL
+ParameterName10=Forward Voltage Drop
 ParameterUpdate10=1
-ParameterName11=SnapEDA_Link
+ParameterName11=Impedance
 ParameterUpdate11=1
-ParameterName12=Value
+ParameterName12=Impedance @ Frequency
 ParameterUpdate12=1
+ParameterName13=LCSC Part #
+ParameterUpdate13=1
+ParameterName14=Library Reference
+ParameterUpdate14=1
+ParameterName15=Manufacturer 1
+ParameterUpdate15=1
+ParameterName16=Manufacturer Part Number 1
+ParameterUpdate16=1
+ParameterName17=MF
+ParameterUpdate17=1
+ParameterName18=Mounting Type
+ParameterUpdate18=1
+ParameterName19=MP
+ParameterUpdate19=1
+ParameterName20=Orientation
+ParameterUpdate20=1
+ParameterName21=Package
+ParameterUpdate21=1
+ParameterName22=Package/Footprint
+ParameterUpdate22=1
+ParameterName23=Pitch
+ParameterUpdate23=1
+ParameterName24=Price
+ParameterUpdate24=1
+ParameterName25=Purchase-URL
+ParameterUpdate25=1
+ParameterName26=SnapEDA_Link
+ParameterUpdate26=1
+ParameterName27=Supplier 1
+ParameterUpdate27=1
+ParameterName28=Supplier Part Number 1
+ParameterUpdate28=1
+ParameterName29=Value
+ParameterUpdate29=1
+ParameterName30=Voltage - Breakdown (Min)
+ParameterUpdate30=1
+ParameterName31=Voltage - Clamping (Max) @ Ipp
+ParameterUpdate31=1
+ParameterName32=Voltage - Reverse Standoff (Typ)
+ParameterUpdate32=1
+ParameterName33=Voltage Rating
+ParameterUpdate33=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOIC127P600X175-16N
+ModelName0=CAP0603
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=SOP65P490X110-8N
+ModelName1=CAP2012
 ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=LED_0805_GREEN
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=LED_0805_YELLOW
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=MOLEX-5025850870
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=MOLEX-5025851270
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=MOUNTING_HOLE_3mm
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=RES0402
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=RES0603
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=RES0805
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=SOD-923
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SOIC127P600X175-16N
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=SOP65P490X110-8N
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=TESTPOINT_LOOP
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=TESTPOINT_SQUARE_1MM
+ModelUpdate14=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1182,4 +1491,34 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name11=OutputConfigurationParameter11
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name12=OutputConfigurationParameter12
+Configuration_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name13=OutputConfigurationParameter13
+Configuration_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name14=OutputConfigurationParameter14
+Configuration_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
+Configuration_Name15=OutputConfigurationParameter15
+Configuration_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Master\Rev1\SPI LVDS Master.PcbDoc
 

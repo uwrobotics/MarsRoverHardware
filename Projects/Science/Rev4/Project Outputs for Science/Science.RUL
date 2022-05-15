@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\UWRT\MarsRover2021-hardware\Projects\Science\Rev2\Science.PcbDoc
+DRC Rules Export File for PCB: C:\Users\ivana\UWRT\MarsRoverHardware\Projects\Science\Rev4\Science.PcbDoc
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.00
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00

@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\Tibi\Documents\Github\MarsRover2021-hardware\Projects\Science\Rev3\Science.PcbDoc
-Date     : 2021-03-14
-Time     : 9:21:13 PM
+PCB File : C:\Users\ivana\UWRT\MarsRoverHardware\Projects\Science\Rev4\Science.PcbDoc
+Date     : 28/03/2022
+Time     : 9:32:11 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -49,15 +49,12 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (21.297mil < 25mil) Between Board Edge And Track (2104.287mil,2299.667mil)(2104.287mil,2328.203mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (21.297mil < 25mil) Between Board Edge And Track (2104.296mil,2328.203mil)(2568.856mil,2328.203mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (21.297mil < 25mil) Between Board Edge And Track (2568.856mil,2299.667mil)(2568.856mil,2328.203mil) on Top Overlay 
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

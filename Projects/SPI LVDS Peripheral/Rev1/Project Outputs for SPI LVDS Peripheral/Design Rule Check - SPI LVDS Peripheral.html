@@ -1,0 +1,362 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2022-05-11</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11:54:15 AM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc" class="file"><acronym title="C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc">C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">6</td></tr>
+</table>
+</td>
+</table><a name="IDTFEBNU5NMYI5M1JKQIGDTSWRFL3M0Z5FMHVPWGG5HODYLMID4BM"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMPV2ZXDRV0NYKEHPBREH2FPBTBWJBUR3FAGG55PQZBIOEZQ0PU0H">Clearance Constraint (Gap=10mil) (All),(All)</a></td>
+<td class="column2">6</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBNBGHIUFQPCGDEZYJMNVAMNLFH2XCH1U3CKUMVMII41GDHS1EI1J">Clearance Constraint (Gap=5mil) (IsStitchingVia and InNet('No Net')),((IsVia and (Not IsStitchingVia)) Or IsPad)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTJBEA40DKA33LIC2VXHJC4SIHFTFO32VX4F0GAOM51N4ZXIHLZAP">Clearance Constraint (Gap=5mil) (IsStitchingVia and InNet('No Net')),((IsVia and (Not IsStitchingVia)) Or IsPad)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPTMMJUM4UCKQJAQ3LQ3R3WY2UKGWLCXMW0H2BADUR2J0XELMVY0L">Clearance Constraint (Gap=10mil) (InAnyDifferentialPair),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSXGAOMJKRSJOGGNE3P1YNYSASIVSHCFS5B5M1XP3CEFMY3PX2GEN">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1GGS3YJEK5OPPTNXPC5XUYFEDLNVTURXNLQFMHB3HFAM4ZL12YM">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDI2M5BGGDIX51SIFBXUAXHGVQLT0A444PO5KU1FA4R4FZ54TRXFN">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSLB5KTWW0S3AEIM2SREABPMLYJNWNCLX1FNO4FCBP154M2S04E5K">Width Constraint (Min=20mil) (Max=20mil) (Preferred=20mil) (InNet('3V3') Or InNet('5V'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFTTGEAD4ID0VFEV4350HFC4AFM1OWHWZNGTDZGHIF4W5UWPEYM4P">Width Constraint (Min=10mil) (Max=100mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG3520PWBQADPDMP4ZOXD4RBMLPJCXRQSYBYZZYGS5XXAQYS4OTRM">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEIOHBSWEWS3OHXPY2YHMZY25VEL2IUX1IEH3BFH1SSMUU0MKSBQE">Hole Size Constraint (Min=1mil) (Max=200mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDP0Q0HY5S1EKCN3TCVAY5NOLGTEIO3PKVZ22O1OLT1U0J0OREAHZE">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDP3PXP2RT1VHYICOKJMEUOWT3XMG3GODOBW1FFYHWFV0N4EVTD1PM">Minimum Solder Mask Sliver (Gap=6mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDEPFQCD0RP4D3OXDG55J3LN11BJJ3DJC4IMD4FHGMLYWVSS51EGII">Silk To Solder Mask (Clearance=1mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWIBNV3VJEKI0KTQGN15XTAWSDBLULQ3OT5SBZDERDQRABJAMD3H">Silk to Silk (Clearance=6mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBM3DSUM4UY32EY5OYKWLY2WJ2L4TJT4SYYILHXCXEEHOA0VGAMCO">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1EBGTQCZOHDNNIJKMC4IW24AWMAQOGLZTWDNWISFYTO53GF1XJC">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">6</td>
+</tr>
+</table><br><a name="IDMPV2ZXDRV0NYKEHPBREH2FPBTBWJBUR3FAGG55PQZBIOEZQ0PU0H"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=10mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.363mil|Location1.Y=2998.071mil|Location2.Y=3009.321mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.363mil|Location1.Y=2998.071mil|Location2.Y=3009.321mil|Absolute=True">Clearance Constraint: (8.382mil &lt; 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4370mil,3011.944mil)(4779.606mil,3011.944mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.425mil|Location1.Y=3053.936mil|Location2.Y=3065.186mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.425mil|Location1.Y=3053.936mil|Location2.Y=3065.186mil|Absolute=True">Clearance Constraint: (8.382mil &lt; 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4463.333mil,3051.314mil)(4779.606mil,3051.314mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.363mil|Location1.Y=3116.182mil|Location2.Y=3127.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.363mil|Location1.Y=3116.182mil|Location2.Y=3127.432mil|Absolute=True">Clearance Constraint: (8.382mil &lt; 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4556.667mil,3130.054mil)(4779.606mil,3130.054mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.363mil|Location1.Y=3155.552mil|Location2.Y=3166.802mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4778.037mil|Location2.X=4789.363mil|Location1.Y=3155.552mil|Location2.Y=3166.802mil|Absolute=True">Clearance Constraint: (8.382mil &lt; 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4650mil,3169.424mil)(4779.606mil,3169.424mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.141mil|Location2.X=4790.466mil|Location1.Y=2798.977mil|Location2.Y=2810.227mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4779.141mil|Location2.X=4790.466mil|Location1.Y=2798.977mil|Location2.Y=2810.227mil|Absolute=True">Clearance Constraint: (3.381mil &lt; 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4710.093mil,2815.093mil)(4779.606mil,2815.093mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4781.678mil|Location2.X=4789.345mil|Location1.Y=2783.898mil|Location2.Y=2791.564mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4781.678mil|Location2.X=4789.345mil|Location1.Y=2783.898mil|Location2.Y=2791.564mil|Absolute=True">Clearance Constraint: (Collision &lt; 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4779.606mil,2775.723mil)(4779.606mil,2815.093mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

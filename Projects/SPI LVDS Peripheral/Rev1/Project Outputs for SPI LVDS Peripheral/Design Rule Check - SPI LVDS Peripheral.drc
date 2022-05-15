@@ -1,0 +1,66 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\taylo\Git_Repos\MarsRover2021-hardware\Projects\SPI LVDS Peripheral\Rev1\SPI LVDS Peripheral.PcbDoc
+Date     : 2022-05-11
+Time     : 11:54:15 AM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+   Violation between Clearance Constraint: (8.382mil < 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4370mil,3011.944mil)(4779.606mil,3011.944mil) on Top Layer 
+   Violation between Clearance Constraint: (8.382mil < 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4463.333mil,3051.314mil)(4779.606mil,3051.314mil) on Top Layer 
+   Violation between Clearance Constraint: (8.382mil < 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4556.667mil,3130.054mil)(4779.606mil,3130.054mil) on Top Layer 
+   Violation between Clearance Constraint: (8.382mil < 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4650mil,3169.424mil)(4779.606mil,3169.424mil) on Top Layer 
+   Violation between Clearance Constraint: (3.381mil < 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4710.093mil,2815.093mil)(4779.606mil,2815.093mil) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 10mil) Between Region (0 hole(s)) Keep-Out Layer And Track (4779.606mil,2775.723mil)(4779.606mil,2815.093mil) on Top Layer 
+Rule Violations :6
+
+Processing Rule : Clearance Constraint (Gap=5mil) (IsStitchingVia and InNet('No Net')),((IsVia and (Not IsStitchingVia)) Or IsPad)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (IsStitchingVia and InNet('No Net')),((IsVia and (Not IsStitchingVia)) Or IsPad)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InAnyDifferentialPair),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=20mil) (Max=20mil) (Preferred=20mil) (InNet('3V3') Or InNet('5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=200mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 6
+Waived Violations : 0
+Time Elapsed        : 00:00:02
