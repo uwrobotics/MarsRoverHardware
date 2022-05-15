@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [24V Multiphase Buck.PrjPcb]
+   Generated File[24V Multiphase Buck.TXT]
+   Generated File[24V Multiphase Buck.LDP]
+   Generated File[24V Multiphase Buck.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 2:14:24 PM On 2022-02-06
