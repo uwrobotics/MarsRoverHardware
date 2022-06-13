@@ -1,9 +1,9 @@
 Rev2 To-Do List:
- - Change all components in schematic over to UWRT library componenets
+ > Change all components in schematic over to UWRT library componenets
  - Research inductors
- - Reserach capacitors
+ > Reserach capacitors
  - Select new output capacitor
- - Add new MOSFET to library and schematic
+ > Add new MOSFET to library and schematic
  - Add new capacitor to library and schematic
  - Start a new layout from scratch
  - Follow proper power design principles
