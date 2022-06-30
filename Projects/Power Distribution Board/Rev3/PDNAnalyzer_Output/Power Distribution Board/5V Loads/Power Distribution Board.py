@@ -46,7 +46,7 @@ excitation = [
 "type": "source",
 "power_pins": [ ("C78", "1") ],
 "ground_pins": [ ("C78", "2") ],
-"voltage": 5.2,
+"voltage": 5,
 "Rpin": 0,
 }
 ,
@@ -55,7 +55,7 @@ excitation = [
 "type": "source",
 "power_pins": [ ("C79", "1") ],
 "ground_pins": [ ("C79", "2") ],
-"voltage": 5.2,
+"voltage": 5,
 "Rpin": 0,
 }
 ]
@@ -129,15 +129,15 @@ passives = []
 
 tech = [
 
-        {'name': 'TOP_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 1.016E-05},
-        {'name': 'TOP_LAYER', 'Conductivity': 47000000, 'Thickness': 3.556E-05},
-        {'name': 'SUBSTRATE-1', 'DielectricConstant': 4.1, 'Thickness': 7.112E-05},
-        {'name': 'L2_-_GND', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
-        {'name': 'SUBSTRATE-2', 'DielectricConstant': 4.8, 'Thickness': 0.00032004},
-        {'name': 'L3_-_POWER', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
-        {'name': 'SUBSTRATE-3', 'DielectricConstant': 4.1, 'Thickness': 7.112E-05},
-        {'name': 'BOTTOM_LAYER', 'Conductivity': 47000000, 'Thickness': 3.556E-05},
-        {'name': 'BOTTOM_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 1.016E-05}
+        {'name': 'TOP_SOLDER', 'DielectricConstant': 3.8, 'Thickness': 1.27E-05},
+        {'name': 'TOP_LAYER', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
+        {'name': 'SUBSTRATE-1', 'DielectricConstant': 4.6, 'Thickness': 0.0002},
+        {'name': 'MID_LAYER_1', 'Conductivity': 47000000, 'Thickness': 1.75E-05},
+        {'name': 'SUBSTRATE-2', 'DielectricConstant': 4.5, 'Thickness': 0.001065},
+        {'name': 'MID_LAYER_2', 'Conductivity': 47000000, 'Thickness': 1.75E-05},
+        {'name': 'SUBSTRATE-3', 'DielectricConstant': 4.6, 'Thickness': 0.0002},
+        {'name': 'BOTTOM_LAYER', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
+        {'name': 'BOTTOM_SOLDER', 'DielectricConstant': 3.8, 'Thickness': 1.27E-05}
 
        ]
 

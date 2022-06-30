@@ -1,5 +1,5 @@
 refdes,pin,voltage,current
 pdna_comp_5V_IN_3,2,4.995,5.0
 pdna_comp_5V_IN_3,1,0.0,-5.0
-pdna_comp_5V_OUT_2,2,4.97894,-5.0
-pdna_comp_5V_OUT_2,1,0.0207591,5.0
+pdna_comp_5V_OUT_2,2,4.98049,-5.0
+pdna_comp_5V_OUT_2,1,0.0184545,5.0
