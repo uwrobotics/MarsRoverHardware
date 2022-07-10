@@ -1,0 +1,10 @@
+Changes To Make
+ - Got down to one MOSFET
+ - Find and LDO to drop 24V to 12-18V to supply VCCEXT in order to reduce switching loss
+ - Change RILIM and update current limit comment in schematic
+ - Select new inductor
+ 	- With inductance > 12uH
+	- With saturation current > 21A (with a good margin)
+	- With lowest available DCR (minimuze power loss in the inductor)
+ - Need a heat sink for MOSFETs and IC (low priority task)
+ - Route current sense and feedback lines first - keep them on the top layer
