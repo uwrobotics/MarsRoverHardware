@@ -1,10 +1,27 @@
-Changes To Make
+Changes I made to the design (in calculations sheet):
+ - Reduces the switching freq to get better overall performance
+ - This changes a bunch of stuff, I'm sorry for doing this so late but I think our performance will improve
+ -  Let me know if you have any question or disagreements
+
+Changes To Make To Schematic:
  - Got down to one MOSFET
- - Find and LDO to drop 24V to 12-18V to supply VCCEXT in order to reduce switching loss
+ - NO LONGER NEED AN LDO FOR VCCEXT
+	- I made a bunch of changes to the design and now the IC power disspation looks fine wihtout it
  - Change RILIM and update current limit comment in schematic
- - Select new inductor
- 	- With inductance > 12uH
-	- With saturation current > 21A (with a good margin)
-	- With lowest available DCR (minimuze power loss in the inductor)
+ - Add in B82559B7103A027 as our new inductor
+	- Make a note, we will need to have this part reviewed unless it uses a footprint that was already in the library
+ - Change input and output caps
+ 	- Due to the reduced switching freq and inductor ripple current, our capacitance requiremnts have changes
+	- Input capacitance needs to be 110uF now. Do this by replacing the 10uF caps with 5 of the 22uF caps being used at the output.
+		- Do not removes the 1uF cap, it is for decoupling the input power
+		- Using the same caps at the output and input is also good because it reduces part count and should save us money
+	- Output capacitance need to be 110uF now. Do this by removing caps until there is only 5 22uF per channel plus the blank caps.
+ - The loop compensation values have changes
+	- You will need to change the resistor and capitor values for all of the loop compensation stuff
+ 	- Just use the next closest commone value for the resistors and capactors, don't try and find the exact value in the calculations sheet
+	- I haven't double checked the loop compensation calculations yet but for sure the values have changed. May want to double check the calculations yourself if you haven't already
+
+Other Notes: 
  - Need a heat sink for MOSFETs and IC (low priority task)
  - Route current sense and feedback lines first - keep them on the top layer
+ - The 1uF cap in the input capacitor array needs to be placed close the the VIN pin on the IC. It is a decoupling cap.
