@@ -1,0 +1,18 @@
+Capacitors:
+
+Input:
+ - Low ESR ceramic caps should be used at the input
+ - Input caps place close to regulator pins
+ - Check the input Cmin with the formula in the doc
+ - 75mV is recommended max ripple
+ - If reflected ripple is a concern, use an input inductor 
+
+Output
+ - Can't have toom much output capacitance or it will casue an overcurrent condition on start
+ 	- Should be in datasheet
+ - If overall impedance is too low, the dynamic response of the regulator can be impacted
+ - Self resonance frequency is the max usable freq for a cap
+ - Low value ceramcic capacitrs are very good for fast transients and should be places near the 
+   transient load
+ - A capacitor network of multiple types is more effective in reducing impedance than just one type
+   due to the specific freq band over which each is most effective

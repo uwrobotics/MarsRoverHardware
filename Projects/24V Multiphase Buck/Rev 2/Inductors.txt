@@ -1,0 +1,6 @@
+Inductor Selection:
+ - Check inductance calculations with calculations in the doc
+ - Check energy/current limits
+ - Check frequenxy response
+ - Check inductor losses at max load and associated temperature rise
+ - Go through the flow chart and table for the current inductor
