@@ -1,0 +1,5 @@
+refdes,pin,voltage,current
+pdna_comp_12V_IN_4,1,11.998,2.0
+pdna_comp_12V_IN_4,2,0.0,-2.0
+pdna_comp_12V_OUT_1,1,11.076,-2.0
+pdna_comp_12V_OUT_1,2,0.00794549,2.0
