@@ -141,6 +141,10 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - 24V Multiphase Buck.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=EMR_Address
 Value=420 Downsview Pl, Waterloo, ON,  N2K3T9, Canada
@@ -357,7 +361,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HPF30076 (HP OfficeJet Pro 6970)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
