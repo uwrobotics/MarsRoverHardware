@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Vladimir\Documents\GitHub\MarsRoverHardware\Projects\24V Multiphase Buck\Rev 2\24V Multiphase Buck.PcbDoc
-Date     : 2022-08-02
-Time     : 8:56:07 PM
+Date     : 2022-08-07
+Time     : 2:05:48 PM
 
 Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
