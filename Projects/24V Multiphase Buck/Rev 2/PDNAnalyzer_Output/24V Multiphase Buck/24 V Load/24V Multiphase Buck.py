@@ -8,7 +8,7 @@ excitation = [
 {
 "id": "0",
 "type": "source",
-"power_pins": [ ("C19", "2") ],
+"power_pins": [ ("R3", "2") ],
 "ground_pins": [ ("C19", "1") ],
 "voltage": 24,
 "Rpin": 0,
@@ -17,10 +17,19 @@ excitation = [
 {
 "id": "1",
 "type": "load",
-"power_pins": [ ("J2", "pdna_pin_1_1"), ("J2", "pdna_pin_1_2") ],
-"ground_pins": [ ("J2", "pdna_pin_2_1"), ("J2", "pdna_pin_2_2") ],
-"current": 15,
-"Rpin": 0.0133333333333333,
+"power_pins": [ ("J2", "pdna_pin_1_2"), ("J2", "pdna_pin_1_1") ],
+"ground_pins": [ ("J2", "pdna_pin_2_2"), ("J2", "pdna_pin_2_1") ],
+"current": 30,
+"Rpin": 0.00666666666666667,
+}
+,
+{
+"id": "2",
+"type": "source",
+"power_pins": [ ("R10", "2") ],
+"ground_pins": [ ("C26", "1") ],
+"voltage": 24,
+"Rpin": 0,
 }
 ]
 
@@ -37,15 +46,15 @@ passives = []
 
 tech = [
 
-        {'name': 'TOP_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 1.016E-05},
-        {'name': 'TOP', 'Conductivity': 47000000, 'Thickness': 3.556E-05},
-        {'name': 'SUBSTRATE-1', 'DielectricConstant': 4.1, 'Thickness': 7.112E-05},
-        {'name': 'L3_-_POWER', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
-        {'name': 'SUBSTRATE-2', 'DielectricConstant': 4.8, 'Thickness': 0.00032004},
-        {'name': 'L2_-_GND', 'Conductivity': 47000000, 'Thickness': 3.5E-05},
-        {'name': 'SUBSTRATE-3', 'DielectricConstant': 4.1, 'Thickness': 7.112E-05},
-        {'name': 'BOT', 'Conductivity': 47000000, 'Thickness': 3.556E-05},
-        {'name': 'BOTTOM_SOLDER', 'DielectricConstant': 3.5, 'Thickness': 1.016E-05}
+        {'name': 'TOP_SOLDER', 'DielectricConstant': 3.8, 'Thickness': 1.27E-05},
+        {'name': 'TOP', 'Conductivity': 47000000, 'Thickness': 7.501E-05},
+        {'name': 'SUBSTRATE-1', 'DielectricConstant': 4.6, 'Thickness': 0.0002},
+        {'name': 'PWR', 'Conductivity': 47000000, 'Thickness': 1.75E-05},
+        {'name': 'SUBSTRATE-2', 'DielectricConstant': 4.5, 'Thickness': 0.001065},
+        {'name': 'GND', 'Conductivity': 47000000, 'Thickness': 1.75E-05},
+        {'name': 'SUBSTRATE-3', 'DielectricConstant': 4.6, 'Thickness': 0.0002},
+        {'name': 'BOT', 'Conductivity': 47000000, 'Thickness': 7.501E-05},
+        {'name': 'BOTTOM_SOLDER', 'DielectricConstant': 3.8, 'Thickness': 1.27E-05}
 
        ]
 
