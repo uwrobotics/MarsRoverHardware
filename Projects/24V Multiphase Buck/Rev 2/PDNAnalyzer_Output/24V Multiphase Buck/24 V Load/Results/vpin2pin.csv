@@ -1,0 +1,9 @@
+vrefdes,vpin,refdes,pin
+VCOMP0,0,R3,2
+VCOMP0,1,C19,1
+VCOMP1,0,J2,pdna_pin_1_2
+VCOMP1,1,J2,pdna_pin_1_1
+VCOMP1,2,J2,pdna_pin_2_2
+VCOMP1,3,J2,pdna_pin_2_1
+VCOMP2,0,R10,2
+VCOMP2,1,C26,1
