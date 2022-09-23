@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 IsVirtualBomDocumentRemoved=1
-OutputPath=
+OutputPath=Project Outputs for Battery Management System Rev3
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -282,7 +282,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Battery Management System Rev3
 
 [OutputGroup1]
 Name=Netlist Outputs
