@@ -1,0 +1,355 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD22\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2022-09-28</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:26:27 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc" class="file"><acronym title="C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc">C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">17</td></tr>
+</table>
+</td>
+</table><a name="IDJRBMMK2HWIU5ISUK3KGEZB2R1B1LZEZX3CHXCPB0H0EHRSPGKG4O"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDOAPAN4E3C2T3M52COLNG3K403J1POP1JLR2PTJDQSBIF1QW0FC1J">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJRFRZ5YE0Y4GHSVMVLTE5EOZFOO4OP2IL0GFLGDLJXWMPIPM3DTL">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2LW2SPA3ZXSDBTKMLVNHIM10XJERYYNQ3FE112I0N4ECVYZMJ0PC">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHJJNCCZRWGYMMTDL4C45GB3V0DRPOUMOGGGHO3GMNYC324TQ4GXN">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLA2KI0GQEIYNJAXPFO0YLMDZRG3ZP3S4O3DZGMOZLI0MZWT0W1DN">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3HPB34JUSGU5IJXGVCZU1EPSVIPRX4CW2VO0NQFTK5BIJAQVDAQL">Matched Lengths(Tolerance=0.1mm) (InDifferentialPairClass('CAN120'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">17</td>
+</tr>
+</table><br><a name="IDOAPAN4E3C2T3M52COLNG3K403J1POP1JLR2PTJDQSBIF1QW0FC1J"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3412.634mil|Location2.X=3595.24mil|Location1.Y=3358.697mil|Location2.Y=3649.177mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3412.634mil|Location2.X=3595.24mil|Location1.Y=3358.697mil|Location2.Y=3649.177mil|Absolute=True">Un-Routed Net Constraint: Net 17V_LOAD Between Pad U15-5(87.095mm,86.6mm) on Top Layer And Pad U15-1(90.905mm,91.4mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDHJJNCCZRWGYMMTDL4C45GB3V0DRPOUMOGGGHO3GMNYC324TQ4GXN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1968.981mil|Location2.X=1980.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1968.981mil|Location2.X=1980.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-1(49.905mm,116.4mm) on Top Layer And Track (45.5mm,114.9mm)(50.5mm,114.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1918.981mil|Location2.X=1930.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1918.981mil|Location2.X=1930.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-2(48.635mm,116.4mm) on Top Layer And Track (45.5mm,114.9mm)(50.5mm,114.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1868.981mil|Location2.X=1880.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1868.981mil|Location2.X=1880.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-3(47.365mm,116.4mm) on Top Layer And Track (45.5mm,114.9mm)(50.5mm,114.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.981mil|Location2.X=1830.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1818.981mil|Location2.X=1830.231mil|Location1.Y=4526.115mil|Location2.Y=4537.365mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-4(46.095mm,116.4mm) on Top Layer And Track (45.5mm,114.9mm)(50.5mm,114.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1799.296mil|Location2.X=1810.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1799.296mil|Location2.X=1810.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-5(46.095mm,111.6mm) on Top Layer And Track (45.5mm,113.1mm)(50.5mm,113.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1849.296mil|Location2.X=1860.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1849.296mil|Location2.X=1860.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-6(47.365mm,111.6mm) on Top Layer And Track (45.5mm,113.1mm)(50.5mm,113.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1899.296mil|Location2.X=1910.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1899.296mil|Location2.X=1910.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-7(48.635mm,111.6mm) on Top Layer And Track (45.5mm,113.1mm)(50.5mm,113.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1949.296mil|Location2.X=1960.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1949.296mil|Location2.X=1960.546mil|Location1.Y=4439.013mil|Location2.Y=4450.263mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U14-8(49.905mm,111.6mm) on Top Layer And Track (45.5mm,113.1mm)(50.5mm,113.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3583.155mil|Location2.X=3594.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3583.155mil|Location2.X=3594.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-1(90.905mm,91.4mm) on Top Layer And Track (86.5mm,89.9mm)(91.5mm,89.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3533.155mil|Location2.X=3544.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3533.155mil|Location2.X=3544.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-2(89.635mm,91.4mm) on Top Layer And Track (86.5mm,89.9mm)(91.5mm,89.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3483.155mil|Location2.X=3494.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3483.155mil|Location2.X=3494.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-3(88.365mm,91.4mm) on Top Layer And Track (86.5mm,89.9mm)(91.5mm,89.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3433.155mil|Location2.X=3444.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3433.155mil|Location2.X=3444.405mil|Location1.Y=3541.863mil|Location2.Y=3553.113mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-4(87.095mm,91.4mm) on Top Layer And Track (86.5mm,89.9mm)(91.5mm,89.9mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3413.47mil|Location2.X=3424.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3413.47mil|Location2.X=3424.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-5(87.095mm,86.6mm) on Top Layer And Track (86.5mm,88.1mm)(91.5mm,88.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3463.47mil|Location2.X=3474.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3463.47mil|Location2.X=3474.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-6(88.365mm,86.6mm) on Top Layer And Track (86.5mm,88.1mm)(91.5mm,88.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3513.47mil|Location2.X=3524.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3513.47mil|Location2.X=3524.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-7(89.635mm,86.6mm) on Top Layer And Track (86.5mm,88.1mm)(91.5mm,88.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3563.47mil|Location2.X=3574.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\High Speed Sample.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3563.47mil|Location2.X=3574.72mil|Location1.Y=3454.761mil|Location2.Y=3466.011mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U15-8(90.905mm,86.6mm) on Top Layer And Track (86.5mm,88.1mm)(91.5mm,88.1mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

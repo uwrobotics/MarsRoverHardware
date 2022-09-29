@@ -388,6 +388,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document21]
+DocumentPath=High Speed Sample.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SJPOGLLX
+
 [ProjectVariant1]
 UniqueID=881602EF-F388-4016-BBA0-EEE07BF7E78E
 Description=Only Populated Components
@@ -403,102 +420,106 @@ Variation6=Designator=R77|UniqueId=\NHVIZVEM|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Power Distribution Board\Design Rule Check - Power Distribution Board.html
+DocumentPath=Project Outputs for Power Distribution Board\Design Rule Check - High Speed Sample.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Power Distribution Board\Net Status - Power Distribution Board.html
+DocumentPath=Project Outputs for Power Distribution Board\Design Rule Check - Power Distribution Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.DRR
+DocumentPath=Project Outputs for Power Distribution Board\Net Status - Power Distribution Board.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.EXTREP
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.G1
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.G2
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBL
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBO
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBS
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GKO
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM1
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM2
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM3
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM6
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM13
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM15
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GPB
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GPT
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTL
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTO
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTP
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTS
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.LDP
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.RUL
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument25]
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
 DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board.TXT
 DItemRevisionGUID=
 
@@ -554,7 +575,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -665,7 +686,7 @@ OutputDefault21=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -748,7 +769,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -770,7 +791,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -852,7 +873,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -917,7 +938,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1025,7 +1046,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -1069,7 +1090,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1130,7 +1151,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HPCF50F5 (HP OfficeJet Pro 6970)
+TargetPrinter=Brother HL-3140CW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
