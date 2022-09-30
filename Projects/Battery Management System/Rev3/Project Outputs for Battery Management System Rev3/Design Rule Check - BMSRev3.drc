@@ -1,0 +1,68 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\joshu\OneDrive\Desktop\UWRT Hardware\MarsRoverHardware\Projects\Battery Management System\Rev3\BMSRev3.PcbDoc
+Date     : 2022-09-29
+Time     : 11:18:23 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad DS1-3(2066mil,2335mil) on Multi-Layer And Track (2058.874mil,2342.126mil)(2058.874mil,2352.622mil) on Top Layer Location : [X = 2058.874mil][Y = 2347.335mil]
+   Violation between Short-Circuit Constraint: Between Pad U2-12(2888.898mil,2831.654mil) on Top Layer And Track (2869.212mil,2813.924mil)(2990mil,2693.136mil) on Top Layer Location : [X = 2886.474mil][Y = 2803.756mil]
+   Violation between Short-Circuit Constraint: Between Track (1837.992mil,2563.008mil)(2066mil,2335mil) on Top Layer And Track (2058.874mil,2342.126mil)(2058.874mil,2352.622mil) on Top Layer Location : [X = 2058.874mil][Y = 2345.581mil]
+Rule Violations :3
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C20-1(3710mil,2910.236mil) on Top Layer And Pad U1-6(3817.992mil,2913.308mil) on Top Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad Q1-2(3390mil,3040mil) on Top Layer [Unplated] And Pad C31-1(3425mil,2882.48mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C35-1(2505mil,4124.764mil) on Top Layer And Pad U9-2(2650mil,4115.512mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-18(3048.346mil,2932.048mil) on Top Layer And Pad D3-2(3213.622mil,2820mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J4-6(2406.89mil,4640mil) on Top Layer And Pad J4-3(2584.056mil,4640mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad J5-6(1789.724mil,4640mil) on Top Layer And Pad J5-3(1966.888mil,4640mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U2-1(2672.362mil,2831.654mil) on Top Layer And Track (2908.582mil,2831.654mil)(2909.804mil,2832.874mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-18(3048.346mil,2932.048mil) on Top Layer And Track (3048.346mil,3187.952mil)(3048.662mil,3188.268mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Track (2480.236mil,4277.44mil)(2480.33mil,4277.44mil) on Top Layer And Track (2498.11mil,4124.764mil)(2505mil,4124.764mil) on Top Layer 
+Rule Violations :9
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=3.5mil) (Max=30mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=5mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=10mil) (Max=250mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=20mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (1.842mil < 3mil) Between Pad U3-1(3350.59mil,2887.796mil) on Top Layer And Pad U3-2(3325mil,2887.796mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.842mil < 3mil) Between Pad U3-2(3325mil,2887.796mil) on Top Layer And Pad U3-3(3299.41mil,2887.796mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]
+Rule Violations :2
+
+Processing Rule : Silk To Solder Mask (Clearance=2mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=2mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=2000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 14
+Waived Violations : 0
+Time Elapsed        : 00:00:02
