@@ -1,28 +1,16 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\joshu\OneDrive\Desktop\UWRT Hardware\MarsRoverHardware\Projects\Battery Management System\Rev3\BMSRev3.PcbDoc
-Date     : 2022-09-29
-Time     : 11:18:23 PM
+Date     : 2022-09-30
+Time     : 10:56:13 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad DS1-3(2066mil,2335mil) on Multi-Layer And Track (2058.874mil,2342.126mil)(2058.874mil,2352.622mil) on Top Layer Location : [X = 2058.874mil][Y = 2347.335mil]
-   Violation between Short-Circuit Constraint: Between Pad U2-12(2888.898mil,2831.654mil) on Top Layer And Track (2869.212mil,2813.924mil)(2990mil,2693.136mil) on Top Layer Location : [X = 2886.474mil][Y = 2803.756mil]
-   Violation between Short-Circuit Constraint: Between Track (1837.992mil,2563.008mil)(2066mil,2335mil) on Top Layer And Track (2058.874mil,2342.126mil)(2058.874mil,2352.622mil) on Top Layer Location : [X = 2058.874mil][Y = 2345.581mil]
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C20-1(3710mil,2910.236mil) on Top Layer And Pad U1-6(3817.992mil,2913.308mil) on Top Layer [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Q1-2(3390mil,3040mil) on Top Layer [Unplated] And Pad C31-1(3425mil,2882.48mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C35-1(2505mil,4124.764mil) on Top Layer And Pad U9-2(2650mil,4115.512mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-18(3048.346mil,2932.048mil) on Top Layer And Pad D3-2(3213.622mil,2820mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J4-6(2406.89mil,4640mil) on Top Layer And Pad J4-3(2584.056mil,4640mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J5-6(1789.724mil,4640mil) on Top Layer And Pad J5-3(1966.888mil,4640mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U2-1(2672.362mil,2831.654mil) on Top Layer And Track (2908.582mil,2831.654mil)(2909.804mil,2832.874mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-18(3048.346mil,2932.048mil) on Top Layer And Track (3048.346mil,3187.952mil)(3048.662mil,3188.268mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Track (2480.236mil,4277.44mil)(2480.33mil,4277.44mil) on Top Layer And Track (2498.11mil,4124.764mil)(2505mil,4124.764mil) on Top Layer 
-Rule Violations :9
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -63,6 +51,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=2000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 14
+Violations Detected : 2
 Waived Violations : 0
 Time Elapsed        : 00:00:02
