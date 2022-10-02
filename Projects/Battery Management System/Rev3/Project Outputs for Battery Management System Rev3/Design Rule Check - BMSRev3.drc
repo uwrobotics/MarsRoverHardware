@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\joshu\OneDrive\Desktop\UWRT Hardware\MarsRoverHardware\Projects\Battery Management System\Rev3\BMSRev3.PcbDoc
-Date     : 2022-09-30
-Time     : 10:56:13 PM
+Date     : 2022-10-02
+Time     : 7:04:28 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -31,9 +31,7 @@ Processing Rule : Hole To Hole Clearance (Gap=20mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (1.842mil < 3mil) Between Pad U3-1(3350.59mil,2887.796mil) on Top Layer And Pad U3-2(3325mil,2887.796mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]
-   Violation between Minimum Solder Mask Sliver Constraint: (1.842mil < 3mil) Between Pad U3-2(3325mil,2887.796mil) on Top Layer And Pad U3-3(3299.41mil,2887.796mil) on Top Layer [Top Solder] Mask Sliver [1.842mil]
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=2mil) (IsPad),(All)
 Rule Violations :0
@@ -51,6 +49,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=2000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 2
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:02
