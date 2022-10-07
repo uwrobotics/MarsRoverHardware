@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Power Distribution Board.PcbDoc   2022-01-24  8:57:53 PM
+NCDrill File Report For: Power Distribution Board.PcbDoc   2022-10-07  6:08:35 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,20 +7,17 @@ ASCII RoundHoles File : Power Distribution Board.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      10mil (0.254mm)                                           Round             6         PTH        0.20inch (5.10mm)
-T2      12mil (0.305mm)                                           Round             439       PTH        103.44inch (2627.36mm)
-T3      16mil (0.406mm)                                           Round             70        PTH        27.31inch (693.72mm)
+T1      10mil (0.254mm)                                           Round             46        PTH        17.42inch (442.54mm)
+T2      12mil (0.305mm)                                           Round             206       PTH        54.12inch (1374.74mm)
+T3      16mil (0.406mm)                                           Round             6         PTH        6.33inch (160.78mm)
 T4      35mil (0.899mm)                                           Round             6         PTH        2.73inch (69.45mm)
 T5      36mil (0.919mm)                                           Round             4         PTH        0.28inch (7.00mm)
-T6      39mil (1.001mm)                                           Round             2         PTH        0.39inch (10.00mm)
-T7      40mil (1.021mm)                                           Round             4         PTH        8.65inch (219.63mm)
-T8      42mil (1.069mm)                                           Round             16        PTH        2.36inch (60.00mm)
-T9      52mil (1.326mm)                                           Round             14        PTH        20.69inch (525.47mm)
-T10     73mil (1.849mm)                                           Round             9         PTH        3.62inch (91.95mm)
-T11     89mil (2.261mm)                                           Round             2         PTH        0.52inch (13.14mm)
-T12     120mil (3.051mm)                                          Round             2         NPTH       0.66inch (16.70mm)
-T13     156mil (3.97mm)                                           Round             4         NPTH       19.12inch (485.60mm)
+T6      40mil (1.021mm)                                           Round             4         PTH        10.49inch (266.45mm)
+T7      52mil (1.326mm)                                           Round             18        PTH        19.09inch (484.77mm)
+T8      73mil (1.849mm)                                           Round             6         PTH        1.17inch (29.59mm)
+T9      89mil (2.261mm)                                           Round             2         PTH        0.52inch (13.14mm)
+T10     156mil (3.97mm)                                           Round             4         NPTH       19.23inch (488.44mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              578
+Totals                                                                              302
 
 Total Processing Time (hh:mm:ss) : 00:00:00
