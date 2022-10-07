@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\joshu\OneDrive\Desktop\UWRT Hardware\MarsRoverHardware\Projects\Battery Management System\Rev3\BMSRev3.PcbDoc
-Date     : 2022-10-03
-Time     : 8:14:11 PM
+Date     : 2022-10-05
+Time     : 8:25:06 PM
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -51,4 +51,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
