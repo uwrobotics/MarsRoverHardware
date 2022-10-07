@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: Power Distribution Board.GBR   2022-10-07  6:03:49 PM
+Gerber File Extension Report For: Power Distribution Board.GBR   2022-10-07  7:20:40 PM
 ------------------------------------------------------------------------------------------
 
 
@@ -29,8 +29,8 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
-.3                  Dielectric 2                            
 .2                  Dielectric 1                            
+.3                  Dielectric 2                            
 .GML                Multi-Layer                             
 .1                  Core                                    
 ------------------------------------------------------------------------------------------
