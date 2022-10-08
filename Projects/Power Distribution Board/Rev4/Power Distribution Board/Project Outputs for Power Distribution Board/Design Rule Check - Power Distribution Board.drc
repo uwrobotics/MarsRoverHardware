@@ -1,18 +1,18 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\rishi\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev4\Power Distribution Board\Power Distribution Board.PcbDoc
-Date     : 2022-10-06
-Time     : 9:02:20 PM
+Date     : 2022-10-07
+Time     : 8:18:44 PM
 
-Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=20mil) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)
+Processing Rule : Clearance Constraint (Gap=0.508mm) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
+Processing Rule : Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
 
-Processing Rule : Clearance Constraint (Gap=40mil) ((InComponent('MH1') OR InComponent('MH2') OR InComponent('MH3') OR InComponent('MH4'))),(All)
+Processing Rule : Clearance Constraint (Gap=1.016mm) ((InComponent('MH1') OR InComponent('MH2') OR InComponent('MH3') OR InComponent('MH4'))),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -24,40 +24,40 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
+Processing Rule : Width Constraint (Min=0.127mm) (Max=2.54mm) (Preferred=0.254mm) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=5mil) (All)
+Processing Rule : Minimum Annular Ring (Minimum=0.127mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=10mil) (Max=200mil) (All)
+Processing Rule : Hole Size Constraint (Min=0.254mm) (Max=5.08mm) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=20mil) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.508mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=3mil) (All),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.076mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=0.5mil) (IsPad),(All)
+Processing Rule : Silk To Solder Mask (Clearance=0.013mm) (IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=2mil) (All),(All)
+Processing Rule : Silk to Silk (Clearance=0.051mm) (All),(All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=50mil) (InDifferentialPairClass('CANBUS120'))
+Processing Rule : Matched Lengths(Tolerance=1.27mm) (InDifferentialPairClass('CANBUS120'))
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mil) (Max=50000mil) (Prefered=500mil) (All)
+Processing Rule : Height Constraint (Min=0mm) (Max=1270mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 

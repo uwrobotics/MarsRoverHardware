@@ -1,12 +1,39 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [Power Distribution Board.PrjPcb]
-   Generated File[Power Distribution Board.TXT]
-   Generated File[Power Distribution Board.LDP]
-   Generated File[Power Distribution Board.DRR]
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Power Distribution Board.PrjPcb]
+   Generated File[Power Distribution Board.GTO]
+   Generated File[Power Distribution Board.GTP]
+   Generated File[Power Distribution Board.GTS]
+   Generated File[Power Distribution Board.GTL]
+   Generated File[Power Distribution Board.G1]
+   Generated File[Power Distribution Board.G2]
+   Generated File[Power Distribution Board.GBL]
+   Generated File[Power Distribution Board.GBS]
+   Generated File[Power Distribution Board.GBP]
+   Generated File[Power Distribution Board.GBO]
+   Generated File[Power Distribution Board.GM1]
+   Generated File[Power Distribution Board.GM2]
+   Generated File[Power Distribution Board.GM3]
+   Generated File[Power Distribution Board.GM4]
+   Generated File[Power Distribution Board.GM5]
+   Generated File[Power Distribution Board.GM6]
+   Generated File[Power Distribution Board.GM7]
+   Generated File[Power Distribution Board.GM13]
+   Generated File[Power Distribution Board.GM15]
+   Generated File[Power Distribution Board.GM16]
+   Generated File[Power Distribution Board.GKO]
+   Generated File[Power Distribution Board.GPT]
+   Generated File[Power Distribution Board.GPB]
+   Generated File[Power Distribution Board.GML]
+   Generated File[Power Distribution Board.2]
+   Generated File[Power Distribution Board.1]
+   Generated File[Power Distribution Board.3]
+   Generated File[Power Distribution Board.RUL]
+   Generated File[Power Distribution Board.EXTREP]
+   Generated File[Power Distribution Board.REP]
 
 
-Files Generated   : 3
+Files Generated   : 30
 Documents Printed : 0
 
-Finished Output Generation At 7:21:05 PM On 2022-10-07
+Finished Output Generation At 8:19:05 PM On 2022-10-07
