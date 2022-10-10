@@ -1,12 +1,12 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\rishi\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev4\Power Distribution Board\Power Distribution Board.PcbDoc
-Date     : 2022-10-07
-Time     : 8:46:49 PM
-
-Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
-Rule Violations :0
+PCB File : C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev4\Power Distribution Board\Power Distribution Board.PcbDoc
+Date     : 2022-10-09
+Time     : 7:55:58 PM
 
 Processing Rule : Clearance Constraint (Gap=0.508mm) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
@@ -63,4 +63,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01

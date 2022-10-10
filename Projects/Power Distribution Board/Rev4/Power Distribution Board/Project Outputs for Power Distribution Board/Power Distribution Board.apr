@@ -61,10 +61,10 @@ D131  ROUNDED           113.252     113.252       0.000 FLASH       0.000
 D132  RECTANGULAR        63.055      63.055       0.000 FLASH     180.000
 D133  ROUNDED            63.055      63.055       0.000 FLASH       0.000
 D134  RECTANGULAR        63.055      63.055       0.000 FLASH      90.000
-D135  ROUNDED            15.000      15.000       0.000  LINE       0.000
-D136  ROUNDED            20.000      20.000       0.000  LINE       0.000
-D137  ROUNDED            25.000      25.000       0.000  LINE       0.000
-D138  ROUNDED             8.000       8.000       0.000  LINE       0.000
+D135  ROUNDED             8.000       8.000       0.000  LINE       0.000
+D136  ROUNDED            15.000      15.000       0.000  LINE       0.000
+D137  ROUNDED            20.000      20.000       0.000  LINE       0.000
+D138  ROUNDED            25.000      25.000       0.000  LINE       0.000
 D139  ROUNDED            50.000      50.000       0.000  LINE       0.000
 D140  ROUNDED            16.000      16.000       0.000  LINE       0.000
 D141  ROUNDED           100.000     100.000       0.000 FLASH       0.000
