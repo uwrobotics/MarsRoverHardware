@@ -1,0 +1,3 @@
+Impedance Control
+
+Please add 120 Ohm impedance control on all differential pair traces that are 5.906mil wide.

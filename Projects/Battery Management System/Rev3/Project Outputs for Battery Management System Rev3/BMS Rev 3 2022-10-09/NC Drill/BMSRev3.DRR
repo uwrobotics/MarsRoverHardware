@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BMSRev3.PcbDoc   2022-10-09  7:33:26 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : BMSRev3.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.305mm)                                           Round             111       PTH        52.85inch (1342.43mm)
+T2      28mil (0.711mm)                                           Round             240       PTH        64.02inch (1626.18mm)
+T3      29mil (0.73mm)                                            Round             32        PTH        5.47inch (139.01mm)
+T4      32mil (0.8mm)                                             Round             20        PTH        2.52inch (64.01mm)
+T5      35mil (0.9mm)                                             Round             6         PTH        4.12inch (104.58mm)
+T6      42mil (1.07mm)                                            Round             16        PTH        1.77inch (45.00mm)
+T7      60mil (1.524mm)                                           Round             8         PTH        1.96inch (49.68mm)
+T8      73mil (1.85mm)                                            Round             3         PTH        0.37inch (9.40mm)
+T9      236mil (6mm)                                              Round             2         PTH        0.56inch (14.35mm)
+T10     120mil (3.05mm)                                           Round             2         NPTH       0.66inch (16.70mm)
+T11     156mil (3.97mm)                                           Round             4         NPTH       14.28inch (362.72mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              444
+
+Total Processing Time (hh:mm:ss) : 00:00:00
