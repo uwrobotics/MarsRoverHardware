@@ -1,0 +1,29 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [SPI LVDS Peripheral.PrjPcb]
+   Generated File[SPI LVDS Peripheral.GTO]
+   Generated File[SPI LVDS Peripheral.GTP]
+   Generated File[SPI LVDS Peripheral.GTS]
+   Generated File[SPI LVDS Peripheral.GTL]
+   Generated File[SPI LVDS Peripheral.G1]
+   Generated File[SPI LVDS Peripheral.G2]
+   Generated File[SPI LVDS Peripheral.GBL]
+   Generated File[SPI LVDS Peripheral.GBS]
+   Generated File[SPI LVDS Peripheral.GBO]
+   Generated File[SPI LVDS Peripheral.GM1]
+   Generated File[SPI LVDS Peripheral.GM2]
+   Generated File[SPI LVDS Peripheral.GM4]
+   Generated File[SPI LVDS Peripheral.GM5]
+   Generated File[SPI LVDS Peripheral.GM13]
+   Generated File[SPI LVDS Peripheral.GM15]
+   Generated File[SPI LVDS Peripheral.GPT]
+   Generated File[SPI LVDS Peripheral.GPB]
+   Generated File[SPI LVDS Peripheral.RUL]
+   Generated File[SPI LVDS Peripheral.EXTREP]
+   Generated File[SPI LVDS Peripheral.REP]
+
+
+Files Generated   : 20
+Documents Printed : 0
+
+Finished Output Generation At 8:22:19 PM On 2022-11-13

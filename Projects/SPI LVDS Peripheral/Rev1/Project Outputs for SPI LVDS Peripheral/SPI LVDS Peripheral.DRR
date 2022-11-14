@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: SPI LVDS Peripheral.PcbDoc   2022-11-13  8:19:09 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SPI LVDS Peripheral.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)          +/-3mil (0.08mm)                  Round             13        PTH        3.51inch (89.06mm)
+T2      8mil (0.201mm)                                            Round             12        PTH        0.72inch (18.29mm)
+T3      12mil (0.305mm)                                           Round             83        PTH        16.79inch (426.48mm)
+T4      40mil (1.021mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T5      126mil (3.2mm)                                            Round             2         PTH        1.64inch (41.53mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              111
+
+Total Processing Time (hh:mm:ss) : 00:00:00
