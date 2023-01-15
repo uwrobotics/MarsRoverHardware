@@ -1,0 +1,5 @@
+vrefdes,vpin,refdes,pin
+VCOMP0,0,pdna_comp_12V_IN_4,1
+VCOMP0,1,pdna_comp_12V_IN_4,2
+VCOMP1,0,pdna_comp_12V_OUT_1,1
+VCOMP1,1,pdna_comp_12V_OUT_1,2
