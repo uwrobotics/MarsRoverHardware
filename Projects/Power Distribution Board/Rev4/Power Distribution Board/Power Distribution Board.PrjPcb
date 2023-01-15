@@ -33,8 +33,8 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=
-LogFolderPath=
+OutputPath=..\..\Rev4.1\Power Distribution Board\Project Outputs for Power Distribution Board
+LogFolderPath=..\..\Rev4.1\Power Distribution Board\Project Logs for Power Distribution Board
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
@@ -521,7 +521,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=..\..\Rev4.1\Power Distribution Board\Project Outputs for Power Distribution Board
 
 [OutputGroup1]
 Name=Netlist Outputs
