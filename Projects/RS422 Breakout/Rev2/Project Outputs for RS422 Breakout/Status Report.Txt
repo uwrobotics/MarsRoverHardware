@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [RS422 Breakout.PcbDoc]
+   Generated File[RS422 Breakout.TXT]
+   Generated File[RS422 Breakout.LDP]
+   Generated File[RS422 Breakout.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:47:49 PM On 2022-01-24
