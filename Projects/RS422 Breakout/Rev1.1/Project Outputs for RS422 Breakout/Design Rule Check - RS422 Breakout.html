@@ -1,0 +1,448 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD22\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2023-02-09</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11:51:25 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc" class="file"><acronym title="C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc">C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">36</td></tr>
+</table>
+</td>
+</table><a name="IDZFJUZATJSA2TEAK14TG0XS5A1F3ROZ2B0KZJANHEXJIHMFO0PBYK"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWPJR4HKRIUG1B4CCURXBVYQX3PMJS24ZAXK5GRMDP3UFBQ3UFTII">Clearance Constraint (Gap=0.102mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUWDBCX3THYAQET5ROT5C4YBCPHYLGHXEMSNTQXN1QWZGQ10BVNUB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPNG1T3EDFHT1KYR20DLPWVN22FMX5F3XQQ0ZMYL3O4NUX5QBRUYB">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3O0NQRELD33KLLUTHWMWCTXSHCP2J04MPETDRPBYNN02CDHLPEO">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCHQN2IOJIELVJYGDCH5WYKYLHFJQCMCZZKPPE3CQ5ARIVJAUP4HG">Width Constraint (Min=0.102mm) (Max=1816.048mm) (Preferred=0.102mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCGH0J2HUUZJYLJFCZSXCW5BVWN1C1Q1GQXXXEZD1WAGZRDPRNGXH">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDEUQX1TUCJB4NXGIPKOEEWF1LHMAF45E2DQHOWHXEJG34TSX1BCM">Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHY3ZVH500GSRJUD04BAYTRVESM03L0HTBA1TVIGBYAQNHXQWULHK">Minimum Annular Ring (Minimum=0.076mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBEV4OZZ4X2MOJW4WI5JF3YXJFL2CA50BZOO0Y1IO0DBL1UCDROXH">Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNINE35TDR4SKKT2DEQS4FRDL1OMMMO5ALAAW2HNLXRC3HCOGSJFN">Hole To Hole Clearance (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWCHA4RIECW44OEFIVUKOYOMLACGHGLF2YZH0PLG331XIB1OJEF2J">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS231D0D4YTA5HMRXB4S355EXGNVDVKS0U1GOZDBKC44XBLIQXMP">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</a></td>
+<td class="column2">36</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXYOZOTXOMUS2D51ZPA2GXW22GETY30DL5IQBEZGGGFS0OAUSGFKI">Silk to Silk (Clearance=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBRDADI0ODH04CH1UIN5YZHCBTP5RACUR1UOJS5F0NHJI33CPPD5G">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBDQO4IE0O2Q4BDRUJVZC2WFHCLXSJ2LMTOXAHTPHGA53NQGRUFZP">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDM5FGW1MR0AEXHVUWT4U44RGEWJF0100R2U5LPINROCAQFVLJFWBF">Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">36</td>
+</tr>
+</table><br><a name="IDS231D0D4YTA5HMRXB4S355EXGNVDVKS0U1GOZDBKC44XBLIQXMP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2308.497mil|Location2.Y=2313.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2308.497mil|Location2.Y=2313.747mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D1-1(23.932mm,26.317mm) on L1 - Primary And Track (23.37mm,26.167mm)(23.62mm,26.317mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2308.497mil|Location2.Y=2313.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2308.497mil|Location2.Y=2313.747mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D1-1(23.932mm,26.317mm) on L1 - Primary And Track (23.37mm,26.467mm)(23.62mm,26.317mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2302.591mil|Location2.Y=2307.841mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2302.591mil|Location2.Y=2307.841mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D1-1(23.932mm,26.317mm) on L1 - Primary And Track (23.62mm,26.167mm)(23.62mm,26.467mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2302.591mil|Location2.Y=2307.841mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2302.591mil|Location2.Y=2307.841mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D1-2(23.058mm,26.317mm) on L1 - Primary And Track (23.37mm,26.167mm)(23.37mm,26.467mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2302.591mil|Location2.Y=2307.841mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2302.591mil|Location2.Y=2307.841mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D1-2(23.058mm,26.317mm) on L1 - Primary And Track (23.37mm,26.167mm)(23.62mm,26.317mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2314.403mil|Location2.Y=2319.653mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2314.403mil|Location2.Y=2319.653mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D1-2(23.058mm,26.317mm) on L1 - Primary And Track (23.37mm,26.467mm)(23.62mm,26.317mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2184.875mil|Location2.Y=2190.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2184.875mil|Location2.Y=2190.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D2-1(23.932mm,23.177mm) on L1 - Primary And Track (23.37mm,23.028mm)(23.62mm,23.177mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2184.875mil|Location2.Y=2190.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2184.875mil|Location2.Y=2190.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D2-1(23.932mm,23.177mm) on L1 - Primary And Track (23.37mm,23.327mm)(23.62mm,23.177mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2178.97mil|Location2.Y=2184.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2178.97mil|Location2.Y=2184.22mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D2-1(23.932mm,23.177mm) on L1 - Primary And Track (23.62mm,23.028mm)(23.62mm,23.327mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2178.97mil|Location2.Y=2184.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2178.97mil|Location2.Y=2184.22mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D2-2(23.058mm,23.177mm) on L1 - Primary And Track (23.37mm,23.028mm)(23.37mm,23.327mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2178.97mil|Location2.Y=2184.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2178.97mil|Location2.Y=2184.22mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D2-2(23.058mm,23.177mm) on L1 - Primary And Track (23.37mm,23.028mm)(23.62mm,23.177mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2190.78mil|Location2.Y=2196.03mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2190.78mil|Location2.Y=2196.03mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D2-2(23.058mm,23.177mm) on L1 - Primary And Track (23.37mm,23.327mm)(23.62mm,23.177mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2084.875mil|Location2.Y=2090.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2084.875mil|Location2.Y=2090.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D3-1(23.932mm,20.637mm) on L1 - Primary And Track (23.37mm,20.488mm)(23.62mm,20.637mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2084.875mil|Location2.Y=2090.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2084.875mil|Location2.Y=2090.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D3-1(23.932mm,20.637mm) on L1 - Primary And Track (23.37mm,20.787mm)(23.62mm,20.637mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2078.97mil|Location2.Y=2084.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=2078.97mil|Location2.Y=2084.22mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D3-1(23.932mm,20.637mm) on L1 - Primary And Track (23.62mm,20.488mm)(23.62mm,20.787mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2078.97mil|Location2.Y=2084.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2078.97mil|Location2.Y=2084.22mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D3-2(23.058mm,20.637mm) on L1 - Primary And Track (23.37mm,20.488mm)(23.37mm,20.787mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2078.97mil|Location2.Y=2084.22mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2078.97mil|Location2.Y=2084.22mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D3-2(23.058mm,20.637mm) on L1 - Primary And Track (23.37mm,20.488mm)(23.62mm,20.637mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2090.78mil|Location2.Y=2096.03mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=2090.78mil|Location2.Y=2096.03mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D3-2(23.058mm,20.637mm) on L1 - Primary And Track (23.37mm,20.787mm)(23.62mm,20.637mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1684.875mil|Location2.Y=1690.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1684.875mil|Location2.Y=1690.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D4-1(23.932mm,10.477mm) on L1 - Primary And Track (23.37mm,10.328mm)(23.62mm,10.477mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1684.875mil|Location2.Y=1690.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1684.875mil|Location2.Y=1690.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D4-1(23.932mm,10.477mm) on L1 - Primary And Track (23.37mm,10.627mm)(23.62mm,10.477mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1678.969mil|Location2.Y=1684.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1678.969mil|Location2.Y=1684.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D4-1(23.932mm,10.477mm) on L1 - Primary And Track (23.62mm,10.328mm)(23.62mm,10.627mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1678.969mil|Location2.Y=1684.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1678.969mil|Location2.Y=1684.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D4-2(23.058mm,10.477mm) on L1 - Primary And Track (23.37mm,10.328mm)(23.37mm,10.627mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1678.969mil|Location2.Y=1684.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1678.969mil|Location2.Y=1684.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D4-2(23.058mm,10.477mm) on L1 - Primary And Track (23.37mm,10.328mm)(23.62mm,10.477mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1690.781mil|Location2.Y=1696.031mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1690.781mil|Location2.Y=1696.031mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D4-2(23.058mm,10.477mm) on L1 - Primary And Track (23.37mm,10.627mm)(23.62mm,10.477mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1584.875mil|Location2.Y=1590.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1584.875mil|Location2.Y=1590.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D5-1(23.932mm,7.938mm) on L1 - Primary And Track (23.37mm,7.788mm)(23.62mm,7.938mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1584.875mil|Location2.Y=1590.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1584.875mil|Location2.Y=1590.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D5-1(23.932mm,7.938mm) on L1 - Primary And Track (23.37mm,8.087mm)(23.62mm,7.938mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1578.969mil|Location2.Y=1584.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1578.969mil|Location2.Y=1584.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D5-1(23.932mm,7.938mm) on L1 - Primary And Track (23.62mm,7.788mm)(23.62mm,8.087mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1578.969mil|Location2.Y=1584.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1578.969mil|Location2.Y=1584.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D5-2(23.058mm,7.938mm) on L1 - Primary And Track (23.37mm,7.788mm)(23.37mm,8.087mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1578.969mil|Location2.Y=1584.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1578.969mil|Location2.Y=1584.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D5-2(23.058mm,7.938mm) on L1 - Primary And Track (23.37mm,7.788mm)(23.62mm,7.938mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1590.781mil|Location2.Y=1596.031mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1590.781mil|Location2.Y=1596.031mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D5-2(23.058mm,7.938mm) on L1 - Primary And Track (23.37mm,8.087mm)(23.62mm,7.938mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1484.875mil|Location2.Y=1490.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1484.875mil|Location2.Y=1490.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D6-1(23.932mm,5.397mm) on L1 - Primary And Track (23.37mm,5.248mm)(23.62mm,5.397mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1484.875mil|Location2.Y=1490.125mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1484.875mil|Location2.Y=1490.125mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D6-1(23.932mm,5.397mm) on L1 - Primary And Track (23.37mm,5.547mm)(23.62mm,5.397mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1478.969mil|Location2.Y=1484.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2755.74mil|Location2.X=2760.99mil|Location1.Y=1478.969mil|Location2.Y=1484.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D6-1(23.932mm,5.397mm) on L1 - Primary And Track (23.62mm,5.248mm)(23.62mm,5.547mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1478.969mil|Location2.Y=1484.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1478.969mil|Location2.Y=1484.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D6-2(23.058mm,5.397mm) on L1 - Primary And Track (23.37mm,5.248mm)(23.37mm,5.547mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1478.969mil|Location2.Y=1484.219mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1478.969mil|Location2.Y=1484.219mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D6-2(23.058mm,5.397mm) on L1 - Primary And Track (23.37mm,5.248mm)(23.62mm,5.397mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1490.781mil|Location2.Y=1496.031mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\farri\OneDrive\Documents\GitHub\GitHub\MarsRoverHardware\Projects\RS422 Breakout\Rev1.1\RS422 Breakout.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2739.01mil|Location2.X=2744.26mil|Location1.Y=1490.781mil|Location2.Y=1496.031mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.102mm) Between Pad D6-2(23.058mm,5.397mm) on L1 - Primary And Track (23.37mm,5.547mm)(23.62mm,5.397mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
