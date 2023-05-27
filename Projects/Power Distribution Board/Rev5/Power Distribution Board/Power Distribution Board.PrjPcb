@@ -292,21 +292,25 @@ Variation5=Designator=R47|UniqueId=\SHZRUVXS|Kind=1|AlternatePart=
 Variation6=Designator=R77|UniqueId=\NHVIZVEM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Power Distribution Board\Design Rule Check - Power Distribution Board Rev5.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=version
-Value=5.0
+Name=designer
+Value=Logan Hartford
 
 [Parameter2]
-Name=total sheets
-Value=6
-
-[Parameter3]
 Name=reviewer
 Value=Ari Wasch
 
+[Parameter3]
+Name=total sheets
+Value=6
+
 [Parameter4]
-Name=designer
-Value=Logan Hartford
+Name=version
+Value=5.0
 
 [Configuration1]
 Name=Sources
