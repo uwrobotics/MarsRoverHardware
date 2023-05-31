@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Rayya\OneDrive\Documents\GitHub\MarsRoverHardware\Projects\48-17V Buck Converter\48-17V Buck Converter.PcbDoc
-Date     : 2023-05-24
-Time     : 1:51:53 AM
+Date     : 2023-05-30
+Time     : 9:13:08 PM
 
 Processing Rule : Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -19,8 +19,8 @@ Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
    Violation between Un-Routed Net Constraint: Net NetC6_2 Between Pad C6-2(-35.713mm,-29.642mm) on TOP And Track (-35.571mm,-29.642mm)(-34.874mm,-28.946mm) on BOT 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Track (-40.966mm,-30.281mm)(-40.64mm,-30.607mm) on BOT And Pad RtTP-1(-38.862mm,-31.953mm) on TOP 
    Violation between Un-Routed Net Constraint: Net NetTP14_1 Between Pad U1-10(-37.166mm,-27.081mm) on TOP And Track (-37.166mm,-27.081mm)(-37.166mm,-22.194mm) on BOT 
-   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Track (-40.966mm,-30.281mm)(-40.64mm,-30.607mm) on BOT And Track (-38.862mm,-31.953mm)(-38.862mm,-30.781mm) on TOP 
 Rule Violations :3
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
@@ -80,4 +80,4 @@ Rule Violations :0
 
 Violations Detected : 17
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
