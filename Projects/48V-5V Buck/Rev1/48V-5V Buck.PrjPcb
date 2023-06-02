@@ -97,7 +97,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DPFTEXWW
 
 [Document4]
 DocumentPath=..\..\..\Libraries\UWRT_Schematic_Library_2020.SchLib
@@ -114,7 +114,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AJCBFXBD
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for 48V-5V Buck\Design Rule Check - 48V-5V Buck.html
