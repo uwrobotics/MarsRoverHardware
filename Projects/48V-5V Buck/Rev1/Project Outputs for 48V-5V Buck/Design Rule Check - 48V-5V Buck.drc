@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\randy\Documents\GitHub\MarsRoverHardware\Projects\48V-5V Buck\Rev1\48V-5V Buck.PcbDoc
 Date     : 2023-06-01
-Time     : 10:12:29 PM
+Time     : 11:43:25 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -28,6 +28,7 @@ Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (4.918mil < 6mil) Between Pad L1-2(2162mil,1415mil) on Top Layer And Pad TP15-1(2080mil,1322mil) on Top Layer [Top Solder] Mask Sliver [4.918mil]
    Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U1-1(1440mil,1471.496mil) on Top Layer And Pad U1-11(1514.803mil,1408.504mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
    Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U1-10(1589.606mil,1471.496mil) on Top Layer And Pad U1-11(1514.803mil,1408.504mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
    Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U1-11(1514.803mil,1408.504mil) on Top Layer And Pad U1-2(1440mil,1440mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
@@ -38,9 +39,20 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
    Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U1-11(1514.803mil,1408.504mil) on Top Layer And Pad U1-7(1589.606mil,1377.008mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
    Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U1-11(1514.803mil,1408.504mil) on Top Layer And Pad U1-8(1589.606mil,1408.504mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
    Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U1-11(1514.803mil,1408.504mil) on Top Layer And Pad U1-9(1589.606mil,1440mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
-Rule Violations :10
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-1(1105.197mil,1012.992mil) on Top Layer And Pad U2-11(1180mil,950mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-10(1254.803mil,1012.992mil) on Top Layer And Pad U2-11(1180mil,950mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-2(1105.197mil,981.496mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-3(1105.197mil,950mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-4(1105.197mil,918.504mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-5(1105.197mil,887.008mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-6(1254.803mil,887.008mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-7(1254.803mil,918.504mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-8(1254.803mil,950mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.811mil < 6mil) Between Pad U2-11(1180mil,950mil) on Top Layer And Pad U2-9(1254.803mil,981.496mil) on Top Layer [Top Solder] Mask Sliver [3.811mil]
+Rule Violations :21
 
 Processing Rule : Silk To Solder Mask (Clearance=6mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (4.118mil < 6mil) Between Pad Cboot-2(1720mil,1621.48mil) on Top Layer And Text "Cboot" (1756.681mil,1606.523mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [4.118mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.75mil < 6mil) Between Pad LED1-1(1140mil,1498.661mil) on Top Layer And Track (1125.891mil,1533.006mil)(1140.34mil,1547.455mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.75mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.75mil < 6mil) Between Pad LED1-1(1140mil,1498.661mil) on Top Layer And Track (1127mil,1533.006mil)(1154.65mil,1533.006mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.75mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.75mil < 6mil) Between Pad LED1-1(1140mil,1498.661mil) on Top Layer And Track (1140.201mil,1547.455mil)(1154.65mil,1533.006mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.75mil]
@@ -51,10 +63,12 @@ Processing Rule : Silk To Solder Mask (Clearance=6mil) (IsPad),(All)
    Violation between Silk To Solder Mask Clearance Constraint: (5.75mil < 6mil) Between Pad LED2-1(2520mil,1201.339mil) on Top Layer And Track (2519.66mil,1152.545mil)(2534.109mil,1166.994mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.75mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.288mil < 6mil) Between Pad LED2-2(2520mil,1118.661mil) on Top Layer And Track (2505.35mil,1166.994mil)(2519.799mil,1152.545mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.288mil]
    Violation between Silk To Solder Mask Clearance Constraint: (5.288mil < 6mil) Between Pad LED2-2(2520mil,1118.661mil) on Top Layer And Track (2519.66mil,1152.545mil)(2534.109mil,1166.994mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [5.288mil]
-Rule Violations :10
+Rule Violations :11
 
 Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
-Rule Violations :0
+   Violation between Silk To Silk Clearance Constraint: (9.884mil < 10mil) Between Text "TP14" (1836.758mil,1889.502mil) on Top Overlay And Track (1908.063mil,1372.284mil)(1908.063mil,1907.717mil) on Top Overlay Silk Text to Silk Clearance [9.884mil]
+   Violation between Silk To Silk Clearance Constraint: (7.522mil < 10mil) Between Text "U2" (1132.601mil,1018.161mil) on Top Overlay And Track (1093.386mil,1036.614mil)(1119.173mil,1036.614mil) on Top Overlay Silk Text to Silk Clearance [7.522mil]
+Rule Violations :2
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
@@ -66,6 +80,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 20
+Violations Detected : 34
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
