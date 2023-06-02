@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Rayya\OneDrive\Documents\GitHub\MarsRoverHardware\Projects\48-17V Buck Converter\48-17V Buck Converter.PcbDoc
 Date     : 2023-06-01
-Time     : 4:49:18 PM
+Time     : 11:37:01 PM
 
 Processing Rule : Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -16,9 +16,9 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net NetTP14_1 Between Pad U1-10(-37.165mm,-27.077mm) on TOP And Track (-37.166mm,-27.076mm)(-37.165mm,-27.077mm) on BOT 
-   Violation between Un-Routed Net Constraint: Net NetC6_2 Between Track (-37.166mm,-29.481mm)(-37.016mm,-29.481mm) on TOP And Track (-37.166mm,-29.481mm)(-36.843mm,-29.158mm) on BOT 
-   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Track (-40.966mm,-30.281mm)(-40.943mm,-30.304mm) on TOP And Track (-40.965mm,-30.277mm)(-40.965mm,-29.688mm) on BOT 
+   Violation between Un-Routed Net Constraint: Net NetR6_2 Between Pad TP12-1(-38.862mm,-31.953mm) on TOP And Track (-38.964mm,-31.852mm)(-38.862mm,-31.953mm) on BOT 
+   Violation between Un-Routed Net Constraint: Net NetTP14_1 Between Pad U1-10(-37.165mm,-27.077mm) on TOP And Track (-37.165mm,-27.077mm)(-37.165mm,-24.455mm) on BOT 
+   Violation between Un-Routed Net Constraint: Net NetC6_2 Between Track (-37.166mm,-29.481mm)(-37.162mm,-29.477mm) on BOT And Track (-37.166mm,-29.481mm)(-37.016mm,-29.481mm) on TOP 
 Rule Violations :3
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
@@ -56,10 +56,9 @@ Processing Rule : Silk to Silk (Clearance=0.051mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-   Violation between Net Antennae: Track (-37.166mm,-27.076mm)(-37.166mm,-22.194mm) on BOT 
-   Violation between Net Antennae: Track (-37.166mm,-29.481mm)(-36.843mm,-29.158mm) on BOT 
-   Violation between Net Antennae: Track (-40.965mm,-30.277mm)(-40.965mm,-29.688mm) on BOT 
-Rule Violations :3
+   Violation between Net Antennae: Track (-37.165mm,-27.077mm)(-37.165mm,-24.455mm) on BOT 
+   Violation between Net Antennae: Track (-38.964mm,-31.852mm)(-38.964mm,-28.143mm) on BOT 
+Rule Violations :2
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
 Rule Violations :0
@@ -68,6 +67,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=1270mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 7
+Violations Detected : 6
 Waived Violations : 0
 Time Elapsed        : 00:00:01
