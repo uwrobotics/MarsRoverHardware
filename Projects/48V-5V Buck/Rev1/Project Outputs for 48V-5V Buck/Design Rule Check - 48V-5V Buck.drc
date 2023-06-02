@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\randy\Documents\GitHub\MarsRoverHardware\Projects\48V-5V Buck\Rev1\48V-5V Buck.PcbDoc
 Date     : 2023-06-02
-Time     : 12:38:19 AM
+Time     : 12:44:01 AM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -69,4 +69,4 @@ Rule Violations :0
 
 Violations Detected : 21
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
