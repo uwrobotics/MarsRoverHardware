@@ -1,7 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Rayya\OneDrive\Documents\GitHub\MarsRoverHardware\Projects\48-17V Buck Converter\48-17V Buck Converter.PcbDoc
-Date     : 2023-06-02
-Time     : 5:52:03 PM
+Date     : 2023-06-04
+Time     : 5:24:33 PM
+
+WARNING: Design contains shelved or modified (but not repoured) polygons. The result of DRC is not correct. Recommended to restore/repour all polygons and proceed with DRC again
+   Polygon named: NONET_L01_P008 In net GND On TOP
 
 Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -19,7 +22,8 @@ Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
-Rule Violations :0
+   Violation between Modified Polygon: Polygon Shelved  (NONET_L01_P008) on TOP 
+Rule Violations :1
 
 Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
 Rule Violations :0
@@ -61,6 +65,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=50000mil) (Prefered=500mil) 
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 1
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
