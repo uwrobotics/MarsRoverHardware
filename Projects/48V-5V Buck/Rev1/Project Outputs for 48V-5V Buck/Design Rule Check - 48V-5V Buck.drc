@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\randy\Documents\GitHub\MarsRoverHardware\Projects\48V-5V Buck\Rev1\48V-5V Buck.PcbDoc
-Date     : 2023-06-02
-Time     : 11:30:23 AM
+Date     : 2023-06-07
+Time     : 11:40:48 PM
 
 Processing Rule : Clearance Constraint (Gap=0.152mm) (All),(All)
 Rule Violations :0
@@ -31,7 +31,13 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0.025mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.025mm) (HasFootprint('LED_0805_RED')),(All)
-Rule Violations :0
+   Violation between Silk To Solder Mask Clearance Constraint: (0.009mm < 0.025mm) Between Polygon Region (12 hole(s)) L1-TOP And Track (28.704mm,21.246mm)(29.588mm,21.246mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.009mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.025mm) Between Polygon Region (12 hole(s)) L1-TOP And Track (28.782mm,20.904mm)(29.149mm,21.271mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.025mm) Between Polygon Region (12 hole(s)) L1-TOP And Track (29.145mm,21.271mm)(29.512mm,20.904mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.009mm < 0.025mm) Between Polygon Region (12 hole(s)) L1-TOP And Track (63.744mm,11.266mm)(64.628mm,11.266mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.009mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.025mm) Between Polygon Region (12 hole(s)) L1-TOP And Track (63.82mm,11.608mm)(64.187mm,11.241mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.025mm) Between Polygon Region (12 hole(s)) L1-TOP And Track (64.183mm,11.241mm)(64.55mm,11.608mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :6
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
 Rule Violations :0
@@ -46,6 +52,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 6
 Waived Violations : 0
 Time Elapsed        : 00:00:01
