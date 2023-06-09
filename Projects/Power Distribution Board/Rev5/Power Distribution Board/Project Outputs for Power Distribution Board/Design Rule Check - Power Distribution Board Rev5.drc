@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\Users\Logan\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev5\Power Distribution Board\Power Distribution Board Rev5.PcbDoc
-Date     : 2023-05-27
-Time     : 3:14:16 PM
+Date     : 2023-06-09
+Time     : 2:02:23 PM
 
 Processing Rule : Clearance Constraint (Gap=20mil) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)
 Rule Violations :0
