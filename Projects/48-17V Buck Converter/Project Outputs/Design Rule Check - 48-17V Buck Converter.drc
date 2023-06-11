@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Rayya\OneDrive\Documents\GitHub\MarsRoverHardware\Projects\48-17V Buck Converter\48-17V Buck Converter.PcbDoc
-Date     : 2023-06-09
-Time     : 2:25:49 PM
+Date     : 2023-06-11
+Time     : 4:28:45 PM
 
 Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -13,9 +13,7 @@ Processing Rule : Clearance Constraint (Gap=20mil) (InNetClass('High_Voltage_Int
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-   Violation between Short-Circuit Constraint: Between Pad U1-10(1336.709mil,-1060.653mil) on TOP And Track (1336.709mil,-1060.653mil)(1340.449mil,-1060.653mil) on TOP Location : [X = 5596.453mil][Y = 3802.811mil]
-   Violation between Short-Circuit Constraint: Between Pad U1-10(1336.709mil,-1060.653mil) on TOP And Track (1340.449mil,-1060.653mil)(1341.354mil,-1059.748mil) on TOP Location : [X = 5598.776mil][Y = 3803.215mil]
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
@@ -63,6 +61,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=50000mil) (Prefered=500mil) 
 Rule Violations :0
 
 
-Violations Detected : 2
+Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
