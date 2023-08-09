@@ -1,9 +1,0 @@
-DRC Rules Export File for PCB: D:\Users\Logan\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev5\Power Distribution Board\Power Distribution Board Rev5.PcbDoc
-RuleKind=Clearance|RuleName=Clearance_mounting|Scope=Board|Minimum=40.00
-RuleKind=Clearance|RuleName=High Voltage Internal|Scope=Board|Minimum=20.00
-RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
-RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=5.00
-RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=10.00
-RuleKind=Clearance|RuleName=High Voltage External|Scope=Board|Minimum=12.00
