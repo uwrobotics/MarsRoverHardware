@@ -293,148 +293,144 @@ Variation6=Designator=R77|UniqueId=\NHVIZVEM|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Power Distribution Board\Design Rule Check - Power Distribution Board Rev5.html
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.1
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.1
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.2
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.2
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.3
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.3
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.EXTREP
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.G1
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.G1
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.G2
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.G2
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GBL
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GBO
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GBP
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GBS
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GKO
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM1
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM2
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM3
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM4
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM5
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM6
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM6
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM7
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM8
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM8
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM13
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM15
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GM16
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GML
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GML
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GPB
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GPT
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GTL
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GTO
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GTP
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.GTS
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.REP
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.REP
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev5.RUL
+DocumentPath=Project Outputs for Power Distribution Board\Power Distribution Board Rev6.RUL
 DItemRevisionGUID=
 
 [Parameter1]
-Name=version
-Value=6.0
+Name=designer
+Value=Logan Hartford
 
 [Parameter2]
-Name=total sheets
-Value=6
-
-[Parameter3]
 Name=reviewer
 Value=Ari Wasch
 
+[Parameter3]
+Name=total sheets
+Value=6
+
 [Parameter4]
-Name=designer
-Value=Logan Hartford
+Name=version
+Value=6.0
 
 [Configuration1]
 Name=Sources
@@ -674,11 +670,12 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=HP LaserJet 400 M401 PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Test Points For Assembly
-OutputName1=Test Point Report
+OutputType1=Assembly
+OutputName1=Assembly Drawings
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
@@ -687,50 +684,51 @@ OutputDefault2=0
 Configuration2_Name1=ForceUpdateSettings
 Configuration2_Item1=False
 Configuration2_Name2=OutputConfigurationParameter1
-Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Test Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#18=Name:Package/Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#19=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#20=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#21=Name:Rds On (Typ),Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#22=Name:Vmax,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#23=Name:Voltage - Clamping (Max) @ Ipp,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#24=Name:Max Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#25=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#26=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#27=Name:Lens Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#28=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#29=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#30=Name:Supplier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#31=Name:Vgs (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#32=Name:Load Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#33=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#34=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#35=Name:Lens Transparency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#36=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#37=Name:Luminous Intensity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#38=Name:Input Voltage (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#39=Name:Verified,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#40=Name:Working Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#41=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#42=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#43=Name:Viewing Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#44=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#45=Name:Wire Gauge (Min),Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#46=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#47=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#48=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#49=Name:Vdss,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#50=Name:Voltage - Breakdown (Min),Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#51=Name:Id,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#52=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#53=Name:Lens Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#54=Name:Manufacturer 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#55=Name:Package/Footprint,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#56=Name:Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#57=Name:Supplier Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#58=Name:Gain,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#59=Name:Output Voltage (Fixed),Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#60=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#61=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#62=Name:Voltage Dropout (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#63=Name:Vmin,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#64=Name:Wire Gauge (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#65=Name:Output Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#66=Name:LCSC Part #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#67=Name:Manufacturer Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#68=Name:Forward Voltage Drop,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#69=Name:Current - Continous Drain,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#70=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#71=Name:Voltage - Reverse Standoff (Typ),Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#72=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#73=Name:Mounting Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#74=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#75=Name:Dominant Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#76=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#77=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|DocumentPath=D:\Users\Logan\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev5\Power Distribution Board\Power Distribution Board Rev5.PcbDoc
-OutputType3=Assembly
-OutputName3=Assembly Drawings
+Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Test Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#18=Name:Package/Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#19=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#20=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#21=Name:Rds On (Typ),Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#22=Name:Vmax,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66|Column#23=Name:Voltage - Clamping (Max) @ Ipp,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70|Column#24=Name:Max Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#25=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:68|Column#26=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#27=Name:Lens Style,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#28=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#29=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#30=Name:Supplier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#31=Name:Vgs (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#32=Name:Load Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#33=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#34=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#35=Name:Lens Transparency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#36=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#37=Name:Luminous Intensity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34|Column#38=Name:Input Voltage (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#39=Name:Verified,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#40=Name:Working Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76|Column#41=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#42=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#43=Name:Viewing Angle,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#44=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#45=Name:Wire Gauge (Min),Fixed:False,Metric:False,Visible:False,Sort:None,Position:75|Column#46=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#47=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#48=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#49=Name:Vdss,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#50=Name:Voltage - Breakdown (Min),Fixed:False,Metric:False,Visible:False,Sort:None,Position:69|Column#51=Name:Id,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#52=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#53=Name:Lens Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#54=Name:Manufacturer 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#55=Name:Package/Footprint,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#56=Name:Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#57=Name:Supplier Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#58=Name:Gain,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#59=Name:Output Voltage (Fixed),Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#60=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#61=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#62=Name:Voltage Dropout (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:72|Column#63=Name:Vmin,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67|Column#64=Name:Wire Gauge (Max),Fixed:False,Metric:False,Visible:False,Sort:None,Position:74|Column#65=Name:Output Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#66=Name:LCSC Part #,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#67=Name:Manufacturer Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#68=Name:Forward Voltage Drop,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#69=Name:Current - Continous Drain,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#70=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#71=Name:Voltage - Reverse Standoff (Typ),Fixed:False,Metric:False,Visible:False,Sort:None,Position:71|Column#72=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73|Column#73=Name:Mounting Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#74=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#75=Name:Dominant Wavelength,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#76=Name:Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#77=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|DocumentPath=D:\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev6\Power Distribution Board\Power Distribution Board Rev6.PcbDoc
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
 TargetPrinter=HP LaserJet 400 M401 PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=NC Drill
-OutputName1=NC Drill Files
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
-Configuration1_Name1=ForceUpdateSettings
-Configuration1_Item1=False
-Configuration1_Name2=OutputConfigurationParameter1
-Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Users\Logan\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev5\Power Distribution Board\Power Distribution Board Rev5.PcbDoc
-OutputType2=Mask
-OutputName2=Solder/Paste Mask Prints
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=IPC2581
-OutputName3=IPC-2581 Files
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
-OutputType4=Test Points
-OutputName4=Test Point Report
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Final
+OutputName4=Final Artwork Prints
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=Plane
-OutputName5=Power-Plane Prints
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
+Configuration5_Name2=OutputConfigurationParameter1
+Configuration5_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=D:\Users\Logan\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev5\Power Distribution Board\Power Distribution Board Rev5.PcbDoc
 OutputType6=ODB
 OutputName6=ODB++ Files
 OutputDocumentPath6=
@@ -738,39 +736,37 @@ OutputVariantName6=[No Variations]
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|Record=ODBView|Units=Imperial|DocumentPath=C:\Users\farri\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev3\PDNAnalyzer_Output\Power Distribution Board\SimulationDummy.PcbDoc
-OutputType7=Drill
-OutputName7=Drill Drawing/Guides
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=CompositeDrill
-OutputName8=Composite Drill Drawing
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Board Stack Report
-OutputName9=Report Board Stack
+Configuration8_Name1=ForceUpdateSettings
+Configuration8_Item1=False
+Configuration8_Name2=OutputConfigurationParameter1
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=D:\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev6\Power Distribution Board\Power Distribution Board Rev6.PcbDoc
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Gerber X2
-OutputName10=Gerber X2 Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-Configuration10_Name1=ForceUpdateSettings
-Configuration10_Item1=False
-Configuration10_Name2=OutputConfigurationParameter1
-Configuration10_Item2=FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GerberUnit=Imperial|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=D:\Users\Logan\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev5\Power Distribution Board\Power Distribution Board Rev5.PcbDoc
-OutputType11=Final
-OutputName11=Final Artwork Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
-OutputVariantName11=[No Variations]
+OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -779,7 +775,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="All Layers","Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908291~1,16908292~1,16908293~1,16908294~1,16908295~1,16908301~1,16908303~1,16908304~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=D:\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev6\Power Distribution Board\Power Distribution Board Rev5.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set="All Layers","Component Layers","Signal Layers","Electrical Layers"|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1,16908290~1,16908291~1,16908292~1,16908293~1,16908294~1,16908295~1,16908301~1,16908303~1,16908304~1,16973837~1,16973848~1,16973849~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=D:\Documents\GitHub\MarsRoverHardware\Projects\Power Distribution Board\Rev6\Power Distribution Board\Power Distribution Board Rev6.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
