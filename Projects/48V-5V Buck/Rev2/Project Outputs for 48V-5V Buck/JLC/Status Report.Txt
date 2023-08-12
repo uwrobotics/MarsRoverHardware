@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [48V-5V Buck.PrjPcb]
+   Generated File[48V-5V Buck.TXT]
+   Generated File[48V-5V Buck.LDP]
+   Generated File[48V-5V Buck.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:58:50 PM On 2023-06-14
