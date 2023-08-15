@@ -1,15 +1,15 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Rayya\OneDrive\Documents\GitHub\MarsRoverHardware\Projects\48-17V Buck Converter\Rev2\48-17V Buck Converter.PcbDoc
-Date     : 2023-08-13
-Time     : 6:57:28 PM
+Date     : 2023-08-15
+Time     : 4:58:20 PM
+
+Processing Rule : Clearance Constraint (Gap=20mil) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=12mil) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=20mil) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -24,13 +24,13 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=10mil) (All)
 Rule Violations :0
 
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) ((InNet('GND') AND (InComponent('J1') OR InComponent('J2'))))
+Rule Violations :0
+
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) ((InNet('24V') OR InNet('VBAT')))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
-Rule Violations :0
-
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) ((InNet('GND') AND (InComponent('J1') OR InComponent('J2'))))
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=5mil) (All)
@@ -57,14 +57,12 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
    Violation between Board Outline Clearance(Outline Edge): (22.4mil < 25mil) Between Board Edge And Track (1671.039mil,-1816.291mil)(1771.039mil,-1816.291mil) on Top Overlay 
    Violation between Board Outline Clearance(Outline Edge): (22.095mil < 25mil) Between Board Edge And Track (1771.039mil,-1925.286mil)(1771.039mil,-1816.291mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (21.6mil < 25mil) Between Board Edge And Track (536.394mil,-1816.291mil)(636.394mil,-1816.291mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (20.402mil < 25mil) Between Board Edge And Track (536.394mil,-1925.286mil)(536.394mil,-1816.291mil) on Top Overlay 
-Rule Violations :4
+Rule Violations :2
 
 Processing Rule : Height Constraint (Min=0mil) (Max=50000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 4
+Violations Detected : 2
 Waived Violations : 0
 Time Elapsed        : 00:00:01
