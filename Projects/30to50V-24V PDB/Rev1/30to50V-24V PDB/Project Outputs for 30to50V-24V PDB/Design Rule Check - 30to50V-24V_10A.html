@@ -1,0 +1,532 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2023-08-15</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:09:39 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc" class="file"><acronym title="C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc">C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">60</td></tr>
+</table>
+</td>
+</table><a name="IDB24MLKVP4NG3M44X0EP3GWFJPM4MHYT2LLMGYMLNFUPJE23AHNI"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3S1OQ04PHCRECGNNEUTRSTXXZCT2UUDWUZPGKBIGYRJDVYVFC1YD">Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4R1Z02WRMETXLCMHPVQ1DEGK1PQI2LZ1FIDFHDEV1F1N3CIKGPI">Clearance Constraint (Gap=0.508mm) (InNetClass('High_Voltage_Internal')  and OnLayer('Power')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPJE0W3MP3COBESIQGF0WWYPIAI5G4MMNYMLBSRMYGAHE20CHCHDG">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDLEHYVNHITKA3IBU5BO0S3AH2GD4B4YJQTXQ5K4JS4PIRPB4RA5XF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQWJQMGFBRWKVJYLTQUP2TBLMLJU50BPMHQVBFHNLKK1R43WYXGO">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">60</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3OXEOH5O0FCVJD1NGSVJX01BVBTQ2GJL0TVWIHHDNEDQRGAVZJMF">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPJPJ24S00BUPBJFGVNRTDQ4MR4G3FPO5HKOSTIZAWIWUXO32NGG">Width Constraint (Min=0.127mm) (Max=2.54mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS3FISLVC3VHZED5MUPBZCPGD0P12LXHFGO4S13PS43NY2EEVCPXH">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) ((InNet('24V') OR InNet('VBAT')))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5ZKDMB03TNHVENZH4L5TFKDEWKV4DRXUIHSFJHEQI5SVBTRD0WZG">Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) ((InNet('GND') AND (InComponent('J1') OR InComponent('J2'))))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOYBDMCZWWIPQGTR5K4KAB5TWTOAY3YLAQ0GG4PKI1ILKZKSMXHQD">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2YD5CWDLSSYHBJXDK55VHSG4MOEBWMGFLQ1B3LD31UIHDOZSJZMJ">Minimum Annular Ring (Minimum=0.127mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGG2DV3JJBAGMMXKYPBTFZVOY4CWRNEDRDRIBUGHMDZZNWFD0W3RC">Hole Size Constraint (Min=0.254mm) (Max=5.08mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKNWAMM335JXNHHSKUVSAKJXCTPPXL22LWK1CF0N2P4VWQZURQD3J">Hole To Hole Clearance (Gap=0.508mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTNNIDLIUGP0MP5IOZLVWDZ1N2JRVHAXFD3ZUPBFYQQNQGJ13RP4N">Minimum Solder Mask Sliver (Gap=0.076mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYLKLECDRMAAEPSIKVF13E3DNFLKHXRDNRKEWO5JAZG0Y2DE35WDD">Silk To Solder Mask (Clearance=0.013mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUHTHDB2ANHKAHIXKBK03RHKHRK3T52GL2MYCPPDBIEW1VHUDUWXH">Silk to Silk (Clearance=0.051mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIVSC50V4KDRUDXHY00SSGTTOXIXVN3OWH0R0VAELZD5NLI22ZLLL">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1WYUXHHHZFWQNPQUMI3K0PYN4IT5UTDOBUZAICBT1OL2ZQMA5FIL">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDV3HG4NXWCIPJNOHY14YC0O0AUGAAL1G0HQ5MZXPKQTOHHJUEPMYF">Height Constraint (Min=0mm) (Max=1270mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">60</td>
+</tr>
+</table><br><a name="IDQWJQMGFBRWKVJYLTQUP2TBLMLJU50BPMHQVBFHNLKK1R43WYXGO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5280.599mil|Location2.X=5459.401mil|Location1.Y=3440.559mil|Location2.Y=3513.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5280.599mil|Location2.X=5459.401mil|Location1.Y=3440.559mil|Location2.Y=3513.457mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C10-1(135.128mm,88.316mm) on TOP And Pad C11-1(137.668mm,88.316mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5190.441mil|Location2.X=5359.401mil|Location1.Y=3440.559mil|Location2.Y=3567.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5190.441mil|Location2.X=5359.401mil|Location1.Y=3440.559mil|Location2.Y=3567.236mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C9-1(132.588mm,90.107mm) on TOP And Pad C10-1(135.128mm,88.316mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5280.599mil|Location2.X=5459.401mil|Location1.Y=3566.543mil|Location2.Y=3639.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5280.599mil|Location2.X=5459.401mil|Location1.Y=3566.543mil|Location2.Y=3639.441mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C10-2(135.128mm,91.516mm) on TOP And Pad C11-2(137.668mm,91.516mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5190.441mil|Location2.X=5359.401mil|Location1.Y=3566.543mil|Location2.Y=3639.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5190.441mil|Location2.X=5359.401mil|Location1.Y=3566.543mil|Location2.Y=3639.441mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C9-2(132.588mm,91.757mm) on TOP And Pad C10-2(135.128mm,91.516mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3390.835mil|Location2.X=3453.89mil|Location1.Y=2795.638mil|Location2.Y=3234.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3390.835mil|Location2.X=3453.89mil|Location1.Y=2795.638mil|Location2.Y=3234.362mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C1-1(86.928mm,73.66mm) on TOP And Pad C2-1(86.928mm,79.502mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5747.276mil|Location1.Y=3440.559mil|Location2.Y=3754.126mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5747.276mil|Location1.Y=3440.559mil|Location2.Y=3754.126mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C11-1(137.668mm,88.316mm) on TOP And Pad J2-2(144.78mm,94.154mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5576.252mil|Location1.Y=3292.41mil|Location2.Y=3513.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5576.252mil|Location1.Y=3292.41mil|Location2.Y=3513.457mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C11-1(137.668mm,88.316mm) on TOP And Pad LED2-2(140.936mm,84.328mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5747.276mil|Location1.Y=3462.724mil|Location2.Y=3639.441mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5747.276mil|Location1.Y=3462.724mil|Location2.Y=3639.441mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C11-2(137.668mm,91.516mm) on TOP And Pad J2-1(144.78mm,89.154mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5586.685mil|Location1.Y=3566.543mil|Location2.Y=4095.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5380.599mil|Location2.X=5586.685mil|Location1.Y=3566.543mil|Location2.Y=4095.685mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C11-2(137.668mm,91.516mm) on TOP And Pad TP9-1(141.351mm,103.48mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3833.638mil|Location2.X=4287.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3833.638mil|Location2.X=4287.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C12-1(100.025mm,86.3mm) on TOP And Pad C13-1(106.248mm,86.3mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3833.638mil|Location2.X=4042.362mil|Location1.Y=3160.441mil|Location2.Y=3429.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3833.638mil|Location2.X=4042.362mil|Location1.Y=3160.441mil|Location2.Y=3429.165mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C12-1(100.025mm,86.3mm) on TOP And Pad C14-1(100.267mm,81.026mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3752.764mil|Location2.X=4042.362mil|Location1.Y=3260.441mil|Location2.Y=3429.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3752.764mil|Location2.X=4042.362mil|Location1.Y=3260.441mil|Location2.Y=3429.165mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R2-2(95.821mm,83.566mm) on TOP And Pad C12-1(100.025mm,86.3mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3833.638mil|Location2.X=4287.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3833.638mil|Location2.X=4287.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C12-2(100.025mm,91.5mm) on TOP And Pad C13-2(106.248mm,91.5mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3838mil|Location2.X=4087mil|Location1.Y=3502.362mil|Location2.Y=3054.433mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3838mil|Location2.X=4087mil|Location1.Y=3502.362mil|Location2.Y=3054.433mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C12-2(100.025mm,91.5mm) on TOP And Track (100.736mm,75.043mm)(101.27mm,75.043mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4078.638mil|Location2.X=4524.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4078.638mil|Location2.X=4524.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C13-1(106.248mm,86.3mm) on TOP And Pad C4-1(112.268mm,86.3mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4078.638mil|Location2.X=4524.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4078.638mil|Location2.X=4524.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C13-2(106.248mm,91.5mm) on TOP And Pad C4-2(112.268mm,91.5mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3927.803mil|Location2.X=3996mil|Location1.Y=2996.614mil|Location2.Y=3219.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3927.803mil|Location2.X=3996mil|Location1.Y=2996.614mil|Location2.Y=3219.559mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C14-1(100.267mm,81.026mm) on TOP And Pad U1-11(100.736mm,76.343mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3530.441mil|Location2.X=3664.559mil|Location1.Y=2967.803mil|Location2.Y=3012.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3530.441mil|Location2.X=3664.559mil|Location1.Y=2967.803mil|Location2.Y=3012.236mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C16-1(90.424mm,76.01mm) on TOP And Pad C15-1(92.329mm,75.883mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3605.441mil|Location2.X=3772mil|Location1.Y=2967.803mil|Location2.Y=3014.614mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3605.441mil|Location2.X=3772mil|Location1.Y=2967.803mil|Location2.Y=3014.614mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C15-1(92.329mm,75.883mm) on TOP And Pad U1-6(95.047mm,76.343mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3530.441mil|Location2.X=3589.559mil|Location1.Y=2972.803mil|Location2.Y=3209.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3530.441mil|Location2.X=3589.559mil|Location1.Y=2972.803mil|Location2.Y=3209.559mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C16-1(90.424mm,76.01mm) on TOP And Pad R6-1(90.488mm,80.772mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3936mil|Location2.X=4099.559mil|Location1.Y=2987.764mil|Location2.Y=3027.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3936mil|Location2.X=4099.559mil|Location1.Y=2987.764mil|Location2.Y=3027.197mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U1-11(100.736mm,76.343mm) on TOP And Pad C18-1(103.378mm,76.39mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3390.835mil|Location2.X=3453.89mil|Location1.Y=3025.638mil|Location2.Y=3454.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3390.835mil|Location2.X=3453.89mil|Location1.Y=3025.638mil|Location2.Y=3454.362mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C2-1(86.928mm,79.502mm) on TOP And Pad C3-1(86.928mm,85.09mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3390.835mil|Location2.X=3582.236mil|Location1.Y=3025.638mil|Location2.Y=3234.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3390.835mil|Location2.X=3582.236mil|Location1.Y=3025.638mil|Location2.Y=3234.362mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C2-1(86.928mm,79.502mm) on TOP And Pad R6-1(90.488mm,80.772mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2793.748mil|Location2.X=3453.89mil|Location1.Y=3245.638mil|Location2.Y=3454.362mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2793.748mil|Location2.X=3453.89mil|Location1.Y=3245.638mil|Location2.Y=3454.362mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad LED1-2(71.662mm,84.328mm) on TOP And Pad C3-1(86.928mm,85.09mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3378.63mil|Location2.X=3461.37mil|Location1.Y=3245.638mil|Location2.Y=3550.504mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3378.63mil|Location2.X=3461.37mil|Location1.Y=3245.638mil|Location2.Y=3550.504mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R4-1(86.868mm,89.482mm) on TOP And Pad C3-1(86.928mm,85.09mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4315.638mil|Location2.X=4764.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4315.638mil|Location2.X=4764.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C4-1(112.268mm,86.3mm) on TOP And Pad C5-1(118.364mm,86.3mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4315.638mil|Location2.X=4764.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4315.638mil|Location2.X=4764.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C4-2(112.268mm,91.5mm) on TOP And Pad C5-2(118.364mm,91.5mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.079mil|Location2.X=4524.362mil|Location1.Y=3570.835mil|Location2.Y=3942.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4303.079mil|Location2.X=4524.362mil|Location1.Y=3570.835mil|Location2.Y=3942.039mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad L1-2(112.014mm,97.282mm) on TOP And Pad C4-2(112.268mm,91.5mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4555.638mil|Location2.X=5004.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4555.638mil|Location2.X=5004.362mil|Location1.Y=3366.11mil|Location2.Y=3429.165mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C5-1(118.364mm,86.3mm) on TOP And Pad C6-1(124.46mm,86.3mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4555.638mil|Location2.X=5004.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4555.638mil|Location2.X=5004.362mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C5-2(118.364mm,91.5mm) on TOP And Pad C6-2(124.46mm,91.5mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4795.638mil|Location2.X=5089.559mil|Location1.Y=3366.11mil|Location2.Y=3567.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4795.638mil|Location2.X=5089.559mil|Location1.Y=3366.11mil|Location2.Y=3567.236mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C6-1(124.46mm,86.3mm) on TOP And Pad C7-1(128.524mm,90.107mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4795.638mil|Location2.X=5089.559mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4795.638mil|Location2.X=5089.559mil|Location1.Y=3570.835mil|Location2.Y=3633.89mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C6-2(124.46mm,91.5mm) on TOP And Pad C7-2(128.524mm,91.757mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5030.441mil|Location2.X=5169.559mil|Location1.Y=3527.803mil|Location2.Y=3567.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5030.441mil|Location2.X=5169.559mil|Location1.Y=3527.803mil|Location2.Y=3567.236mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C7-1(128.524mm,90.107mm) on TOP And Pad C8-1(130.556mm,90.107mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5030.441mil|Location2.X=5169.559mil|Location1.Y=3592.764mil|Location2.Y=3632.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5030.441mil|Location2.X=5169.559mil|Location1.Y=3592.764mil|Location2.Y=3632.197mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C7-2(128.524mm,91.757mm) on TOP And Pad C8-2(130.556mm,91.757mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5110.441mil|Location2.X=5249.559mil|Location1.Y=3527.803mil|Location2.Y=3567.236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5110.441mil|Location2.X=5249.559mil|Location1.Y=3527.803mil|Location2.Y=3567.236mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C8-1(130.556mm,90.107mm) on TOP And Pad C9-1(132.588mm,90.107mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5110.441mil|Location2.X=5249.559mil|Location1.Y=3592.764mil|Location2.Y=3632.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5110.441mil|Location2.X=5249.559mil|Location1.Y=3592.764mil|Location2.Y=3632.197mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad C8-2(130.556mm,91.757mm) on TOP And Pad C9-2(132.588mm,91.757mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3067.843mil|Location2.X=4117.315mil|Location1.Y=3717.961mil|Location2.Y=4368.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3067.843mil|Location2.X=4117.315mil|Location1.Y=3717.961mil|Location2.Y=4368.457mil|Absolute=True">Un-Routed Net Constraint: Net SW Between Pad D1-3(84.074mm,106.033mm) on TOP And Pad L1-1(101.864mm,97.282mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2969.024mil|Location2.X=3552.157mil|Location1.Y=3980.599mil|Location2.Y=4368.457mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2969.024mil|Location2.X=3552.157mil|Location1.Y=3980.599mil|Location2.Y=4368.457mil|Absolute=True">Un-Routed Net Constraint: Net SW Between Pad Q1-2(75.819mm,104.058mm) on TOP And Pad D1-3(84.074mm,106.033mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2752.724mil|Location2.X=2848.929mil|Location1.Y=3292.41mil|Location2.Y=3557.275mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2752.724mil|Location2.X=2848.929mil|Location1.Y=3292.41mil|Location2.Y=3557.275mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J1-2(71.12mm,89.154mm) on Multi-Layer And Pad LED1-2(71.662mm,84.328mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5652.724mil|Location2.X=5802.197mil|Location1.Y=3290.441mil|Location2.Y=3557.276mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5652.724mil|Location2.X=5802.197mil|Location1.Y=3290.441mil|Location2.Y=3557.276mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad J2-1(144.78mm,89.154mm) on Multi-Layer And Pad R10-1(146.875mm,84.328mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5652.724mil|Location2.X=5867mil|Location1.Y=3659.575mil|Location2.Y=3996mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5652.724mil|Location2.X=5867mil|Location1.Y=3659.575mil|Location2.Y=3996mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J2-2(144.78mm,94.154mm) on Multi-Layer And Pad TP4-1(147.701mm,100.178mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3903.472mil|Location2.X=5586.685mil|Location1.Y=3717.961mil|Location2.Y=4155.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3903.472mil|Location2.X=5586.685mil|Location1.Y=3717.961mil|Location2.Y=4155.685mil|Absolute=True">Un-Routed Net Constraint: Net SW Between Pad L1-1(101.864mm,97.282mm) on TOP And Pad TP8-1(141.351mm,105.004mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3903.472mil|Location2.X=4117.315mil|Location1.Y=3032.231mil|Location2.Y=3942.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3903.472mil|Location2.X=4117.315mil|Location1.Y=3032.231mil|Location2.Y=3942.039mil|Absolute=True">Un-Routed Net Constraint: Net SW Between Pad L1-1(101.864mm,97.282mm) on TOP And Via (101.971mm,77.654mm) from TOP to Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5603.748mil|Location2.X=5737.236mil|Location1.Y=3290.441mil|Location2.Y=3349.559mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5603.748mil|Location2.X=5737.236mil|Location1.Y=3290.441mil|Location2.Y=3349.559mil|Absolute=True">Un-Routed Net Constraint: Net NetLED2_1 Between Pad LED2-1(143.036mm,84.328mm) on TOP And Pad R10-2(145.225mm,84.328mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2869.024mil|Location2.X=2950.976mil|Location1.Y=4067.764mil|Location2.Y=4125.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2869.024mil|Location2.X=2950.976mil|Location1.Y=4067.764mil|Location2.Y=4125.78mil|Absolute=True">Un-Routed Net Constraint: Net SW Between Pad Q1-2(73.279mm,104.058mm) on TOP And Pad Q1-2(74.549mm,104.058mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2919.024mil|Location2.X=3000.976mil|Location1.Y=4067.764mil|Location2.Y=4125.78mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2919.024mil|Location2.X=3000.976mil|Location1.Y=4067.764mil|Location2.Y=4125.78mil|Absolute=True">Un-Routed Net Constraint: Net SW Between Pad Q1-2(74.549mm,104.058mm) on TOP And Pad Q1-2(75.819mm,104.058mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2699.075mil|Location2.X=2935mil|Location1.Y=3605.925mil|Location2.Y=3983.228mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2699.075mil|Location2.X=2935mil|Location1.Y=3605.925mil|Location2.Y=3983.228mil|Absolute=True">Un-Routed Net Constraint: Net VBAT Between Track (71.097mm,94.13mm)(71.12mm,94.154mm) on TOP And Pad Q1-3(72.009mm,98.634mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3752.764mil|Location2.X=5586.685mil|Location1.Y=3180.441mil|Location2.Y=4335.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3752.764mil|Location2.X=5586.685mil|Location1.Y=3180.441mil|Location2.Y=4335.685mil|Absolute=True">Un-Routed Net Constraint: Net VBAT Between Pad R1-1(95.821mm,81.534mm) on TOP And Pad TP5-1(141.351mm,109.576mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3687.803mil|Location2.X=5586.685mil|Location1.Y=3260.441mil|Location2.Y=4275.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3687.803mil|Location2.X=5586.685mil|Location1.Y=3260.441mil|Location2.Y=4275.685mil|Absolute=True">Un-Routed Net Constraint: Net EN Between Pad R2-1(94.171mm,83.566mm) on TOP And Pad TP6-1(141.351mm,108.052mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3992.764mil|Location2.X=5586.685mil|Location1.Y=3230.441mil|Location2.Y=4215.685mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3992.764mil|Location2.X=5586.685mil|Location1.Y=3230.441mil|Location2.Y=4215.685mil|Absolute=True">Un-Routed Net Constraint: Net VCC Between Pad R3-2(101.917mm,82.804mm) on TOP And Pad TP7-1(141.351mm,106.528mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3872.803mil|Location2.X=3996mil|Location1.Y=2855.441mil|Location2.Y=3014.614mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3872.803mil|Location2.X=3996mil|Location1.Y=2855.441mil|Location2.Y=3014.614mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad R8-1(98.87mm,73.279mm) on TOP And Pad U1-11(100.736mm,76.343mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3844.577mil|Location2.X=5665mil|Location1.Y=2807.559mil|Location2.Y=4114mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3844.577mil|Location2.X=5665mil|Location1.Y=2807.559mil|Location2.Y=4114mil|Absolute=True">Un-Routed Net Constraint: Net FB Between Track (99.002mm,75.043mm)(100.192mm,73.852mm) on TOP And Pad TP10-1(141.351mm,101.956mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5543.315mil|Location2.X=5867mil|Location1.Y=4252mil|Location2.Y=4356mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5543.315mil|Location2.X=5867mil|Location1.Y=4252mil|Location2.Y=4356mil|Absolute=True">Un-Routed Net Constraint: Net VBAT Between Pad TP5-1(141.351mm,109.576mm) on TOP And Pad TP1-1(147.701mm,109.322mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5763mil|Location2.X=5867mil|Location1.Y=3892mil|Location2.Y=4236mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5763mil|Location2.X=5867mil|Location1.Y=3892mil|Location2.Y=4236mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad TP4-1(147.701mm,100.178mm) on Multi-Layer And Pad TP2-1(147.701mm,106.274mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5543.315mil|Location2.X=5867mil|Location1.Y=4012mil|Location2.Y=4116mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5543.315mil|Location2.X=5867mil|Location1.Y=4012mil|Location2.Y=4116mil|Absolute=True">Un-Routed Net Constraint: Net OUT Between Pad TP9-1(141.351mm,103.48mm) on TOP And Pad TP3-1(147.701mm,103.226mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3793mil|Location2.X=3996mil|Location1.Y=2983mil|Location2.Y=3105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3793mil|Location2.X=3996mil|Location1.Y=2983mil|Location2.Y=3105mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U1-17(97.892mm,77.318mm) on TOP And Pad U1-11(100.736mm,76.343mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3712mil|Location2.X=3915mil|Location1.Y=2983mil|Location2.Y=3105mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3712mil|Location2.X=3915mil|Location1.Y=2983mil|Location2.Y=3105mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U1-6(95.047mm,76.343mm) on TOP And Pad U1-17(97.892mm,77.318mm) on TOP </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2433.54mil|Location2.X=6035.251mil|Location1.Y=2664.749mil|Location2.Y=4866.459mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2433.54mil|Location2.X=6035.251mil|Location1.Y=2664.749mil|Location2.Y=4866.459mil|Absolute=True">Un-Routed Net Constraint: Split Plane  (No Net) on GND Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2433.54mil|Location2.X=6035.251mil|Location1.Y=2664.749mil|Location2.Y=4866.459mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2433.54mil|Location2.X=6035.251mil|Location1.Y=2664.749mil|Location2.Y=4866.459mil|Absolute=True">Un-Routed Net Constraint: Split Plane  (No Net) on GNG Dead Copper - Net Not Assigned.</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3497.74mil|Location2.X=3762.717mil|Location1.Y=2839.22mil|Location2.Y=3050.197mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3497.74mil|Location2.X=3762.717mil|Location1.Y=2839.22mil|Location2.Y=3050.197mil|Absolute=True">Un-Routed Net Constraint: Net COMP Between Track (91.364mm,74.637mm)(91.383mm,74.656mm) on TOP And Track (92.71mm,74.612mm)(93.033mm,74.935mm) on TOP </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
