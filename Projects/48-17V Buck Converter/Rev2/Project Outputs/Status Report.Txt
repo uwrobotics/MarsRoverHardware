@@ -1,0 +1,34 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [48-17V Buck Converter.PrjPcb]
+   Generated File[48-17V Buck Converter.GTO]
+   Generated File[48-17V Buck Converter.GTS]
+   Generated File[48-17V Buck Converter.GTL]
+   Generated File[48-17V Buck Converter.G1]
+   Generated File[48-17V Buck Converter.G2]
+   Generated File[48-17V Buck Converter.GBL]
+   Generated File[48-17V Buck Converter.GBS]
+   Generated File[48-17V Buck Converter.GBO]
+   Generated File[48-17V Buck Converter.GM1]
+   Generated File[48-17V Buck Converter.GM2]
+   Generated File[48-17V Buck Converter.GM3]
+   Generated File[48-17V Buck Converter.GM4]
+   Generated File[48-17V Buck Converter.GM5]
+   Generated File[48-17V Buck Converter.GM6]
+   Generated File[48-17V Buck Converter.GM7]
+   Generated File[48-17V Buck Converter.GM13]
+   Generated File[48-17V Buck Converter.GM15]
+   Generated File[48-17V Buck Converter.GM16]
+   Generated File[48-17V Buck Converter.GKO]
+   Generated File[48-17V Buck Converter.GD1]
+   Generated File[48-17V Buck Converter.GG1]
+   Generated File[48-17V Buck Converter.GM]
+   Generated File[48-17V Buck Converter.RUL]
+   Generated File[48-17V Buck Converter.EXTREP]
+   Generated File[48-17V Buck Converter.REP]
+
+
+Files Generated   : 25
+Documents Printed : 0
+
+Finished Output Generation At 3:05:42 AM On 2023-08-16
