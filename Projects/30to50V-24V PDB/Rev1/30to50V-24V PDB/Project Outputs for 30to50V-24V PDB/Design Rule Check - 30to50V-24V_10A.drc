@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc
-Date     : 2023-08-15
-Time     : 10:59:02 PM
+Date     : 2023-08-16
+Time     : 10:13:05 PM
 
 Processing Rule : Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -16,17 +16,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net OUT Between Pad C11-2(137.414mm,90.627mm) on TOP And Pad TP9-1(141.351mm,103.48mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net SW Between Pad L1-1(101.864mm,97.282mm) on TOP And Pad TP8-1(141.351mm,105.004mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net SW Between Via (95.504mm,82.55mm) from TOP to Bottom Layer And Pad L1-1(101.864mm,97.282mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net VBAT Between Pad Q1-3(73.914mm,100.584mm) on TOP And Pad TP5-1(141.351mm,109.576mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net FB Between Track (101.345mm,81.09mm)(101.346mm,81.09mm) on TOP And Pad TP10-1(141.351mm,101.956mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net VBAT Between Pad TP5-1(141.351mm,109.576mm) on TOP And Pad TP1-1(147.701mm,109.322mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net OUT Between Pad TP9-1(141.351mm,103.48mm) on TOP And Pad TP3-1(147.701mm,103.226mm) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net EN Between Pad U1-2(94.158mm,75.616mm) on TOP And Pad TP6-1(141.351mm,108.052mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net VCC Between Track (93.482mm,81.332mm)(93.482mm,82.199mm) on TOP And Pad TP7-1(141.351mm,106.528mm) on TOP 
-   Violation between Un-Routed Net Constraint: Net COMP Between Track (98.166mm,73.602mm)(98.489mm,73.279mm) on TOP And Track (98.445mm,71.952mm)(98.464mm,71.933mm) on TOP 
-Rule Violations :10
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -71,6 +61,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=1270mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 10
+Violations Detected : 0
 Waived Violations : 0
 Time Elapsed        : 00:00:01
