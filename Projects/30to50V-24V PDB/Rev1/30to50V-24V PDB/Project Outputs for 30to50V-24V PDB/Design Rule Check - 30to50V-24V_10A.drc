@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc
-Date     : 2023-08-17
-Time     : 10:47:37 PM
+Date     : 2023-08-27
+Time     : 1:49:04 PM
 
 Processing Rule : Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -63,4 +63,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
