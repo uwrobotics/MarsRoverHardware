@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [30to50V-24V PDB.PrjPcb]
+   Generated File[30to50V-24V_10A.TXT]
+   Generated File[30to50V-24V_10A.LDP]
+   Generated File[30to50V-24V_10A.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 12:35:48 PM On 2023-09-23

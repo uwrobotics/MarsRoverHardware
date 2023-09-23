@@ -1,0 +1,62 @@
+Altium Designer Pick and Place Locations
+C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\Project Outputs for 30to50V-24V PDB\Pick Place for 30to50V-24V_10A.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       23-09-23
+Time:       12:36
+Revision:   0135076dc5e7c8a0edce073c531911e2058aebd6
+Variant:    No variations
+Units used: mil
+
+Designator Comment                      Layer    Footprint                          Center-X(mil) Center-Y(mil) Rotation Description                       
+U1         LM5088                       TopLayer LM5088                             3771.000      3089.000      90       "IC REG CTRLR BUCK 16HTSSOP"      
+C1         CAP_10uF_50V_2220            TopLayer CAP2220                            3320.000      2900.000      180      "CAP CER 10UF 100V X7S 2220"      
+FB         TESTPOINT_1MM_CIRCLE         TopLayer TESTPOINT_CIRCLE_1MM               5130.000      2862.205      0        "TESTPOINT 1MM CIRCLE"            
+J1         CON_2POS_SCREW_TERM          TopLayer 1935161                            2800.000      3608.425      270      "TERM BLK 2POS SIDE ENTRY 5MM"    
+C13        CAP_NU_2220                  TopLayer CAP2220                            5135.000      3500.000      90       "PLACEHOLDER CAPACITOR"           
+C12        CAP_NU_2220                  TopLayer CAP2220                            4920.000      3500.000      90       "PLACEHOLDER CAPACITOR"           
+C11        CAP_NU_1206                  TopLayer CAP1206                            5395.000      3505.000      90       "PLACEHOLDER CAPACITOR"           
+C10        CAP_NU_1206                  TopLayer CAP1206                            5295.000      3505.000      90       "PLACEHOLDER CAPACITOR"           
+C9         CAP_4.7uF_50V_0805           TopLayer CAP0805                            3985.000      3500.000      90       "CAP CER 4.7UF 50V X5R 0805"      
+C8         CAP_1uF_50V_0805             TopLayer CAP0805                            4055.000      3500.000      90       "CAP CER 1UF 50V X7R 0805"        
+C7         CAP_0.1uF_50V_0805           TopLayer CAP0805                            4125.000      3500.000      90       "CAP CER 0.1UF 50V X7R 0805"      
+Q1         NMOS_100V_100A               TopLayer 8-VSON                             2910.000      3990.000      270      "MOSFET N-CH 100V 100A 8VSON"     
+SW         TESTPOINT_1MM_CIRCLE         TopLayer TESTPOINT_CIRCLE_1MM               5040.000      2862.205      270      "TESTPOINT 1MM CIRCLE"            
+VCC        TESTPOINT_1MM_CIRCLE         TopLayer TESTPOINT_CIRCLE_1MM               4940.000      2862.205      270      "TESTPOINT 1MM CIRCLE"            
+EN         TESTPOINT_1MM_CIRCLE         TopLayer TESTPOINT_CIRCLE_1MM               4840.000      2862.205      180      "TESTPOINT 1MM CIRCLE"            
+24V        TESTPOINT_LOOP               TopLayer TESTPOINT_LOOP                     5350.000      2917.205      270      "TESTPOINT THRUHOLE"              
+GND        TESTPOINT_LOOP               TopLayer TESTPOINT_LOOP                     5500.000      2920.000      270      "TESTPOINT THRUHOLE"              
+VBAT       TESTPOINT_LOOP               TopLayer TESTPOINT_LOOP                     5640.000      2920.000      270      "TESTPOINT THRUHOLE"              
+R10        RES_2.2kO_0805_5%            TopLayer RES0805                            5750.000      3320.000      180      "RES 2.2K OHM 5% 1/8W 0805"       
+R9         RES_4.7kO_0805_5%            TopLayer RES0805                            2605.000      3320.000      0        "RES 4.7K OHM 5% 1/8W 0805"       
+R8         RES_1.65KO_0805_0.1%         TopLayer RES0805                            3930.000      3160.000      90       "RES 1.65K OHM 0.1% 1/4W 0805"    
+R7         RES_51kO_0805_5%             TopLayer RES0805                            4000.000      2850.000      90       "RES 51K OHM 1% 1/8W 0805"        
+R6         RES_24.3kO_0805_1%           TopLayer RES0805                            3635.000      2830.000      90       "RES 24.3K OHM 1% 1/8W 0805"      
+R5         RES_31.2KO_0805_0.1%         TopLayer RES0805                            3995.000      3225.000      90       "RES 31.2K OHM 0.1% 1/8W 0805"    
+R4         RES_0.007O_1206_1%           TopLayer RES1206                            3394.000      3569.000      90       "RES 0.007 OHM 1% 1W 1206"        
+R3         RES_76.8kO_0805_1%           TopLayer RES0805                            3555.000      3215.000      90       "RES 76.8K OHM 1% 1/8W 0805"      
+R2         RES_2.08kO_0805_0.05%        TopLayer RES0805                            3525.000      2975.000      90       "RES 2.08K OHM 0.05% 1/8W 0805"   
+R1         RES_49.9kO_0805_1%           TopLayer RES0805                            3605.000      2975.000      270      "RES 49.9K OHM 1% 1/8W 0805"      
+MH4        MOUNTING_HOLE_M3_GIMBAL_REV2 TopLayer MOUNTING_HOLE_3mm_GIMBAL_REV2      5840.000      2860.000      0        "MOUNTING_HOLE_M3 Gimbal Rev2"    
+MH3        MOUNTING_HOLE_M3_GIMBAL_REV2 TopLayer MOUNTING_HOLE_3mm_GIMBAL_REV2      2640.000      2860.000      0        "MOUNTING_HOLE_M3 Gimbal Rev2"    
+MH2        MOUNTING_HOLE_M3_GIMBAL_REV2 TopLayer MOUNTING_HOLE_3mm_GIMBAL_REV2      5840.000      4680.000      0        "MOUNTING_HOLE_M3 Gimbal Rev2"    
+MH1        MOUNTING_HOLE_M3_GIMBAL_REV2 TopLayer MOUNTING_HOLE_3mm_GIMBAL_REV2      2640.000      4665.039      0        "MOUNTING_HOLE_M3 Gimbal Rev2"    
+24V        LED_RED                      TopLayer LED_0805_RED                       5590.000      3320.000      180      "LED RED DIFFUSED 0805 SMD"       
+VBAT       LED_RED                      TopLayer LED_0805_RED                       2745.000      3320.000      0        "LED RED DIFFUSED 0805 SMD"       
+L1         IND_22uH_30A                 TopLayer 7443642200                         4214.803      4264.154      0        "FIXED IND 22UH 30A 2.4 MOHM SMD" 
+J2         CON_2POS_SCREW_TERM          TopLayer 1935161                            5700.000      3608.425      90       "TERM BLK 2POS SIDE ENTRY 5MM"    
+D1         DIO_SCHOTTKY_100V_20A        TopLayer D2PAK_(TO-263AB)_-_STPS20M100SG-TR 3310.000      3972.264      0        "DIODE SCHOTTKY 100V 20A D2PAK"   
+C6         CAP_47uF_35V_2220            TopLayer CAP2220                            4705.000      3500.000      90       "CAP CER 47UF 35V X7R 2220"       
+C5         CAP_47uF_35V_2220            TopLayer CAP2220                            4490.000      3500.000      90       "CAP CER 47UF 35V X7R 2220"       
+C3         CAP_10uF_50V_2220            TopLayer CAP2220                            3320.000      3350.000      180      "CAP CER 10UF 100V X7S 2220"      
+C4         CAP_47uF_35V_2220            TopLayer CAP2220                            4275.000      3500.000      90       "CAP CER 47UF 35V X7R 2220"       
+C2         CAP_10uF_50V_2220            TopLayer CAP2220                            3320.000      3130.000      180      "CAP CER 10UF 100V X7S 2220"      
+C19        CAP_47pF_50V_0805            TopLayer CAP0805                            3910.000      2885.000      0        "CAP CER 47PF 50V C0G/NPO 0805"   
+C17        CAP_1200pF_50V_0805          TopLayer CAP0805                            3910.000      2815.000      0        "CAP CER 1200PF 50V X7R 0805"     
+C18        CAP_10uF_16V_0805            TopLayer CAP0805                            3905.000      3300.000      180      "CAP CER 10UF 16V X5R 0805"       
+C16        CAP_10nF_16V_0805            TopLayer CAP0805                            3790.000      2795.000      180      "CAP CER 10000PF 16V X7R 0805"    
+C14        CAP_1.5uF_50V_0805           TopLayer CAP0805                            3625.000      3215.000      90       "CAP CER 1.5UF 50V X7R 0805"      
+C15        CAP_1.8nF_50V_0805           TopLayer CAP0805                            3795.000      2870.000      180      "CAP CER 1800PF 50V C0G/NP0 0805" 
+C20        CAP_150nF_50V_0805           TopLayer CAP0805                            3665.000      3320.000      0        "CAP CER 0.15UF 50V X7R 0805"     

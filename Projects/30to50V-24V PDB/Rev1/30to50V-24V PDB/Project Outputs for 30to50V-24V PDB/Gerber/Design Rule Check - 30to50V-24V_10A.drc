@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\EE\UWRT\MarsRoverHardware\Projects\30to50V-24V PDB\Rev1\30to50V-24V PDB\30to50V-24V_10A.PcbDoc
-Date     : 2023-09-23
-Time     : 12:53:02 PM
+Date     : 2023-08-27
+Time     : 4:56:11 PM
 
 Processing Rule : Clearance Constraint (Gap=0.305mm) (InNetClass('High_Voltage')  and OnLayer('Signal')),(All)
 Rule Violations :0
@@ -40,7 +40,16 @@ Processing Rule : Hole Size Constraint (Min=0.254mm) (Max=5.08mm) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=0.508mm) (All),(All)
-Rule Violations :0
+   Violation between Hole To Hole Clearance Constraint: (0.457mm < 0.508mm) Between Via (94.64mm,77.394mm) from TOP to Bottom Layer And Via (94.64mm,78.105mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.432mm < 0.508mm) Between Via (94.64mm,78.105mm) from TOP to Bottom Layer And Via (94.64mm,78.791mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.457mm < 0.508mm) Between Via (94.64mm,78.791mm) from TOP to Bottom Layer And Via (94.64mm,79.502mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.457mm < 0.508mm) Between Via (95.783mm,77.394mm) from TOP to Bottom Layer And Via (95.783mm,78.105mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.432mm < 0.508mm) Between Via (95.783mm,78.105mm) from TOP to Bottom Layer And Via (95.783mm,78.791mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.457mm < 0.508mm) Between Via (95.783mm,78.791mm) from TOP to Bottom Layer And Via (95.783mm,79.502mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.457mm < 0.508mm) Between Via (96.926mm,77.394mm) from TOP to Bottom Layer And Via (96.926mm,78.105mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.432mm < 0.508mm) Between Via (96.926mm,78.105mm) from TOP to Bottom Layer And Via (96.926mm,78.791mm) from TOP to Bottom Layer 
+   Violation between Hole To Hole Clearance Constraint: (0.457mm < 0.508mm) Between Via (96.926mm,78.791mm) from TOP to Bottom Layer And Via (96.926mm,79.502mm) from TOP to Bottom Layer 
+Rule Violations :9
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.076mm) (All),(All)
 Rule Violations :0
@@ -61,6 +70,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=1270mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 9
 Waived Violations : 0
 Time Elapsed        : 00:00:01

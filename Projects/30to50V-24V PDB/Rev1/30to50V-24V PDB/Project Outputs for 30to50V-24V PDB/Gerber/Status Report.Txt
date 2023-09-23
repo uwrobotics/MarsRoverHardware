@@ -1,0 +1,22 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [30to50V-24V PDB.PrjPcb]
+   Generated File[30to50V-24V_10A.GTO]
+   Generated File[30to50V-24V_10A.GTP]
+   Generated File[30to50V-24V_10A.GTS]
+   Generated File[30to50V-24V_10A.GTL]
+   Generated File[30to50V-24V_10A.GP1]
+   Generated File[30to50V-24V_10A.GP2]
+   Generated File[30to50V-24V_10A.GBL]
+   Generated File[30to50V-24V_10A.GBS]
+   Generated File[30to50V-24V_10A.GBP]
+   Generated File[30to50V-24V_10A.GBO]
+   Generated File[30to50V-24V_10A.GM]
+   Generated File[30to50V-24V_10A.EXTREP]
+   Generated File[30to50V-24V_10A.REP]
+
+
+Files Generated   : 13
+Documents Printed : 0
+
+Finished Output Generation At 12:33:49 PM On 2023-09-23
