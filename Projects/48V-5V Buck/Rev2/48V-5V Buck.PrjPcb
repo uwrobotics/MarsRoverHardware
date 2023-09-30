@@ -142,114 +142,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJCBFXBD
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GM6
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.REP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for 48V-5V Buck\48V-5V Buck.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for 48V-5V Buck\Design Rule Check - 48V-5V Buck.html
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for 48V-5V Buck\Pick Place for 48V-5V Buck.txt
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -408,7 +300,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet 400 M401 PCL 6
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -486,7 +378,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet 400 M401 PCL 6
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Test Points For Assembly
 OutputName1=Test Point Report
@@ -512,7 +404,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet 400 M401 PCL 6
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
