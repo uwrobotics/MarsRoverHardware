@@ -1,0 +1,15 @@
+|RECORD=BOM|VERSION=4|FILENAME=C:\Users\linyu\MarsRoverHardware\Projects\Localization\Rev2\Localization Board\LocalizationBoard.BomDoc|KIND=ALTIUM_DESIGNER_LIVEBOM|DATE=22.02.2024|TIME=06:26:03|CURRENCY=USD|PRODUCTIONQUANTITY=1|PERUNITTARGETPRICE=0|PERUNITACTUALPRICE=0
+|RECORD=GeneralOptions|OPENEXPORTED=False|ADDTOPROJECT=False|FORCEFIT=False|NOTFITTED=False|TEMPLATEFILENAME=|BATCHMODE=0|SUPPLIERPRODQTY=0|SUPPLIERAUTOQTY=False|SUPPLIERUSECACHEDPRICING=False|SUPPLIERCURRENCY=|SOLUTIONSPERITEM=1|SUPPLIERSPERSOLUTION=1|DISPLAYTOTALROW=False|DISPLAYSUBTOTALSFORGROUPS=False|INCLUDEPCBPARAMETERS=False|INCLUDEDBPARAMETERS=False|INCLUDEVAULTPARAMETERS=False|INCLUDECLOUDPARAMETERS=False|INCLUDEDOCUMENTPARAMETERS=False|FILTEROUTRISKYSOLUTIONS=True|DESIGNATORGROUPING=No
+|RECORD=SortOrderOptions|SORTORDER=
+|RECORD=GroupOrderOptions|GROUPORDER=
+|RECORD=VisibleOrderOptions|VISIBLEORDER=Line #=100!Comment=100!Description=100!Designator=100!Quantity=100!Manufacturer 1=100!Manufacturer Part Number 1=100!Manufacturer Lifecycle 1=100!Supplier 1=100!Supplier Part Number 1=100!Supplier Unit Price 1=100!Supplier Subtotal 1=100
+|RECORD=VisibleOrderOptions2|BASEVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Quantity=-1!Manufacturer 1=-1!Manufacturer Part Number 1=-1!Manufacturer Lifecycle 1=-1!Supplier 1=-1!Supplier Part Number 1=-1!Supplier Unit Price 1=-1!Supplier Subtotal 1=-1|FLATVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Manufacturer 1=-1!Manufacturer Part Number 1=-1!Manufacturer Lifecycle 1=-1!Supplier 1=-1!Supplier Part Number 1=-1!Supplier Unit Price 1=-1!Supplier Subtotal 1=-1|CONSOLIDATEDVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Quantity=-1!Manufacturer 1=-1!Manufacturer Part Number 1=-1!Manufacturer Lifecycle 1=-1!Supplier 1=-1!Supplier Part Number 1=-1!Supplier Unit Price 1=-1!Supplier Subtotal 1=-1!Quantity@Only Populated Components=-1!Price@Only Populated Components=-1
+|RECORD=CustomColumns|CUSTOMCOLUMNS=
+|RECORD=ColumnsAliases|COLUMNSALIASES=Comment=Name!Quantity@Only Populated Components=Only Populated Components - Qty!Price@Only Populated Components=Only Populated Components - Price
+|RECORD=FilterOptions|FILTER=
+|RECORD=CheckGroupCompParamsOptions|CHECKGROUPCOMPPARAMS=Comment=0,Description=0,Value=0,Footprint=1
+|RECORD=ManufacturerLinkOptions|MANUFACTURERLINKPARAMETERS=
+|RECORD=FavoriteSuppliers|PARTSOURCES=|SUPPLIERS=|USESUPPLIERORDER=False
+|RECORD=CheckOptions|CHECKLEVELS=
+|RECORD=LineNumberingOptions|STARTVALUE=|INCREMENT=
+|RECORD=Catalog|DBLINKFILEPATH=
