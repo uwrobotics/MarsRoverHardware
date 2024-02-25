@@ -1,0 +1,17 @@
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:90:6:HAL_PWR_DeInit	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:108:6:HAL_PWR_EnableBkUpAccess	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:128:6:HAL_PWR_DisableBkUpAccess	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:266:6:HAL_PWR_ConfigPVD	5
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:309:6:HAL_PWR_EnablePVD	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:318:6:HAL_PWR_DisablePVD	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:332:6:HAL_PWR_EnableWakeUpPin	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:350:6:HAL_PWR_DisableWakeUpPin	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:379:6:HAL_PWR_EnterSLEEPMode	2
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:422:6:HAL_PWR_EnterSTOPMode	2
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:461:6:HAL_PWR_EnterSTANDBYMode	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:482:6:HAL_PWR_PVD_IRQHandler	2
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:499:13:HAL_PWR_PVDCallback	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:514:6:HAL_PWR_EnableSleepOnExit	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:526:6:HAL_PWR_DisableSleepOnExit	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:538:6:HAL_PWR_EnableSEVOnPend	1
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c:550:6:HAL_PWR_DisableSEVOnPend	1
