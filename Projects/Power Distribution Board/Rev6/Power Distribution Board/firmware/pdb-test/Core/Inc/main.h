@@ -71,8 +71,6 @@ void Error_Handler(void);
 #define LOAD_ODRIVE_2_GPIO_Port GPIOC
 #define EN_ODRIVE_2_Pin GPIO_PIN_3
 #define EN_ODRIVE_2_GPIO_Port GPIOC
-#define ADC_INPUT_5V_2_Pin GPIO_PIN_1
-#define ADC_INPUT_5V_2_GPIO_Port GPIOA
 #define ADC_INPUT_5V_1_Pin GPIO_PIN_4
 #define ADC_INPUT_5V_1_GPIO_Port GPIOA
 #define LOAD_ODRIVE_3_Pin GPIO_PIN_5
