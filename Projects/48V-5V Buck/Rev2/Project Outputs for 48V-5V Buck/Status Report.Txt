@@ -1,34 +1,12 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [48V-5V Buck.PrjPcb]
-   Generated File[48V-5V Buck.GTO]
-   Generated File[48V-5V Buck.GTP]
-   Generated File[48V-5V Buck.GTS]
-   Generated File[48V-5V Buck.GTL]
-   Generated File[48V-5V Buck.G1]
-   Generated File[48V-5V Buck.G2]
-   Generated File[48V-5V Buck.GBL]
-   Generated File[48V-5V Buck.GBS]
-   Generated File[48V-5V Buck.GBP]
-   Generated File[48V-5V Buck.GBO]
-   Generated File[48V-5V Buck.GM1]
-   Generated File[48V-5V Buck.GM2]
-   Generated File[48V-5V Buck.GM6]
-   Generated File[48V-5V Buck.GM13]
-   Generated File[48V-5V Buck.GM15]
-   Generated File[48V-5V Buck.GKO]
-   Generated File[48V-5V Buck.GPT]
-   Generated File[48V-5V Buck.GPB]
-   Generated File[48V-5V Buck.GD1]
-   Generated File[48V-5V Buck.GG1]
-   Generated File[48V-5V Buck.GG2]
-   Generated File[48V-5V Buck.GM]
-   Generated File[48V-5V Buck.RUL]
-   Generated File[48V-5V Buck.EXTREP]
-   Generated File[48V-5V Buck.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [48V-5V Buck.PrjPcb]
+   Generated File[48V-5V Buck.TXT]
+   Generated File[48V-5V Buck.LDP]
+   Generated File[48V-5V Buck.DRR]
 
 
-Files Generated   : 25
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 5:55:49 PM On 2024-05-28
+Finished Output Generation At 8:31:29 PM On 2024-05-30
