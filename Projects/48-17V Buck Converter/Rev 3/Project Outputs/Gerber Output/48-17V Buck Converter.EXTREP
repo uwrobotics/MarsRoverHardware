@@ -1,31 +1,32 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: 48-17V Buck Converter.GBR   2023-08-16  5:40:20 PM
+Gerber File Extension Report For: 48-17V Buck Converter.GBR   2024-05-30  9:08:50 PM
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.GTO                Top Overlay                             
-.GTS                Top Solder                              
-.GTL                TOP                                     
-.G1                 GNG                                     
-.G2                 GND                                     
-.GBL                BOT                                     
-.GBS                Bottom Solder                           
-.GBO                Bottom Overlay                          
-.GM1                Mechanical 1                            
-.GM2                Mechanical 2                            
-.GM3                Polygon                                 
-.GM4                Mechanical 4                            
-.GM5                Mechanical 5                            
-.GM6                Mechanical 6                            
-.GM7                Mechanical 7                            
-.GM13               Mechanical 13                           
-.GM15               Mechanical 15                           
-.GM16               Mechanical 16                           
-.GKO                Keep-Out Layer                          
-.GD1                Drill Drawing                           
-.GG1                Drill Guide                             
-.GM                 Profile                                 
+.gbr                TOP                                     
+.gbr                GNG                                     
+.gbr                GND                                     
+.gbr                BOT                                     
+.gbr                Bottom Pad Master                       
+.gbr                Top Pad Master                          
+.gbr                Top Overlay                             
+.gbr                Top Solder                              
+.gbr                Bottom Solder                           
+.gbr                Top Paste                               
+.gbr                Bottom Paste                            
+.gbr                Keep-Out Layer                          
+.gbr                Mechanical 1                            
+.gbr                Mechanical 2                            
+.gbr                Mechanical 4                            
+.gbr                Mechanical 6                            
+.gbr                Mechanical 13                           
+.gbr                Mechanical 15                           
+.gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
 ------------------------------------------------------------------------------------------

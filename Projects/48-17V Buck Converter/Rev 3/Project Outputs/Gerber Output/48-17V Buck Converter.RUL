@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Rayya\OneDrive\Documents\GitHub\MarsRoverHardware\Projects\48-17V Buck Converter\Rev2\48-17V Buck Converter.PcbDoc
+DRC Rules Export File for PCB: C:\Users\melis\Documents\GitHub\MarsRoverHardware\Projects\48-17V Buck Converter\Rev 3\48-17V Buck Converter.PcbDoc
 RuleKind=Clearance|RuleName=High Voltage Internal|Scope=Board|Minimum=20.00
 RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.00
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
