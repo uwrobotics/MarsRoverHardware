@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [48-17V Buck Converter.PrjPcb]
+   Generated File[48-17V Buck Converter.TXT]
+   Generated File[48-17V Buck Converter.LDP]
+   Generated File[48-17V Buck Converter.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:09:23 PM On 2024-05-30

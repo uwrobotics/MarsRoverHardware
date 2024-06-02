@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: 48-17V Buck Converter.GBR   2024-05-30  9:08:50 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                TOP                                     
+.gbr                GNG                                     
+.gbr                GND                                     
+.gbr                BOT                                     
+.gbr                Bottom Pad Master                       
+.gbr                Top Pad Master                          
+.gbr                Top Overlay                             
+.gbr                Top Solder                              
+.gbr                Bottom Solder                           
+.gbr                Top Paste                               
+.gbr                Bottom Paste                            
+.gbr                Keep-Out Layer                          
+.gbr                Mechanical 1                            
+.gbr                Mechanical 2                            
+.gbr                Mechanical 4                            
+.gbr                Mechanical 6                            
+.gbr                Mechanical 13                           
+.gbr                Mechanical 15                           
+.gbr                Profile                                 
+.gbr                Non-plated through-hole drill file      
+.gbr                Plated through-hole drill file          
+.gbr                Drill Drawing                           
+.gbr                Drill Guide                             
+------------------------------------------------------------------------------------------
