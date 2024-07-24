@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Power Distribution Board Rev6.PcbDoc   8/10/2023  8:54:55 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Power Distribution Board Rev6.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             67        PTH        19.60inch (497.74mm)
+T2      12mil (0.305mm)                                           Round             38        PTH        17.68inch (449.15mm)
+T3      28mil (0.711mm)                                           Round             162       PTH        49.22inch (1250.26mm)
+T4      35mil (0.9mm)                                             Round             4         PTH        0.77inch (19.49mm)
+T5      40mil (1.02mm)                                            Round             5         PTH        6.01inch (152.55mm)
+T6      41mil (1.04mm)                                            Round             72        PTH        14.98inch (380.58mm)
+T7      43mil (1.1mm)                                             Round             12        PTH        1.57inch (39.81mm)
+T8      47mil (1.2mm)                                             Round             18        PTH        18.59inch (472.24mm)
+T9      67mil (1.7mm)                                             Round             4         PTH        1.20inch (30.48mm)
+T10     47mil (1.19mm)                                            Round             6         NPTH       9.05inch (229.99mm)
+T11     156mil (3.97mm)                                           Round             4         NPTH       12.08inch (306.75mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              392
+
+Total Processing Time (hh:mm:ss) : 00:00:00

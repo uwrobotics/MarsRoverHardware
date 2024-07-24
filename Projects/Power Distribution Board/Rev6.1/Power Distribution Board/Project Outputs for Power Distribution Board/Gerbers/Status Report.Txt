@@ -1,0 +1,40 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [Power Distribution Board.PrjPcb]
+   Generated File[Power Distribution Board Rev6.GTO]
+   Generated File[Power Distribution Board Rev6.GTP]
+   Generated File[Power Distribution Board Rev6.GTS]
+   Generated File[Power Distribution Board Rev6.GTL]
+   Generated File[Power Distribution Board Rev6.G1]
+   Generated File[Power Distribution Board Rev6.G2]
+   Generated File[Power Distribution Board Rev6.GBL]
+   Generated File[Power Distribution Board Rev6.GBS]
+   Generated File[Power Distribution Board Rev6.GBP]
+   Generated File[Power Distribution Board Rev6.GBO]
+   Generated File[Power Distribution Board Rev6.GM1]
+   Generated File[Power Distribution Board Rev6.GM2]
+   Generated File[Power Distribution Board Rev6.GM3]
+   Generated File[Power Distribution Board Rev6.GM4]
+   Generated File[Power Distribution Board Rev6.GM5]
+   Generated File[Power Distribution Board Rev6.GM6]
+   Generated File[Power Distribution Board Rev6.GM7]
+   Generated File[Power Distribution Board Rev6.GM8]
+   Generated File[Power Distribution Board Rev6.GM13]
+   Generated File[Power Distribution Board Rev6.GM15]
+   Generated File[Power Distribution Board Rev6.GM16]
+   Generated File[Power Distribution Board Rev6.GKO]
+   Generated File[Power Distribution Board Rev6.GPT]
+   Generated File[Power Distribution Board Rev6.GPB]
+   Generated File[Power Distribution Board Rev6.3]
+   Generated File[Power Distribution Board Rev6.1]
+   Generated File[Power Distribution Board Rev6.2]
+   Generated File[Power Distribution Board Rev6.GML]
+   Generated File[Power Distribution Board Rev6.RUL]
+   Generated File[Power Distribution Board Rev6.EXTREP]
+   Generated File[Power Distribution Board Rev6.REP]
+
+
+Files Generated   : 31
+Documents Printed : 0
+
+Finished Output Generation At 8:40:07 AM On 8/11/2023
