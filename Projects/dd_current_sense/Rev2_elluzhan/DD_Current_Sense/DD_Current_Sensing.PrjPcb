@@ -134,18 +134,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CMZOSGKM
 
+[Document6]
+DocumentPath=Power.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UAYFJWFS
+
 [ProjectVariant1]
 UniqueId=881602EF-F388-4016-BBA0-EEE07BF7E78E
 Description=Only Populated Components
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
-Variation1=Designator=R28|UniqueId=\ZXPSDZAZ|Kind=1|AlternatePart=
-Variation2=Designator=R44|UniqueId=\EINTTMBJ|Kind=1|AlternatePart=
-Variation3=Designator=R60|UniqueId=\CQFPLREU|Kind=1|AlternatePart=
-Variation4=Designator=R31|UniqueId=\HMQWCWQC|Kind=1|AlternatePart=
-Variation5=Designator=R47|UniqueId=\SHZRUVXS|Kind=1|AlternatePart=
-Variation6=Designator=R77|UniqueId=\NHVIZVEM|Kind=1|AlternatePart=
+VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
