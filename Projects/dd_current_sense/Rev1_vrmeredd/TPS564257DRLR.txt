@@ -1,0 +1,191 @@
+# Created by Ultra Librarian 8.3.350 Copyright © 1999-2024
+# Frank Frank, Accelerated Designs
+
+StartFootprints
+
+Footprint (Name "TPS564242DRLR_TEX")
+Pad (Name "1") (Location -29.5, 19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 24, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location -29.5, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 24, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "3") (Location -29.5, -19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 24, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "4") (Location 29.5, -19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 24, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "5") (Location 29.5, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 24, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "6") (Location 29.5, 19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 24, 11) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -35.5, -43.5) (End -35.5, -35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -35.5, -35.18999863) (End -51.5, -35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -51.5, -35.18999863) (End -51.5, 35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -51.5, 35.18999863) (End -35.5, 35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -35.5, 35.18999863) (End -35.5, 43.5) (Layer Mechanical15) 
+Line (Width 6) (Start -35.5, 43.5) (End 35.5, 43.5) (Layer Mechanical15) 
+Line (Width 6) (Start 35.5, 43.5) (End 35.5, 35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 35.5, 35.18999863) (End 51.5, 35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 51.5, 35.18999863) (End 51.5, -35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 51.5, -35.18999863) (End 35.5, -35.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 35.5, -35.18999863) (End 35.5, -43.5) (Layer Mechanical15) 
+Line (Width 6) (Start 35.5, -43.5) (End -35.5, -43.5) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-35.5, -43.5)
+Point (-35.5, -35.18999863)
+Point (-51.5, -35.18999863)
+Point (-51.5, 35.18999863)
+Point (-35.5, 35.18999863)
+Point (-35.5, 43.5)
+Point (35.5, 43.5)
+Point (35.5, 35.18999863)
+Point (51.5, 35.18999863)
+Point (51.5, -35.18999863)
+Point (35.5, -35.18999863)
+Point (35.5, -43.5)
+EndPolygon
+Line (Width 6) (Start -30.5, -38.5) (End 30.5, -38.5) (Layer TopOverlay) 
+Line (Width 6) (Start 30.5, 38.5) (End -30.5, 38.5) (Layer TopOverlay) 
+Line (Width 1) (Start -25.5, -33.5) (End 25.5, -33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 25.5, -33.5) (End 25.5, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 25.5, 33.5) (End -25.5, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start -25.5, 33.5) (End -25.5, -33.5) (Layer Mechanical13) 
+Arc (Width 0) (Radius 3) (Location -17.5, 19.69000053) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 0) (Radius 12) (Location 0, 33.5) (StartAngle 180) (EndAngle 360) (Layer Mechanical13) 
+Step (Name TPS564242DRLR_TEX.step)
+EndFootprint
+
+Footprint (Name "TPS564242DRLR_TEX-M")
+Pad (Name "1") (Location -31.5, 19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location -31.5, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "3") (Location -31.5, -19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "4") (Location 31.5, -19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "5") (Location 31.5, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "6") (Location 31.5, 19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 28, 13) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -45.5, -53.5) (End -45.5, -46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -45.5, -46.18999863) (End -65.5, -46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -65.5, -46.18999863) (End -65.5, 46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -65.5, 46.18999863) (End -45.5, 46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start -45.5, 46.18999863) (End -45.5, 53.5) (Layer Mechanical15) 
+Line (Width 6) (Start -45.5, 53.5) (End 45.5, 53.5) (Layer Mechanical15) 
+Line (Width 6) (Start 45.5, 53.5) (End 45.5, 46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 45.5, 46.18999863) (End 65.5, 46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 65.5, 46.18999863) (End 65.5, -46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 65.5, -46.18999863) (End 45.5, -46.18999863) (Layer Mechanical15) 
+Line (Width 6) (Start 45.5, -46.18999863) (End 45.5, -53.5) (Layer Mechanical15) 
+Line (Width 6) (Start 45.5, -53.5) (End -45.5, -53.5) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-45.5, -53.5)
+Point (-45.5, -46.18999863)
+Point (-65.5, -46.18999863)
+Point (-65.5, 46.18999863)
+Point (-45.5, 46.18999863)
+Point (-45.5, 53.5)
+Point (45.5, 53.5)
+Point (45.5, 46.18999863)
+Point (65.5, 46.18999863)
+Point (65.5, -46.18999863)
+Point (45.5, -46.18999863)
+Point (45.5, -53.5)
+EndPolygon
+Line (Width 6) (Start -13.01960828, -38.5) (End 13.01960828, -38.5) (Layer TopOverlay) 
+Line (Width 6) (Start 13.01960828, 38.5) (End -13.01960828, 38.5) (Layer TopOverlay) 
+Line (Width 1) (Start -25.5, -33.5) (End 25.5, -33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 25.5, -33.5) (End 25.5, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 25.5, 33.5) (End -25.5, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start -25.5, 33.5) (End -25.5, -33.5) (Layer Mechanical13) 
+Arc (Width 0) (Radius 3) (Location -17.5, 19.69000053) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 0) (Radius 12) (Location 0, 33.5) (StartAngle 180) (EndAngle 360) (Layer Mechanical13) 
+Step (Name TPS564242DRLR_TEX.step)
+EndFootprint
+
+Footprint (Name "TPS564242DRLR_TEX-L")
+Pad (Name "1") (Location -27.5, 19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 9) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "2") (Location -27.5, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 9) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "3") (Location -27.5, -19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 9) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "4") (Location 27.5, -19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 9) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "5") (Location 27.5, 0) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 9) (Shape Rectangular) (Layer Top)
+EndPad
+Pad (Name "6") (Location 27.5, 19.69) (Surface True) (Rotation 180) (ExpandMask 0) (ExpandPaste 0)
+PadShape (Size 20, 9) (Shape Rectangular) (Layer Top)
+EndPad
+Line (Width 6) (Start -29.5, -37.5) (End -29.5, -28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start -29.5, -28.19000053) (End -41.5, -28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start -41.5, -28.19000053) (End -41.5, 28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start -41.5, 28.19000053) (End -29.5, 28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start -29.5, 28.19000053) (End -29.5, 37.5) (Layer Mechanical15) 
+Line (Width 6) (Start -29.5, 37.5) (End 29.5, 37.5) (Layer Mechanical15) 
+Line (Width 6) (Start 29.5, 37.5) (End 29.5, 28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start 29.5, 28.19000053) (End 41.5, 28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start 41.5, 28.19000053) (End 41.5, -28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start 41.5, -28.19000053) (End 29.5, -28.19000053) (Layer Mechanical15) 
+Line (Width 6) (Start 29.5, -28.19000053) (End 29.5, -37.5) (Layer Mechanical15) 
+Line (Width 6) (Start 29.5, -37.5) (End -29.5, -37.5) (Layer Mechanical15) 
+Polygon (PointCount 12) (Layer Mechanical15) 
+Point (-29.5, -37.5)
+Point (-29.5, -28.19000053)
+Point (-41.5, -28.19000053)
+Point (-41.5, 28.19000053)
+Point (-29.5, 28.19000053)
+Point (-29.5, 37.5)
+Point (29.5, 37.5)
+Point (29.5, 28.19000053)
+Point (41.5, 28.19000053)
+Point (41.5, -28.19000053)
+Point (29.5, -28.19000053)
+Point (29.5, -37.5)
+EndPolygon
+Line (Width 6) (Start -30.5, -38.5) (End 30.5, -38.5) (Layer TopOverlay) 
+Line (Width 6) (Start 30.5, 38.5) (End -30.5, 38.5) (Layer TopOverlay) 
+Line (Width 1) (Start -25.5, -33.5) (End 25.5, -33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 25.5, -33.5) (End 25.5, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start 25.5, 33.5) (End -25.5, 33.5) (Layer Mechanical13) 
+Line (Width 1) (Start -25.5, 33.5) (End -25.5, -33.5) (Layer Mechanical13) 
+Arc (Width 0) (Radius 3) (Location -17.5, 19.69000053) (StartAngle 0) (EndAngle 360) (Layer Mechanical13) 
+Arc (Width 0) (Radius 12) (Location 0, 33.5) (StartAngle 180) (EndAngle 360) (Layer Mechanical13) 
+Step (Name TPS564242DRLR_TEX.step)
+EndFootprint
+EndFootprints
+
+StartComponents
+
+Component (Name "TPS564257DRLR") (PartCount 1) (DesPrefix "U?")
+Pin (Location 300, 0) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "1") (Name Visible "VIN") (PinSwap 0) (PartSwap 0) (PinSeq 1) (Part 1)
+Pin (Location 300, -100) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "2") (Name Visible "SW") (PinSwap 0) (PartSwap 0) (PinSeq 2) (Part 1)
+Pin (Location 300, -200) (Rotation 180) (PinType Power) (Length 300) (Width 0) (Designator Visible "3") (Name Visible "GND") (PinSwap 0) (PartSwap 0) (PinSeq 3) (Part 1)
+Pin (Location 1300, -200) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "4") (Name Visible "PG") (PinSwap 0) (PartSwap 0) (PinSeq 4) (Part 1)
+Pin (Location 1300, -100) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "5") (Name Visible "EN") (PinSwap 0) (PartSwap 0) (PinSeq 5) (Part 1)
+Pin (Location 1300, 0) (Rotation 0) (PinType Passive) (Length 300) (Width 0) (Designator Visible "6") (Name Visible "FB") (PinSwap 0) (PartSwap 0) (PinSeq 6) (Part 1)
+Rectangle (Width 5) (Start 300, -400) (End 1300, 200) (Part 1)
+Parameter (Name "Type") (Location 800, 300) (Height 82) (Rotation 0) (Justification Center) (Value "Power Management") (Part 1)
+Parameter (Name "Mfr_Name") (Location 0, 0) (Height 50) (Rotation 0) (Justification Center) (Value "Texas Instruments") (Part 1)
+Parameter (Name "RefDes") (Location 800, 400) (Height 82) (Rotation 0) (Justification Center) (Value "RefDes") (Part 1)
+Description (Value "No Description Available") (Part 1)
+Footprint (Name "TPS564242DRLR_TEX")
+EndComponent
+EndComponents
