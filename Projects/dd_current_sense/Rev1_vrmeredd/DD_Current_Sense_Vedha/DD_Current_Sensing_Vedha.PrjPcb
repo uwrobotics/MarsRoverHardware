@@ -100,6 +100,23 @@ GenerateClassCluster=0
 DocumentUniqueId=XDWAFJHU
 
 [Document4]
+DocumentPath=Sheet2.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TMEWRYLC
+
+[Document5]
 DocumentPath=..\buck_converter.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VDBDGVCW
 
-[Document5]
+[Document6]
 DocumentPath=DD_Current_Sensing_Vedha.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
